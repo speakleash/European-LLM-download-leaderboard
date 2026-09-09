@@ -13,6 +13,8 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_INPUT = REPO_ROOT / "output" / "leaderboard.json"
 DEFAULT_ORGS_INPUT = REPO_ROOT / "output" / "leaderboard_orgs.json"
 DEFAULT_OUTPUT = REPO_ROOT / "README.md"
+DEFAULT_CHARTS_DIR = REPO_ROOT / "docs" / "charts"
+TIMESERIES_CHART = "timeseries-top-models-30d.png"
 
 
 def parse_args() -> argparse.Namespace:
@@ -180,9 +182,32 @@ def render_markdown(
         "",
         "![Best single model per organization (30-day downloads, log scale)](docs/charts/orgs-best-single-model-30d-log.png)",
         "",
+    ]
+    if (DEFAULT_CHARTS_DIR / TIMESERIES_CHART).is_file():
+        lines.extend(
+            [
+                "### Trends over time",
+                "",
+                "From daily snapshots in `data/metrics/timeseries.jsonl` "
+                "(top 15 models / top 10 orgs by latest-day volume). "
+                "Rolling-30d charts use a symlog y-axis (0 at zero, log compression above).",
+                "",
+                "![Top models: rolling 30-day downloads over time (symlog scale)](docs/charts/timeseries-top-models-30d.png)",
+                "",
+                "![Top models: estimated daily downloads (Δ all-time)](docs/charts/timeseries-top-models-daily.png)",
+                "",
+                "![Top organizations: summed rolling 30-day downloads over time (symlog scale)](docs/charts/timeseries-orgs-30d.png)",
+                "",
+                "![Top organizations: estimated daily downloads (Δ all-time)](docs/charts/timeseries-orgs-daily.png)",
+                "",
+            ]
+        )
+    lines.extend(
+        [
         "| Rank | Model | Country | Developer | Org | Downloads (30d) | Δ 30d | All-time | Momentum | Params | Repos |",
         "| ---: | --- | :---: | --- | --- | ---: | ---: | ---: | ---: | ---: | ---: |",
-    ]
+        ]
+    )
 
     for row in rows:
         incomplete = "" if row.get("complete", True) else " \\*"
@@ -266,6 +291,9 @@ def render_markdown(
             + " — a recency ratio damped by a smoothing constant so low-volume/brand-new "
             "rows can't look like they have outsized momentum from a handful of downloads. "
             "Higher = more of its lifetime downloads happened in the last 30 days.",
+            "- **Trend charts** use [`data/metrics/timeseries.jsonl`](data/metrics/timeseries.jsonl). "
+            "Rolling-30d lines follow HF’s sliding window; daily Δ lines use day-over-day changes in "
+            "`downloads_all_time` (approximate new downloads, not unique users).",
             "- Machine-readable data: [`output/leaderboard.json`](output/leaderboard.json), "
             "[`output/leaderboard.csv`](output/leaderboard.csv), "
             "[`output/leaderboard_orgs.json`](output/leaderboard_orgs.json), "

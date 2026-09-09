@@ -167,6 +167,28 @@ Writes three PNGs under `docs/charts/` (embedded in `README.md` via `render_lead
 
 CI runs this after fetch in `.github/workflows/fetch.yml`.
 
+### 5. Render time-series charts (PNG)
+
+Requires **≥2** lines in `data/metrics/timeseries.jsonl` (built up by daily fetch commits).
+
+```bash
+python scripts/render_timeseries_charts.py \
+  --timeseries data/metrics/timeseries.jsonl \
+  --leaderboard output/leaderboard.json \
+  --out-dir docs/charts
+```
+
+| File | Description |
+|------|-------------|
+| `timeseries-top-models-30d.png` | Top 15 models (default): HF rolling 30d downloads vs snapshot date (symlog y-axis) |
+| `timeseries-top-models-daily.png` | Same models: day-over-day Δ `downloads_all_time` |
+| `timeseries-orgs-30d.png` | Top 10 orgs (default): summed rolling 30d downloads vs date (symlog y-axis) |
+| `timeseries-orgs-daily.png` | Same orgs: day-over-day Δ summed all-time |
+
+Top models/orgs are chosen by **latest snapshot** volume (`--top-models`, `--top-orgs`). Skips quietly if
+`timeseries.jsonl` has fewer than 2 snapshots. CI runs this in `.github/workflows/fetch.yml` after
+`render_charts.py` and before `render_leaderboard_md.py`.
+
 ### Historical data caveat
 
 The Hub API does **not** expose past calendar months — only the **current** rolling 30-day window and all-time total. History here is what **you** record over time by committing daily snapshots and `timeseries.jsonl`. Day-over-day deltas of `downloads_all_time` approximate new activity; they are not identical to “downloads last month.”
@@ -194,6 +216,7 @@ pip install -r requirements.txt
 python scripts/resolve_model_repos.py --audit --diff
 python scripts/fetch_download_stats.py --concurrency 8 --allow-partial
 python scripts/render_charts.py
+python scripts/render_timeseries_charts.py
 python scripts/render_leaderboard_md.py   # writes README.md
 ```
 

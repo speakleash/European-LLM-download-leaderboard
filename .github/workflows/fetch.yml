@@ -41,10 +41,19 @@ jobs:
             --concurrency 8 \
             --max-retries 3 \
             --allow-partial
+
+      - name: Render charts and README
+        run: |
           python scripts/render_charts.py \
             --input output/leaderboard.json \
             --orgs-input output/leaderboard_orgs.json \
             --out-dir docs/charts
+          python scripts/render_timeseries_charts.py \
+            --timeseries data/metrics/timeseries.jsonl \
+            --leaderboard output/leaderboard.json \
+            --out-dir docs/charts \
+            --top-models 15 \
+            --top-orgs 10
           python scripts/render_leaderboard_md.py \
             --input output/leaderboard.json \
             --orgs-input output/leaderboard_orgs.json \
