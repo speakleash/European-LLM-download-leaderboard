@@ -1,7 +1,7 @@
 # European LLM Hugging Face download leaderboard
 
-- **Snapshot date:** 2026-09-18
-- **Generated at:** 2026-09-18T10:53:00Z
+- **Snapshot date:** 2026-09-19
+- **Generated at:** 2026-09-19T10:36:02Z
 - **Ranking metric:** `total_downloads_30d` (last 30 days, summed across official format variants)
 - **Rows:** 158
 
@@ -27,163 +27,163 @@ From daily snapshots in `data/metrics/timeseries.jsonl` (top 15 models / top 10 
 
 | Rank | Model | Country | Developer | Org | Downloads (30d) | Δ 30d | All-time | Momentum | Params | Repos |
 | ---: | --- | :---: | --- | --- | ---: | ---: | ---: | ---: | ---: | ---: |
-| 1 | Mistral 7B v0.3 | FR | Mistral AI | [mistralai](https://huggingface.co/mistralai) | 2,570,029 | -21,547 | 56,552,629 | 4.5% | 7.25B | 2 |
-| 2 | Mistral 7B v0.2 | FR | Mistral AI | [mistralai](https://huggingface.co/mistralai) | 1,773,263 | +28,034 | 64,082,933 | 2.8% | 7.24B | 1 |
-| 3 | Ministral 3 14B (2512) | FR | Mistral AI | [mistralai](https://huggingface.co/mistralai) | 622,235 | +1,083 | 3,554,758 | 17.0% | 13.95B | 6 |
-| 4 | Mistral 7B v0.1 | FR | Mistral AI | [mistralai](https://huggingface.co/mistralai) | 589,098 | +18,321 | 45,533,277 | 1.3% | 7.24B | 2 |
-| 5 | Mistral NeMo (2407) | FR | Mistral AI | [mistralai](https://huggingface.co/mistralai) | 519,538 | -9,678 | 16,215,498 | 3.2% | 12.25B | 3 |
-| 6 | Apertus 8B (2509) | CH | swiss-ai | [swiss-ai](https://huggingface.co/swiss-ai) | 491,614 | -1,078 | 4,004,845 | 12.0% | 8.05B | 2 |
-| 7 | Mistral Small 3.1 (24B, 2503) | FR | Mistral AI | [mistralai](https://huggingface.co/mistralai) | 457,252 | +7,860 | 4,606,360 | 9.7% | 24.01B | 2 |
-| 8 | Pleias 350M Preview | FR | PleIAs | [PleIAs](https://huggingface.co/PleIAs) | 352,528 | +37 | 415,601 | 68.4% | 353.4M | 1 |
-| 9 | Pleias 1.2B Preview | FR | PleIAs | [PleIAs](https://huggingface.co/PleIAs) | 350,129 | +43 | 412,086 | 68.4% | 1.20B | 1 |
-| 10 | Pleias 3B Preview | FR | PleIAs | [PleIAs](https://huggingface.co/PleIAs) | 339,812 | +49 | 397,116 | 68.4% | 3.21B | 1 |
-| 11 | Ministral 3 3B (2512) | FR | Mistral AI | [mistralai](https://huggingface.co/mistralai) | 331,308 | -5,683 | 5,492,574 | 5.9% | 4.25B | 7 |
-| 12 | Mixtral 8x7B v0.1 | FR | Mistral AI | [mistralai](https://huggingface.co/mistralai) | 298,197 | -1,667 | 32,230,819 | 0.9% | 46.70B | 2 |
-| 13 | Devstral Small 2 (24B, 2512) | FR | Mistral AI | [mistralai](https://huggingface.co/mistralai) | 260,664 | +8,181 | 2,697,735 | 9.3% | 24.01B | 1 |
-| 14 | EuroLLM-22B-Instruct (2512) | EU | utter-project | [utter-project](https://huggingface.co/utter-project) | 230,760 | +13,564 | 426,904 | 43.8% | 22.64B | 1 |
-| 15 | Bielik-11B v3.0 | PL | SpeakLeash / ACK Cyfronet AGH | [speakleash](https://huggingface.co/speakleash) | 226,739 | -8,267 | 4,136,017 | 5.4% | 11.34B | 8 |
-| 16 | Ministral 3 8B (2512) | FR | Mistral AI | [mistralai](https://huggingface.co/mistralai) | 190,247 | -8,102 | 2,093,187 | 8.7% | 8.92B | 6 |
-| 17 | Ministral 8B Instruct (2410) | FR | Mistral AI | [mistralai](https://huggingface.co/mistralai) | 186,936 | -3,544 | 8,463,895 | 2.2% | 8.02B | 1 |
-| 18 | Mistral Small 3.2 (24B, 2506) | FR | Mistral AI | [mistralai](https://huggingface.co/mistralai) | 136,834 | +231 | 5,289,735 | 2.5% | 24.01B | 1 |
-| 19 | Apertus v1.5 8B | CH | swiss-ai | [swiss-ai](https://huggingface.co/swiss-ai) | 136,142 | +33,259 | 149,394 | 54.6% | 8.90B | 1 |
-| 20 | Mistral Medium 3.5 (128B) | FR | Mistral AI | [mistralai](https://huggingface.co/mistralai) | 100,903 | -15,451 | 1,033,197 | 8.9% | 127.70B | 2 |
-| 21 | Apertus 70B (2509) | CH | swiss-ai | [swiss-ai](https://huggingface.co/swiss-ai) | 96,782 | -174 | 522,478 | 15.5% | 70.60B | 2 |
-| 22 | Devstral Small (2507) | FR | Mistral AI | [mistralai](https://huggingface.co/mistralai) | 74,000 | +1,823 | 625,670 | 10.2% | 23.57B | 2 |
-| 23 | Magistral Small (2506) | FR | Mistral AI | [mistralai](https://huggingface.co/mistralai) | 73,961 | -368 | 696,323 | 9.3% | 23.57B | 2 |
-| 24 | Mistral Small 24B (2501) | FR | Mistral AI | [mistralai](https://huggingface.co/mistralai) | 68,247 | +30 | 7,555,915 | 0.9% | 23.57B | 2 |
-| 25 | Mistral Small 4 (119B, 2603) | FR | Mistral AI | [mistralai](https://huggingface.co/mistralai) | 57,702 | -281 | 640,815 | 7.8% | 119.40B | 3 |
-| 26 | Mixtral 8x22B v0.1 | FR | Mistral AI | [mistralai](https://huggingface.co/mistralai) | 40,138 | +480 | 11,190,217 | 0.4% | 140.63B | 2 |
-| 27 | Salamandra 7B Instruct | ES | BSC-LT | [BSC-LT](https://huggingface.co/BSC-LT) | 33,496 | +102 | 669,814 | 4.4% | 7.77B | 8 |
-| 28 | EuroLLM-9B-Instruct (2512) | EU | utter-project | [utter-project](https://huggingface.co/utter-project) | 24,613 | -1,665 | 136,274 | 10.4% | 9.15B | 1 |
-| 29 | EuroLLM-9B-Instruct | EU | utter-project | [utter-project](https://huggingface.co/utter-project) | 21,413 | +367 | 476,843 | 3.7% | 9.15B | 1 |
-| 30 | Codestral 22B v0.1 | FR | Mistral AI | [mistralai](https://huggingface.co/mistralai) | 20,065 | -115 | 5,157,440 | 0.4% | 22.25B | 1 |
-| 31 | Apertus v1.5 70B | CH | swiss-ai | [swiss-ai](https://huggingface.co/swiss-ai) | 17,179 | -391 | 24,060 | 13.8% | 72.01B | 1 |
-| 32 | Magistral Small (2509) | FR | Mistral AI | [mistralai](https://huggingface.co/mistralai) | 16,160 | -32 | 323,704 | 3.8% | 24.01B | 2 |
-| 33 | Bielik-11B v2.3 | PL | SpeakLeash / ACK Cyfronet AGH | [speakleash](https://huggingface.co/speakleash) | 15,859 | +11 | 771,661 | 1.8% | 11.25B | 10 |
-| 34 | Devstral 2 (123B, 2512) | FR | Mistral AI | [mistralai](https://huggingface.co/mistralai) | 15,788 | -586 | 347,354 | 3.5% | 125.03B | 1 |
-| 35 | Mathstral 7B v0.1 | FR | Mistral AI | [mistralai](https://huggingface.co/mistralai) | 13,655 | -481 | 5,299,962 | 0.3% | 7.25B | 1 |
-| 36 | Mistral Large 3 (675B, 2512) | FR | Mistral AI | [mistralai](https://huggingface.co/mistralai) | 13,434 | +211 | 67,730 | 8.0% | — | 5 |
-| 37 | EuroLLM-1.7B-Instruct | EU | utter-project | [utter-project](https://huggingface.co/utter-project) | 13,427 | -578 | 696,540 | 1.7% | 1.66B | 1 |
-| 38 | EuroLLM-1.7B (base) | EU | utter-project | [utter-project](https://huggingface.co/utter-project) | 11,557 | +116 | 206,377 | 3.8% | — | 1 |
-| 39 | Bielik-7B v0.1 | PL | SpeakLeash | [speakleash](https://huggingface.co/speakleash) | 9,510 | -3 | 503,439 | 1.6% | 7.24B | 8 |
-| 40 | Llama-Krikri 8B | GR | ILSP | [ilsp](https://huggingface.co/ilsp) | 6,688 | +37 | 106,557 | 3.2% | 8.42B | 5 |
-| 41 | Mistral Large Instruct (2411) | FR | Mistral AI | [mistralai](https://huggingface.co/mistralai) | 6,661 | -279 | 4,921,784 | 0.1% | 122.61B | 1 |
-| 42 | Bielik-Minitron 7B v3.0 | PL | SpeakLeash / ACK Cyfronet AGH | [speakleash](https://huggingface.co/speakleash) | 6,010 | +48 | 128,468 | 2.6% | 7.48B | 5 |
-| 43 | BgGPT 7B v0.2 | BG | INSAIT | [INSAIT-Institute](https://huggingface.co/INSAIT-Institute) | 5,340 | -46 | 110,789 | 2.5% | 7.29B | 2 |
-| 44 | Bielik-11B v2.2 | PL | SpeakLeash / ACK Cyfronet AGH | [speakleash](https://huggingface.co/speakleash) | 5,051 | -41 | 162,316 | 1.9% | 11.17B | 16 |
-| 45 | GaMS3 12B | SI | CJVT UL (Center za jezikovne vire in tehnologije, University of Ljubljana) | [cjvt](https://huggingface.co/cjvt) | 4,705 | +22 | 64,094 | 2.9% | 11.77B | 4 |
-| 46 | Llama-Poro 2 8B | FI | LumiOpen | [LumiOpen](https://huggingface.co/LumiOpen) | 4,671 | +126 | 45,664 | 3.2% | 8.03B | 7 |
-| 47 | Viking 33B | FI | LumiOpen | [LumiOpen](https://huggingface.co/LumiOpen) | 4,368 | +2 | 28,620 | 3.4% | 33.12B | 1 |
-| 48 | Salamandra 2B | ES | BSC-LT | [BSC-LT](https://huggingface.co/BSC-LT) | 4,240 | -10 | 141,818 | 1.8% | 2.25B | 7 |
-| 49 | Teuken 7B v0.6 | DE | openGPT-X | [openGPT-X](https://huggingface.co/openGPT-X) | 4,209 | +72 | 667,518 | 0.5% | 7.45B | 2 |
-| 50 | Minerva Chat v0.1 | IT | mii-llm | [mii-llm](https://huggingface.co/mii-llm) | 3,965 | -215 | 90,353 | 2.1% | 2.89B | 1 |
-| 51 | Devstral Small (2505) | FR | Mistral AI | [mistralai](https://huggingface.co/mistralai) | 3,866 | +17 | 902,513 | 0.4% | 23.57B | 2 |
-| 52 | Viking 7B | FI | LumiOpen | [LumiOpen](https://huggingface.co/LumiOpen) | 3,645 | -3 | 54,211 | 2.4% | 7.55B | 1 |
-| 53 | Mistral Small Instruct (2409) | FR | Mistral AI | [mistralai](https://huggingface.co/mistralai) | 3,471 | +46 | 5,375,316 | 0.1% | 22.25B | 1 |
-| 54 | Bielik-4.5B v3.0 | PL | SpeakLeash | [speakleash](https://huggingface.co/speakleash) | 3,470 | -39 | 250,850 | 1.0% | 4.76B | 5 |
-| 55 | Minerva 7B v1.0 | IT | SapienzaNLP | [sapienzanlp](https://huggingface.co/sapienzanlp) | 3,466 | -136 | 131,599 | 1.5% | 7.40B | 3 |
-| 56 | Occiglot 7B (bilingual) | EU | occiglot | [occiglot](https://huggingface.co/occiglot) | 3,455 | +114 | 369,994 | 0.7% | 7.24B | 8 |
-| 57 | Bielik-1.5B v3.0 | PL | SpeakLeash | [speakleash](https://huggingface.co/speakleash) | 3,135 | -242 | 56,275 | 2.0% | 1.60B | 5 |
-| 58 | Viking 13B | FI | LumiOpen | [LumiOpen](https://huggingface.co/LumiOpen) | 3,094 | -215 | 30,928 | 2.4% | 14.03B | 1 |
-| 59 | Apertus v1.1 0.5B | CH | swiss-ai | [swiss-ai](https://huggingface.co/swiss-ai) | 2,445 | -14 | 11,313 | 2.2% | 572.6M | 5 |
-| 60 | Baguettotron | FR | PleIAs | [PleIAs](https://huggingface.co/PleIAs) | 2,343 | -106 | 38,859 | 1.7% | 321.0M | 2 |
-| 61 | Velvet 14B | IT | Almawave | [Almawave](https://huggingface.co/Almawave) | 2,334 | +233 | 64,435 | 1.4% | 14.08B | 1 |
-| 62 | Mistral Large Instruct (2407) | FR | Mistral AI | [mistralai](https://huggingface.co/mistralai) | 2,306 | -110 | 5,030,923 | 0.0% | 122.61B | 1 |
-| 63 | Maestrale Chat v0.4 | IT | mii-llm | [mii-llm](https://huggingface.co/mii-llm) | 2,289 | +64 | 146,489 | 0.9% | 7.24B | 4 |
-| 64 | EuroMoE 2.6B-A0.6B (2512) | EU | utter-project | [utter-project](https://huggingface.co/utter-project) | 2,104 | +17 | 33,811 | 1.6% | 2.61B | 3 |
-| 65 | Apertus v1.1 4B | CH | swiss-ai | [swiss-ai](https://huggingface.co/swiss-ai) | 1,996 | -70 | 14,159 | 1.7% | 3.83B | 5 |
-| 66 | EuroLLM-9B (2512) | EU | utter-project | [utter-project](https://huggingface.co/utter-project) | 1,756 | -84 | 9,104 | 1.6% | 9.15B | 1 |
-| 67 | GaMS 9B | SI | CJVT UL (Center za jezikovne vire in tehnologije, University of Ljubljana) | [cjvt](https://huggingface.co/cjvt) | 1,668 | -1 | 48,373 | 1.1% | 9.24B | 4 |
-| 68 | MamayLM Gemma 3 4B v1.0 | UA | INSAIT | [INSAIT-Institute](https://huggingface.co/INSAIT-Institute) | 1,633 | -214 | 19,547 | 1.4% | 4.30B | 2 |
-| 69 | EuroLLM-22B-Instruct (Preview) | EU | utter-project | [utter-project](https://huggingface.co/utter-project) | 1,622 | -2 | 31,895 | 1.2% | 22.64B | 1 |
-| 70 | Apertus v1.1 1.5B | CH | swiss-ai | [swiss-ai](https://huggingface.co/swiss-ai) | 1,541 | +16 | 6,867 | 1.4% | 1.51B | 6 |
-| 71 | EuroLLM-22B (2512 base) | EU | utter-project | [utter-project](https://huggingface.co/utter-project) | 1,529 | 0 | 22,400 | 1.2% | 22.64B | 1 |
-| 72 | Teuken 7B v0.4 (research) | DE | openGPT-X | [openGPT-X](https://huggingface.co/openGPT-X) | 1,496 | +9 | 77,293 | 0.8% | 7.45B | 1 |
-| 73 | Soofi S Isar Preview | DE | Soofi Project | [Soofi-Project](https://huggingface.co/Soofi-Project) | 1,432 | +3 | 12,000 | 1.3% | 31.59B | 6 |
-| 74 | Bielik-11B v2.0 | PL | SpeakLeash / ACK Cyfronet AGH | [speakleash](https://huggingface.co/speakleash) | 1,429 | +20 | 21,753 | 1.2% | 11.17B | 5 |
-| 75 | PLLuM 12B (2412) | PL | CYFRAGOVPL / PLLuM consortium | [CYFRAGOVPL](https://huggingface.co/CYFRAGOVPL) | 1,420 | +4 | 175,942 | 0.5% | 12.25B | 6 |
-| 76 | PLLuM 12B (2512) | PL | CYFRAGOVPL / PLLuM consortium | [CYFRAGOVPL](https://huggingface.co/CYFRAGOVPL) | 1,372 | -45 | 19,162 | 1.2% | 12.25B | 3 |
-| 77 | Bielik-11B v2.6 | PL | SpeakLeash / ACK Cyfronet AGH | [speakleash](https://huggingface.co/speakleash) | 1,365 | -34 | 172,669 | 0.5% | 11.51B | 7 |
-| 78 | Magistral Small (2507) | FR | Mistral AI | [mistralai](https://huggingface.co/mistralai) | 1,348 | +319 | 150,447 | 0.5% | 23.57B | 2 |
-| 79 | Bielik-11B v2.1 | PL | SpeakLeash / ACK Cyfronet AGH | [speakleash](https://huggingface.co/speakleash) | 1,313 | +16 | 29,946 | 1.0% | 11.17B | 5 |
-| 80 | TildeOpen 30B | LV | Tilde | [TildeAI](https://huggingface.co/TildeAI) | 1,224 | -1 | 98,784 | 0.6% | 30.68B | 1 |
-| 81 | MamayLM Gemma 3 27B v2.0 | UA | INSAIT | [INSAIT-Institute](https://huggingface.co/INSAIT-Institute) | 1,223 | -68 | 7,658 | 1.1% | 28.84B | 3 |
-| 82 | Monad | FR | PleIAs | [PleIAs](https://huggingface.co/PleIAs) | 1,191 | +11 | 32,063 | 0.9% | 56.7M | 1 |
-| 83 | Teuken 7B v0.4 (commercial) | DE | openGPT-X | [openGPT-X](https://huggingface.co/openGPT-X) | 1,179 | -15 | 104,936 | 0.6% | 7.45B | 1 |
-| 84 | Soofi S Rhine Preview | DE | Soofi Project | [Soofi-Project](https://huggingface.co/Soofi-Project) | 1,175 | -36 | 2,810 | 1.1% | 31.59B | 6 |
-| 85 | TRURL 2 13B | PL | Voicelab | [Voicelab](https://huggingface.co/Voicelab) | 1,141 | 0 | 355,011 | 0.3% | — | 3 |
-| 86 | PLLuM 4B (2512) | PL | CYFRAGOVPL / PLLuM consortium | [CYFRAGOVPL](https://huggingface.co/CYFRAGOVPL) | 1,133 | -143 | 7,029 | 1.1% | 4.30B | 3 |
-| 87 | MamayLM Gemma 3 12B v2.0 | UA | INSAIT | [INSAIT-Institute](https://huggingface.co/INSAIT-Institute) | 1,128 | -420 | 16,591 | 1.0% | 12.19B | 2 |
-| 88 | CroissantLLM Chat v0.1 | FR | croissantllm | [croissantllm](https://huggingface.co/croissantllm) | 1,105 | +7 | 95,290 | 0.6% | 1.35B | 8 |
-| 89 | OCRonos | FR | PleIAs | [PleIAs](https://huggingface.co/PleIAs) | 1,047 | +1 | 81,003 | 0.6% | 8.03B | 3 |
-| 90 | Qra 1B | PL | OPI-PG | [OPI-PG](https://huggingface.co/OPI-PG) | 1,035 | +6 | 156,810 | 0.4% | 1.10B | 1 |
-| 91 | TRURL 2 7B | PL | Voicelab | [Voicelab](https://huggingface.co/Voicelab) | 1,034 | -3 | 300,371 | 0.3% | 6.74B | 2 |
-| 92 | Llama-Poro 2 70B | FI | LumiOpen | [LumiOpen](https://huggingface.co/LumiOpen) | 1,009 | +4 | 38,405 | 0.7% | 70.55B | 3 |
-| 93 | CroissantLLM Base | FR | croissantllm | [croissantllm](https://huggingface.co/croissantllm) | 994 | +1 | 56,668 | 0.6% | 1.35B | 3 |
-| 94 | Velvet 2B | IT | Almawave | [Almawave](https://huggingface.co/Almawave) | 993 | +66 | 83,997 | 0.5% | 2.22B | 1 |
-| 95 | BgGPT Gemma 3 12B | BG | INSAIT | [INSAIT-Institute](https://huggingface.co/INSAIT-Institute) | 981 | +10 | 217,634 | 0.3% | 12.19B | 3 |
-| 96 | Domyn Small v1.0 | IT | Domyn | [domyn](https://huggingface.co/domyn) | 980 | +21 | 7,125 | 0.9% | 9.82B | 1 |
-| 97 | Qra 13B | PL | OPI-PG | [OPI-PG](https://huggingface.co/OPI-PG) | 962 | -3 | 144,551 | 0.4% | 13.02B | 1 |
-| 98 | BgGPT Gemma 3 27B | BG | INSAIT | [INSAIT-Institute](https://huggingface.co/INSAIT-Institute) | 959 | +130 | 8,115 | 0.9% | 27.43B | 3 |
-| 99 | Qra 7B | PL | OPI-PG | [OPI-PG](https://huggingface.co/OPI-PG) | 954 | -1 | 183,752 | 0.3% | 6.74B | 1 |
-| 100 | LeoLM HessianAI 7B | DE | LeoLM | [LeoLM](https://huggingface.co/LeoLM) | 939 | -22 | 799,844 | 0.1% | — | 3 |
-| 101 | Poro 34B | FI | LumiOpen | [LumiOpen](https://huggingface.co/LumiOpen) | 922 | +14 | 227,435 | 0.3% | 35.13B | 4 |
-| 102 | GaMS 27B | SI | CJVT UL (Center za jezikovne vire in tehnologije, University of Ljubljana) | [cjvt](https://huggingface.co/cjvt) | 860 | +4 | 37,350 | 0.6% | 27.23B | 3 |
-| 103 | Salamandra 7B (base) | ES | BSC-LT | [BSC-LT](https://huggingface.co/BSC-LT) | 847 | -57 | 48,288 | 0.6% | 7.77B | 1 |
-| 104 | Llama-PLLuM 70B (2512) | PL | CYFRAGOVPL / PLLuM consortium | [CYFRAGOVPL](https://huggingface.co/CYFRAGOVPL) | 841 | -114 | 12,373 | 0.7% | 70.55B | 2 |
-| 105 | GaMS2 27B | SI | CJVT UL (Center za jezikovne vire in tehnologije, University of Ljubljana) | [cjvt](https://huggingface.co/cjvt) | 815 | +31 | 1,120 | 0.8% | 27.23B | 3 |
-| 106 | Pleias RAG 1B | FR | PleIAs | [PleIAs](https://huggingface.co/PleIAs) | 764 | +12 | 18,190 | 0.6% | 1.20B | 2 |
-| 107 | Llama-PLLuM 8B (2412) | PL | CYFRAGOVPL / PLLuM consortium | [CYFRAGOVPL](https://huggingface.co/CYFRAGOVPL) | 711 | -2 | 70,113 | 0.4% | 8.03B | 3 |
-| 108 | GaMS 2B | SI | CJVT UL (Center za jezikovne vire in tehnologije, University of Ljubljana) | [cjvt](https://huggingface.co/cjvt) | 695 | +2 | 19,832 | 0.6% | 3.20B | 2 |
-| 109 | MamayLM Gemma 3 12B v1.0 | UA | INSAIT | [INSAIT-Institute](https://huggingface.co/INSAIT-Institute) | 679 | -210 | 43,783 | 0.5% | 12.19B | 2 |
-| 110 | BgGPT Gemma 3 4B | BG | INSAIT | [INSAIT-Institute](https://huggingface.co/INSAIT-Institute) | 641 | -5 | 13,594 | 0.6% | 4.33B | 3 |
-| 111 | Pleias RAG 350M | FR | PleIAs | [PleIAs](https://huggingface.co/PleIAs) | 630 | -48 | 13,803 | 0.6% | 353.4M | 2 |
-| 112 | EuroLLM-9B (base) | EU | utter-project | [utter-project](https://huggingface.co/utter-project) | 616 | -22 | 81,935 | 0.3% | 9.15B | 1 |
-| 113 | ALIA 40B (base) | ES | BSC-LT | [BSC-LT](https://huggingface.co/BSC-LT) | 593 | +4 | 450,966 | 0.1% | 40.43B | 1 |
-| 114 | TildeOpen 30B (64k) | LV | Tilde | [TildeAI](https://huggingface.co/TildeAI) | 580 | 0 | 2,786 | 0.6% | 30.68B | 1 |
-| 115 | Llama-PLLuM 8B (2512) | PL | CYFRAGOVPL / PLLuM consortium | [CYFRAGOVPL](https://huggingface.co/CYFRAGOVPL) | 548 | -2 | 3,482 | 0.5% | 8.03B | 3 |
-| 116 | ALIA 40B Instruct (2601) | ES | BSC-LT | [BSC-LT](https://huggingface.co/BSC-LT) | 523 | +7 | 32,280 | 0.4% | 40.43B | 2 |
-| 117 | Soofi S Base | DE | Soofi Project | [Soofi-Project](https://huggingface.co/Soofi-Project) | 510 | -2 | 1,273 | 0.5% | 31.58B | 2 |
-| 118 | Occiglot 7B EU5 | EU | occiglot | [occiglot](https://huggingface.co/occiglot) | 509 | +25 | 321,765 | 0.1% | 7.24B | 2 |
-| 119 | Maestrale Chat v0.3 | IT | mii-llm | [mii-llm](https://huggingface.co/mii-llm) | 485 | +37 | 51,957 | 0.3% | 7.24B | 5 |
-| 120 | Nesso 0.4B Agentic | IT | mii-llm | [mii-llm](https://huggingface.co/mii-llm) | 478 | +14 | 2,795 | 0.5% | 560.9M | 2 |
-| 121 | Soofi S Instruct Preview | DE | Soofi Project | [Soofi-Project](https://huggingface.co/Soofi-Project) | 477 | +24 | 7,129 | 0.4% | 31.59B | 6 |
-| 122 | GaMS 1B | SI | CJVT UL (Center za jezikovne vire in tehnologije, University of Ljubljana) | [cjvt](https://huggingface.co/cjvt) | 458 | +10 | 15,613 | 0.4% | 1.54B | 4 |
-| 123 | Meltemi 7B v1 | GR | ILSP | [ilsp](https://huggingface.co/ilsp) | 450 | 0 | 44,309 | 0.3% | 7.70B | 5 |
-| 124 | LeoLM Mistral HessianAI 7B | DE | LeoLM | [LeoLM](https://huggingface.co/LeoLM) | 448 | +27 | 232,334 | 0.1% | — | 2 |
-| 125 | Maestrale Chat v0.2 | IT | mii-llm | [mii-llm](https://huggingface.co/mii-llm) | 409 | +30 | 50,849 | 0.3% | 7.24B | 1 |
-| 126 | Meltemi 7B v1.5 | GR | ILSP | [ilsp](https://huggingface.co/ilsp) | 404 | +2 | 38,920 | 0.3% | 7.48B | 2 |
-| 127 | LeoLM HessianAI 13B | DE | LeoLM | [LeoLM](https://huggingface.co/LeoLM) | 385 | -15 | 106,779 | 0.2% | — | 3 |
-| 128 | Pharia-1-LLM-7B-control | DE | Aleph Alpha | [Aleph-Alpha](https://huggingface.co/Aleph-Alpha) | 378 | +8 | 75,852 | 0.2% | 7.04B | 4 |
-| 129 | Nesso 4B | IT | mii-llm | [mii-llm](https://huggingface.co/mii-llm) | 373 | +18 | 2,395 | 0.4% | 4.02B | 2 |
-| 130 | BgGPT Gemma 2 2.6B | BG | INSAIT | [INSAIT-Institute](https://huggingface.co/INSAIT-Institute) | 361 | -3 | 21,618 | 0.3% | 2.61B | 2 |
-| 131 | BgGPT Gemma 2 9B | BG | INSAIT | [INSAIT-Institute](https://huggingface.co/INSAIT-Institute) | 343 | -3 | 27,011 | 0.3% | 9.24B | 2 |
-| 132 | Leanstral 1.5 (119B-A6B) | FR | Mistral AI | [mistralai](https://huggingface.co/mistralai) | 266 | +76 | 1,011 | 0.3% | — | 1 |
-| 133 | Bielik-11B v2 (base) | PL | SpeakLeash / ACK Cyfronet AGH | [speakleash](https://huggingface.co/speakleash) | 252 | -3 | 41,482 | 0.2% | 11.17B | 1 |
-| 134 | Zagreus 0.4B (ITA) | IT | mii-llm | [mii-llm](https://huggingface.co/mii-llm) | 249 | -2 | 4,858 | 0.2% | 437.8M | 1 |
-| 135 | BgGPT Gemma 2 27B | BG | INSAIT | [INSAIT-Institute](https://huggingface.co/INSAIT-Institute) | 244 | -4 | 11,545 | 0.2% | 27.23B | 2 |
-| 136 | MamayLM Gemma 2 9B v0.1 | UA | INSAIT | [INSAIT-Institute](https://huggingface.co/INSAIT-Institute) | 226 | -1 | 21,302 | 0.2% | 9.24B | 2 |
-| 137 | BgGPT 7B v0.1 | BG | INSAIT | [INSAIT-Institute](https://huggingface.co/INSAIT-Institute) | 208 | +14 | 16,318 | 0.2% | 7.29B | 2 |
-| 138 | LeoLM HessianAI 70B | DE | LeoLM | [LeoLM](https://huggingface.co/LeoLM) | 201 | +3 | 19,340 | 0.2% | 68.98B | 2 |
-| 139 | Pleias Pico | FR | PleIAs | [PleIAs](https://huggingface.co/PleIAs) | 196 | +1 | 5,262 | 0.2% | 353.4M | 2 |
-| 140 | OpenEuroLLM Prelude | EU | openeurollm | [openeurollm](https://huggingface.co/openeurollm) | 179 | 0 | 1,984 | 0.2% | — | 1 |
-| 141 | Bielik-11B v2.5 | PL | SpeakLeash / ACK Cyfronet AGH | [speakleash](https://huggingface.co/speakleash) | 158 | +2 | 5,072 | 0.2% | 11.51B | 5 |
-| 142 | Llama-PLLuM 70B (2412) | PL | CYFRAGOVPL / PLLuM consortium | [CYFRAGOVPL](https://huggingface.co/CYFRAGOVPL) | 154 | -2 | 38,531 | 0.1% | 70.55B | 3 |
-| 143 | EuroLLM-22B (Preview base) | EU | utter-project | [utter-project](https://huggingface.co/utter-project) | 147 | +5 | 2,254 | 0.1% | — | 1 |
-| 144 | Pleias Nano | FR | PleIAs | [PleIAs](https://huggingface.co/PleIAs) | 138 | 0 | 7,103 | 0.1% | 1.20B | 2 |
-| 145 | Llama-PLLuM 70B (2508) | PL | CYFRAGOVPL / PLLuM consortium | [CYFRAGOVPL](https://huggingface.co/CYFRAGOVPL) | 137 | +6 | 4,795 | 0.1% | 70.55B | 3 |
-| 146 | PLLuM 8x7B (2412) | PL | CYFRAGOVPL / PLLuM consortium | [CYFRAGOVPL](https://huggingface.co/CYFRAGOVPL) | 121 | +5 | 28,189 | 0.1% | 46.70B | 6 |
-| 147 | Nesso 0.4B Instruct | IT | mii-llm | [mii-llm](https://huggingface.co/mii-llm) | 113 | +1 | 1,227 | 0.1% | 560.9M | 1 |
-| 148 | Leanstral (2603) | FR | Mistral AI | [mistralai](https://huggingface.co/mistralai) | 103 | +33 | 955 | 0.1% | — | 1 |
-| 149 | Zagreus 0.4B (SPA) | IT | mii-llm | [mii-llm](https://huggingface.co/mii-llm) | 82 | -1 | 177 | 0.1% | 437.8M | 1 |
+| 1 | Mistral 7B v0.3 | FR | Mistral AI | [mistralai](https://huggingface.co/mistralai) | 2,570,218 | +189 | 56,659,657 | 4.5% | 7.25B | 2 |
+| 2 | Mistral 7B v0.2 | FR | Mistral AI | [mistralai](https://huggingface.co/mistralai) | 1,782,269 | +9,006 | 64,126,658 | 2.8% | 7.24B | 1 |
+| 3 | Ministral 3 14B (2512) | FR | Mistral AI | [mistralai](https://huggingface.co/mistralai) | 625,211 | +2,976 | 3,564,404 | 17.1% | 13.95B | 6 |
+| 4 | Mistral 7B v0.1 | FR | Mistral AI | [mistralai](https://huggingface.co/mistralai) | 590,137 | +1,039 | 45,547,730 | 1.3% | 7.24B | 2 |
+| 5 | Mistral NeMo (2407) | FR | Mistral AI | [mistralai](https://huggingface.co/mistralai) | 512,007 | -7,531 | 16,225,015 | 3.1% | 12.25B | 3 |
+| 6 | Apertus 8B (2509) | CH | swiss-ai | [swiss-ai](https://huggingface.co/swiss-ai) | 489,715 | -1,899 | 4,021,616 | 11.9% | 8.05B | 2 |
+| 7 | Mistral Small 3.1 (24B, 2503) | FR | Mistral AI | [mistralai](https://huggingface.co/mistralai) | 464,058 | +6,806 | 4,617,529 | 9.8% | 24.01B | 2 |
+| 8 | Pleias 350M Preview | FR | PleIAs | [PleIAs](https://huggingface.co/PleIAs) | 352,280 | -248 | 415,802 | 68.3% | 353.4M | 1 |
+| 9 | Pleias 1.2B Preview | FR | PleIAs | [PleIAs](https://huggingface.co/PleIAs) | 349,887 | -242 | 412,289 | 68.3% | 1.20B | 1 |
+| 10 | Pleias 3B Preview | FR | PleIAs | [PleIAs](https://huggingface.co/PleIAs) | 339,565 | -247 | 397,314 | 68.3% | 3.21B | 1 |
+| 11 | Ministral 3 3B (2512) | FR | Mistral AI | [mistralai](https://huggingface.co/mistralai) | 323,037 | -8,271 | 5,500,354 | 5.8% | 4.25B | 7 |
+| 12 | Mixtral 8x7B v0.1 | FR | Mistral AI | [mistralai](https://huggingface.co/mistralai) | 295,650 | -2,547 | 32,239,714 | 0.9% | 46.70B | 2 |
+| 13 | Devstral Small 2 (24B, 2512) | FR | Mistral AI | [mistralai](https://huggingface.co/mistralai) | 270,920 | +10,256 | 2,716,018 | 9.6% | 24.01B | 1 |
+| 14 | EuroLLM-22B-Instruct (2512) | EU | utter-project | [utter-project](https://huggingface.co/utter-project) | 244,408 | +13,648 | 440,765 | 45.2% | 22.64B | 1 |
+| 15 | Bielik-11B v3.0 | PL | SpeakLeash / ACK Cyfronet AGH | [speakleash](https://huggingface.co/speakleash) | 217,917 | -8,822 | 4,136,932 | 5.1% | 11.34B | 8 |
+| 16 | Mistral Small 3.2 (24B, 2506) | FR | Mistral AI | [mistralai](https://huggingface.co/mistralai) | 185,194 | +48,360 | 5,343,324 | 3.4% | 24.01B | 1 |
+| 17 | Ministral 3 8B (2512) | FR | Mistral AI | [mistralai](https://huggingface.co/mistralai) | 183,781 | -6,466 | 2,097,316 | 8.4% | 8.92B | 6 |
+| 18 | Ministral 8B Instruct (2410) | FR | Mistral AI | [mistralai](https://huggingface.co/mistralai) | 174,565 | -12,371 | 8,470,209 | 2.0% | 8.02B | 1 |
+| 19 | Apertus v1.5 8B | CH | swiss-ai | [swiss-ai](https://huggingface.co/swiss-ai) | 169,489 | +33,347 | 182,799 | 59.9% | 8.90B | 1 |
+| 20 | Apertus 70B (2509) | CH | swiss-ai | [swiss-ai](https://huggingface.co/swiss-ai) | 96,769 | -13 | 523,155 | 15.5% | 70.60B | 2 |
+| 21 | Mistral Medium 3.5 (128B) | FR | Mistral AI | [mistralai](https://huggingface.co/mistralai) | 90,255 | -10,648 | 1,033,557 | 8.0% | 127.70B | 2 |
+| 22 | Devstral Small (2507) | FR | Mistral AI | [mistralai](https://huggingface.co/mistralai) | 74,988 | +988 | 626,864 | 10.3% | 23.57B | 2 |
+| 23 | Magistral Small (2506) | FR | Mistral AI | [mistralai](https://huggingface.co/mistralai) | 73,817 | -144 | 698,835 | 9.2% | 23.57B | 2 |
+| 24 | Mistral Small 24B (2501) | FR | Mistral AI | [mistralai](https://huggingface.co/mistralai) | 67,983 | -264 | 7,557,523 | 0.9% | 23.57B | 2 |
+| 25 | Mistral Small 4 (119B, 2603) | FR | Mistral AI | [mistralai](https://huggingface.co/mistralai) | 56,121 | -1,581 | 642,123 | 7.6% | 119.40B | 3 |
+| 26 | Mixtral 8x22B v0.1 | FR | Mistral AI | [mistralai](https://huggingface.co/mistralai) | 40,814 | +676 | 11,191,616 | 0.4% | 140.63B | 2 |
+| 27 | Salamandra 7B Instruct | ES | BSC-LT | [BSC-LT](https://huggingface.co/BSC-LT) | 33,133 | -363 | 670,452 | 4.3% | 7.77B | 8 |
+| 28 | EuroLLM-9B-Instruct (2512) | EU | utter-project | [utter-project](https://huggingface.co/utter-project) | 23,401 | -1,212 | 137,022 | 9.9% | 9.15B | 1 |
+| 29 | EuroLLM-9B-Instruct | EU | utter-project | [utter-project](https://huggingface.co/utter-project) | 21,444 | +31 | 477,224 | 3.7% | 9.15B | 1 |
+| 30 | Codestral 22B v0.1 | FR | Mistral AI | [mistralai](https://huggingface.co/mistralai) | 19,736 | -329 | 5,157,522 | 0.4% | 22.25B | 1 |
+| 31 | Apertus v1.5 70B | CH | swiss-ai | [swiss-ai](https://huggingface.co/swiss-ai) | 17,126 | -53 | 24,101 | 13.8% | 72.01B | 1 |
+| 32 | Magistral Small (2509) | FR | Mistral AI | [mistralai](https://huggingface.co/mistralai) | 16,152 | -8 | 323,804 | 3.8% | 24.01B | 2 |
+| 33 | Bielik-11B v2.3 | PL | SpeakLeash / ACK Cyfronet AGH | [speakleash](https://huggingface.co/speakleash) | 15,874 | +15 | 772,125 | 1.8% | 11.25B | 10 |
+| 34 | Devstral 2 (123B, 2512) | FR | Mistral AI | [mistralai](https://huggingface.co/mistralai) | 15,329 | -459 | 347,508 | 3.4% | 125.03B | 1 |
+| 35 | Mistral Large 3 (675B, 2512) | FR | Mistral AI | [mistralai](https://huggingface.co/mistralai) | 13,404 | -30 | 68,158 | 8.0% | — | 5 |
+| 36 | EuroLLM-1.7B-Instruct | EU | utter-project | [utter-project](https://huggingface.co/utter-project) | 13,238 | -189 | 696,955 | 1.7% | 1.66B | 1 |
+| 37 | Mathstral 7B v0.1 | FR | Mistral AI | [mistralai](https://huggingface.co/mistralai) | 13,209 | -446 | 5,299,992 | 0.2% | 7.25B | 1 |
+| 38 | EuroLLM-1.7B (base) | EU | utter-project | [utter-project](https://huggingface.co/utter-project) | 11,417 | -140 | 206,538 | 3.7% | — | 1 |
+| 39 | Bielik-7B v0.1 | PL | SpeakLeash | [speakleash](https://huggingface.co/speakleash) | 9,596 | +86 | 503,792 | 1.6% | 7.24B | 8 |
+| 40 | Llama-Krikri 8B | GR | ILSP | [ilsp](https://huggingface.co/ilsp) | 6,576 | -112 | 106,646 | 3.2% | 8.42B | 5 |
+| 41 | Mistral Large Instruct (2411) | FR | Mistral AI | [mistralai](https://huggingface.co/mistralai) | 6,503 | -158 | 4,922,001 | 0.1% | 122.61B | 1 |
+| 42 | Bielik-Minitron 7B v3.0 | PL | SpeakLeash / ACK Cyfronet AGH | [speakleash](https://huggingface.co/speakleash) | 5,971 | -39 | 128,509 | 2.6% | 7.48B | 5 |
+| 43 | BgGPT 7B v0.2 | BG | INSAIT | [INSAIT-Institute](https://huggingface.co/INSAIT-Institute) | 5,199 | -141 | 110,802 | 2.5% | 7.29B | 2 |
+| 44 | GaMS3 12B | SI | CJVT UL (Center za jezikovne vire in tehnologije, University of Ljubljana) | [cjvt](https://huggingface.co/cjvt) | 5,198 | +493 | 64,848 | 3.2% | 11.77B | 4 |
+| 45 | Bielik-11B v2.2 | PL | SpeakLeash / ACK Cyfronet AGH | [speakleash](https://huggingface.co/speakleash) | 5,076 | +25 | 162,487 | 1.9% | 11.17B | 16 |
+| 46 | Llama-Poro 2 8B | FI | LumiOpen | [LumiOpen](https://huggingface.co/LumiOpen) | 4,789 | +118 | 45,813 | 3.3% | 8.03B | 7 |
+| 47 | Viking 33B | FI | LumiOpen | [LumiOpen](https://huggingface.co/LumiOpen) | 4,372 | +4 | 28,634 | 3.4% | 33.12B | 1 |
+| 48 | Salamandra 2B | ES | BSC-LT | [BSC-LT](https://huggingface.co/BSC-LT) | 4,187 | -53 | 141,950 | 1.7% | 2.25B | 7 |
+| 49 | Minerva Chat v0.1 | IT | mii-llm | [mii-llm](https://huggingface.co/mii-llm) | 3,963 | -2 | 90,452 | 2.1% | 2.89B | 1 |
+| 50 | Devstral Small (2505) | FR | Mistral AI | [mistralai](https://huggingface.co/mistralai) | 3,919 | +53 | 902,647 | 0.4% | 23.57B | 2 |
+| 51 | Teuken 7B v0.6 | DE | openGPT-X | [openGPT-X](https://huggingface.co/openGPT-X) | 3,766 | -443 | 667,668 | 0.5% | 7.45B | 2 |
+| 52 | Viking 7B | FI | LumiOpen | [LumiOpen](https://huggingface.co/LumiOpen) | 3,631 | -14 | 54,227 | 2.4% | 7.55B | 1 |
+| 53 | Occiglot 7B (bilingual) | EU | occiglot | [occiglot](https://huggingface.co/occiglot) | 3,528 | +73 | 370,145 | 0.8% | 7.24B | 8 |
+| 54 | Mistral Small Instruct (2409) | FR | Mistral AI | [mistralai](https://huggingface.co/mistralai) | 3,504 | +33 | 5,375,457 | 0.1% | 22.25B | 1 |
+| 55 | Minerva 7B v1.0 | IT | SapienzaNLP | [sapienzanlp](https://huggingface.co/sapienzanlp) | 3,456 | -10 | 131,804 | 1.5% | 7.40B | 3 |
+| 56 | Bielik-4.5B v3.0 | PL | SpeakLeash | [speakleash](https://huggingface.co/speakleash) | 3,339 | -131 | 250,889 | 1.0% | 4.76B | 5 |
+| 57 | Viking 13B | FI | LumiOpen | [LumiOpen](https://huggingface.co/LumiOpen) | 3,097 | +3 | 30,942 | 2.4% | 14.03B | 1 |
+| 58 | Bielik-1.5B v3.0 | PL | SpeakLeash | [speakleash](https://huggingface.co/speakleash) | 3,046 | -89 | 56,332 | 1.9% | 1.60B | 5 |
+| 59 | Velvet 14B | IT | Almawave | [Almawave](https://huggingface.co/Almawave) | 2,466 | +132 | 64,567 | 1.5% | 14.08B | 1 |
+| 60 | Maestrale Chat v0.4 | IT | mii-llm | [mii-llm](https://huggingface.co/mii-llm) | 2,383 | +94 | 146,635 | 1.0% | 7.24B | 4 |
+| 61 | Mistral Large Instruct (2407) | FR | Mistral AI | [mistralai](https://huggingface.co/mistralai) | 2,352 | +46 | 5,031,024 | 0.0% | 122.61B | 1 |
+| 62 | EuroMoE 2.6B-A0.6B (2512) | EU | utter-project | [utter-project](https://huggingface.co/utter-project) | 2,169 | +65 | 33,904 | 1.6% | 2.61B | 3 |
+| 63 | Baguettotron | FR | PleIAs | [PleIAs](https://huggingface.co/PleIAs) | 2,161 | -182 | 38,897 | 1.6% | 321.0M | 2 |
+| 64 | Apertus v1.1 4B | CH | swiss-ai | [swiss-ai](https://huggingface.co/swiss-ai) | 1,998 | +2 | 14,186 | 1.7% | 3.83B | 5 |
+| 65 | GaMS 9B | SI | CJVT UL (Center za jezikovne vire in tehnologije, University of Ljubljana) | [cjvt](https://huggingface.co/cjvt) | 1,691 | +23 | 48,419 | 1.1% | 9.24B | 4 |
+| 66 | Apertus v1.1 0.5B | CH | swiss-ai | [swiss-ai](https://huggingface.co/swiss-ai) | 1,686 | -759 | 11,335 | 1.5% | 572.6M | 5 |
+| 67 | EuroLLM-22B-Instruct (Preview) | EU | utter-project | [utter-project](https://huggingface.co/utter-project) | 1,662 | +40 | 31,953 | 1.3% | 22.64B | 1 |
+| 68 | EuroLLM-9B (2512) | EU | utter-project | [utter-project](https://huggingface.co/utter-project) | 1,586 | -170 | 9,119 | 1.5% | 9.15B | 1 |
+| 69 | Magistral Small (2507) | FR | Mistral AI | [mistralai](https://huggingface.co/mistralai) | 1,575 | +227 | 150,689 | 0.6% | 23.57B | 2 |
+| 70 | EuroLLM-22B (2512 base) | EU | utter-project | [utter-project](https://huggingface.co/utter-project) | 1,559 | +30 | 22,450 | 1.3% | 22.64B | 1 |
+| 71 | Apertus v1.1 1.5B | CH | swiss-ai | [swiss-ai](https://huggingface.co/swiss-ai) | 1,521 | -20 | 6,904 | 1.4% | 1.51B | 6 |
+| 72 | Teuken 7B v0.4 (research) | DE | openGPT-X | [openGPT-X](https://huggingface.co/openGPT-X) | 1,515 | +19 | 77,359 | 0.9% | 7.45B | 1 |
+| 73 | PLLuM 12B (2412) | PL | CYFRAGOVPL / PLLuM consortium | [CYFRAGOVPL](https://huggingface.co/CYFRAGOVPL) | 1,440 | +20 | 175,989 | 0.5% | 12.25B | 6 |
+| 74 | Soofi S Isar Preview | DE | Soofi Project | [Soofi-Project](https://huggingface.co/Soofi-Project) | 1,428 | -4 | 12,000 | 1.3% | 31.59B | 6 |
+| 75 | MamayLM Gemma 3 4B v1.0 | UA | INSAIT | [INSAIT-Institute](https://huggingface.co/INSAIT-Institute) | 1,382 | -251 | 19,561 | 1.2% | 4.30B | 2 |
+| 76 | Bielik-11B v2.0 | PL | SpeakLeash / ACK Cyfronet AGH | [speakleash](https://huggingface.co/speakleash) | 1,378 | -51 | 21,790 | 1.1% | 11.17B | 5 |
+| 77 | Bielik-11B v2.6 | PL | SpeakLeash / ACK Cyfronet AGH | [speakleash](https://huggingface.co/speakleash) | 1,343 | -22 | 172,740 | 0.5% | 11.51B | 7 |
+| 78 | Bielik-11B v2.1 | PL | SpeakLeash / ACK Cyfronet AGH | [speakleash](https://huggingface.co/speakleash) | 1,274 | -39 | 29,972 | 1.0% | 11.17B | 5 |
+| 79 | TildeOpen 30B | LV | Tilde | [TildeAI](https://huggingface.co/TildeAI) | 1,259 | +35 | 98,838 | 0.6% | 30.68B | 1 |
+| 80 | Teuken 7B v0.4 (commercial) | DE | openGPT-X | [openGPT-X](https://huggingface.co/openGPT-X) | 1,214 | +35 | 104,993 | 0.6% | 7.45B | 1 |
+| 81 | PLLuM 12B (2512) | PL | CYFRAGOVPL / PLLuM consortium | [CYFRAGOVPL](https://huggingface.co/CYFRAGOVPL) | 1,210 | -162 | 19,171 | 1.0% | 12.25B | 3 |
+| 82 | Soofi S Rhine Preview | DE | Soofi Project | [Soofi-Project](https://huggingface.co/Soofi-Project) | 1,172 | -3 | 2,810 | 1.1% | 31.59B | 6 |
+| 83 | TRURL 2 13B | PL | Voicelab | [Voicelab](https://huggingface.co/Voicelab) | 1,166 | +25 | 355,059 | 0.3% | — | 3 |
+| 84 | Monad | FR | PleIAs | [PleIAs](https://huggingface.co/PleIAs) | 1,153 | -38 | 32,104 | 0.9% | 56.7M | 1 |
+| 85 | MamayLM Gemma 3 27B v2.0 | UA | INSAIT | [INSAIT-Institute](https://huggingface.co/INSAIT-Institute) | 1,152 | -71 | 7,698 | 1.1% | 28.84B | 3 |
+| 86 | MamayLM Gemma 3 12B v2.0 | UA | INSAIT | [INSAIT-Institute](https://huggingface.co/INSAIT-Institute) | 1,132 | +4 | 16,596 | 1.0% | 12.19B | 2 |
+| 87 | CroissantLLM Chat v0.1 | FR | croissantllm | [croissantllm](https://huggingface.co/croissantllm) | 1,089 | -16 | 95,298 | 0.6% | 1.35B | 8 |
+| 88 | Qra 1B | PL | OPI-PG | [OPI-PG](https://huggingface.co/OPI-PG) | 1,070 | +35 | 156,870 | 0.4% | 1.10B | 1 |
+| 89 | TRURL 2 7B | PL | Voicelab | [Voicelab](https://huggingface.co/Voicelab) | 1,054 | +20 | 300,415 | 0.3% | 6.74B | 2 |
+| 90 | OCRonos | FR | PleIAs | [PleIAs](https://huggingface.co/PleIAs) | 1,049 | +2 | 81,018 | 0.6% | 8.03B | 3 |
+| 91 | LeoLM HessianAI 7B | DE | LeoLM | [LeoLM](https://huggingface.co/LeoLM) | 1,031 | +92 | 799,974 | 0.1% | — | 3 |
+| 92 | Velvet 2B | IT | Almawave | [Almawave](https://huggingface.co/Almawave) | 1,006 | +13 | 84,096 | 0.5% | 2.22B | 1 |
+| 93 | Llama-Poro 2 70B | FI | LumiOpen | [LumiOpen](https://huggingface.co/LumiOpen) | 1,004 | -5 | 38,417 | 0.7% | 70.55B | 3 |
+| 94 | BgGPT Gemma 3 27B | BG | INSAIT | [INSAIT-Institute](https://huggingface.co/INSAIT-Institute) | 1,003 | +44 | 8,176 | 0.9% | 27.43B | 3 |
+| 95 | Domyn Small v1.0 | IT | Domyn | [domyn](https://huggingface.co/domyn) | 992 | +12 | 7,142 | 0.9% | 9.82B | 1 |
+| 96 | PLLuM 4B (2512) | PL | CYFRAGOVPL / PLLuM consortium | [CYFRAGOVPL](https://huggingface.co/CYFRAGOVPL) | 991 | -142 | 7,038 | 0.9% | 4.30B | 3 |
+| 97 | Qra 13B | PL | OPI-PG | [OPI-PG](https://huggingface.co/OPI-PG) | 989 | +27 | 144,596 | 0.4% | 13.02B | 1 |
+| 98 | Qra 7B | PL | OPI-PG | [OPI-PG](https://huggingface.co/OPI-PG) | 981 | +27 | 183,798 | 0.3% | 6.74B | 1 |
+| 99 | BgGPT Gemma 3 12B | BG | INSAIT | [INSAIT-Institute](https://huggingface.co/INSAIT-Institute) | 980 | -1 | 217,662 | 0.3% | 12.19B | 3 |
+| 100 | CroissantLLM Base | FR | croissantllm | [croissantllm](https://huggingface.co/croissantllm) | 971 | -23 | 56,693 | 0.6% | 1.35B | 3 |
+| 101 | Poro 34B | FI | LumiOpen | [LumiOpen](https://huggingface.co/LumiOpen) | 944 | +22 | 227,471 | 0.3% | 35.13B | 4 |
+| 102 | GaMS 27B | SI | CJVT UL (Center za jezikovne vire in tehnologije, University of Ljubljana) | [cjvt](https://huggingface.co/cjvt) | 859 | -1 | 37,355 | 0.6% | 27.23B | 3 |
+| 103 | GaMS2 27B | SI | CJVT UL (Center za jezikovne vire in tehnologije, University of Ljubljana) | [cjvt](https://huggingface.co/cjvt) | 858 | +43 | 1,163 | 0.8% | 27.23B | 3 |
+| 104 | Llama-PLLuM 70B (2512) | PL | CYFRAGOVPL / PLLuM consortium | [CYFRAGOVPL](https://huggingface.co/CYFRAGOVPL) | 831 | -10 | 12,380 | 0.7% | 70.55B | 2 |
+| 105 | Salamandra 7B (base) | ES | BSC-LT | [BSC-LT](https://huggingface.co/BSC-LT) | 830 | -17 | 48,298 | 0.6% | 7.77B | 1 |
+| 106 | Pleias RAG 1B | FR | PleIAs | [PleIAs](https://huggingface.co/PleIAs) | 782 | +18 | 18,214 | 0.7% | 1.20B | 2 |
+| 107 | GaMS 2B | SI | CJVT UL (Center za jezikovne vire in tehnologije, University of Ljubljana) | [cjvt](https://huggingface.co/cjvt) | 704 | +9 | 19,843 | 0.6% | 3.20B | 2 |
+| 108 | Llama-PLLuM 8B (2412) | PL | CYFRAGOVPL / PLLuM consortium | [CYFRAGOVPL](https://huggingface.co/CYFRAGOVPL) | 700 | -11 | 70,117 | 0.4% | 8.03B | 3 |
+| 109 | MamayLM Gemma 3 12B v1.0 | UA | INSAIT | [INSAIT-Institute](https://huggingface.co/INSAIT-Institute) | 694 | +15 | 43,800 | 0.5% | 12.19B | 2 |
+| 110 | Pleias RAG 350M | FR | PleIAs | [PleIAs](https://huggingface.co/PleIAs) | 661 | +31 | 13,843 | 0.6% | 353.4M | 2 |
+| 111 | BgGPT Gemma 3 4B | BG | INSAIT | [INSAIT-Institute](https://huggingface.co/INSAIT-Institute) | 640 | -1 | 13,603 | 0.6% | 4.33B | 3 |
+| 112 | EuroLLM-9B (base) | EU | utter-project | [utter-project](https://huggingface.co/utter-project) | 618 | +2 | 81,937 | 0.3% | 9.15B | 1 |
+| 113 | ALIA 40B (base) | ES | BSC-LT | [BSC-LT](https://huggingface.co/BSC-LT) | 583 | -10 | 450,973 | 0.1% | 40.43B | 1 |
+| 114 | LeoLM Mistral HessianAI 7B | DE | LeoLM | [LeoLM](https://huggingface.co/LeoLM) | 581 | +133 | 232,480 | 0.2% | — | 2 |
+| 115 | TildeOpen 30B (64k) | LV | Tilde | [TildeAI](https://huggingface.co/TildeAI) | 574 | -6 | 2,791 | 0.6% | 30.68B | 1 |
+| 116 | ALIA 40B Instruct (2601) | ES | BSC-LT | [BSC-LT](https://huggingface.co/BSC-LT) | 557 | +34 | 32,331 | 0.4% | 40.43B | 2 |
+| 117 | Occiglot 7B EU5 | EU | occiglot | [occiglot](https://huggingface.co/occiglot) | 553 | +44 | 321,817 | 0.1% | 7.24B | 2 |
+| 118 | Maestrale Chat v0.3 | IT | mii-llm | [mii-llm](https://huggingface.co/mii-llm) | 526 | +41 | 52,002 | 0.3% | 7.24B | 5 |
+| 119 | Soofi S Base | DE | Soofi Project | [Soofi-Project](https://huggingface.co/Soofi-Project) | 510 | 0 | 1,273 | 0.5% | 31.58B | 2 |
+| 120 | Soofi S Instruct Preview | DE | Soofi Project | [Soofi-Project](https://huggingface.co/Soofi-Project) | 498 | +21 | 7,190 | 0.5% | 31.59B | 6 |
+| 121 | Llama-PLLuM 8B (2512) | PL | CYFRAGOVPL / PLLuM consortium | [CYFRAGOVPL](https://huggingface.co/CYFRAGOVPL) | 475 | -73 | 3,488 | 0.5% | 8.03B | 3 |
+| 122 | Nesso 0.4B Agentic | IT | mii-llm | [mii-llm](https://huggingface.co/mii-llm) | 473 | -5 | 2,795 | 0.5% | 560.9M | 2 |
+| 123 | Maestrale Chat v0.2 | IT | mii-llm | [mii-llm](https://huggingface.co/mii-llm) | 454 | +45 | 50,896 | 0.3% | 7.24B | 1 |
+| 124 | Meltemi 7B v1 | GR | ILSP | [ilsp](https://huggingface.co/ilsp) | 447 | -3 | 44,313 | 0.3% | 7.70B | 5 |
+| 125 | GaMS 1B | SI | CJVT UL (Center za jezikovne vire in tehnologije, University of Ljubljana) | [cjvt](https://huggingface.co/cjvt) | 437 | -21 | 15,619 | 0.4% | 1.54B | 4 |
+| 126 | Meltemi 7B v1.5 | GR | ILSP | [ilsp](https://huggingface.co/ilsp) | 407 | +3 | 38,924 | 0.3% | 7.48B | 2 |
+| 127 | LeoLM HessianAI 13B | DE | LeoLM | [LeoLM](https://huggingface.co/LeoLM) | 388 | +3 | 106,786 | 0.2% | — | 3 |
+| 128 | Pharia-1-LLM-7B-control | DE | Aleph Alpha | [Aleph-Alpha](https://huggingface.co/Aleph-Alpha) | 386 | +8 | 75,865 | 0.2% | 7.04B | 4 |
+| 129 | Nesso 4B | IT | mii-llm | [mii-llm](https://huggingface.co/mii-llm) | 371 | -2 | 2,396 | 0.4% | 4.02B | 2 |
+| 130 | BgGPT Gemma 2 2.6B | BG | INSAIT | [INSAIT-Institute](https://huggingface.co/INSAIT-Institute) | 362 | +1 | 21,622 | 0.3% | 2.61B | 2 |
+| 131 | BgGPT Gemma 2 9B | BG | INSAIT | [INSAIT-Institute](https://huggingface.co/INSAIT-Institute) | 342 | -1 | 27,012 | 0.3% | 9.24B | 2 |
+| 132 | Leanstral 1.5 (119B-A6B) | FR | Mistral AI | [mistralai](https://huggingface.co/mistralai) | 284 | +18 | 1,033 | 0.3% | — | 1 |
+| 133 | Bielik-11B v2 (base) | PL | SpeakLeash / ACK Cyfronet AGH | [speakleash](https://huggingface.co/speakleash) | 250 | -2 | 41,484 | 0.2% | 11.17B | 1 |
+| 134 | Zagreus 0.4B (ITA) | IT | mii-llm | [mii-llm](https://huggingface.co/mii-llm) | 245 | -4 | 4,859 | 0.2% | 437.8M | 1 |
+| 135 | BgGPT Gemma 2 27B | BG | INSAIT | [INSAIT-Institute](https://huggingface.co/INSAIT-Institute) | 244 | 0 | 11,546 | 0.2% | 27.23B | 2 |
+| 136 | MamayLM Gemma 2 9B v0.1 | UA | INSAIT | [INSAIT-Institute](https://huggingface.co/INSAIT-Institute) | 227 | +1 | 21,305 | 0.2% | 9.24B | 2 |
+| 137 | BgGPT 7B v0.1 | BG | INSAIT | [INSAIT-Institute](https://huggingface.co/INSAIT-Institute) | 210 | +2 | 16,320 | 0.2% | 7.29B | 2 |
+| 138 | Pleias Pico | FR | PleIAs | [PleIAs](https://huggingface.co/PleIAs) | 198 | +2 | 5,267 | 0.2% | 353.4M | 2 |
+| 139 | LeoLM HessianAI 70B | DE | LeoLM | [LeoLM](https://huggingface.co/LeoLM) | 194 | -7 | 19,341 | 0.2% | 68.98B | 2 |
+| 140 | Llama-PLLuM 70B (2412) | PL | CYFRAGOVPL / PLLuM consortium | [CYFRAGOVPL](https://huggingface.co/CYFRAGOVPL) | 163 | +9 | 38,541 | 0.1% | 70.55B | 3 |
+| 141 | OpenEuroLLM Prelude | EU | openeurollm | [openeurollm](https://huggingface.co/openeurollm) | 163 | -16 | 1,986 | 0.2% | — | 1 |
+| 142 | Bielik-11B v2.5 | PL | SpeakLeash / ACK Cyfronet AGH | [speakleash](https://huggingface.co/speakleash) | 158 | 0 | 5,079 | 0.2% | 11.51B | 5 |
+| 143 | EuroLLM-22B (Preview base) | EU | utter-project | [utter-project](https://huggingface.co/utter-project) | 148 | +1 | 2,258 | 0.1% | — | 1 |
+| 144 | Pleias Nano | FR | PleIAs | [PleIAs](https://huggingface.co/PleIAs) | 140 | +2 | 7,108 | 0.1% | 1.20B | 2 |
+| 145 | Llama-PLLuM 70B (2508) | PL | CYFRAGOVPL / PLLuM consortium | [CYFRAGOVPL](https://huggingface.co/CYFRAGOVPL) | 136 | -1 | 4,795 | 0.1% | 70.55B | 3 |
+| 146 | PLLuM 8x7B (2412) | PL | CYFRAGOVPL / PLLuM consortium | [CYFRAGOVPL](https://huggingface.co/CYFRAGOVPL) | 119 | -2 | 28,189 | 0.1% | 46.70B | 6 |
+| 147 | Nesso 0.4B Instruct | IT | mii-llm | [mii-llm](https://huggingface.co/mii-llm) | 110 | -3 | 1,228 | 0.1% | 560.9M | 1 |
+| 148 | Leanstral (2603) | FR | Mistral AI | [mistralai](https://huggingface.co/mistralai) | 105 | +2 | 958 | 0.1% | — | 1 |
+| 149 | Zagreus 0.4B (SPA) | IT | mii-llm | [mii-llm](https://huggingface.co/mii-llm) | 82 | 0 | 177 | 0.1% | 437.8M | 1 |
 | 150 | PLLuM 12B nc (2507) | PL | CYFRAGOVPL / PLLuM consortium | [CYFRAGOVPL](https://huggingface.co/CYFRAGOVPL) | 80 | 0 | 6,035 | 0.1% | 12.25B | 3 |
 | 151 | Pleias SLM RAG | FR | PleIAs | [PleIAs](https://huggingface.co/PleIAs) | 42 | 0 | 329 | 0.0% | 321.0M | 1 |
-| 152 | Zagreus 0.4B (POR) | IT | mii-llm | [mii-llm](https://huggingface.co/mii-llm) | 42 | -4 | 250 | 0.0% | 437.8M | 1 |
-| 153 | Zagreus 0.4B (FRA) | IT | mii-llm | [mii-llm](https://huggingface.co/mii-llm) | 25 | +1 | 138 | 0.0% | 437.8M | 1 |
-| 154 | Open Zagreus 0.4B | IT | mii-llm | [mii-llm](https://huggingface.co/mii-llm) | 19 | +1 | 349 | 0.0% | 437.8M | 1 |
+| 152 | Zagreus 0.4B (POR) | IT | mii-llm | [mii-llm](https://huggingface.co/mii-llm) | 42 | 0 | 250 | 0.0% | 437.8M | 1 |
+| 153 | Zagreus 0.4B (FRA) | IT | mii-llm | [mii-llm](https://huggingface.co/mii-llm) | 25 | 0 | 138 | 0.0% | 437.8M | 1 |
+| 154 | Open Zagreus 0.4B | IT | mii-llm | [mii-llm](https://huggingface.co/mii-llm) | 19 | 0 | 349 | 0.0% | 437.8M | 1 |
 | 155 | Maestrale Chat v0.1 | IT | mii-llm | [mii-llm](https://huggingface.co/mii-llm) | 15 | 0 | 106 | 0.0% | 7.24B | 1 |
-| 156 | TildeOpen 15B WMT26 (cs-de) | LV | Tilde | [TildeAI](https://huggingface.co/TildeAI) | 14 | -2 | 204 | 0.0% | 15.17B | 3 |
-| 157 | TildeOpen 8B WMT26 (cs-de) | LV | Tilde | [TildeAI](https://huggingface.co/TildeAI) | 13 | -3 | 151 | 0.0% | 8.16B | 3 |
+| 156 | TildeOpen 15B WMT26 (cs-de) | LV | Tilde | [TildeAI](https://huggingface.co/TildeAI) | 14 | 0 | 204 | 0.0% | 15.17B | 3 |
+| 157 | TildeOpen 8B WMT26 (cs-de) | LV | Tilde | [TildeAI](https://huggingface.co/TildeAI) | 13 | 0 | 151 | 0.0% | 8.16B | 3 |
 | 158 | Emma 5 Boost | IT | mii-llm | [mii-llm](https://huggingface.co/mii-llm) | 0 | 0 | 8 | 0.0% | 1.39B | 1 |
 
 ## Organizations
@@ -192,31 +192,31 @@ Same downloads, aggregated across every model version an organization publishes.
 
 | Rank | Organization | Developer | Country | Downloads (30d) | All-time | Models | Momentum |
 | ---: | --- | --- | :---: | ---: | ---: | ---: | ---: |
-| 1 | [mistralai](https://huggingface.co/mistralai) | Mistral AI | FR | 8,447,675 | 296,134,676 | 30 | 2.9% |
-| 2 | [PleIAs](https://huggingface.co/PleIAs) | PleIAs | FR | 1,048,820 | 1,421,415 | 11 | 68.9% |
-| 3 | [swiss-ai](https://huggingface.co/swiss-ai) | swiss-ai | CH | 747,699 | 4,733,116 | 7 | 15.5% |
-| 4 | [utter-project](https://huggingface.co/utter-project) | utter-project | EU | 309,544 | 2,124,337 | 11 | 13.9% |
-| 5 | [speakleash](https://huggingface.co/speakleash) | SpeakLeash / ACK Cyfronet AGH | PL | 274,291 | 6,279,948 | 12 | 4.3% |
-| 6 | [BSC-LT](https://huggingface.co/BSC-LT) | BSC-LT | ES | 39,699 | 1,343,166 | 5 | 2.8% |
-| 7 | [LumiOpen](https://huggingface.co/LumiOpen) | LumiOpen | FI | 17,709 | 425,263 | 6 | 3.4% |
-| 8 | [INSAIT-Institute](https://huggingface.co/INSAIT-Institute) | INSAIT | BG | 13,966 | 535,505 | 13 | 2.2% |
-| 9 | [cjvt](https://huggingface.co/cjvt) | CJVT UL (Center za jezikovne vire in tehnologije, University of Ljubljana) | SI | 9,201 | 186,382 | 6 | 3.2% |
-| 10 | [mii-llm](https://huggingface.co/mii-llm) | mii-llm | IT | 8,544 | 351,951 | 14 | 1.9% |
-| 11 | [ilsp](https://huggingface.co/ilsp) | ILSP | GR | 7,542 | 189,786 | 3 | 2.6% |
-| 12 | [openGPT-X](https://huggingface.co/openGPT-X) | openGPT-X | DE | 6,884 | 849,747 | 3 | 0.7% |
-| 13 | [CYFRAGOVPL](https://huggingface.co/CYFRAGOVPL) | CYFRAGOVPL / PLLuM consortium | PL | 6,517 | 365,651 | 10 | 1.4% |
-| 14 | [occiglot](https://huggingface.co/occiglot) | occiglot | EU | 3,964 | 691,759 | 2 | 0.5% |
-| 15 | [Soofi-Project](https://huggingface.co/Soofi-Project) | Soofi Project | DE | 3,594 | 23,212 | 4 | 2.9% |
-| 16 | [sapienzanlp](https://huggingface.co/sapienzanlp) | SapienzaNLP | IT | 3,466 | 131,599 | 1 | 1.5% |
-| 17 | [Almawave](https://huggingface.co/Almawave) | Almawave | IT | 3,327 | 148,432 | 2 | 1.3% |
-| 18 | [OPI-PG](https://huggingface.co/OPI-PG) | OPI-PG | PL | 2,951 | 485,113 | 3 | 0.5% |
-| 19 | [Voicelab](https://huggingface.co/Voicelab) | Voicelab | PL | 2,175 | 655,382 | 2 | 0.3% |
-| 20 | [croissantllm](https://huggingface.co/croissantllm) | croissantllm | FR | 2,099 | 151,958 | 2 | 0.8% |
-| 21 | [LeoLM](https://huggingface.co/LeoLM) | LeoLM | DE | 1,973 | 1,158,297 | 4 | 0.2% |
-| 22 | [TildeAI](https://huggingface.co/TildeAI) | Tilde | LV | 1,831 | 101,925 | 4 | 0.9% |
-| 23 | [domyn](https://huggingface.co/domyn) | Domyn | IT | 980 | 7,125 | 1 | 0.9% |
-| 24 | [Aleph-Alpha](https://huggingface.co/Aleph-Alpha) | Aleph Alpha | DE | 378 | 75,852 | 1 | 0.2% |
-| 25 | [openeurollm](https://huggingface.co/openeurollm) | openeurollm | EU | 179 | 1,984 | 1 | 0.2% |
+| 1 | [mistralai](https://huggingface.co/mistralai) | Mistral AI | FR | 8,477,097 | 296,439,239 | 30 | 2.9% |
+| 2 | [PleIAs](https://huggingface.co/PleIAs) | PleIAs | FR | 1,047,918 | 1,422,185 | 11 | 68.8% |
+| 3 | [swiss-ai](https://huggingface.co/swiss-ai) | swiss-ai | CH | 778,304 | 4,784,096 | 7 | 15.9% |
+| 4 | [utter-project](https://huggingface.co/utter-project) | utter-project | EU | 321,650 | 2,140,125 | 11 | 14.4% |
+| 5 | [speakleash](https://huggingface.co/speakleash) | SpeakLeash / ACK Cyfronet AGH | PL | 265,222 | 6,282,131 | 12 | 4.2% |
+| 6 | [BSC-LT](https://huggingface.co/BSC-LT) | BSC-LT | ES | 39,290 | 1,344,004 | 5 | 2.7% |
+| 7 | [LumiOpen](https://huggingface.co/LumiOpen) | LumiOpen | FI | 17,837 | 425,504 | 6 | 3.4% |
+| 8 | [INSAIT-Institute](https://huggingface.co/INSAIT-Institute) | INSAIT | BG | 13,567 | 535,703 | 13 | 2.1% |
+| 9 | [cjvt](https://huggingface.co/cjvt) | CJVT UL (Center za jezikovne vire in tehnologije, University of Ljubljana) | SI | 9,747 | 187,247 | 6 | 3.4% |
+| 10 | [mii-llm](https://huggingface.co/mii-llm) | mii-llm | IT | 8,708 | 352,291 | 14 | 1.9% |
+| 11 | [ilsp](https://huggingface.co/ilsp) | ILSP | GR | 7,430 | 189,883 | 3 | 2.6% |
+| 12 | [openGPT-X](https://huggingface.co/openGPT-X) | openGPT-X | DE | 6,495 | 850,020 | 3 | 0.7% |
+| 13 | [CYFRAGOVPL](https://huggingface.co/CYFRAGOVPL) | CYFRAGOVPL / PLLuM consortium | PL | 6,145 | 365,743 | 10 | 1.3% |
+| 14 | [occiglot](https://huggingface.co/occiglot) | occiglot | EU | 4,081 | 691,962 | 2 | 0.5% |
+| 15 | [Soofi-Project](https://huggingface.co/Soofi-Project) | Soofi Project | DE | 3,608 | 23,273 | 4 | 2.9% |
+| 16 | [Almawave](https://huggingface.co/Almawave) | Almawave | IT | 3,472 | 148,663 | 2 | 1.4% |
+| 17 | [sapienzanlp](https://huggingface.co/sapienzanlp) | SapienzaNLP | IT | 3,456 | 131,804 | 1 | 1.5% |
+| 18 | [OPI-PG](https://huggingface.co/OPI-PG) | OPI-PG | PL | 3,040 | 485,264 | 3 | 0.5% |
+| 19 | [Voicelab](https://huggingface.co/Voicelab) | Voicelab | PL | 2,220 | 655,474 | 2 | 0.3% |
+| 20 | [LeoLM](https://huggingface.co/LeoLM) | LeoLM | DE | 2,194 | 1,158,581 | 4 | 0.2% |
+| 21 | [croissantllm](https://huggingface.co/croissantllm) | croissantllm | FR | 2,060 | 151,991 | 2 | 0.8% |
+| 22 | [TildeAI](https://huggingface.co/TildeAI) | Tilde | LV | 1,860 | 101,984 | 4 | 0.9% |
+| 23 | [domyn](https://huggingface.co/domyn) | Domyn | IT | 992 | 7,142 | 1 | 0.9% |
+| 24 | [Aleph-Alpha](https://huggingface.co/Aleph-Alpha) | Aleph Alpha | DE | 386 | 75,865 | 1 | 0.2% |
+| 25 | [openeurollm](https://huggingface.co/openeurollm) | openeurollm | EU | 163 | 1,986 | 1 | 0.2% |
 
 ### By best single model
 
@@ -224,31 +224,31 @@ Ranked by each organization's single highest-downloading model (no summing acros
 
 | Rank | Organization | Best model | Downloads (30d) | All-time | Overall model rank |
 | ---: | --- | --- | ---: | ---: | ---: |
-| 1 | [mistralai](https://huggingface.co/mistralai) | Mistral 7B v0.3 | 2,570,029 | 56,552,629 | 1 |
-| 2 | [swiss-ai](https://huggingface.co/swiss-ai) | Apertus 8B (2509) | 491,614 | 4,004,845 | 6 |
-| 3 | [PleIAs](https://huggingface.co/PleIAs) | Pleias 350M Preview | 352,528 | 415,601 | 8 |
-| 4 | [utter-project](https://huggingface.co/utter-project) | EuroLLM-22B-Instruct (2512) | 230,760 | 426,904 | 14 |
-| 5 | [speakleash](https://huggingface.co/speakleash) | Bielik-11B v3.0 | 226,739 | 4,136,017 | 15 |
-| 6 | [BSC-LT](https://huggingface.co/BSC-LT) | Salamandra 7B Instruct | 33,496 | 669,814 | 27 |
-| 7 | [ilsp](https://huggingface.co/ilsp) | Llama-Krikri 8B | 6,688 | 106,557 | 40 |
-| 8 | [INSAIT-Institute](https://huggingface.co/INSAIT-Institute) | BgGPT 7B v0.2 | 5,340 | 110,789 | 43 |
-| 9 | [cjvt](https://huggingface.co/cjvt) | GaMS3 12B | 4,705 | 64,094 | 45 |
-| 10 | [LumiOpen](https://huggingface.co/LumiOpen) | Llama-Poro 2 8B | 4,671 | 45,664 | 46 |
-| 11 | [openGPT-X](https://huggingface.co/openGPT-X) | Teuken 7B v0.6 | 4,209 | 667,518 | 49 |
-| 12 | [mii-llm](https://huggingface.co/mii-llm) | Minerva Chat v0.1 | 3,965 | 90,353 | 50 |
-| 13 | [sapienzanlp](https://huggingface.co/sapienzanlp) | Minerva 7B v1.0 | 3,466 | 131,599 | 55 |
-| 14 | [occiglot](https://huggingface.co/occiglot) | Occiglot 7B (bilingual) | 3,455 | 369,994 | 56 |
-| 15 | [Almawave](https://huggingface.co/Almawave) | Velvet 14B | 2,334 | 64,435 | 61 |
-| 16 | [Soofi-Project](https://huggingface.co/Soofi-Project) | Soofi S Isar Preview | 1,432 | 12,000 | 73 |
-| 17 | [CYFRAGOVPL](https://huggingface.co/CYFRAGOVPL) | PLLuM 12B (2412) | 1,420 | 175,942 | 75 |
-| 18 | [TildeAI](https://huggingface.co/TildeAI) | TildeOpen 30B | 1,224 | 98,784 | 80 |
-| 19 | [Voicelab](https://huggingface.co/Voicelab) | TRURL 2 13B | 1,141 | 355,011 | 85 |
-| 20 | [croissantllm](https://huggingface.co/croissantllm) | CroissantLLM Chat v0.1 | 1,105 | 95,290 | 88 |
-| 21 | [OPI-PG](https://huggingface.co/OPI-PG) | Qra 1B | 1,035 | 156,810 | 90 |
-| 22 | [domyn](https://huggingface.co/domyn) | Domyn Small v1.0 | 980 | 7,125 | 96 |
-| 23 | [LeoLM](https://huggingface.co/LeoLM) | LeoLM HessianAI 7B | 939 | 799,844 | 100 |
-| 24 | [Aleph-Alpha](https://huggingface.co/Aleph-Alpha) | Pharia-1-LLM-7B-control | 378 | 75,852 | 128 |
-| 25 | [openeurollm](https://huggingface.co/openeurollm) | OpenEuroLLM Prelude | 179 | 1,984 | 140 |
+| 1 | [mistralai](https://huggingface.co/mistralai) | Mistral 7B v0.3 | 2,570,218 | 56,659,657 | 1 |
+| 2 | [swiss-ai](https://huggingface.co/swiss-ai) | Apertus 8B (2509) | 489,715 | 4,021,616 | 6 |
+| 3 | [PleIAs](https://huggingface.co/PleIAs) | Pleias 350M Preview | 352,280 | 415,802 | 8 |
+| 4 | [utter-project](https://huggingface.co/utter-project) | EuroLLM-22B-Instruct (2512) | 244,408 | 440,765 | 14 |
+| 5 | [speakleash](https://huggingface.co/speakleash) | Bielik-11B v3.0 | 217,917 | 4,136,932 | 15 |
+| 6 | [BSC-LT](https://huggingface.co/BSC-LT) | Salamandra 7B Instruct | 33,133 | 670,452 | 27 |
+| 7 | [ilsp](https://huggingface.co/ilsp) | Llama-Krikri 8B | 6,576 | 106,646 | 40 |
+| 8 | [INSAIT-Institute](https://huggingface.co/INSAIT-Institute) | BgGPT 7B v0.2 | 5,199 | 110,802 | 43 |
+| 9 | [cjvt](https://huggingface.co/cjvt) | GaMS3 12B | 5,198 | 64,848 | 44 |
+| 10 | [LumiOpen](https://huggingface.co/LumiOpen) | Llama-Poro 2 8B | 4,789 | 45,813 | 46 |
+| 11 | [mii-llm](https://huggingface.co/mii-llm) | Minerva Chat v0.1 | 3,963 | 90,452 | 49 |
+| 12 | [openGPT-X](https://huggingface.co/openGPT-X) | Teuken 7B v0.6 | 3,766 | 667,668 | 51 |
+| 13 | [occiglot](https://huggingface.co/occiglot) | Occiglot 7B (bilingual) | 3,528 | 370,145 | 53 |
+| 14 | [sapienzanlp](https://huggingface.co/sapienzanlp) | Minerva 7B v1.0 | 3,456 | 131,804 | 55 |
+| 15 | [Almawave](https://huggingface.co/Almawave) | Velvet 14B | 2,466 | 64,567 | 59 |
+| 16 | [CYFRAGOVPL](https://huggingface.co/CYFRAGOVPL) | PLLuM 12B (2412) | 1,440 | 175,989 | 73 |
+| 17 | [Soofi-Project](https://huggingface.co/Soofi-Project) | Soofi S Isar Preview | 1,428 | 12,000 | 74 |
+| 18 | [TildeAI](https://huggingface.co/TildeAI) | TildeOpen 30B | 1,259 | 98,838 | 79 |
+| 19 | [Voicelab](https://huggingface.co/Voicelab) | TRURL 2 13B | 1,166 | 355,059 | 83 |
+| 20 | [croissantllm](https://huggingface.co/croissantllm) | CroissantLLM Chat v0.1 | 1,089 | 95,298 | 87 |
+| 21 | [OPI-PG](https://huggingface.co/OPI-PG) | Qra 1B | 1,070 | 156,870 | 88 |
+| 22 | [LeoLM](https://huggingface.co/LeoLM) | LeoLM HessianAI 7B | 1,031 | 799,974 | 91 |
+| 23 | [domyn](https://huggingface.co/domyn) | Domyn Small v1.0 | 992 | 7,142 | 95 |
+| 24 | [Aleph-Alpha](https://huggingface.co/Aleph-Alpha) | Pharia-1-LLM-7B-control | 386 | 75,865 | 128 |
+| 25 | [openeurollm](https://huggingface.co/openeurollm) | OpenEuroLLM Prelude | 163 | 1,986 | 141 |
 
 ### By momentum
 
@@ -256,31 +256,31 @@ Sorted by momentum (highest first). Momentum highlights orgs whose recent downlo
 
 | Momentum rank | Organization | Momentum | Downloads (30d) | All-time | Downloads rank |
 | ---: | --- | ---: | ---: | ---: | ---: |
-| 1 | [PleIAs](https://huggingface.co/PleIAs) | 68.9% | 1,048,820 | 1,421,415 | 2 |
-| 2 | [swiss-ai](https://huggingface.co/swiss-ai) | 15.5% | 747,699 | 4,733,116 | 3 |
-| 3 | [utter-project](https://huggingface.co/utter-project) | 13.9% | 309,544 | 2,124,337 | 4 |
-| 4 | [speakleash](https://huggingface.co/speakleash) | 4.3% | 274,291 | 6,279,948 | 5 |
-| 5 | [LumiOpen](https://huggingface.co/LumiOpen) | 3.4% | 17,709 | 425,263 | 7 |
-| 6 | [cjvt](https://huggingface.co/cjvt) | 3.2% | 9,201 | 186,382 | 9 |
-| 7 | [Soofi-Project](https://huggingface.co/Soofi-Project) | 2.9% | 3,594 | 23,212 | 15 |
-| 8 | [mistralai](https://huggingface.co/mistralai) | 2.9% | 8,447,675 | 296,134,676 | 1 |
-| 9 | [BSC-LT](https://huggingface.co/BSC-LT) | 2.8% | 39,699 | 1,343,166 | 6 |
-| 10 | [ilsp](https://huggingface.co/ilsp) | 2.6% | 7,542 | 189,786 | 11 |
-| 11 | [INSAIT-Institute](https://huggingface.co/INSAIT-Institute) | 2.2% | 13,966 | 535,505 | 8 |
-| 12 | [mii-llm](https://huggingface.co/mii-llm) | 1.9% | 8,544 | 351,951 | 10 |
-| 13 | [sapienzanlp](https://huggingface.co/sapienzanlp) | 1.5% | 3,466 | 131,599 | 16 |
-| 14 | [CYFRAGOVPL](https://huggingface.co/CYFRAGOVPL) | 1.4% | 6,517 | 365,651 | 13 |
-| 15 | [Almawave](https://huggingface.co/Almawave) | 1.3% | 3,327 | 148,432 | 17 |
-| 16 | [domyn](https://huggingface.co/domyn) | 0.9% | 980 | 7,125 | 23 |
-| 17 | [TildeAI](https://huggingface.co/TildeAI) | 0.9% | 1,831 | 101,925 | 22 |
-| 18 | [croissantllm](https://huggingface.co/croissantllm) | 0.8% | 2,099 | 151,958 | 20 |
-| 19 | [openGPT-X](https://huggingface.co/openGPT-X) | 0.7% | 6,884 | 849,747 | 12 |
-| 20 | [OPI-PG](https://huggingface.co/OPI-PG) | 0.5% | 2,951 | 485,113 | 18 |
-| 21 | [occiglot](https://huggingface.co/occiglot) | 0.5% | 3,964 | 691,759 | 14 |
-| 22 | [Voicelab](https://huggingface.co/Voicelab) | 0.3% | 2,175 | 655,382 | 19 |
-| 23 | [Aleph-Alpha](https://huggingface.co/Aleph-Alpha) | 0.2% | 378 | 75,852 | 24 |
-| 24 | [openeurollm](https://huggingface.co/openeurollm) | 0.2% | 179 | 1,984 | 25 |
-| 25 | [LeoLM](https://huggingface.co/LeoLM) | 0.2% | 1,973 | 1,158,297 | 21 |
+| 1 | [PleIAs](https://huggingface.co/PleIAs) | 68.8% | 1,047,918 | 1,422,185 | 2 |
+| 2 | [swiss-ai](https://huggingface.co/swiss-ai) | 15.9% | 778,304 | 4,784,096 | 3 |
+| 3 | [utter-project](https://huggingface.co/utter-project) | 14.4% | 321,650 | 2,140,125 | 4 |
+| 4 | [speakleash](https://huggingface.co/speakleash) | 4.2% | 265,222 | 6,282,131 | 5 |
+| 5 | [LumiOpen](https://huggingface.co/LumiOpen) | 3.4% | 17,837 | 425,504 | 7 |
+| 6 | [cjvt](https://huggingface.co/cjvt) | 3.4% | 9,747 | 187,247 | 9 |
+| 7 | [Soofi-Project](https://huggingface.co/Soofi-Project) | 2.9% | 3,608 | 23,273 | 15 |
+| 8 | [mistralai](https://huggingface.co/mistralai) | 2.9% | 8,477,097 | 296,439,239 | 1 |
+| 9 | [BSC-LT](https://huggingface.co/BSC-LT) | 2.7% | 39,290 | 1,344,004 | 6 |
+| 10 | [ilsp](https://huggingface.co/ilsp) | 2.6% | 7,430 | 189,883 | 11 |
+| 11 | [INSAIT-Institute](https://huggingface.co/INSAIT-Institute) | 2.1% | 13,567 | 535,703 | 8 |
+| 12 | [mii-llm](https://huggingface.co/mii-llm) | 1.9% | 8,708 | 352,291 | 10 |
+| 13 | [sapienzanlp](https://huggingface.co/sapienzanlp) | 1.5% | 3,456 | 131,804 | 17 |
+| 14 | [Almawave](https://huggingface.co/Almawave) | 1.4% | 3,472 | 148,663 | 16 |
+| 15 | [CYFRAGOVPL](https://huggingface.co/CYFRAGOVPL) | 1.3% | 6,145 | 365,743 | 13 |
+| 16 | [domyn](https://huggingface.co/domyn) | 0.9% | 992 | 7,142 | 23 |
+| 17 | [TildeAI](https://huggingface.co/TildeAI) | 0.9% | 1,860 | 101,984 | 22 |
+| 18 | [croissantllm](https://huggingface.co/croissantllm) | 0.8% | 2,060 | 151,991 | 21 |
+| 19 | [openGPT-X](https://huggingface.co/openGPT-X) | 0.7% | 6,495 | 850,020 | 12 |
+| 20 | [OPI-PG](https://huggingface.co/OPI-PG) | 0.5% | 3,040 | 485,264 | 18 |
+| 21 | [occiglot](https://huggingface.co/occiglot) | 0.5% | 4,081 | 691,962 | 14 |
+| 22 | [Voicelab](https://huggingface.co/Voicelab) | 0.3% | 2,220 | 655,474 | 19 |
+| 23 | [Aleph-Alpha](https://huggingface.co/Aleph-Alpha) | 0.2% | 386 | 75,865 | 24 |
+| 24 | [LeoLM](https://huggingface.co/LeoLM) | 0.2% | 2,194 | 1,158,581 | 20 |
+| 25 | [openeurollm](https://huggingface.co/openeurollm) | 0.2% | 163 | 1,986 | 25 |
 
 ## Notes
 
