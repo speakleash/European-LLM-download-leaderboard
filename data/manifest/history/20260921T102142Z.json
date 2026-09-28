@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T11:23:45Z",
+  "generated_at": "2026-09-21T10:21:42Z",
   "config_version": 2,
   "config_path": "european-llm-hf-download-leaderboard.json",
   "config_content_hash": "sha256:1a209b835d91c5e52a873e1c2ea445ed9cb2f3da12c5981f1db5d6ead7406dd2",
@@ -30,7 +30,7 @@
     "swiss-ai",
     "utter-project"
   ],
-  "manifest_content_hash": "sha256:d96ba3d4f7f6366369ad3ccc02248d83320084dfd7ed43b25e0a1327c7f6ccb9",
+  "manifest_content_hash": "sha256:1c9214801b10390077e1bfd006eb1ea0945dac84f1f47b146474e9bd897fbc8f",
   "rows": {
     "bielik-11b-v3.0": {
       "display_name": "Bielik-11B v3.0",
@@ -1379,11 +1379,9 @@
       "repos": [
         "ilsp/Llama-Krikri-8B-Base",
         "ilsp/Llama-Krikri-8B-Instruct",
-        "ilsp/Llama-Krikri-8B-Instruct-4bit-mlx",
         "ilsp/Llama-Krikri-8B-Instruct-GGUF",
         "ilsp/Llama-Krikri-8B-Instruct-bnb-4bit",
-        "ilsp/Llama-Krikri-8B-Instruct-v1.5",
-        "ilsp/Llama-Krikri-8B-Instruct-v1.5-4bit-mlx"
+        "ilsp/Llama-Krikri-8B-Instruct-v1.5"
       ]
     },
     "occiglot-7b-eu5": {
@@ -1453,8 +1451,7 @@
         "cjvt/GaMS3-12B",
         "cjvt/GaMS3-12B-GRPO-Translator",
         "cjvt/GaMS3-12B-Instruct",
-        "cjvt/GaMS3-12B-Instruct-Lex",
-        "cjvt/GaMS3-12B-Multimodal"
+        "cjvt/GaMS3-12B-Instruct-Lex"
       ]
     },
     "gams2-27b": {
@@ -2230,7 +2227,6 @@
       "ilsp/UD_Greek-Lesbian",
       "ilsp/UD_Greek-Messenian",
       "ilsp/VoxKrikri-21-full",
-      "ilsp/base_slerp",
       "ilsp/justice",
       "ilsp/llama-krikri-8b-ag-mg-full-ft",
       "ilsp/llama-krikri-8b-ag-mg-qlora",
@@ -2286,8 +2282,6 @@
       "openeurollm/OLMo-3-7B-Dolci-Translated-A-75EN",
       "openeurollm/OLMo-3-7B-Instruct-SFT",
       "openeurollm/OLMo-3-7B-Think-SFT",
-      "openeurollm/complex-kda-1.3B-100B",
-      "openeurollm/complex-kda-hybrid-1.3B-100B",
       "openeurollm/datamix-0.7b-dolma3_dolmino_math-100bt",
       "openeurollm/datamix-0.7b-en_baseline-100bt",
       "openeurollm/datamix-0.7b-finephrase-100bt",
@@ -2316,22 +2310,13 @@
       "openeurollm/datamix-9b-60-40",
       "openeurollm/datamix-9b-80-20",
       "openeurollm/datamix-9b-Dolci-Translated-A-75EN",
-      "openeurollm/datamix-flag-top_level-0.7b-option_1-100bt",
-      "openeurollm/datamix-flag-top_level-0.7b-option_2-100bt",
-      "openeurollm/datamix-flag-top_level-0.7b-option_3-100bt",
-      "openeurollm/datamix-flag-top_level-0.7b-option_4-100bt",
-      "openeurollm/datamix-flag-top_level-0.7b-option_5-100bt",
-      "openeurollm/datamix-flag-top_level-0.7b-option_9-100bt",
       "openeurollm/dense_english_scaling_laws",
       "openeurollm/hplt2c-nemotron-cc_eurollm_500BT",
-      "openeurollm/kda-sigmoid-1.3B-100B",
-      "openeurollm/kda-sigmoid-hybrid-1.3B-100B",
       "openeurollm/oellm-32b",
       "openeurollm/oellm-9b-128k-theta32m-prelude",
       "openeurollm/oellm-9b-128k-theta32m-v3",
       "openeurollm/oellm-9b-256k-sft",
       "openeurollm/oellm-9b-256k-theta64m-prelude",
-      "openeurollm/oellm-9b-256k-theta64m-prelude-anneal300b",
       "openeurollm/oellm-9b-yarn-multilingual-v2-32k",
       "openeurollm/prelude-wsm-merges",
       "openeurollm/tokenizer-128k",
@@ -2624,7 +2609,6 @@
     "cjvt/GaMS3-12B-GRPO-Translator",
     "cjvt/GaMS3-12B-Instruct",
     "cjvt/GaMS3-12B-Instruct-Lex",
-    "cjvt/GaMS3-12B-Multimodal",
     "cjvt/OPT_GaMS-1B",
     "cjvt/OPT_GaMS-1B-Chat",
     "croissantllm/CroissantLLMBase",
@@ -2641,11 +2625,9 @@
     "domyn/Domyn-Small-v1.0",
     "ilsp/Llama-Krikri-8B-Base",
     "ilsp/Llama-Krikri-8B-Instruct",
-    "ilsp/Llama-Krikri-8B-Instruct-4bit-mlx",
     "ilsp/Llama-Krikri-8B-Instruct-GGUF",
     "ilsp/Llama-Krikri-8B-Instruct-bnb-4bit",
     "ilsp/Llama-Krikri-8B-Instruct-v1.5",
-    "ilsp/Llama-Krikri-8B-Instruct-v1.5-4bit-mlx",
     "ilsp/Meltemi-7B-Instruct-v1",
     "ilsp/Meltemi-7B-Instruct-v1-AWQ",
     "ilsp/Meltemi-7B-Instruct-v1-BnB-4bit",
