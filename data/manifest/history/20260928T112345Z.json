@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T11:59:38Z",
+  "generated_at": "2026-09-28T11:23:45Z",
   "config_version": 2,
   "config_path": "european-llm-hf-download-leaderboard.json",
   "config_content_hash": "sha256:1a209b835d91c5e52a873e1c2ea445ed9cb2f3da12c5981f1db5d6ead7406dd2",
@@ -30,7 +30,7 @@
     "swiss-ai",
     "utter-project"
   ],
-  "manifest_content_hash": "sha256:19e7bcca7e0386b20188b70db8a6e71fa7af6358a3b80316e59ee6b585596e04",
+  "manifest_content_hash": "sha256:d96ba3d4f7f6366369ad3ccc02248d83320084dfd7ed43b25e0a1327c7f6ccb9",
   "rows": {
     "bielik-11b-v3.0": {
       "display_name": "Bielik-11B v3.0",
@@ -1815,8 +1815,7 @@
       "official_org": "PleIAs",
       "repos": [
         "PleIAs/Baguettotron",
-        "PleIAs/Baguettotron-GGUF",
-        "PleIAs/Baguettotron-MoE"
+        "PleIAs/Baguettotron-GGUF"
       ]
     },
     "monad": {
@@ -1902,8 +1901,6 @@
       "Aleph-Alpha/Aleph-Alpha-GermanWeb-Grammar-Classifier-fastText",
       "Aleph-Alpha/Aleph-Alpha-GermanWeb-Quality-Classifier-BERT",
       "Aleph-Alpha/Aleph-Alpha-GermanWeb-Quality-Classifier-fastText",
-      "Aleph-Alpha/Kolibri-1",
-      "Aleph-Alpha/Kolibri-1-BF16",
       "Aleph-Alpha/Pharia-1-Embedding-4608-control",
       "Aleph-Alpha/Pharia-1-Embedding-4608-control-256",
       "Aleph-Alpha/Pharia-1-Embedding-4608-control-hf",
@@ -1916,6 +1913,7 @@
       "Aleph-Alpha/sp-baseline-research-1b-bf16",
       "Aleph-Alpha/sp-baseline-research-3b-bf16",
       "Aleph-Alpha/sp-baseline-research-7b-bf16",
+      "Aleph-Alpha/tfree-hat-pretrained-7b-base",
       "Aleph-Alpha/tfree-research-vocab-32k-fineweb-steps-370k",
       "Aleph-Alpha/tfree-research-vocab-32k-fineweb-steps-370k-instruct-10k",
       "Aleph-Alpha/umup-research-1b-bf16",
@@ -2040,7 +2038,6 @@
       "INSAIT-Institute/Llama3-8B-MixAT",
       "INSAIT-Institute/Llama3-8B-MixAT-GCG",
       "INSAIT-Institute/Llama3.1-8B-MixAT",
-      "INSAIT-Institute/MLRS",
       "INSAIT-Institute/Mistral-7B-MixAT",
       "INSAIT-Institute/OPC-R1-8B",
       "INSAIT-Institute/Qwen-14B-MixAT",
@@ -2146,7 +2143,6 @@
       "PleIAs/OCRerrcr",
       "PleIAs/Segmentext",
       "PleIAs/Topical",
-      "PleIAs/baguettotron-600m",
       "PleIAs/celadon",
       "PleIAs/classifier_bandeaux",
       "PleIAs/journaux-lm-v1",
@@ -2305,7 +2301,6 @@
       "openeurollm/datamix-0.7b-nemotron_pre_spec_v1-100bt",
       "openeurollm/datamix-0.7b-nemotron_pre_spec_v1.1-100bt",
       "openeurollm/datamix-0.7b-open_web_math-100bt",
-      "openeurollm/datamix-0.7b-openthoughts_3-100bt",
       "openeurollm/datamix-0.7b-stackv2-100bt",
       "openeurollm/datamix-0.7b-stackv2_edu_filtered-100bt",
       "openeurollm/datamix-0.7b-swallow_code_v2-100bt",
@@ -2327,8 +2322,6 @@
       "openeurollm/datamix-flag-top_level-0.7b-option_4-100bt",
       "openeurollm/datamix-flag-top_level-0.7b-option_5-100bt",
       "openeurollm/datamix-flag-top_level-0.7b-option_9-100bt",
-      "openeurollm/datamix-flag-top_level-1.7b-option_5-100bt",
-      "openeurollm/datamix-flag-top_level-1.7b-option_9-100bt",
       "openeurollm/dense_english_scaling_laws",
       "openeurollm/hplt2c-nemotron-cc_eurollm_500BT",
       "openeurollm/kda-sigmoid-1.3B-100B",
@@ -2564,7 +2557,6 @@
     "OPI-PG/Qra-7b",
     "PleIAs/Baguettotron",
     "PleIAs/Baguettotron-GGUF",
-    "PleIAs/Baguettotron-MoE",
     "PleIAs/Monad",
     "PleIAs/OCRonos",
     "PleIAs/OCRonos-Vintage",
