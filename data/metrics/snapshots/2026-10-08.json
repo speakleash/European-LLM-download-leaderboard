@@ -1,0 +1,4238 @@
+{
+  "snapshot_date": "2026-10-08",
+  "fetched_at": "2026-10-08T13:06:38Z",
+  "manifest_content_hash": "sha256:19e7bcca7e0386b20188b70db8a6e71fa7af6358a3b80316e59ee6b585596e04",
+  "config_version": 2,
+  "fetch_concurrency": 8,
+  "repos": {
+    "Aleph-Alpha/Pharia-1-LLM-7B-control": {
+      "downloads_30d": 0,
+      "downloads_all_time": 0,
+      "parameters": null,
+      "parameters_source": null
+    },
+    "Aleph-Alpha/Pharia-1-LLM-7B-control-aligned": {
+      "downloads_30d": 0,
+      "downloads_all_time": 0,
+      "parameters": null,
+      "parameters_source": null
+    },
+    "Aleph-Alpha/Pharia-1-LLM-7B-control-aligned-hf": {
+      "downloads_30d": 197,
+      "downloads_all_time": 3752,
+      "parameters": 7041544704,
+      "parameters_source": "safetensors"
+    },
+    "Aleph-Alpha/Pharia-1-LLM-7B-control-hf": {
+      "downloads_30d": 408,
+      "downloads_all_time": 72556,
+      "parameters": 7041544704,
+      "parameters_source": "safetensors"
+    },
+    "Almawave/Velvet-14B": {
+      "downloads_30d": 4022,
+      "downloads_all_time": 66954,
+      "parameters": 14080271360,
+      "parameters_source": "safetensors"
+    },
+    "Almawave/Velvet-2B": {
+      "downloads_30d": 2610,
+      "downloads_all_time": 85887,
+      "parameters": 2223097856,
+      "parameters_source": "safetensors"
+    },
+    "BSC-LT/ALIA-40b": {
+      "downloads_30d": 1806,
+      "downloads_all_time": 452588,
+      "parameters": 40433885184,
+      "parameters_source": "safetensors"
+    },
+    "BSC-LT/ALIA-40b-instruct-2601": {
+      "downloads_30d": 375,
+      "downloads_all_time": 31134,
+      "parameters": 40433885184,
+      "parameters_source": "safetensors"
+    },
+    "BSC-LT/ALIA-40b-instruct-2601-GGUF": {
+      "downloads_30d": 68,
+      "downloads_all_time": 1445,
+      "parameters": 40433885248,
+      "parameters_source": "gguf"
+    },
+    "BSC-LT/salamandra-2b": {
+      "downloads_30d": 1548,
+      "downloads_all_time": 66437,
+      "parameters": 2253490176,
+      "parameters_source": "safetensors"
+    },
+    "BSC-LT/salamandra-2b-base-fp8": {
+      "downloads_30d": 30,
+      "downloads_all_time": 397,
+      "parameters": 2253997056,
+      "parameters_source": "safetensors"
+    },
+    "BSC-LT/salamandra-2b-base-gptq": {
+      "downloads_30d": 33,
+      "downloads_all_time": 642,
+      "parameters": 2253490176,
+      "parameters_source": "safetensors"
+    },
+    "BSC-LT/salamandra-2b-instruct": {
+      "downloads_30d": 4243,
+      "downloads_all_time": 77076,
+      "parameters": 2253490176,
+      "parameters_source": "safetensors"
+    },
+    "BSC-LT/salamandra-2b-instruct-aina-hack": {
+      "downloads_30d": 107,
+      "downloads_all_time": 915,
+      "parameters": 2253490176,
+      "parameters_source": "safetensors"
+    },
+    "BSC-LT/salamandra-2b-instruct-fp8": {
+      "downloads_30d": 44,
+      "downloads_all_time": 542,
+      "parameters": 2253997056,
+      "parameters_source": "safetensors"
+    },
+    "BSC-LT/salamandra-2b-instruct-gptq": {
+      "downloads_30d": 35,
+      "downloads_all_time": 465,
+      "parameters": 2253490176,
+      "parameters_source": "safetensors"
+    },
+    "BSC-LT/salamandra-7b": {
+      "downloads_30d": 1802,
+      "downloads_all_time": 49883,
+      "parameters": 7768117248,
+      "parameters_source": "safetensors"
+    },
+    "BSC-LT/salamandra-7b-instruct": {
+      "downloads_30d": 28141,
+      "downloads_all_time": 675293,
+      "parameters": 7768117248,
+      "parameters_source": "safetensors"
+    },
+    "BSC-LT/salamandra-7b-instruct-2606": {
+      "downloads_30d": 1146,
+      "downloads_all_time": 3724,
+      "parameters": 7768117248,
+      "parameters_source": "safetensors"
+    },
+    "BSC-LT/salamandra-7b-instruct-aina-hack": {
+      "downloads_30d": 123,
+      "downloads_all_time": 653,
+      "parameters": 7768117248,
+      "parameters_source": "safetensors"
+    },
+    "BSC-LT/salamandra-7b-instruct-fp8": {
+      "downloads_30d": 82,
+      "downloads_all_time": 1017,
+      "parameters": 7769280512,
+      "parameters_source": "safetensors"
+    },
+    "BSC-LT/salamandra-7b-instruct-gptq": {
+      "downloads_30d": 115,
+      "downloads_all_time": 1386,
+      "parameters": 7768117248,
+      "parameters_source": "safetensors"
+    },
+    "BSC-LT/salamandra-7b-instruct-guard": {
+      "downloads_30d": 97,
+      "downloads_all_time": 353,
+      "parameters": 7768117248,
+      "parameters_source": "safetensors"
+    },
+    "BSC-LT/salamandra-7b-instruct-tools": {
+      "downloads_30d": 0,
+      "downloads_all_time": 2392,
+      "parameters": 7768166400,
+      "parameters_source": "safetensors"
+    },
+    "BSC-LT/salamandra-7b-instruct-tools-16k": {
+      "downloads_30d": 179,
+      "downloads_all_time": 2671,
+      "parameters": 7768166400,
+      "parameters_source": "safetensors"
+    },
+    "CYFRAGOVPL/Llama-PLLuM-70B-base-2412": {
+      "downloads_30d": 19,
+      "downloads_all_time": 1282,
+      "parameters": 70553706496,
+      "parameters_source": "safetensors"
+    },
+    "CYFRAGOVPL/Llama-PLLuM-70B-base-2508": {
+      "downloads_30d": 25,
+      "downloads_all_time": 276,
+      "parameters": 70553706496,
+      "parameters_source": "safetensors"
+    },
+    "CYFRAGOVPL/Llama-PLLuM-70B-chat-2412": {
+      "downloads_30d": 122,
+      "downloads_all_time": 11561,
+      "parameters": 70553739264,
+      "parameters_source": "safetensors"
+    },
+    "CYFRAGOVPL/Llama-PLLuM-70B-chat-2508": {
+      "downloads_30d": 57,
+      "downloads_all_time": 1576,
+      "parameters": 70553788416,
+      "parameters_source": "safetensors"
+    },
+    "CYFRAGOVPL/Llama-PLLuM-70B-chat-2512": {
+      "downloads_30d": 178,
+      "downloads_all_time": 8280,
+      "parameters": 70553755648,
+      "parameters_source": "safetensors"
+    },
+    "CYFRAGOVPL/Llama-PLLuM-70B-instruct-2412": {
+      "downloads_30d": 32,
+      "downloads_all_time": 25792,
+      "parameters": 70553739264,
+      "parameters_source": "safetensors"
+    },
+    "CYFRAGOVPL/Llama-PLLuM-70B-instruct-2508": {
+      "downloads_30d": 89,
+      "downloads_all_time": 3035,
+      "parameters": 70553788416,
+      "parameters_source": "safetensors"
+    },
+    "CYFRAGOVPL/Llama-PLLuM-70B-instruct-2512": {
+      "downloads_30d": 201,
+      "downloads_all_time": 4254,
+      "parameters": 70553755648,
+      "parameters_source": "safetensors"
+    },
+    "CYFRAGOVPL/Llama-PLLuM-8B-base-2412": {
+      "downloads_30d": 57,
+      "downloads_all_time": 13086,
+      "parameters": 8030261248,
+      "parameters_source": "safetensors"
+    },
+    "CYFRAGOVPL/Llama-PLLuM-8B-base-2512": {
+      "downloads_30d": 83,
+      "downloads_all_time": 408,
+      "parameters": 8030261248,
+      "parameters_source": "safetensors"
+    },
+    "CYFRAGOVPL/Llama-PLLuM-8B-chat-2412": {
+      "downloads_30d": 59,
+      "downloads_all_time": 18552,
+      "parameters": 8030277632,
+      "parameters_source": "safetensors"
+    },
+    "CYFRAGOVPL/Llama-PLLuM-8B-chat-2512": {
+      "downloads_30d": 95,
+      "downloads_all_time": 1413,
+      "parameters": 266240,
+      "parameters_source": "safetensors"
+    },
+    "CYFRAGOVPL/Llama-PLLuM-8B-instruct-2412": {
+      "downloads_30d": 166,
+      "downloads_all_time": 38668,
+      "parameters": 8030277632,
+      "parameters_source": "safetensors"
+    },
+    "CYFRAGOVPL/Llama-PLLuM-8B-instruct-2512": {
+      "downloads_30d": 344,
+      "downloads_all_time": 2054,
+      "parameters": 8030285824,
+      "parameters_source": "safetensors"
+    },
+    "CYFRAGOVPL/PLLuM-12B-base-2412": {
+      "downloads_30d": 27,
+      "downloads_all_time": 1166,
+      "parameters": 12247782400,
+      "parameters_source": "safetensors"
+    },
+    "CYFRAGOVPL/PLLuM-12B-base-2512": {
+      "downloads_30d": 273,
+      "downloads_all_time": 1061,
+      "parameters": 12247782400,
+      "parameters_source": "safetensors"
+    },
+    "CYFRAGOVPL/PLLuM-12B-chat-2412": {
+      "downloads_30d": 1493,
+      "downloads_all_time": 37826,
+      "parameters": 12247782400,
+      "parameters_source": "safetensors"
+    },
+    "CYFRAGOVPL/PLLuM-12B-chat-2512": {
+      "downloads_30d": 15948,
+      "downloads_all_time": 30972,
+      "parameters": 414720,
+      "parameters_source": "safetensors"
+    },
+    "CYFRAGOVPL/PLLuM-12B-instruct-2412": {
+      "downloads_30d": 110,
+      "downloads_all_time": 105207,
+      "parameters": 12247782400,
+      "parameters_source": "safetensors"
+    },
+    "CYFRAGOVPL/PLLuM-12B-instruct-2512": {
+      "downloads_30d": 870,
+      "downloads_all_time": 3791,
+      "parameters": 12247782400,
+      "parameters_source": "safetensors"
+    },
+    "CYFRAGOVPL/PLLuM-12B-nc-base-2412": {
+      "downloads_30d": 0,
+      "downloads_all_time": 413,
+      "parameters": 12247782400,
+      "parameters_source": "safetensors"
+    },
+    "CYFRAGOVPL/PLLuM-12B-nc-chat-2412": {
+      "downloads_30d": 0,
+      "downloads_all_time": 30127,
+      "parameters": 12247782400,
+      "parameters_source": "safetensors"
+    },
+    "CYFRAGOVPL/PLLuM-12B-nc-instruct-2412": {
+      "downloads_30d": 9,
+      "downloads_all_time": 2330,
+      "parameters": 12247782400,
+      "parameters_source": "safetensors"
+    },
+    "CYFRAGOVPL/PLLuM-12b-nc-base-2507": {
+      "downloads_30d": 0,
+      "downloads_all_time": 20,
+      "parameters": 12247782400,
+      "parameters_source": "safetensors"
+    },
+    "CYFRAGOVPL/PLLuM-12b-nc-chat-2507": {
+      "downloads_30d": 135,
+      "downloads_all_time": 4243,
+      "parameters": 12247802880,
+      "parameters_source": "safetensors"
+    },
+    "CYFRAGOVPL/PLLuM-12b-nc-instruct-2507": {
+      "downloads_30d": 2,
+      "downloads_all_time": 1904,
+      "parameters": 12247802880,
+      "parameters_source": "safetensors"
+    },
+    "CYFRAGOVPL/PLLuM-4B-base-2512": {
+      "downloads_30d": 125,
+      "downloads_all_time": 838,
+      "parameters": 4300079472,
+      "parameters_source": "safetensors"
+    },
+    "CYFRAGOVPL/PLLuM-4B-chat-2512": {
+      "downloads_30d": 349,
+      "downloads_all_time": 2451,
+      "parameters": 4299923312,
+      "parameters_source": "safetensors"
+    },
+    "CYFRAGOVPL/PLLuM-4B-instruct-2512": {
+      "downloads_30d": 610,
+      "downloads_all_time": 4582,
+      "parameters": 4299923312,
+      "parameters_source": "safetensors"
+    },
+    "CYFRAGOVPL/PLLuM-8x7B-base-2412": {
+      "downloads_30d": 8,
+      "downloads_all_time": 583,
+      "parameters": 46702792704,
+      "parameters_source": "safetensors"
+    },
+    "CYFRAGOVPL/PLLuM-8x7B-chat-2412": {
+      "downloads_30d": 104,
+      "downloads_all_time": 8789,
+      "parameters": 46702817280,
+      "parameters_source": "safetensors"
+    },
+    "CYFRAGOVPL/PLLuM-8x7B-instruct-2412": {
+      "downloads_30d": 24,
+      "downloads_all_time": 7703,
+      "parameters": 46702817280,
+      "parameters_source": "safetensors"
+    },
+    "CYFRAGOVPL/PLLuM-8x7B-nc-base-2412": {
+      "downloads_30d": 0,
+      "downloads_all_time": 302,
+      "parameters": 46702792704,
+      "parameters_source": "safetensors"
+    },
+    "CYFRAGOVPL/PLLuM-8x7B-nc-chat-2412": {
+      "downloads_30d": 0,
+      "downloads_all_time": 5791,
+      "parameters": 46702817280,
+      "parameters_source": "safetensors"
+    },
+    "CYFRAGOVPL/PLLuM-8x7B-nc-instruct-2412": {
+      "downloads_30d": 0,
+      "downloads_all_time": 5102,
+      "parameters": 46702817280,
+      "parameters_source": "safetensors"
+    },
+    "INSAIT-Institute/BgGPT-7B-Instruct-v0.1": {
+      "downloads_30d": 51,
+      "downloads_all_time": 13030,
+      "parameters": 7290884096,
+      "parameters_source": "safetensors"
+    },
+    "INSAIT-Institute/BgGPT-7B-Instruct-v0.1-GGUF": {
+      "downloads_30d": 200,
+      "downloads_all_time": 3437,
+      "parameters": 7290884096,
+      "parameters_source": "gguf"
+    },
+    "INSAIT-Institute/BgGPT-7B-Instruct-v0.2": {
+      "downloads_30d": 4448,
+      "downloads_all_time": 104643,
+      "parameters": 7290884096,
+      "parameters_source": "safetensors"
+    },
+    "INSAIT-Institute/BgGPT-7B-Instruct-v0.2-GGUF": {
+      "downloads_30d": 332,
+      "downloads_all_time": 6995,
+      "parameters": 7290884096,
+      "parameters_source": "gguf"
+    },
+    "INSAIT-Institute/BgGPT-Gemma-2-2.6B-IT-v1.0": {
+      "downloads_30d": 200,
+      "downloads_all_time": 15112,
+      "parameters": 2614341888,
+      "parameters_source": "safetensors"
+    },
+    "INSAIT-Institute/BgGPT-Gemma-2-2.6B-IT-v1.0-GGUF": {
+      "downloads_30d": 254,
+      "downloads_all_time": 6724,
+      "parameters": 2614341888,
+      "parameters_source": "gguf"
+    },
+    "INSAIT-Institute/BgGPT-Gemma-2-27B-IT-v1.0": {
+      "downloads_30d": 61,
+      "downloads_all_time": 5363,
+      "parameters": 27227128320,
+      "parameters_source": "safetensors"
+    },
+    "INSAIT-Institute/BgGPT-Gemma-2-27B-IT-v1.0-GGUF": {
+      "downloads_30d": 315,
+      "downloads_all_time": 6438,
+      "parameters": 27227128320,
+      "parameters_source": "gguf"
+    },
+    "INSAIT-Institute/BgGPT-Gemma-2-9B-IT-v1.0": {
+      "downloads_30d": 53,
+      "downloads_all_time": 18698,
+      "parameters": 9241705984,
+      "parameters_source": "safetensors"
+    },
+    "INSAIT-Institute/BgGPT-Gemma-2-9B-IT-v1.0-GGUF": {
+      "downloads_30d": 435,
+      "downloads_all_time": 8656,
+      "parameters": 9241705984,
+      "parameters_source": "gguf"
+    },
+    "INSAIT-Institute/BgGPT-Gemma-3-12B-IT": {
+      "downloads_30d": 88,
+      "downloads_all_time": 213589,
+      "parameters": 12187325040,
+      "parameters_source": "safetensors"
+    },
+    "INSAIT-Institute/BgGPT-Gemma-3-12B-IT-GGUF": {
+      "downloads_30d": 351,
+      "downloads_all_time": 2579,
+      "parameters": 11766034176,
+      "parameters_source": "gguf"
+    },
+    "INSAIT-Institute/BgGPT-Gemma-3-12B-IT-GPTQ-W4A16": {
+      "downloads_30d": 53,
+      "downloads_all_time": 1752,
+      "parameters": 3864663312,
+      "parameters_source": "safetensors"
+    },
+    "INSAIT-Institute/BgGPT-Gemma-3-27B-IT": {
+      "downloads_30d": 3890,
+      "downloads_all_time": 6579,
+      "parameters": 27432406640,
+      "parameters_source": "safetensors"
+    },
+    "INSAIT-Institute/BgGPT-Gemma-3-27B-IT-GGUF": {
+      "downloads_30d": 412,
+      "downloads_all_time": 3384,
+      "parameters": 27009346304,
+      "parameters_source": "gguf"
+    },
+    "INSAIT-Institute/BgGPT-Gemma-3-27B-IT-GPTQ-W4A16": {
+      "downloads_30d": 81,
+      "downloads_all_time": 2129,
+      "parameters": 6643458516,
+      "parameters_source": "safetensors"
+    },
+    "INSAIT-Institute/BgGPT-Gemma-3-4B-IT": {
+      "downloads_30d": 114,
+      "downloads_all_time": 6557,
+      "parameters": 4300079472,
+      "parameters_source": "safetensors"
+    },
+    "INSAIT-Institute/BgGPT-Gemma-3-4B-IT-GGUF": {
+      "downloads_30d": 314,
+      "downloads_all_time": 2849,
+      "parameters": 3880263168,
+      "parameters_source": "gguf"
+    },
+    "INSAIT-Institute/BgGPT-Gemma-3-4B-IT-GPTQ-W4A16": {
+      "downloads_30d": 23,
+      "downloads_all_time": 4526,
+      "parameters": 4325147468,
+      "parameters_source": "safetensors"
+    },
+    "INSAIT-Institute/MamayLM-Gemma-2-9B-IT-v0.1": {
+      "downloads_30d": 113,
+      "downloads_all_time": 14183,
+      "parameters": 9241705984,
+      "parameters_source": "safetensors"
+    },
+    "INSAIT-Institute/MamayLM-Gemma-2-9B-IT-v0.1-GGUF": {
+      "downloads_30d": 204,
+      "downloads_all_time": 7355,
+      "parameters": 9241705984,
+      "parameters_source": "gguf"
+    },
+    "INSAIT-Institute/MamayLM-Gemma-3-12B-IT-v1.0": {
+      "downloads_30d": 394,
+      "downloads_all_time": 38818,
+      "parameters": 12187325040,
+      "parameters_source": "safetensors"
+    },
+    "INSAIT-Institute/MamayLM-Gemma-3-12B-IT-v1.0-GGUF": {
+      "downloads_30d": 203,
+      "downloads_all_time": 5302,
+      "parameters": 11766034176,
+      "parameters_source": "gguf"
+    },
+    "INSAIT-Institute/MamayLM-Gemma-3-12B-IT-v2.0": {
+      "downloads_30d": 1552,
+      "downloads_all_time": 16231,
+      "parameters": 12187325040,
+      "parameters_source": "safetensors"
+    },
+    "INSAIT-Institute/MamayLM-Gemma-3-12B-IT-v2.0-GGUF": {
+      "downloads_30d": 565,
+      "downloads_all_time": 1939,
+      "parameters": 11766034176,
+      "parameters_source": "gguf"
+    },
+    "INSAIT-Institute/MamayLM-Gemma-3-27B-IT-v2.0": {
+      "downloads_30d": 224,
+      "downloads_all_time": 3397,
+      "parameters": 27432406640,
+      "parameters_source": "safetensors"
+    },
+    "INSAIT-Institute/MamayLM-Gemma-3-27B-IT-v2.0-FP8-dynamic": {
+      "downloads_30d": 110,
+      "downloads_all_time": 2727,
+      "parameters": 28842037282,
+      "parameters_source": "safetensors"
+    },
+    "INSAIT-Institute/MamayLM-Gemma-3-27B-IT-v2.0-GGUF": {
+      "downloads_30d": 591,
+      "downloads_all_time": 2025,
+      "parameters": 27009346304,
+      "parameters_source": "gguf"
+    },
+    "INSAIT-Institute/MamayLM-Gemma-3-4B-IT-v1.0": {
+      "downloads_30d": 946,
+      "downloads_all_time": 16338,
+      "parameters": 4300079472,
+      "parameters_source": "safetensors"
+    },
+    "INSAIT-Institute/MamayLM-Gemma-3-4B-IT-v1.0-GGUF": {
+      "downloads_30d": 398,
+      "downloads_all_time": 4081,
+      "parameters": 3880263168,
+      "parameters_source": "gguf"
+    },
+    "LeoLM/leo-hessianai-13b": {
+      "downloads_30d": 89,
+      "downloads_all_time": 73056,
+      "parameters": null,
+      "parameters_source": null
+    },
+    "LeoLM/leo-hessianai-13b-chat": {
+      "downloads_30d": 186,
+      "downloads_all_time": 31799,
+      "parameters": null,
+      "parameters_source": null
+    },
+    "LeoLM/leo-hessianai-13b-chat-bilingual": {
+      "downloads_30d": 27,
+      "downloads_all_time": 2133,
+      "parameters": null,
+      "parameters_source": null
+    },
+    "LeoLM/leo-hessianai-70b": {
+      "downloads_30d": 66,
+      "downloads_all_time": 9902,
+      "parameters": 68976648192,
+      "parameters_source": "safetensors"
+    },
+    "LeoLM/leo-hessianai-70b-chat": {
+      "downloads_30d": 185,
+      "downloads_all_time": 9596,
+      "parameters": null,
+      "parameters_source": null
+    },
+    "LeoLM/leo-hessianai-7b": {
+      "downloads_30d": 435,
+      "downloads_all_time": 314445,
+      "parameters": null,
+      "parameters_source": null
+    },
+    "LeoLM/leo-hessianai-7b-chat": {
+      "downloads_30d": 449,
+      "downloads_all_time": 417661,
+      "parameters": null,
+      "parameters_source": null
+    },
+    "LeoLM/leo-hessianai-7b-chat-bilingual": {
+      "downloads_30d": 217,
+      "downloads_all_time": 68545,
+      "parameters": null,
+      "parameters_source": null
+    },
+    "LeoLM/leo-mistral-hessianai-7b": {
+      "downloads_30d": 342,
+      "downloads_all_time": 87486,
+      "parameters": null,
+      "parameters_source": null
+    },
+    "LeoLM/leo-mistral-hessianai-7b-chat": {
+      "downloads_30d": 155,
+      "downloads_all_time": 145268,
+      "parameters": null,
+      "parameters_source": null
+    },
+    "LumiOpen/Llama-Poro-2-70B-Instruct": {
+      "downloads_30d": 749,
+      "downloads_all_time": 36216,
+      "parameters": 70553706496,
+      "parameters_source": "safetensors"
+    },
+    "LumiOpen/Llama-Poro-2-70B-SFT": {
+      "downloads_30d": 88,
+      "downloads_all_time": 788,
+      "parameters": 70553706496,
+      "parameters_source": "safetensors"
+    },
+    "LumiOpen/Llama-Poro-2-70B-base": {
+      "downloads_30d": 109,
+      "downloads_all_time": 2077,
+      "parameters": 70553706496,
+      "parameters_source": "safetensors"
+    },
+    "LumiOpen/Llama-Poro-2-8B-Instruct": {
+      "downloads_30d": 2875,
+      "downloads_all_time": 30052,
+      "parameters": 8030261248,
+      "parameters_source": "safetensors"
+    },
+    "LumiOpen/Llama-Poro-2-8B-Long-Base": {
+      "downloads_30d": 23,
+      "downloads_all_time": 98,
+      "parameters": null,
+      "parameters_source": null
+    },
+    "LumiOpen/Llama-Poro-2-8B-Long-Instruct": {
+      "downloads_30d": 93,
+      "downloads_all_time": 436,
+      "parameters": 8030261248,
+      "parameters_source": "safetensors"
+    },
+    "LumiOpen/Llama-Poro-2-8B-Long-Math-Reasoning-RL-Preview": {
+      "downloads_30d": 132,
+      "downloads_all_time": 887,
+      "parameters": 8031309824,
+      "parameters_source": "safetensors"
+    },
+    "LumiOpen/Llama-Poro-2-8B-Long-Math-Reasoning-SFT-Preview": {
+      "downloads_30d": 280,
+      "downloads_all_time": 1218,
+      "parameters": null,
+      "parameters_source": null
+    },
+    "LumiOpen/Llama-Poro-2-8B-SFT": {
+      "downloads_30d": 96,
+      "downloads_all_time": 1805,
+      "parameters": 8030261248,
+      "parameters_source": "safetensors"
+    },
+    "LumiOpen/Llama-Poro-2-8B-base": {
+      "downloads_30d": 1730,
+      "downloads_all_time": 15202,
+      "parameters": 8030261248,
+      "parameters_source": "safetensors"
+    },
+    "LumiOpen/Poro-34B": {
+      "downloads_30d": 636,
+      "downloads_all_time": 193945,
+      "parameters": 34216949760,
+      "parameters_source": "safetensors"
+    },
+    "LumiOpen/Poro-34B-chat": {
+      "downloads_30d": 374,
+      "downloads_all_time": 28063,
+      "parameters": 34216949760,
+      "parameters_source": "safetensors"
+    },
+    "LumiOpen/Poro-34B-chat-GGUF": {
+      "downloads_30d": 54,
+      "downloads_all_time": 5870,
+      "parameters": 35134453760,
+      "parameters_source": "gguf"
+    },
+    "LumiOpen/Poro-34B-chat-OpenAssistant": {
+      "downloads_30d": 96,
+      "downloads_all_time": 360,
+      "parameters": 34216949760,
+      "parameters_source": "safetensors"
+    },
+    "LumiOpen/Viking-13B": {
+      "downloads_30d": 1565,
+      "downloads_all_time": 31790,
+      "parameters": 14030361600,
+      "parameters_source": "safetensors"
+    },
+    "LumiOpen/Viking-33B": {
+      "downloads_30d": 1824,
+      "downloads_all_time": 30279,
+      "parameters": 33119034368,
+      "parameters_source": "safetensors"
+    },
+    "LumiOpen/Viking-7B": {
+      "downloads_30d": 2226,
+      "downloads_all_time": 55558,
+      "parameters": 7550013440,
+      "parameters_source": "safetensors"
+    },
+    "OPI-PG/Qra-13b": {
+      "downloads_30d": 1512,
+      "downloads_all_time": 145603,
+      "parameters": 13015864320,
+      "parameters_source": "safetensors"
+    },
+    "OPI-PG/Qra-1b": {
+      "downloads_30d": 1617,
+      "downloads_all_time": 157960,
+      "parameters": 1100048384,
+      "parameters_source": "safetensors"
+    },
+    "OPI-PG/Qra-7b": {
+      "downloads_30d": 1504,
+      "downloads_all_time": 184803,
+      "parameters": 6738415616,
+      "parameters_source": "safetensors"
+    },
+    "PleIAs/Baguettotron": {
+      "downloads_30d": 1560,
+      "downloads_all_time": 33478,
+      "parameters": 320956992,
+      "parameters_source": "safetensors"
+    },
+    "PleIAs/Baguettotron-GGUF": {
+      "downloads_30d": 634,
+      "downloads_all_time": 6953,
+      "parameters": 320956992,
+      "parameters_source": "gguf"
+    },
+    "PleIAs/Baguettotron-MoE": {
+      "downloads_30d": 111,
+      "downloads_all_time": 111,
+      "parameters": 13290474240,
+      "parameters_source": "safetensors"
+    },
+    "PleIAs/Monad": {
+      "downloads_30d": 1765,
+      "downloads_all_time": 33459,
+      "parameters": 56656128,
+      "parameters_source": "safetensors"
+    },
+    "PleIAs/OCRonos": {
+      "downloads_30d": 112,
+      "downloads_all_time": 6776,
+      "parameters": 8030261248,
+      "parameters_source": "safetensors"
+    },
+    "PleIAs/OCRonos-Vintage": {
+      "downloads_30d": 444,
+      "downloads_all_time": 74426,
+      "parameters": 124439808,
+      "parameters_source": "safetensors"
+    },
+    "PleIAs/OCRonos-Vintage-CT2": {
+      "downloads_30d": 83,
+      "downloads_all_time": 270,
+      "parameters": null,
+      "parameters_source": null
+    },
+    "PleIAs/Pleias-1.2b-Preview": {
+      "downloads_30d": 4190,
+      "downloads_all_time": 414959,
+      "parameters": 1195468800,
+      "parameters_source": "safetensors"
+    },
+    "PleIAs/Pleias-350m-Preview": {
+      "downloads_30d": 4022,
+      "downloads_all_time": 418456,
+      "parameters": 353424384,
+      "parameters_source": "safetensors"
+    },
+    "PleIAs/Pleias-3b-Preview": {
+      "downloads_30d": 3980,
+      "downloads_all_time": 399998,
+      "parameters": 3211926528,
+      "parameters_source": "safetensors"
+    },
+    "PleIAs/Pleias-Nano": {
+      "downloads_30d": 118,
+      "downloads_all_time": 7058,
+      "parameters": 1195468800,
+      "parameters_source": "safetensors"
+    },
+    "PleIAs/Pleias-Nano-GGUF": {
+      "downloads_30d": 9,
+      "downloads_all_time": 123,
+      "parameters": 1195468800,
+      "parameters_source": "safetensors"
+    },
+    "PleIAs/Pleias-Pico": {
+      "downloads_30d": 111,
+      "downloads_all_time": 3459,
+      "parameters": 353424384,
+      "parameters_source": "safetensors"
+    },
+    "PleIAs/Pleias-Pico-GGUF": {
+      "downloads_30d": 62,
+      "downloads_all_time": 1904,
+      "parameters": 353424384,
+      "parameters_source": "gguf"
+    },
+    "PleIAs/Pleias-RAG-1B": {
+      "downloads_30d": 896,
+      "downloads_all_time": 16376,
+      "parameters": 1195468800,
+      "parameters_source": "safetensors"
+    },
+    "PleIAs/Pleias-RAG-1B-gguf": {
+      "downloads_30d": 168,
+      "downloads_all_time": 2574,
+      "parameters": 1195468800,
+      "parameters_source": "gguf"
+    },
+    "PleIAs/Pleias-RAG-350M": {
+      "downloads_30d": 864,
+      "downloads_all_time": 13249,
+      "parameters": 353424384,
+      "parameters_source": "safetensors"
+    },
+    "PleIAs/Pleias-RAG-350M-gguf": {
+      "downloads_30d": 111,
+      "downloads_all_time": 1241,
+      "parameters": 353424384,
+      "parameters_source": "gguf"
+    },
+    "PleIAs/Pleias-SLM-RAG": {
+      "downloads_30d": 87,
+      "downloads_all_time": 399,
+      "parameters": 320956992,
+      "parameters_source": "gguf"
+    },
+    "Soofi-Project/Soofi-S-Base": {
+      "downloads_30d": 481,
+      "downloads_all_time": 1499,
+      "parameters": 31577937344,
+      "parameters_source": "safetensors"
+    },
+    "Soofi-Project/Soofi-S-Base-Megatron": {
+      "downloads_30d": 0,
+      "downloads_all_time": 0,
+      "parameters": null,
+      "parameters_source": null
+    },
+    "Soofi-Project/Soofi-S-Instruct-Preview": {
+      "downloads_30d": 312,
+      "downloads_all_time": 5798,
+      "parameters": 31577937344,
+      "parameters_source": "safetensors"
+    },
+    "Soofi-Project/Soofi-S-Instruct-Preview-EntQuant-2bit": {
+      "downloads_30d": 0,
+      "downloads_all_time": 65,
+      "parameters": 11567668736,
+      "parameters_source": "safetensors"
+    },
+    "Soofi-Project/Soofi-S-Instruct-Preview-EntQuant-3bit": {
+      "downloads_30d": 24,
+      "downloads_all_time": 24,
+      "parameters": 14284662560,
+      "parameters_source": "safetensors"
+    },
+    "Soofi-Project/Soofi-S-Instruct-Preview-EntQuant-4bit": {
+      "downloads_30d": 0,
+      "downloads_all_time": 33,
+      "parameters": 17168769616,
+      "parameters_source": "safetensors"
+    },
+    "Soofi-Project/Soofi-S-Instruct-Preview-FP8": {
+      "downloads_30d": 31,
+      "downloads_all_time": 1217,
+      "parameters": 31591508800,
+      "parameters_source": "safetensors"
+    },
+    "Soofi-Project/Soofi-S-Instruct-Preview-GGUF": {
+      "downloads_30d": 3,
+      "downloads_all_time": 227,
+      "parameters": 31577940288,
+      "parameters_source": "gguf"
+    },
+    "Soofi-Project/Soofi-S-Isar-Preview": {
+      "downloads_30d": 1279,
+      "downloads_all_time": 11173,
+      "parameters": 31577937344,
+      "parameters_source": "safetensors"
+    },
+    "Soofi-Project/Soofi-S-Isar-Preview-EntQuant-2bit": {
+      "downloads_30d": 2,
+      "downloads_all_time": 23,
+      "parameters": 11564387336,
+      "parameters_source": "safetensors"
+    },
+    "Soofi-Project/Soofi-S-Isar-Preview-EntQuant-3bit": {
+      "downloads_30d": 2,
+      "downloads_all_time": 25,
+      "parameters": 14274642640,
+      "parameters_source": "safetensors"
+    },
+    "Soofi-Project/Soofi-S-Isar-Preview-EntQuant-4bit": {
+      "downloads_30d": 1,
+      "downloads_all_time": 38,
+      "parameters": 17154864560,
+      "parameters_source": "safetensors"
+    },
+    "Soofi-Project/Soofi-S-Isar-Preview-FP8": {
+      "downloads_30d": 4,
+      "downloads_all_time": 676,
+      "parameters": 31591508800,
+      "parameters_source": "safetensors"
+    },
+    "Soofi-Project/Soofi-S-Isar-Preview-GGUF": {
+      "downloads_30d": 3,
+      "downloads_all_time": 88,
+      "parameters": 31577940288,
+      "parameters_source": "gguf"
+    },
+    "Soofi-Project/Soofi-S-Rhine-Preview": {
+      "downloads_30d": 811,
+      "downloads_all_time": 2147,
+      "parameters": 31577937344,
+      "parameters_source": "safetensors"
+    },
+    "Soofi-Project/Soofi-S-Rhine-Preview-EntQuant-2bit": {
+      "downloads_30d": 0,
+      "downloads_all_time": 22,
+      "parameters": 11570047104,
+      "parameters_source": "safetensors"
+    },
+    "Soofi-Project/Soofi-S-Rhine-Preview-EntQuant-3bit": {
+      "downloads_30d": 17,
+      "downloads_all_time": 17,
+      "parameters": 14274150344,
+      "parameters_source": "safetensors"
+    },
+    "Soofi-Project/Soofi-S-Rhine-Preview-EntQuant-4bit": {
+      "downloads_30d": 0,
+      "downloads_all_time": 24,
+      "parameters": 17156056240,
+      "parameters_source": "safetensors"
+    },
+    "Soofi-Project/Soofi-S-Rhine-Preview-FP8": {
+      "downloads_30d": 0,
+      "downloads_all_time": 384,
+      "parameters": 31591508800,
+      "parameters_source": "safetensors"
+    },
+    "Soofi-Project/Soofi-S-Rhine-Preview-GGUF": {
+      "downloads_30d": 36,
+      "downloads_all_time": 234,
+      "parameters": 31577940288,
+      "parameters_source": "gguf"
+    },
+    "TildeAI/TildeOpen-30b": {
+      "downloads_30d": 1809,
+      "downloads_all_time": 100074,
+      "parameters": 30677882880,
+      "parameters_source": "safetensors"
+    },
+    "TildeAI/TildeOpen-30b-64k": {
+      "downloads_30d": 377,
+      "downloads_all_time": 3085,
+      "parameters": 30677882880,
+      "parameters_source": "safetensors"
+    },
+    "TildeAI/TildeOpen15B-64k-wmt26-compression-task-cs-de": {
+      "downloads_30d": 11,
+      "downloads_all_time": 66,
+      "parameters": 15167098880,
+      "parameters_source": "safetensors"
+    },
+    "TildeAI/TildeOpen15B-64k-wmt26-compression-task-cs-de-fp4a16": {
+      "downloads_30d": 11,
+      "downloads_all_time": 86,
+      "parameters": 9001472420,
+      "parameters_source": "safetensors"
+    },
+    "TildeAI/TildeOpen15B-64k-wmt26-compression-task-cs-de-fp8-dyn": {
+      "downloads_30d": 9,
+      "downloads_all_time": 75,
+      "parameters": 15169802240,
+      "parameters_source": "safetensors"
+    },
+    "TildeAI/TildeOpen8B-64k-wmt26-compression-task-cs-de": {
+      "downloads_30d": 7,
+      "downloads_all_time": 78,
+      "parameters": 8156558080,
+      "parameters_source": "safetensors"
+    },
+    "TildeAI/TildeOpen8B-64k-wmt26-compression-task-cs-de-fp4a16": {
+      "downloads_30d": 10,
+      "downloads_all_time": 47,
+      "parameters": 4911174820,
+      "parameters_source": "safetensors"
+    },
+    "TildeAI/TildeOpen8B-64k-wmt26-compression-task-cs-de-fp8-dyn": {
+      "downloads_30d": 9,
+      "downloads_all_time": 46,
+      "parameters": 8158570240,
+      "parameters_source": "safetensors"
+    },
+    "Voicelab/trurl-2-13b": {
+      "downloads_30d": 73,
+      "downloads_all_time": 66798,
+      "parameters": null,
+      "parameters_source": null
+    },
+    "Voicelab/trurl-2-13b-8bit": {
+      "downloads_30d": 137,
+      "downloads_all_time": 1191,
+      "parameters": null,
+      "parameters_source": null
+    },
+    "Voicelab/trurl-2-13b-academic": {
+      "downloads_30d": 1523,
+      "downloads_all_time": 288225,
+      "parameters": null,
+      "parameters_source": null
+    },
+    "Voicelab/trurl-2-7b": {
+      "downloads_30d": 1531,
+      "downloads_all_time": 299328,
+      "parameters": null,
+      "parameters_source": null
+    },
+    "Voicelab/trurl-2-7b-8bit": {
+      "downloads_30d": 31,
+      "downloads_all_time": 2132,
+      "parameters": 6739785728,
+      "parameters_source": "safetensors"
+    },
+    "cjvt/GaMS-1B": {
+      "downloads_30d": 594,
+      "downloads_all_time": 7114,
+      "parameters": 1540481024,
+      "parameters_source": "safetensors"
+    },
+    "cjvt/GaMS-1B-Chat": {
+      "downloads_30d": 48,
+      "downloads_all_time": 5809,
+      "parameters": 1540481024,
+      "parameters_source": "safetensors"
+    },
+    "cjvt/GaMS-27B": {
+      "downloads_30d": 19,
+      "downloads_all_time": 544,
+      "parameters": 27227128320,
+      "parameters_source": "safetensors"
+    },
+    "cjvt/GaMS-27B-Instruct": {
+      "downloads_30d": 295,
+      "downloads_all_time": 33267,
+      "parameters": 27227128320,
+      "parameters_source": "safetensors"
+    },
+    "cjvt/GaMS-27B-Instruct-Nemotron": {
+      "downloads_30d": 55,
+      "downloads_all_time": 3791,
+      "parameters": 27227128320,
+      "parameters_source": "safetensors"
+    },
+    "cjvt/GaMS-2B": {
+      "downloads_30d": 338,
+      "downloads_all_time": 5780,
+      "parameters": 3204165888,
+      "parameters_source": "safetensors"
+    },
+    "cjvt/GaMS-2B-Instruct": {
+      "downloads_30d": 402,
+      "downloads_all_time": 14428,
+      "parameters": 2614341888,
+      "parameters_source": "safetensors"
+    },
+    "cjvt/GaMS-9B": {
+      "downloads_30d": 190,
+      "downloads_all_time": 5513,
+      "parameters": 9241705984,
+      "parameters_source": "safetensors"
+    },
+    "cjvt/GaMS-9B-Instruct": {
+      "downloads_30d": 1948,
+      "downloads_all_time": 39970,
+      "parameters": 9241705984,
+      "parameters_source": "safetensors"
+    },
+    "cjvt/GaMS-9B-Instruct-Lex": {
+      "downloads_30d": 17,
+      "downloads_all_time": 223,
+      "parameters": 9241705984,
+      "parameters_source": "safetensors"
+    },
+    "cjvt/GaMS-9B-Instruct-Nemotron": {
+      "downloads_30d": 36,
+      "downloads_all_time": 3893,
+      "parameters": 9241705984,
+      "parameters_source": "safetensors"
+    },
+    "cjvt/GaMS2-27B": {
+      "downloads_30d": 107,
+      "downloads_all_time": 980,
+      "parameters": 852480,
+      "parameters_source": "safetensors"
+    },
+    "cjvt/GaMS2-27B-GRPO-Translator": {
+      "downloads_30d": 15,
+      "downloads_all_time": 61,
+      "parameters": 27227128320,
+      "parameters_source": "safetensors"
+    },
+    "cjvt/GaMS2-27B-Instruct": {
+      "downloads_30d": 81,
+      "downloads_all_time": 203,
+      "parameters": 852480,
+      "parameters_source": "safetensors"
+    },
+    "cjvt/GaMS3-12B": {
+      "downloads_30d": 448,
+      "downloads_all_time": 4851,
+      "parameters": 11766034176,
+      "parameters_source": "safetensors"
+    },
+    "cjvt/GaMS3-12B-GRPO-Translator": {
+      "downloads_30d": 67,
+      "downloads_all_time": 230,
+      "parameters": 11766034176,
+      "parameters_source": "safetensors"
+    },
+    "cjvt/GaMS3-12B-Instruct": {
+      "downloads_30d": 3190,
+      "downloads_all_time": 60760,
+      "parameters": 11766034176,
+      "parameters_source": "safetensors"
+    },
+    "cjvt/GaMS3-12B-Instruct-Lex": {
+      "downloads_30d": 1079,
+      "downloads_all_time": 1880,
+      "parameters": 12772912896,
+      "parameters_source": "safetensors"
+    },
+    "cjvt/GaMS3-12B-Multimodal": {
+      "downloads_30d": 17,
+      "downloads_all_time": 98,
+      "parameters": 12187325040,
+      "parameters_source": "safetensors"
+    },
+    "cjvt/OPT_GaMS-1B": {
+      "downloads_30d": 72,
+      "downloads_all_time": 1885,
+      "parameters": 1418715136,
+      "parameters_source": "safetensors"
+    },
+    "cjvt/OPT_GaMS-1B-Chat": {
+      "downloads_30d": 84,
+      "downloads_all_time": 1456,
+      "parameters": 1418715136,
+      "parameters_source": "safetensors"
+    },
+    "croissantllm/CroissantLLMBase": {
+      "downloads_30d": 1079,
+      "downloads_all_time": 54536,
+      "parameters": null,
+      "parameters_source": null
+    },
+    "croissantllm/CroissantLLMBase-GGML": {
+      "downloads_30d": 0,
+      "downloads_all_time": 0,
+      "parameters": null,
+      "parameters_source": null
+    },
+    "croissantllm/CroissantLLMBase-GGUF": {
+      "downloads_30d": 67,
+      "downloads_all_time": 3018,
+      "parameters": 1345423360,
+      "parameters_source": "gguf"
+    },
+    "croissantllm/CroissantLLMChat-v0.1": {
+      "downloads_30d": 586,
+      "downloads_all_time": 92506,
+      "parameters": 1345431552,
+      "parameters_source": "safetensors"
+    },
+    "croissantllm/CroissantLLMChat-v0.1-GGML": {
+      "downloads_30d": 0,
+      "downloads_all_time": 0,
+      "parameters": null,
+      "parameters_source": null
+    },
+    "croissantllm/CroissantLLMChat-v0.1-GGUF": {
+      "downloads_30d": 108,
+      "downloads_all_time": 3267,
+      "parameters": 1345431552,
+      "parameters_source": "gguf"
+    },
+    "croissantllm/CroissantLLMChat-v0.1-q0f16-MLC": {
+      "downloads_30d": 0,
+      "downloads_all_time": 0,
+      "parameters": null,
+      "parameters_source": null
+    },
+    "croissantllm/CroissantLLMChat-v0.1-q0f32-MLC": {
+      "downloads_30d": 0,
+      "downloads_all_time": 0,
+      "parameters": null,
+      "parameters_source": null
+    },
+    "croissantllm/CroissantLLMChat-v0.1-q3f16_1-MLC": {
+      "downloads_30d": 0,
+      "downloads_all_time": 0,
+      "parameters": null,
+      "parameters_source": null
+    },
+    "croissantllm/CroissantLLMChat-v0.1-q4f16_1-MLC": {
+      "downloads_30d": 0,
+      "downloads_all_time": 0,
+      "parameters": null,
+      "parameters_source": null
+    },
+    "croissantllm/CroissantLLMChat-v0.1-q4f32_1-MLC": {
+      "downloads_30d": 0,
+      "downloads_all_time": 0,
+      "parameters": null,
+      "parameters_source": null
+    },
+    "domyn/Domyn-Small-v1.0": {
+      "downloads_30d": 1511,
+      "downloads_all_time": 7914,
+      "parameters": 9815334912,
+      "parameters_source": "safetensors"
+    },
+    "ilsp/Llama-Krikri-8B-Base": {
+      "downloads_30d": 536,
+      "downloads_all_time": 13898,
+      "parameters": 8202227712,
+      "parameters_source": "safetensors"
+    },
+    "ilsp/Llama-Krikri-8B-Instruct": {
+      "downloads_30d": 3535,
+      "downloads_all_time": 77765,
+      "parameters": 8202227712,
+      "parameters_source": "safetensors"
+    },
+    "ilsp/Llama-Krikri-8B-Instruct-4bit-mlx": {
+      "downloads_30d": 24,
+      "downloads_all_time": 24,
+      "parameters": 8202227712,
+      "parameters_source": "safetensors"
+    },
+    "ilsp/Llama-Krikri-8B-Instruct-GGUF": {
+      "downloads_30d": 1172,
+      "downloads_all_time": 15759,
+      "parameters": 8202227776,
+      "parameters_source": "gguf"
+    },
+    "ilsp/Llama-Krikri-8B-Instruct-bnb-4bit": {
+      "downloads_30d": 61,
+      "downloads_all_time": 1823,
+      "parameters": 8420895380,
+      "parameters_source": "safetensors"
+    },
+    "ilsp/Llama-Krikri-8B-Instruct-v1.5": {
+      "downloads_30d": 236,
+      "downloads_all_time": 858,
+      "parameters": 8202227712,
+      "parameters_source": "safetensors"
+    },
+    "ilsp/Llama-Krikri-8B-Instruct-v1.5-4bit-mlx": {
+      "downloads_30d": 58,
+      "downloads_all_time": 58,
+      "parameters": 8202227712,
+      "parameters_source": "safetensors"
+    },
+    "ilsp/Meltemi-7B-Instruct-v1": {
+      "downloads_30d": 85,
+      "downloads_all_time": 30125,
+      "parameters": 7483559936,
+      "parameters_source": "safetensors"
+    },
+    "ilsp/Meltemi-7B-Instruct-v1-AWQ": {
+      "downloads_30d": 36,
+      "downloads_all_time": 3551,
+      "parameters": 7483559936,
+      "parameters_source": "safetensors"
+    },
+    "ilsp/Meltemi-7B-Instruct-v1-BnB-4bit": {
+      "downloads_30d": 18,
+      "downloads_all_time": 544,
+      "parameters": 7702227842,
+      "parameters_source": "safetensors"
+    },
+    "ilsp/Meltemi-7B-Instruct-v1-GGUF": {
+      "downloads_30d": 77,
+      "downloads_all_time": 1447,
+      "parameters": null,
+      "parameters_source": null
+    },
+    "ilsp/Meltemi-7B-Instruct-v1.5": {
+      "downloads_30d": 239,
+      "downloads_all_time": 34943,
+      "parameters": 7482445824,
+      "parameters_source": "safetensors"
+    },
+    "ilsp/Meltemi-7B-v1": {
+      "downloads_30d": 89,
+      "downloads_all_time": 8806,
+      "parameters": 7483559936,
+      "parameters_source": "safetensors"
+    },
+    "ilsp/Meltemi-7B-v1.5": {
+      "downloads_30d": 175,
+      "downloads_all_time": 4230,
+      "parameters": 7482445824,
+      "parameters_source": "safetensors"
+    },
+    "mii-llm/emma-5-boost": {
+      "downloads_30d": 0,
+      "downloads_all_time": 8,
+      "parameters": 1387186688,
+      "parameters_source": "safetensors"
+    },
+    "mii-llm/maestrale-chat-v0.1-alpha-sft": {
+      "downloads_30d": 18,
+      "downloads_all_time": 118,
+      "parameters": 7241748480,
+      "parameters_source": "safetensors"
+    },
+    "mii-llm/maestrale-chat-v0.2-alpha-sft": {
+      "downloads_30d": 1308,
+      "downloads_all_time": 51850,
+      "parameters": 7241748480,
+      "parameters_source": "safetensors"
+    },
+    "mii-llm/maestrale-chat-v0.3-alpha-GGUF": {
+      "downloads_30d": 31,
+      "downloads_all_time": 265,
+      "parameters": 7241748480,
+      "parameters_source": "gguf"
+    },
+    "mii-llm/maestrale-chat-v0.3-alpha-sft": {
+      "downloads_30d": 24,
+      "downloads_all_time": 552,
+      "parameters": 7241748480,
+      "parameters_source": "safetensors"
+    },
+    "mii-llm/maestrale-chat-v0.3-beta": {
+      "downloads_30d": 1299,
+      "downloads_all_time": 51817,
+      "parameters": 7241748480,
+      "parameters_source": "safetensors"
+    },
+    "mii-llm/maestrale-chat-v0.3-beta-GGUF": {
+      "downloads_30d": 22,
+      "downloads_all_time": 260,
+      "parameters": 7241748480,
+      "parameters_source": "gguf"
+    },
+    "mii-llm/maestrale-chat-v0.3-beta-sft": {
+      "downloads_30d": 25,
+      "downloads_all_time": 121,
+      "parameters": 7241748480,
+      "parameters_source": "safetensors"
+    },
+    "mii-llm/maestrale-chat-v0.4-alpha-sft": {
+      "downloads_30d": 1300,
+      "downloads_all_time": 51644,
+      "parameters": 7241748480,
+      "parameters_source": "safetensors"
+    },
+    "mii-llm/maestrale-chat-v0.4-alpha-sft-GGUF": {
+      "downloads_30d": 12,
+      "downloads_all_time": 241,
+      "parameters": 7241748480,
+      "parameters_source": "gguf"
+    },
+    "mii-llm/maestrale-chat-v0.4-beta": {
+      "downloads_30d": 2743,
+      "downloads_all_time": 96843,
+      "parameters": 7241748480,
+      "parameters_source": "safetensors"
+    },
+    "mii-llm/maestrale-chat-v0.4-beta-GGUF": {
+      "downloads_30d": 48,
+      "downloads_all_time": 775,
+      "parameters": 7241748480,
+      "parameters_source": "gguf"
+    },
+    "mii-llm/minerva-chat-v0.1-alpha-sft": {
+      "downloads_30d": 3457,
+      "downloads_all_time": 92546,
+      "parameters": 2894246400,
+      "parameters_source": "safetensors"
+    },
+    "mii-llm/nesso-0.4B-agentic": {
+      "downloads_30d": 336,
+      "downloads_all_time": 2620,
+      "parameters": 560898240,
+      "parameters_source": "safetensors"
+    },
+    "mii-llm/nesso-0.4B-agentic-GGUF": {
+      "downloads_30d": 122,
+      "downloads_all_time": 393,
+      "parameters": 560898240,
+      "parameters_source": "gguf"
+    },
+    "mii-llm/nesso-0.4B-instruct": {
+      "downloads_30d": 39,
+      "downloads_all_time": 1248,
+      "parameters": 560898240,
+      "parameters_source": "safetensors"
+    },
+    "mii-llm/nesso-4B": {
+      "downloads_30d": 66,
+      "downloads_all_time": 1477,
+      "parameters": 4022468096,
+      "parameters_source": "safetensors"
+    },
+    "mii-llm/nesso-4B-GGUF": {
+      "downloads_30d": 165,
+      "downloads_all_time": 1066,
+      "parameters": 4022468096,
+      "parameters_source": "gguf"
+    },
+    "mii-llm/open-zagreus-0.4B": {
+      "downloads_30d": 16,
+      "downloads_all_time": 360,
+      "parameters": 437768640,
+      "parameters_source": "safetensors"
+    },
+    "mii-llm/zagreus-0.4B-fra": {
+      "downloads_30d": 21,
+      "downloads_all_time": 148,
+      "parameters": 437760960,
+      "parameters_source": "safetensors"
+    },
+    "mii-llm/zagreus-0.4B-ita": {
+      "downloads_30d": 177,
+      "downloads_all_time": 5006,
+      "parameters": 437760960,
+      "parameters_source": "safetensors"
+    },
+    "mii-llm/zagreus-0.4B-por": {
+      "downloads_30d": 19,
+      "downloads_all_time": 261,
+      "parameters": 437760960,
+      "parameters_source": "safetensors"
+    },
+    "mii-llm/zagreus-0.4B-spa": {
+      "downloads_30d": 41,
+      "downloads_all_time": 200,
+      "parameters": 437760960,
+      "parameters_source": "safetensors"
+    },
+    "mistralai/Codestral-22B-v0.1": {
+      "downloads_30d": 19690,
+      "downloads_all_time": 5160721,
+      "parameters": 22247282688,
+      "parameters_source": "safetensors"
+    },
+    "mistralai/Devstral-2-123B-Instruct-2512": {
+      "downloads_30d": 6799,
+      "downloads_all_time": 350666,
+      "parameters": 125025989840,
+      "parameters_source": "safetensors"
+    },
+    "mistralai/Devstral-Small-2-24B-Instruct-2512": {
+      "downloads_30d": 298584,
+      "downloads_all_time": 2898431,
+      "parameters": 24011361840,
+      "parameters_source": "safetensors"
+    },
+    "mistralai/Devstral-Small-2505": {
+      "downloads_30d": 1847,
+      "downloads_all_time": 834366,
+      "parameters": 23572403200,
+      "parameters_source": "safetensors"
+    },
+    "mistralai/Devstral-Small-2505_gguf": {
+      "downloads_30d": 2280,
+      "downloads_all_time": 71114,
+      "parameters": 23572403200,
+      "parameters_source": "gguf"
+    },
+    "mistralai/Devstral-Small-2507": {
+      "downloads_30d": 14111,
+      "downloads_all_time": 581279,
+      "parameters": 23572403200,
+      "parameters_source": "safetensors"
+    },
+    "mistralai/Devstral-Small-2507_gguf": {
+      "downloads_30d": 3415,
+      "downloads_all_time": 52295,
+      "parameters": 23572403200,
+      "parameters_source": "gguf"
+    },
+    "mistralai/Leanstral-1.5-119B-A6B": {
+      "downloads_30d": 355,
+      "downloads_all_time": 1220,
+      "parameters": null,
+      "parameters_source": null
+    },
+    "mistralai/Leanstral-2603": {
+      "downloads_30d": 130,
+      "downloads_all_time": 1027,
+      "parameters": null,
+      "parameters_source": null
+    },
+    "mistralai/Magistral-Small-2506": {
+      "downloads_30d": 72978,
+      "downloads_all_time": 729994,
+      "parameters": 23572403200,
+      "parameters_source": "safetensors"
+    },
+    "mistralai/Magistral-Small-2506_gguf": {
+      "downloads_30d": 771,
+      "downloads_all_time": 17541,
+      "parameters": 23572403200,
+      "parameters_source": "gguf"
+    },
+    "mistralai/Magistral-Small-2507": {
+      "downloads_30d": 4651,
+      "downloads_all_time": 50904,
+      "parameters": 23572403200,
+      "parameters_source": "safetensors"
+    },
+    "mistralai/Magistral-Small-2507-GGUF": {
+      "downloads_30d": 316,
+      "downloads_all_time": 103587,
+      "parameters": 23572403200,
+      "parameters_source": "gguf"
+    },
+    "mistralai/Magistral-Small-2509": {
+      "downloads_30d": 6478,
+      "downloads_all_time": 270675,
+      "parameters": 24011361280,
+      "parameters_source": "safetensors"
+    },
+    "mistralai/Magistral-Small-2509-GGUF": {
+      "downloads_30d": 5360,
+      "downloads_all_time": 61616,
+      "parameters": 23572403200,
+      "parameters_source": "gguf"
+    },
+    "mistralai/Mathstral-7B-v0.1": {
+      "downloads_30d": 1697,
+      "downloads_all_time": 5300960,
+      "parameters": 7248023552,
+      "parameters_source": "safetensors"
+    },
+    "mistralai/Ministral-3-14B-Base-2512": {
+      "downloads_30d": 3832,
+      "downloads_all_time": 113838,
+      "parameters": 13945031680,
+      "parameters_source": "safetensors"
+    },
+    "mistralai/Ministral-3-14B-Instruct-2512": {
+      "downloads_30d": 152150,
+      "downloads_all_time": 2351142,
+      "parameters": 13945032240,
+      "parameters_source": "safetensors"
+    },
+    "mistralai/Ministral-3-14B-Instruct-2512-BF16": {
+      "downloads_30d": 103540,
+      "downloads_all_time": 329612,
+      "parameters": 13945031680,
+      "parameters_source": "safetensors"
+    },
+    "mistralai/Ministral-3-14B-Instruct-2512-GGUF": {
+      "downloads_30d": 44018,
+      "downloads_all_time": 144169,
+      "parameters": 13506073600,
+      "parameters_source": "gguf"
+    },
+    "mistralai/Ministral-3-14B-Reasoning-2512": {
+      "downloads_30d": 71111,
+      "downloads_all_time": 770209,
+      "parameters": 13945031680,
+      "parameters_source": "safetensors"
+    },
+    "mistralai/Ministral-3-14B-Reasoning-2512-GGUF": {
+      "downloads_30d": 7373,
+      "downloads_all_time": 76808,
+      "parameters": 13506073600,
+      "parameters_source": "gguf"
+    },
+    "mistralai/Ministral-3-3B-Base-2512": {
+      "downloads_30d": 14728,
+      "downloads_all_time": 242652,
+      "parameters": 4251743232,
+      "parameters_source": "safetensors"
+    },
+    "mistralai/Ministral-3-3B-Instruct-2512": {
+      "downloads_30d": 114063,
+      "downloads_all_time": 3932149,
+      "parameters": 3849090048,
+      "parameters_source": "safetensors"
+    },
+    "mistralai/Ministral-3-3B-Instruct-2512-BF16": {
+      "downloads_30d": 57187,
+      "downloads_all_time": 692418,
+      "parameters": 4251743232,
+      "parameters_source": "safetensors"
+    },
+    "mistralai/Ministral-3-3B-Instruct-2512-GGUF": {
+      "downloads_30d": 41405,
+      "downloads_all_time": 218928,
+      "parameters": 3429006336,
+      "parameters_source": "gguf"
+    },
+    "mistralai/Ministral-3-3B-Instruct-2512-ONNX": {
+      "downloads_30d": 507,
+      "downloads_all_time": 11529,
+      "parameters": null,
+      "parameters_source": null
+    },
+    "mistralai/Ministral-3-3B-Reasoning-2512": {
+      "downloads_30d": 17650,
+      "downloads_all_time": 509159,
+      "parameters": 4251743232,
+      "parameters_source": "safetensors"
+    },
+    "mistralai/Ministral-3-3B-Reasoning-2512-GGUF": {
+      "downloads_30d": 3956,
+      "downloads_all_time": 48894,
+      "parameters": 3429006336,
+      "parameters_source": "gguf"
+    },
+    "mistralai/Ministral-3-8B-Base-2512": {
+      "downloads_30d": 10241,
+      "downloads_all_time": 118788,
+      "parameters": 8918026240,
+      "parameters_source": "safetensors"
+    },
+    "mistralai/Ministral-3-8B-Instruct-2512": {
+      "downloads_30d": 119170,
+      "downloads_all_time": 1208553,
+      "parameters": 8918026716,
+      "parameters_source": "safetensors"
+    },
+    "mistralai/Ministral-3-8B-Instruct-2512-BF16": {
+      "downloads_30d": 43831,
+      "downloads_all_time": 243720,
+      "parameters": 8918026240,
+      "parameters_source": "safetensors"
+    },
+    "mistralai/Ministral-3-8B-Instruct-2512-GGUF": {
+      "downloads_30d": 38071,
+      "downloads_all_time": 194550,
+      "parameters": 8489553920,
+      "parameters_source": "gguf"
+    },
+    "mistralai/Ministral-3-8B-Reasoning-2512": {
+      "downloads_30d": 13378,
+      "downloads_all_time": 295274,
+      "parameters": 8918026240,
+      "parameters_source": "safetensors"
+    },
+    "mistralai/Ministral-3-8B-Reasoning-2512-GGUF": {
+      "downloads_30d": 4836,
+      "downloads_all_time": 200274,
+      "parameters": 8489553920,
+      "parameters_source": "gguf"
+    },
+    "mistralai/Ministral-8B-Instruct-2410": {
+      "downloads_30d": 142412,
+      "downloads_all_time": 8534831,
+      "parameters": 8019808256,
+      "parameters_source": "safetensors"
+    },
+    "mistralai/Mistral-7B-Instruct-v0.1": {
+      "downloads_30d": 152289,
+      "downloads_all_time": 18154362,
+      "parameters": 7241732096,
+      "parameters_source": "safetensors"
+    },
+    "mistralai/Mistral-7B-Instruct-v0.2": {
+      "downloads_30d": 1565545,
+      "downloads_all_time": 65065728,
+      "parameters": 7241732096,
+      "parameters_source": "safetensors"
+    },
+    "mistralai/Mistral-7B-Instruct-v0.3": {
+      "downloads_30d": 2122798,
+      "downloads_all_time": 47630922,
+      "parameters": 7248023552,
+      "parameters_source": "safetensors"
+    },
+    "mistralai/Mistral-7B-v0.1": {
+      "downloads_30d": 433021,
+      "downloads_all_time": 27674059,
+      "parameters": 7241732096,
+      "parameters_source": "safetensors"
+    },
+    "mistralai/Mistral-7B-v0.3": {
+      "downloads_30d": 252656,
+      "downloads_all_time": 10542058,
+      "parameters": 7248023552,
+      "parameters_source": "safetensors"
+    },
+    "mistralai/Mistral-Large-3-675B-Base-2512": {
+      "downloads_30d": 96,
+      "downloads_all_time": 555,
+      "parameters": null,
+      "parameters_source": null
+    },
+    "mistralai/Mistral-Large-3-675B-Instruct-2512": {
+      "downloads_30d": 2008,
+      "downloads_all_time": 14777,
+      "parameters": null,
+      "parameters_source": null
+    },
+    "mistralai/Mistral-Large-3-675B-Instruct-2512-BF16": {
+      "downloads_30d": 53,
+      "downloads_all_time": 471,
+      "parameters": null,
+      "parameters_source": null
+    },
+    "mistralai/Mistral-Large-3-675B-Instruct-2512-Eagle": {
+      "downloads_30d": 164,
+      "downloads_all_time": 802,
+      "parameters": null,
+      "parameters_source": null
+    },
+    "mistralai/Mistral-Large-3-675B-Instruct-2512-NVFP4": {
+      "downloads_30d": 11730,
+      "downloads_all_time": 60278,
+      "parameters": null,
+      "parameters_source": null
+    },
+    "mistralai/Mistral-Large-Instruct-2407": {
+      "downloads_30d": 4116,
+      "downloads_all_time": 5033986,
+      "parameters": 122610069504,
+      "parameters_source": "safetensors"
+    },
+    "mistralai/Mistral-Large-Instruct-2411": {
+      "downloads_30d": 8743,
+      "downloads_all_time": 4928453,
+      "parameters": 122610069504,
+      "parameters_source": "safetensors"
+    },
+    "mistralai/Mistral-Medium-3.5-128B": {
+      "downloads_30d": 86432,
+      "downloads_all_time": 1097810,
+      "parameters": 127704210176,
+      "parameters_source": "safetensors"
+    },
+    "mistralai/Mistral-Medium-3.5-128B-EAGLE": {
+      "downloads_30d": 195,
+      "downloads_all_time": 1814,
+      "parameters": null,
+      "parameters_source": null
+    },
+    "mistralai/Mistral-Nemo-Base-2407": {
+      "downloads_30d": 136633,
+      "downloads_all_time": 5912333,
+      "parameters": 12247782400,
+      "parameters_source": "safetensors"
+    },
+    "mistralai/Mistral-Nemo-Instruct-2407": {
+      "downloads_30d": 332781,
+      "downloads_all_time": 10570540,
+      "parameters": 12247782400,
+      "parameters_source": "safetensors"
+    },
+    "mistralai/Mistral-Nemo-Instruct-FP8-2407": {
+      "downloads_30d": 133,
+      "downloads_all_time": 1712,
+      "parameters": null,
+      "parameters_source": null
+    },
+    "mistralai/Mistral-Small-24B-Base-2501": {
+      "downloads_30d": 4861,
+      "downloads_all_time": 261659,
+      "parameters": 23572403200,
+      "parameters_source": "safetensors"
+    },
+    "mistralai/Mistral-Small-24B-Instruct-2501": {
+      "downloads_30d": 63980,
+      "downloads_all_time": 7339529,
+      "parameters": 23572403200,
+      "parameters_source": "safetensors"
+    },
+    "mistralai/Mistral-Small-3.1-24B-Base-2503": {
+      "downloads_30d": 2646,
+      "downloads_all_time": 243652,
+      "parameters": 24011361280,
+      "parameters_source": "safetensors"
+    },
+    "mistralai/Mistral-Small-3.1-24B-Instruct-2503": {
+      "downloads_30d": 428779,
+      "downloads_all_time": 4578961,
+      "parameters": 24011361280,
+      "parameters_source": "safetensors"
+    },
+    "mistralai/Mistral-Small-3.2-24B-Instruct-2506": {
+      "downloads_30d": 259960,
+      "downloads_all_time": 5502211,
+      "parameters": 24011361280,
+      "parameters_source": "safetensors"
+    },
+    "mistralai/Mistral-Small-4-119B-2603": {
+      "downloads_30d": 80241,
+      "downloads_all_time": 687520,
+      "parameters": 119401317952,
+      "parameters_source": "safetensors"
+    },
+    "mistralai/Mistral-Small-4-119B-2603-NVFP4": {
+      "downloads_30d": 1608,
+      "downloads_all_time": 14747,
+      "parameters": null,
+      "parameters_source": null
+    },
+    "mistralai/Mistral-Small-4-119B-2603-eagle": {
+      "downloads_30d": 348,
+      "downloads_all_time": 5207,
+      "parameters": null,
+      "parameters_source": null
+    },
+    "mistralai/Mistral-Small-Instruct-2409": {
+      "downloads_30d": 6787,
+      "downloads_all_time": 5380678,
+      "parameters": 22247282688,
+      "parameters_source": "safetensors"
+    },
+    "mistralai/Mixtral-8x22B-Instruct-v0.1": {
+      "downloads_30d": 41775,
+      "downloads_all_time": 6319871,
+      "parameters": 140630071296,
+      "parameters_source": "safetensors"
+    },
+    "mistralai/Mixtral-8x22B-v0.1": {
+      "downloads_30d": 12582,
+      "downloads_all_time": 4911685,
+      "parameters": 140620634112,
+      "parameters_source": "safetensors"
+    },
+    "mistralai/Mixtral-8x7B-Instruct-v0.1": {
+      "downloads_30d": 222095,
+      "downloads_all_time": 23888081,
+      "parameters": 46702792704,
+      "parameters_source": "safetensors"
+    },
+    "mistralai/Mixtral-8x7B-v0.1": {
+      "downloads_30d": 54099,
+      "downloads_all_time": 8526435,
+      "parameters": 46702792704,
+      "parameters_source": "safetensors"
+    },
+    "occiglot/occiglot-7b-de-en": {
+      "downloads_30d": 680,
+      "downloads_all_time": 5795,
+      "parameters": 7241732096,
+      "parameters_source": "safetensors"
+    },
+    "occiglot/occiglot-7b-de-en-instruct": {
+      "downloads_30d": 631,
+      "downloads_all_time": 223485,
+      "parameters": 7241748480,
+      "parameters_source": "safetensors"
+    },
+    "occiglot/occiglot-7b-es-en": {
+      "downloads_30d": 134,
+      "downloads_all_time": 22283,
+      "parameters": 7241732096,
+      "parameters_source": "safetensors"
+    },
+    "occiglot/occiglot-7b-es-en-instruct": {
+      "downloads_30d": 125,
+      "downloads_all_time": 5438,
+      "parameters": 7241748480,
+      "parameters_source": "safetensors"
+    },
+    "occiglot/occiglot-7b-eu5": {
+      "downloads_30d": 169,
+      "downloads_all_time": 17376,
+      "parameters": 7241732096,
+      "parameters_source": "safetensors"
+    },
+    "occiglot/occiglot-7b-eu5-instruct": {
+      "downloads_30d": 250,
+      "downloads_all_time": 304677,
+      "parameters": 7241748480,
+      "parameters_source": "safetensors"
+    },
+    "occiglot/occiglot-7b-fr-en": {
+      "downloads_30d": 98,
+      "downloads_all_time": 13352,
+      "parameters": 7241732096,
+      "parameters_source": "safetensors"
+    },
+    "occiglot/occiglot-7b-fr-en-instruct": {
+      "downloads_30d": 91,
+      "downloads_all_time": 1863,
+      "parameters": 7241748480,
+      "parameters_source": "safetensors"
+    },
+    "occiglot/occiglot-7b-it-en": {
+      "downloads_30d": 98,
+      "downloads_all_time": 1920,
+      "parameters": 7241732096,
+      "parameters_source": "safetensors"
+    },
+    "occiglot/occiglot-7b-it-en-instruct": {
+      "downloads_30d": 2807,
+      "downloads_all_time": 99133,
+      "parameters": 7241748480,
+      "parameters_source": "safetensors"
+    },
+    "openGPT-X/Teuken-7B-base-v0.6": {
+      "downloads_30d": 362,
+      "downloads_all_time": 401043,
+      "parameters": 7453544448,
+      "parameters_source": "safetensors"
+    },
+    "openGPT-X/Teuken-7B-instruct-commercial-v0.4": {
+      "downloads_30d": 1825,
+      "downloads_all_time": 106236,
+      "parameters": 7452725248,
+      "parameters_source": "safetensors"
+    },
+    "openGPT-X/Teuken-7B-instruct-research-v0.4": {
+      "downloads_30d": 1868,
+      "downloads_all_time": 78588,
+      "parameters": 7452725248,
+      "parameters_source": "safetensors"
+    },
+    "openGPT-X/Teuken-7B-instruct-v0.6": {
+      "downloads_30d": 3569,
+      "downloads_all_time": 269042,
+      "parameters": 7452725248,
+      "parameters_source": "safetensors"
+    },
+    "openeurollm/prelude": {
+      "downloads_30d": 66322,
+      "downloads_all_time": 68259,
+      "parameters": null,
+      "parameters_source": null
+    },
+    "sapienzanlp/Minerva-7B-base-v1.0": {
+      "downloads_30d": 1713,
+      "downloads_all_time": 52203,
+      "parameters": 7399018496,
+      "parameters_source": "safetensors"
+    },
+    "sapienzanlp/Minerva-7B-instruct-v1.0": {
+      "downloads_30d": 3058,
+      "downloads_all_time": 77547,
+      "parameters": 7399542784,
+      "parameters_source": "safetensors"
+    },
+    "sapienzanlp/Minerva-7B-instruct-v1.0-GGUF": {
+      "downloads_30d": 454,
+      "downloads_all_time": 5524,
+      "parameters": 7399542784,
+      "parameters_source": "gguf"
+    },
+    "speakleash/Bielik-1.5B-v3": {
+      "downloads_30d": 204,
+      "downloads_all_time": 8198,
+      "parameters": 1596507648,
+      "parameters_source": "safetensors"
+    },
+    "speakleash/Bielik-1.5B-v3.0-Instruct": {
+      "downloads_30d": 1068,
+      "downloads_all_time": 34506,
+      "parameters": 1596507648,
+      "parameters_source": "safetensors"
+    },
+    "speakleash/Bielik-1.5B-v3.0-Instruct-FP8-Dynamic": {
+      "downloads_30d": 815,
+      "downloads_all_time": 5413,
+      "parameters": 1597244928,
+      "parameters_source": "safetensors"
+    },
+    "speakleash/Bielik-1.5B-v3.0-Instruct-GGUF": {
+      "downloads_30d": 933,
+      "downloads_all_time": 9104,
+      "parameters": 1596507648,
+      "parameters_source": "gguf"
+    },
+    "speakleash/Bielik-1.5B-v3.0-Instruct-MLX-8bit": {
+      "downloads_30d": 154,
+      "downloads_all_time": 1367,
+      "parameters": 1596507648,
+      "parameters_source": "safetensors"
+    },
+    "speakleash/Bielik-11B-v2": {
+      "downloads_30d": 273,
+      "downloads_all_time": 41685,
+      "parameters": 11168796672,
+      "parameters_source": "safetensors"
+    },
+    "speakleash/Bielik-11B-v2.0-Instruct": {
+      "downloads_30d": 178,
+      "downloads_all_time": 15134,
+      "parameters": 11168796672,
+      "parameters_source": "safetensors"
+    },
+    "speakleash/Bielik-11B-v2.0-Instruct-FP8": {
+      "downloads_30d": 61,
+      "downloads_all_time": 525,
+      "parameters": 11168796672,
+      "parameters_source": "safetensors"
+    },
+    "speakleash/Bielik-11B-v2.0-Instruct-GGUF": {
+      "downloads_30d": 553,
+      "downloads_all_time": 2565,
+      "parameters": 11168796672,
+      "parameters_source": "gguf"
+    },
+    "speakleash/Bielik-11B-v2.0-Instruct-GGUF-IQ-Imatrix": {
+      "downloads_30d": 758,
+      "downloads_all_time": 3766,
+      "parameters": 11168796672,
+      "parameters_source": "gguf"
+    },
+    "speakleash/Bielik-11B-v2.0-Instruct-GPTQ": {
+      "downloads_30d": 82,
+      "downloads_all_time": 870,
+      "parameters": 11168796672,
+      "parameters_source": "safetensors"
+    },
+    "speakleash/Bielik-11B-v2.1-Instruct": {
+      "downloads_30d": 75,
+      "downloads_all_time": 15006,
+      "parameters": 11168796672,
+      "parameters_source": "safetensors"
+    },
+    "speakleash/Bielik-11B-v2.1-Instruct-FP8": {
+      "downloads_30d": 69,
+      "downloads_all_time": 8516,
+      "parameters": 11168796672,
+      "parameters_source": "safetensors"
+    },
+    "speakleash/Bielik-11B-v2.1-Instruct-GGUF": {
+      "downloads_30d": 493,
+      "downloads_all_time": 2759,
+      "parameters": 11168796672,
+      "parameters_source": "gguf"
+    },
+    "speakleash/Bielik-11B-v2.1-Instruct-GGUF-IQ-Imatrix": {
+      "downloads_30d": 617,
+      "downloads_all_time": 3731,
+      "parameters": 11168796672,
+      "parameters_source": "gguf"
+    },
+    "speakleash/Bielik-11B-v2.1-Instruct-GPTQ": {
+      "downloads_30d": 68,
+      "downloads_all_time": 814,
+      "parameters": 11168796672,
+      "parameters_source": "safetensors"
+    },
+    "speakleash/Bielik-11B-v2.2-Instruct": {
+      "downloads_30d": 21,
+      "downloads_all_time": 108329,
+      "parameters": 11168796672,
+      "parameters_source": "safetensors"
+    },
+    "speakleash/Bielik-11B-v2.2-Instruct-AWQ": {
+      "downloads_30d": 129,
+      "downloads_all_time": 2515,
+      "parameters": 11168796672,
+      "parameters_source": "safetensors"
+    },
+    "speakleash/Bielik-11B-v2.2-Instruct-EXL2-4.5bit": {
+      "downloads_30d": 642,
+      "downloads_all_time": 4139,
+      "parameters": null,
+      "parameters_source": null
+    },
+    "speakleash/Bielik-11B-v2.2-Instruct-EXL2-6.5bit": {
+      "downloads_30d": 248,
+      "downloads_all_time": 1323,
+      "parameters": null,
+      "parameters_source": null
+    },
+    "speakleash/Bielik-11B-v2.2-Instruct-FP8": {
+      "downloads_30d": 73,
+      "downloads_all_time": 6164,
+      "parameters": 11168796672,
+      "parameters_source": "safetensors"
+    },
+    "speakleash/Bielik-11B-v2.2-Instruct-GGUF": {
+      "downloads_30d": 1468,
+      "downloads_all_time": 18113,
+      "parameters": 11168796672,
+      "parameters_source": "gguf"
+    },
+    "speakleash/Bielik-11B-v2.2-Instruct-GGUF-IQ-Imatrix": {
+      "downloads_30d": 1192,
+      "downloads_all_time": 6773,
+      "parameters": 11168796672,
+      "parameters_source": "gguf"
+    },
+    "speakleash/Bielik-11B-v2.2-Instruct-GPTQ": {
+      "downloads_30d": 253,
+      "downloads_all_time": 4909,
+      "parameters": 11168796672,
+      "parameters_source": "safetensors"
+    },
+    "speakleash/Bielik-11B-v2.2-Instruct-HQQ-4bit-128gs": {
+      "downloads_30d": 90,
+      "downloads_all_time": 940,
+      "parameters": null,
+      "parameters_source": null
+    },
+    "speakleash/Bielik-11B-v2.2-Instruct-HQQ-8bit-128gs": {
+      "downloads_30d": 70,
+      "downloads_all_time": 761,
+      "parameters": null,
+      "parameters_source": null
+    },
+    "speakleash/Bielik-11B-v2.2-Instruct-MLX-4bit": {
+      "downloads_30d": 138,
+      "downloads_all_time": 1593,
+      "parameters": 1856507904,
+      "parameters_source": "safetensors"
+    },
+    "speakleash/Bielik-11B-v2.2-Instruct-MLX-8bit": {
+      "downloads_30d": 262,
+      "downloads_all_time": 4723,
+      "parameters": 3236106240,
+      "parameters_source": "safetensors"
+    },
+    "speakleash/Bielik-11B-v2.2-Instruct-Quanto-4bit": {
+      "downloads_30d": 81,
+      "downloads_all_time": 978,
+      "parameters": 5886595072,
+      "parameters_source": "safetensors"
+    },
+    "speakleash/Bielik-11B-v2.2-Instruct-Quanto-8bit": {
+      "downloads_30d": 149,
+      "downloads_all_time": 1613,
+      "parameters": 11170947072,
+      "parameters_source": "safetensors"
+    },
+    "speakleash/Bielik-11B-v2.2-Instruct-W8A8": {
+      "downloads_30d": 140,
+      "downloads_all_time": 2712,
+      "parameters": 11170947072,
+      "parameters_source": "safetensors"
+    },
+    "speakleash/Bielik-11B-v2.2-Instruct-onnx-fp16": {
+      "downloads_30d": 16,
+      "downloads_all_time": 277,
+      "parameters": null,
+      "parameters_source": null
+    },
+    "speakleash/Bielik-11B-v2.3-Instruct": {
+      "downloads_30d": 10608,
+      "downloads_all_time": 602725,
+      "parameters": 11168796672,
+      "parameters_source": "safetensors"
+    },
+    "speakleash/Bielik-11B-v2.3-Instruct-4bit-ov": {
+      "downloads_30d": 42,
+      "downloads_all_time": 3917,
+      "parameters": null,
+      "parameters_source": null
+    },
+    "speakleash/Bielik-11B-v2.3-Instruct-AWQ": {
+      "downloads_30d": 96,
+      "downloads_all_time": 2808,
+      "parameters": 11168796672,
+      "parameters_source": "safetensors"
+    },
+    "speakleash/Bielik-11B-v2.3-Instruct-FP8": {
+      "downloads_30d": 161,
+      "downloads_all_time": 37098,
+      "parameters": 11168796672,
+      "parameters_source": "safetensors"
+    },
+    "speakleash/Bielik-11B-v2.3-Instruct-GGUF": {
+      "downloads_30d": 2931,
+      "downloads_all_time": 125566,
+      "parameters": 11168796672,
+      "parameters_source": "gguf"
+    },
+    "speakleash/Bielik-11B-v2.3-Instruct-GGUF-IQ-Imatrix": {
+      "downloads_30d": 502,
+      "downloads_all_time": 5232,
+      "parameters": 11168796672,
+      "parameters_source": "gguf"
+    },
+    "speakleash/Bielik-11B-v2.3-Instruct-GPTQ": {
+      "downloads_30d": 94,
+      "downloads_all_time": 3658,
+      "parameters": 11168796672,
+      "parameters_source": "safetensors"
+    },
+    "speakleash/Bielik-11B-v2.3-Instruct-W4A16": {
+      "downloads_30d": 11,
+      "downloads_all_time": 28,
+      "parameters": 11253994172,
+      "parameters_source": "safetensors"
+    },
+    "speakleash/Bielik-11B-v2.3-Instruct-W8A8-INT": {
+      "downloads_30d": 9,
+      "downloads_all_time": 126,
+      "parameters": 11170947072,
+      "parameters_source": "safetensors"
+    },
+    "speakleash/Bielik-11B-v2.3-Instruct-W8A8-fp8": {
+      "downloads_30d": 11,
+      "downloads_all_time": 362,
+      "parameters": 11170947072,
+      "parameters_source": "safetensors"
+    },
+    "speakleash/Bielik-11B-v2.5-Instruct": {
+      "downloads_30d": 0,
+      "downloads_all_time": 1011,
+      "parameters": 11168796672,
+      "parameters_source": "safetensors"
+    },
+    "speakleash/Bielik-11B-v2.5-Instruct-AWQ": {
+      "downloads_30d": 64,
+      "downloads_all_time": 1186,
+      "parameters": 11168796672,
+      "parameters_source": "safetensors"
+    },
+    "speakleash/Bielik-11B-v2.5-Instruct-FP8-Dynamic": {
+      "downloads_30d": 73,
+      "downloads_all_time": 1136,
+      "parameters": 11170947072,
+      "parameters_source": "safetensors"
+    },
+    "speakleash/Bielik-11B-v2.5-Instruct-GGUF": {
+      "downloads_30d": 59,
+      "downloads_all_time": 1708,
+      "parameters": 11168796672,
+      "parameters_source": "gguf"
+    },
+    "speakleash/Bielik-11B-v2.5-Instruct-bnb-4bit": {
+      "downloads_30d": 32,
+      "downloads_all_time": 217,
+      "parameters": 11510465234,
+      "parameters_source": "safetensors"
+    },
+    "speakleash/Bielik-11B-v2.6-Instruct": {
+      "downloads_30d": 238,
+      "downloads_all_time": 125805,
+      "parameters": 11168796672,
+      "parameters_source": "safetensors"
+    },
+    "speakleash/Bielik-11B-v2.6-Instruct-AWQ": {
+      "downloads_30d": 162,
+      "downloads_all_time": 15374,
+      "parameters": 11168796672,
+      "parameters_source": "safetensors"
+    },
+    "speakleash/Bielik-11B-v2.6-Instruct-FP8-Dynamic": {
+      "downloads_30d": 192,
+      "downloads_all_time": 18688,
+      "parameters": 11170947072,
+      "parameters_source": "safetensors"
+    },
+    "speakleash/Bielik-11B-v2.6-Instruct-GGUF": {
+      "downloads_30d": 447,
+      "downloads_all_time": 8923,
+      "parameters": 11168796672,
+      "parameters_source": "gguf"
+    },
+    "speakleash/Bielik-11B-v2.6-Instruct-MLX-4bit": {
+      "downloads_30d": 78,
+      "downloads_all_time": 1083,
+      "parameters": 11168796672,
+      "parameters_source": "safetensors"
+    },
+    "speakleash/Bielik-11B-v2.6-Instruct-MLX-8bit": {
+      "downloads_30d": 67,
+      "downloads_all_time": 1522,
+      "parameters": 11168796672,
+      "parameters_source": "safetensors"
+    },
+    "speakleash/Bielik-11B-v2.6-Instruct-bnb-4bit": {
+      "downloads_30d": 47,
+      "downloads_all_time": 2177,
+      "parameters": 11510465240,
+      "parameters_source": "safetensors"
+    },
+    "speakleash/Bielik-11B-v3-Base-20250730": {
+      "downloads_30d": 3198,
+      "downloads_all_time": 4982,
+      "parameters": 11168796672,
+      "parameters_source": "safetensors"
+    },
+    "speakleash/Bielik-11B-v3.0-DFlash": {
+      "downloads_30d": 153,
+      "downloads_all_time": 1860,
+      "parameters": 1174455552,
+      "parameters_source": "safetensors"
+    },
+    "speakleash/Bielik-11B-v3.0-Instruct": {
+      "downloads_30d": 8935,
+      "downloads_all_time": 2478488,
+      "parameters": 11168796672,
+      "parameters_source": "safetensors"
+    },
+    "speakleash/Bielik-11B-v3.0-Instruct-FP8-Dynamic": {
+      "downloads_30d": 2664,
+      "downloads_all_time": 74950,
+      "parameters": 11170947072,
+      "parameters_source": "safetensors"
+    },
+    "speakleash/Bielik-11B-v3.0-Instruct-GGUF": {
+      "downloads_30d": 7925,
+      "downloads_all_time": 45989,
+      "parameters": 11168796672,
+      "parameters_source": "gguf"
+    },
+    "speakleash/Bielik-11B-v3.0-Instruct-MLX-4bit": {
+      "downloads_30d": 284,
+      "downloads_all_time": 3221,
+      "parameters": 11168796672,
+      "parameters_source": "safetensors"
+    },
+    "speakleash/Bielik-11B-v3.0-Instruct-MLX-8bit": {
+      "downloads_30d": 502,
+      "downloads_all_time": 3122,
+      "parameters": 11168796672,
+      "parameters_source": "safetensors"
+    },
+    "speakleash/Bielik-11B-v3.0-Instruct-awq": {
+      "downloads_30d": 45632,
+      "downloads_all_time": 1538438,
+      "parameters": 11339190972,
+      "parameters_source": "safetensors"
+    },
+    "speakleash/Bielik-4.5B-v3": {
+      "downloads_30d": 342,
+      "downloads_all_time": 9037,
+      "parameters": 4757260288,
+      "parameters_source": "safetensors"
+    },
+    "speakleash/Bielik-4.5B-v3.0-Instruct": {
+      "downloads_30d": 972,
+      "downloads_all_time": 119487,
+      "parameters": 4757260288,
+      "parameters_source": "safetensors"
+    },
+    "speakleash/Bielik-4.5B-v3.0-Instruct-FP8-Dynamic": {
+      "downloads_30d": 969,
+      "downloads_all_time": 16366,
+      "parameters": 4758980608,
+      "parameters_source": "safetensors"
+    },
+    "speakleash/Bielik-4.5B-v3.0-Instruct-GGUF": {
+      "downloads_30d": 1856,
+      "downloads_all_time": 107218,
+      "parameters": 4757260288,
+      "parameters_source": "gguf"
+    },
+    "speakleash/Bielik-4.5B-v3.0-Instruct-MLX-8bit": {
+      "downloads_30d": 191,
+      "downloads_all_time": 1648,
+      "parameters": 4757260288,
+      "parameters_source": "safetensors"
+    },
+    "speakleash/Bielik-7B-Instruct-v0.1": {
+      "downloads_30d": 3059,
+      "downloads_all_time": 271954,
+      "parameters": 7241732096,
+      "parameters_source": "safetensors"
+    },
+    "speakleash/Bielik-7B-Instruct-v0.1-3bit-HQQ": {
+      "downloads_30d": 23,
+      "downloads_all_time": 350,
+      "parameters": null,
+      "parameters_source": null
+    },
+    "speakleash/Bielik-7B-Instruct-v0.1-AWQ": {
+      "downloads_30d": 27,
+      "downloads_all_time": 3667,
+      "parameters": 7241732096,
+      "parameters_source": "safetensors"
+    },
+    "speakleash/Bielik-7B-Instruct-v0.1-EXL2": {
+      "downloads_30d": 29,
+      "downloads_all_time": 387,
+      "parameters": null,
+      "parameters_source": null
+    },
+    "speakleash/Bielik-7B-Instruct-v0.1-GGUF": {
+      "downloads_30d": 3330,
+      "downloads_all_time": 46274,
+      "parameters": 7241732096,
+      "parameters_source": "gguf"
+    },
+    "speakleash/Bielik-7B-Instruct-v0.1-GPTQ": {
+      "downloads_30d": 1468,
+      "downloads_all_time": 44353,
+      "parameters": 7243108352,
+      "parameters_source": "safetensors"
+    },
+    "speakleash/Bielik-7B-Instruct-v0.1-MLX": {
+      "downloads_30d": 283,
+      "downloads_all_time": 3037,
+      "parameters": 7241732096,
+      "parameters_source": "safetensors"
+    },
+    "speakleash/Bielik-7B-v0.1": {
+      "downloads_30d": 3012,
+      "downloads_all_time": 141212,
+      "parameters": 7241732096,
+      "parameters_source": "safetensors"
+    },
+    "speakleash/Bielik-Minitron-7B-v3.0-DFlash": {
+      "downloads_30d": 397,
+      "downloads_all_time": 9827,
+      "parameters": 985711872,
+      "parameters_source": "safetensors"
+    },
+    "speakleash/Bielik-Minitron-7B-v3.0-Instruct": {
+      "downloads_30d": 8162,
+      "downloads_all_time": 79137,
+      "parameters": 7477727232,
+      "parameters_source": "safetensors"
+    },
+    "speakleash/Bielik-Minitron-7B-v3.0-Instruct-FP8-Dynamic": {
+      "downloads_30d": 852,
+      "downloads_all_time": 33997,
+      "parameters": 7479201792,
+      "parameters_source": "safetensors"
+    },
+    "speakleash/Bielik-Minitron-7B-v3.0-Instruct-GGUF": {
+      "downloads_30d": 2174,
+      "downloads_all_time": 9821,
+      "parameters": 7477727232,
+      "parameters_source": "gguf"
+    },
+    "speakleash/Bielik-PL-Minitron-7B-v3.0-Instruct": {
+      "downloads_30d": 192,
+      "downloads_all_time": 3083,
+      "parameters": 7476678656,
+      "parameters_source": "safetensors"
+    },
+    "swiss-ai/Apertus-70B-2509": {
+      "downloads_30d": 9796,
+      "downloads_all_time": 111816,
+      "parameters": 70599864480,
+      "parameters_source": "safetensors"
+    },
+    "swiss-ai/Apertus-70B-Instruct-2509": {
+      "downloads_30d": 21715,
+      "downloads_all_time": 425325,
+      "parameters": 70599864480,
+      "parameters_source": "safetensors"
+    },
+    "swiss-ai/Apertus-8B-2509": {
+      "downloads_30d": 40939,
+      "downloads_all_time": 236663,
+      "parameters": 8053338176,
+      "parameters_source": "safetensors"
+    },
+    "swiss-ai/Apertus-8B-Instruct-2509": {
+      "downloads_30d": 451225,
+      "downloads_all_time": 4107613,
+      "parameters": 8053338176,
+      "parameters_source": "safetensors"
+    },
+    "swiss-ai/Apertus-v1.1-0.5B": {
+      "downloads_30d": 5253,
+      "downloads_all_time": 12569,
+      "parameters": 438349352,
+      "parameters_source": "safetensors"
+    },
+    "swiss-ai/Apertus-v1.1-0.5B-Instruct": {
+      "downloads_30d": 756,
+      "downloads_all_time": 3933,
+      "parameters": 572567080,
+      "parameters_source": "safetensors"
+    },
+    "swiss-ai/Apertus-v1.1-0.5B-Instruct-MLX-INT3": {
+      "downloads_30d": 32,
+      "downloads_all_time": 170,
+      "parameters": 67415592,
+      "parameters_source": "safetensors"
+    },
+    "swiss-ai/Apertus-v1.1-0.5B-Instruct-MLX-INT4": {
+      "downloads_30d": 55,
+      "downloads_all_time": 218,
+      "parameters": 76918312,
+      "parameters_source": "safetensors"
+    },
+    "swiss-ai/Apertus-v1.1-0.5B-Instruct-MLX-INT6": {
+      "downloads_30d": 32,
+      "downloads_all_time": 161,
+      "parameters": 95923752,
+      "parameters_source": "safetensors"
+    },
+    "swiss-ai/Apertus-v1.1-1.5B": {
+      "downloads_30d": 1536,
+      "downloads_all_time": 4740,
+      "parameters": 1510019104,
+      "parameters_source": "safetensors"
+    },
+    "swiss-ai/Apertus-v1.1-1.5B-Instruct": {
+      "downloads_30d": 767,
+      "downloads_all_time": 3591,
+      "parameters": 1510019104,
+      "parameters_source": "safetensors"
+    },
+    "swiss-ai/Apertus-v1.1-1.5B-Instruct-MLX-INT3": {
+      "downloads_30d": 42,
+      "downloads_all_time": 177,
+      "parameters": 239144992,
+      "parameters_source": "safetensors"
+    },
+    "swiss-ai/Apertus-v1.1-1.5B-Instruct-MLX-INT4": {
+      "downloads_30d": 43,
+      "downloads_all_time": 192,
+      "parameters": 269553696,
+      "parameters_source": "safetensors"
+    },
+    "swiss-ai/Apertus-v1.1-1.5B-Instruct-MLX-INT6": {
+      "downloads_30d": 32,
+      "downloads_all_time": 153,
+      "parameters": 330371104,
+      "parameters_source": "safetensors"
+    },
+    "swiss-ai/Apertus-v1.1-1.5B-Instruct-vLLM-NVFP4A16": {
+      "downloads_30d": 48,
+      "downloads_all_time": 177,
+      "parameters": 1084297344,
+      "parameters_source": "safetensors"
+    },
+    "swiss-ai/Apertus-v1.1-4B": {
+      "downloads_30d": 723,
+      "downloads_all_time": 4007,
+      "parameters": 3825361968,
+      "parameters_source": "safetensors"
+    },
+    "swiss-ai/Apertus-v1.1-4B-Instruct": {
+      "downloads_30d": 894,
+      "downloads_all_time": 10474,
+      "parameters": 3825361968,
+      "parameters_source": "safetensors"
+    },
+    "swiss-ai/Apertus-v1.1-4B-Instruct-MLX-INT3": {
+      "downloads_30d": 43,
+      "downloads_all_time": 237,
+      "parameters": 553804848,
+      "parameters_source": "safetensors"
+    },
+    "swiss-ai/Apertus-v1.1-4B-Instruct-MLX-INT4": {
+      "downloads_30d": 89,
+      "downloads_all_time": 371,
+      "parameters": 648176688,
+      "parameters_source": "safetensors"
+    },
+    "swiss-ai/Apertus-v1.1-4B-Instruct-MLX-INT6": {
+      "downloads_30d": 73,
+      "downloads_all_time": 308,
+      "parameters": 836920368,
+      "parameters_source": "safetensors"
+    },
+    "swiss-ai/Apertus-v1.5-70B": {
+      "downloads_30d": 9772,
+      "downloads_all_time": 26730,
+      "parameters": 72005819139,
+      "parameters_source": "safetensors"
+    },
+    "swiss-ai/Apertus-v1.5-8B": {
+      "downloads_30d": 699040,
+      "downloads_all_time": 723318,
+      "parameters": 8903547555,
+      "parameters_source": "safetensors"
+    },
+    "utter-project/EuroLLM-1.7B": {
+      "downloads_30d": 19546,
+      "downloads_all_time": 219404,
+      "parameters": null,
+      "parameters_source": null
+    },
+    "utter-project/EuroLLM-1.7B-Instruct": {
+      "downloads_30d": 232546,
+      "downloads_all_time": 924129,
+      "parameters": 1656850432,
+      "parameters_source": "safetensors"
+    },
+    "utter-project/EuroLLM-22B-2512": {
+      "downloads_30d": 2190,
+      "downloads_all_time": 24037,
+      "parameters": 22637328384,
+      "parameters_source": "safetensors"
+    },
+    "utter-project/EuroLLM-22B-Instruct-2512": {
+      "downloads_30d": 296375,
+      "downloads_all_time": 595016,
+      "parameters": 22637328384,
+      "parameters_source": "safetensors"
+    },
+    "utter-project/EuroLLM-22B-Instruct-Preview": {
+      "downloads_30d": 2140,
+      "downloads_all_time": 33015,
+      "parameters": 22637328384,
+      "parameters_source": "safetensors"
+    },
+    "utter-project/EuroLLM-22B-Preview": {
+      "downloads_30d": 212,
+      "downloads_all_time": 2404,
+      "parameters": null,
+      "parameters_source": null
+    },
+    "utter-project/EuroLLM-9B": {
+      "downloads_30d": 2498,
+      "downloads_all_time": 84350,
+      "parameters": 9152319488,
+      "parameters_source": "safetensors"
+    },
+    "utter-project/EuroLLM-9B-2512": {
+      "downloads_30d": 867,
+      "downloads_all_time": 9597,
+      "parameters": 9152319488,
+      "parameters_source": "safetensors"
+    },
+    "utter-project/EuroLLM-9B-Instruct": {
+      "downloads_30d": 13823,
+      "downloads_all_time": 485031,
+      "parameters": 9152319488,
+      "parameters_source": "safetensors"
+    },
+    "utter-project/EuroLLM-9B-Instruct-2512": {
+      "downloads_30d": 20277,
+      "downloads_all_time": 147944,
+      "parameters": 9152319488,
+      "parameters_source": "safetensors"
+    },
+    "utter-project/EuroMoE-2.6B-A0.6B-2512": {
+      "downloads_30d": 354,
+      "downloads_all_time": 3684,
+      "parameters": 2611528704,
+      "parameters_source": "safetensors"
+    },
+    "utter-project/EuroMoE-2.6B-A0.6B-Instruct-2512": {
+      "downloads_30d": 1211,
+      "downloads_all_time": 5102,
+      "parameters": 2611528704,
+      "parameters_source": "safetensors"
+    },
+    "utter-project/EuroMoE-2.6B-A0.6B-Instruct-Preview": {
+      "downloads_30d": 1852,
+      "downloads_all_time": 27472,
+      "parameters": 2611528704,
+      "parameters_source": "safetensors"
+    }
+  },
+  "rows": {
+    "bielik-11b-v3.0": {
+      "total_downloads_30d": 69293,
+      "total_downloads_all_time": 4151050,
+      "repo_count": 8,
+      "fetched_repo_count": 8,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 11339190972,
+      "parameters_source_repo": "speakleash/Bielik-11B-v3.0-Instruct-awq"
+    },
+    "bielik-minitron-7b-v3.0": {
+      "total_downloads_30d": 11777,
+      "total_downloads_all_time": 135865,
+      "repo_count": 5,
+      "fetched_repo_count": 5,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 7479201792,
+      "parameters_source_repo": "speakleash/Bielik-Minitron-7B-v3.0-Instruct-FP8-Dynamic"
+    },
+    "bielik-11b-v2.6": {
+      "total_downloads_30d": 1231,
+      "total_downloads_all_time": 173572,
+      "repo_count": 7,
+      "fetched_repo_count": 7,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 11510465240,
+      "parameters_source_repo": "speakleash/Bielik-11B-v2.6-Instruct-bnb-4bit"
+    },
+    "bielik-11b-v2.5": {
+      "total_downloads_30d": 228,
+      "total_downloads_all_time": 5258,
+      "repo_count": 5,
+      "fetched_repo_count": 5,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 11510465234,
+      "parameters_source_repo": "speakleash/Bielik-11B-v2.5-Instruct-bnb-4bit"
+    },
+    "bielik-11b-v2.3": {
+      "total_downloads_30d": 14465,
+      "total_downloads_all_time": 781520,
+      "repo_count": 10,
+      "fetched_repo_count": 10,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 11253994172,
+      "parameters_source_repo": "speakleash/Bielik-11B-v2.3-Instruct-W4A16"
+    },
+    "bielik-11b-v2.2": {
+      "total_downloads_30d": 4972,
+      "total_downloads_all_time": 165862,
+      "repo_count": 16,
+      "fetched_repo_count": 16,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 11170947072,
+      "parameters_source_repo": "speakleash/Bielik-11B-v2.2-Instruct-Quanto-8bit"
+    },
+    "bielik-11b-v2.1": {
+      "total_downloads_30d": 1322,
+      "total_downloads_all_time": 30826,
+      "repo_count": 5,
+      "fetched_repo_count": 5,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 11168796672,
+      "parameters_source_repo": "speakleash/Bielik-11B-v2.1-Instruct"
+    },
+    "bielik-11b-v2.0": {
+      "total_downloads_30d": 1632,
+      "total_downloads_all_time": 22860,
+      "repo_count": 5,
+      "fetched_repo_count": 5,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 11168796672,
+      "parameters_source_repo": "speakleash/Bielik-11B-v2.0-Instruct"
+    },
+    "bielik-11b-v2-base": {
+      "total_downloads_30d": 273,
+      "total_downloads_all_time": 41685,
+      "repo_count": 1,
+      "fetched_repo_count": 1,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 11168796672,
+      "parameters_source_repo": "speakleash/Bielik-11B-v2"
+    },
+    "bielik-4.5b-v3.0": {
+      "total_downloads_30d": 4330,
+      "total_downloads_all_time": 253756,
+      "repo_count": 5,
+      "fetched_repo_count": 5,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 4758980608,
+      "parameters_source_repo": "speakleash/Bielik-4.5B-v3.0-Instruct-FP8-Dynamic"
+    },
+    "bielik-1.5b-v3.0": {
+      "total_downloads_30d": 3174,
+      "total_downloads_all_time": 58588,
+      "repo_count": 5,
+      "fetched_repo_count": 5,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 1597244928,
+      "parameters_source_repo": "speakleash/Bielik-1.5B-v3.0-Instruct-FP8-Dynamic"
+    },
+    "bielik-7b-v0.1": {
+      "total_downloads_30d": 11231,
+      "total_downloads_all_time": 511234,
+      "repo_count": 8,
+      "fetched_repo_count": 8,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 7243108352,
+      "parameters_source_repo": "speakleash/Bielik-7B-Instruct-v0.1-GPTQ"
+    },
+    "llama-pllum-70b-2512": {
+      "total_downloads_30d": 379,
+      "total_downloads_all_time": 12534,
+      "repo_count": 2,
+      "fetched_repo_count": 2,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 70553755648,
+      "parameters_source_repo": "CYFRAGOVPL/Llama-PLLuM-70B-chat-2512"
+    },
+    "llama-pllum-70b-2508": {
+      "total_downloads_30d": 171,
+      "total_downloads_all_time": 4887,
+      "repo_count": 3,
+      "fetched_repo_count": 3,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 70553788416,
+      "parameters_source_repo": "CYFRAGOVPL/Llama-PLLuM-70B-chat-2508"
+    },
+    "llama-pllum-70b-2412": {
+      "total_downloads_30d": 173,
+      "total_downloads_all_time": 38635,
+      "repo_count": 3,
+      "fetched_repo_count": 3,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 70553739264,
+      "parameters_source_repo": "CYFRAGOVPL/Llama-PLLuM-70B-chat-2412"
+    },
+    "llama-pllum-8b-2512": {
+      "total_downloads_30d": 522,
+      "total_downloads_all_time": 3875,
+      "repo_count": 3,
+      "fetched_repo_count": 3,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 8030285824,
+      "parameters_source_repo": "CYFRAGOVPL/Llama-PLLuM-8B-instruct-2512"
+    },
+    "llama-pllum-8b-2412": {
+      "total_downloads_30d": 282,
+      "total_downloads_all_time": 70306,
+      "repo_count": 3,
+      "fetched_repo_count": 3,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 8030277632,
+      "parameters_source_repo": "CYFRAGOVPL/Llama-PLLuM-8B-chat-2412"
+    },
+    "pllum-12b-2512": {
+      "total_downloads_30d": 17091,
+      "total_downloads_all_time": 35824,
+      "repo_count": 3,
+      "fetched_repo_count": 3,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 12247782400,
+      "parameters_source_repo": "CYFRAGOVPL/PLLuM-12B-base-2512"
+    },
+    "pllum-12b-2412": {
+      "total_downloads_30d": 1639,
+      "total_downloads_all_time": 177069,
+      "repo_count": 6,
+      "fetched_repo_count": 6,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 12247782400,
+      "parameters_source_repo": "CYFRAGOVPL/PLLuM-12B-base-2412"
+    },
+    "pllum-12b-nc-2507": {
+      "total_downloads_30d": 137,
+      "total_downloads_all_time": 6167,
+      "repo_count": 3,
+      "fetched_repo_count": 3,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 12247802880,
+      "parameters_source_repo": "CYFRAGOVPL/PLLuM-12b-nc-chat-2507"
+    },
+    "pllum-4b-2512": {
+      "total_downloads_30d": 1084,
+      "total_downloads_all_time": 7871,
+      "repo_count": 3,
+      "fetched_repo_count": 3,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 4300079472,
+      "parameters_source_repo": "CYFRAGOVPL/PLLuM-4B-base-2512"
+    },
+    "pllum-8x7b-2412": {
+      "total_downloads_30d": 136,
+      "total_downloads_all_time": 28270,
+      "repo_count": 6,
+      "fetched_repo_count": 6,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 46702817280,
+      "parameters_source_repo": "CYFRAGOVPL/PLLuM-8x7B-chat-2412"
+    },
+    "qra-7b": {
+      "total_downloads_30d": 1504,
+      "total_downloads_all_time": 184803,
+      "repo_count": 1,
+      "fetched_repo_count": 1,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 6738415616,
+      "parameters_source_repo": "OPI-PG/Qra-7b"
+    },
+    "qra-13b": {
+      "total_downloads_30d": 1512,
+      "total_downloads_all_time": 145603,
+      "repo_count": 1,
+      "fetched_repo_count": 1,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 13015864320,
+      "parameters_source_repo": "OPI-PG/Qra-13b"
+    },
+    "qra-1b": {
+      "total_downloads_30d": 1617,
+      "total_downloads_all_time": 157960,
+      "repo_count": 1,
+      "fetched_repo_count": 1,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 1100048384,
+      "parameters_source_repo": "OPI-PG/Qra-1b"
+    },
+    "trurl-2-7b": {
+      "total_downloads_30d": 1562,
+      "total_downloads_all_time": 301460,
+      "repo_count": 2,
+      "fetched_repo_count": 2,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 6739785728,
+      "parameters_source_repo": "Voicelab/trurl-2-7b-8bit"
+    },
+    "trurl-2-13b": {
+      "total_downloads_30d": 1733,
+      "total_downloads_all_time": 356214,
+      "repo_count": 3,
+      "fetched_repo_count": 3,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": null,
+      "parameters_source_repo": null
+    },
+    "eurollm-22b-instruct-2512": {
+      "total_downloads_30d": 296375,
+      "total_downloads_all_time": 595016,
+      "repo_count": 1,
+      "fetched_repo_count": 1,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 22637328384,
+      "parameters_source_repo": "utter-project/EuroLLM-22B-Instruct-2512"
+    },
+    "eurollm-22b-2512": {
+      "total_downloads_30d": 2190,
+      "total_downloads_all_time": 24037,
+      "repo_count": 1,
+      "fetched_repo_count": 1,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 22637328384,
+      "parameters_source_repo": "utter-project/EuroLLM-22B-2512"
+    },
+    "eurollm-22b-instruct-preview": {
+      "total_downloads_30d": 2140,
+      "total_downloads_all_time": 33015,
+      "repo_count": 1,
+      "fetched_repo_count": 1,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 22637328384,
+      "parameters_source_repo": "utter-project/EuroLLM-22B-Instruct-Preview"
+    },
+    "eurollm-22b-preview": {
+      "total_downloads_30d": 212,
+      "total_downloads_all_time": 2404,
+      "repo_count": 1,
+      "fetched_repo_count": 1,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": null,
+      "parameters_source_repo": null
+    },
+    "eurollm-9b-2512": {
+      "total_downloads_30d": 867,
+      "total_downloads_all_time": 9597,
+      "repo_count": 1,
+      "fetched_repo_count": 1,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 9152319488,
+      "parameters_source_repo": "utter-project/EuroLLM-9B-2512"
+    },
+    "eurollm-9b-instruct-2512": {
+      "total_downloads_30d": 20277,
+      "total_downloads_all_time": 147944,
+      "repo_count": 1,
+      "fetched_repo_count": 1,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 9152319488,
+      "parameters_source_repo": "utter-project/EuroLLM-9B-Instruct-2512"
+    },
+    "eurollm-9b-instruct": {
+      "total_downloads_30d": 13823,
+      "total_downloads_all_time": 485031,
+      "repo_count": 1,
+      "fetched_repo_count": 1,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 9152319488,
+      "parameters_source_repo": "utter-project/EuroLLM-9B-Instruct"
+    },
+    "eurollm-9b-base": {
+      "total_downloads_30d": 2498,
+      "total_downloads_all_time": 84350,
+      "repo_count": 1,
+      "fetched_repo_count": 1,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 9152319488,
+      "parameters_source_repo": "utter-project/EuroLLM-9B"
+    },
+    "eurollm-1.7b-instruct": {
+      "total_downloads_30d": 232546,
+      "total_downloads_all_time": 924129,
+      "repo_count": 1,
+      "fetched_repo_count": 1,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 1656850432,
+      "parameters_source_repo": "utter-project/EuroLLM-1.7B-Instruct"
+    },
+    "eurollm-1.7b-base": {
+      "total_downloads_30d": 19546,
+      "total_downloads_all_time": 219404,
+      "repo_count": 1,
+      "fetched_repo_count": 1,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": null,
+      "parameters_source_repo": null
+    },
+    "euromoe-2.6b-2512": {
+      "total_downloads_30d": 3417,
+      "total_downloads_all_time": 36258,
+      "repo_count": 3,
+      "fetched_repo_count": 3,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 2611528704,
+      "parameters_source_repo": "utter-project/EuroMoE-2.6B-A0.6B-2512"
+    },
+    "openeurollm-prelude": {
+      "total_downloads_30d": 66322,
+      "total_downloads_all_time": 68259,
+      "repo_count": 1,
+      "fetched_repo_count": 1,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": null,
+      "parameters_source_repo": null
+    },
+    "apertus-70b-2509": {
+      "total_downloads_30d": 31511,
+      "total_downloads_all_time": 537141,
+      "repo_count": 2,
+      "fetched_repo_count": 2,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 70599864480,
+      "parameters_source_repo": "swiss-ai/Apertus-70B-2509"
+    },
+    "apertus-8b-2509": {
+      "total_downloads_30d": 492164,
+      "total_downloads_all_time": 4344276,
+      "repo_count": 2,
+      "fetched_repo_count": 2,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 8053338176,
+      "parameters_source_repo": "swiss-ai/Apertus-8B-2509"
+    },
+    "apertus-v1.5-70b": {
+      "total_downloads_30d": 9772,
+      "total_downloads_all_time": 26730,
+      "repo_count": 1,
+      "fetched_repo_count": 1,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 72005819139,
+      "parameters_source_repo": "swiss-ai/Apertus-v1.5-70B"
+    },
+    "apertus-v1.5-8b": {
+      "total_downloads_30d": 699040,
+      "total_downloads_all_time": 723318,
+      "repo_count": 1,
+      "fetched_repo_count": 1,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 8903547555,
+      "parameters_source_repo": "swiss-ai/Apertus-v1.5-8B"
+    },
+    "apertus-v1.1-4b": {
+      "total_downloads_30d": 1822,
+      "total_downloads_all_time": 15397,
+      "repo_count": 5,
+      "fetched_repo_count": 5,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 3825361968,
+      "parameters_source_repo": "swiss-ai/Apertus-v1.1-4B"
+    },
+    "apertus-v1.1-1.5b": {
+      "total_downloads_30d": 2468,
+      "total_downloads_all_time": 9030,
+      "repo_count": 6,
+      "fetched_repo_count": 6,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 1510019104,
+      "parameters_source_repo": "swiss-ai/Apertus-v1.1-1.5B"
+    },
+    "apertus-v1.1-0.5b": {
+      "total_downloads_30d": 6128,
+      "total_downloads_all_time": 17051,
+      "repo_count": 5,
+      "fetched_repo_count": 5,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 572567080,
+      "parameters_source_repo": "swiss-ai/Apertus-v1.1-0.5B-Instruct"
+    },
+    "mistral-large-3-2512": {
+      "total_downloads_30d": 14051,
+      "total_downloads_all_time": 76883,
+      "repo_count": 5,
+      "fetched_repo_count": 5,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": null,
+      "parameters_source_repo": null
+    },
+    "mistral-medium-3.5-128b": {
+      "total_downloads_30d": 86627,
+      "total_downloads_all_time": 1099624,
+      "repo_count": 2,
+      "fetched_repo_count": 2,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 127704210176,
+      "parameters_source_repo": "mistralai/Mistral-Medium-3.5-128B"
+    },
+    "mistral-large-instruct-2411": {
+      "total_downloads_30d": 8743,
+      "total_downloads_all_time": 4928453,
+      "repo_count": 1,
+      "fetched_repo_count": 1,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 122610069504,
+      "parameters_source_repo": "mistralai/Mistral-Large-Instruct-2411"
+    },
+    "mistral-large-instruct-2407": {
+      "total_downloads_30d": 4116,
+      "total_downloads_all_time": 5033986,
+      "repo_count": 1,
+      "fetched_repo_count": 1,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 122610069504,
+      "parameters_source_repo": "mistralai/Mistral-Large-Instruct-2407"
+    },
+    "mistral-small-4-2603": {
+      "total_downloads_30d": 82197,
+      "total_downloads_all_time": 707474,
+      "repo_count": 3,
+      "fetched_repo_count": 3,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 119401317952,
+      "parameters_source_repo": "mistralai/Mistral-Small-4-119B-2603"
+    },
+    "mistral-small-3.2-2506": {
+      "total_downloads_30d": 259960,
+      "total_downloads_all_time": 5502211,
+      "repo_count": 1,
+      "fetched_repo_count": 1,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 24011361280,
+      "parameters_source_repo": "mistralai/Mistral-Small-3.2-24B-Instruct-2506"
+    },
+    "mistral-small-3.1-2503": {
+      "total_downloads_30d": 431425,
+      "total_downloads_all_time": 4822613,
+      "repo_count": 2,
+      "fetched_repo_count": 2,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 24011361280,
+      "parameters_source_repo": "mistralai/Mistral-Small-3.1-24B-Base-2503"
+    },
+    "mistral-small-24b-2501": {
+      "total_downloads_30d": 68841,
+      "total_downloads_all_time": 7601188,
+      "repo_count": 2,
+      "fetched_repo_count": 2,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 23572403200,
+      "parameters_source_repo": "mistralai/Mistral-Small-24B-Base-2501"
+    },
+    "mistral-nemo-2407": {
+      "total_downloads_30d": 469547,
+      "total_downloads_all_time": 16484585,
+      "repo_count": 3,
+      "fetched_repo_count": 3,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 12247782400,
+      "parameters_source_repo": "mistralai/Mistral-Nemo-Base-2407"
+    },
+    "mixtral-8x7b-v0.1": {
+      "total_downloads_30d": 276194,
+      "total_downloads_all_time": 32414516,
+      "repo_count": 2,
+      "fetched_repo_count": 2,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 46702792704,
+      "parameters_source_repo": "mistralai/Mixtral-8x7B-Instruct-v0.1"
+    },
+    "mixtral-8x22b-v0.1": {
+      "total_downloads_30d": 54357,
+      "total_downloads_all_time": 11231556,
+      "repo_count": 2,
+      "fetched_repo_count": 2,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 140630071296,
+      "parameters_source_repo": "mistralai/Mixtral-8x22B-Instruct-v0.1"
+    },
+    "devstral-small-2505": {
+      "total_downloads_30d": 4127,
+      "total_downloads_all_time": 905480,
+      "repo_count": 2,
+      "fetched_repo_count": 2,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 23572403200,
+      "parameters_source_repo": "mistralai/Devstral-Small-2505"
+    },
+    "devstral-small-2507": {
+      "total_downloads_30d": 17526,
+      "total_downloads_all_time": 633574,
+      "repo_count": 2,
+      "fetched_repo_count": 2,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 23572403200,
+      "parameters_source_repo": "mistralai/Devstral-Small-2507"
+    },
+    "devstral-small-2-2512": {
+      "total_downloads_30d": 298584,
+      "total_downloads_all_time": 2898431,
+      "repo_count": 1,
+      "fetched_repo_count": 1,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 24011361840,
+      "parameters_source_repo": "mistralai/Devstral-Small-2-24B-Instruct-2512"
+    },
+    "devstral-2-2512": {
+      "total_downloads_30d": 6799,
+      "total_downloads_all_time": 350666,
+      "repo_count": 1,
+      "fetched_repo_count": 1,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 125025989840,
+      "parameters_source_repo": "mistralai/Devstral-2-123B-Instruct-2512"
+    },
+    "magistral-small-2506": {
+      "total_downloads_30d": 73749,
+      "total_downloads_all_time": 747535,
+      "repo_count": 2,
+      "fetched_repo_count": 2,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 23572403200,
+      "parameters_source_repo": "mistralai/Magistral-Small-2506"
+    },
+    "magistral-small-2507": {
+      "total_downloads_30d": 4967,
+      "total_downloads_all_time": 154491,
+      "repo_count": 2,
+      "fetched_repo_count": 2,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 23572403200,
+      "parameters_source_repo": "mistralai/Magistral-Small-2507"
+    },
+    "magistral-small-2509": {
+      "total_downloads_30d": 11838,
+      "total_downloads_all_time": 332291,
+      "repo_count": 2,
+      "fetched_repo_count": 2,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 24011361280,
+      "parameters_source_repo": "mistralai/Magistral-Small-2509"
+    },
+    "codestral-22b-v0.1": {
+      "total_downloads_30d": 19690,
+      "total_downloads_all_time": 5160721,
+      "repo_count": 1,
+      "fetched_repo_count": 1,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 22247282688,
+      "parameters_source_repo": "mistralai/Codestral-22B-v0.1"
+    },
+    "ministral-3-14b-2512": {
+      "total_downloads_30d": 382024,
+      "total_downloads_all_time": 3785778,
+      "repo_count": 6,
+      "fetched_repo_count": 6,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 13945032240,
+      "parameters_source_repo": "mistralai/Ministral-3-14B-Instruct-2512"
+    },
+    "ministral-3-8b-2512": {
+      "total_downloads_30d": 229527,
+      "total_downloads_all_time": 2261159,
+      "repo_count": 6,
+      "fetched_repo_count": 6,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 8918026716,
+      "parameters_source_repo": "mistralai/Ministral-3-8B-Instruct-2512"
+    },
+    "ministral-3-3b-2512": {
+      "total_downloads_30d": 249496,
+      "total_downloads_all_time": 5655729,
+      "repo_count": 7,
+      "fetched_repo_count": 7,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 4251743232,
+      "parameters_source_repo": "mistralai/Ministral-3-3B-Base-2512"
+    },
+    "ministral-8b-2410": {
+      "total_downloads_30d": 142412,
+      "total_downloads_all_time": 8534831,
+      "repo_count": 1,
+      "fetched_repo_count": 1,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 8019808256,
+      "parameters_source_repo": "mistralai/Ministral-8B-Instruct-2410"
+    },
+    "mathstral-7b-v0.1": {
+      "total_downloads_30d": 1697,
+      "total_downloads_all_time": 5300960,
+      "repo_count": 1,
+      "fetched_repo_count": 1,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 7248023552,
+      "parameters_source_repo": "mistralai/Mathstral-7B-v0.1"
+    },
+    "mistral-small-instruct-2409": {
+      "total_downloads_30d": 6787,
+      "total_downloads_all_time": 5380678,
+      "repo_count": 1,
+      "fetched_repo_count": 1,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 22247282688,
+      "parameters_source_repo": "mistralai/Mistral-Small-Instruct-2409"
+    },
+    "leanstral-1.5": {
+      "total_downloads_30d": 355,
+      "total_downloads_all_time": 1220,
+      "repo_count": 1,
+      "fetched_repo_count": 1,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": null,
+      "parameters_source_repo": null
+    },
+    "leanstral-2603": {
+      "total_downloads_30d": 130,
+      "total_downloads_all_time": 1027,
+      "repo_count": 1,
+      "fetched_repo_count": 1,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": null,
+      "parameters_source_repo": null
+    },
+    "mistral-7b-v0.3": {
+      "total_downloads_30d": 2375454,
+      "total_downloads_all_time": 58172980,
+      "repo_count": 2,
+      "fetched_repo_count": 2,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 7248023552,
+      "parameters_source_repo": "mistralai/Mistral-7B-Instruct-v0.3"
+    },
+    "mistral-7b-v0.2": {
+      "total_downloads_30d": 1565545,
+      "total_downloads_all_time": 65065728,
+      "repo_count": 1,
+      "fetched_repo_count": 1,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 7241732096,
+      "parameters_source_repo": "mistralai/Mistral-7B-Instruct-v0.2"
+    },
+    "mistral-7b-v0.1": {
+      "total_downloads_30d": 585310,
+      "total_downloads_all_time": 45828421,
+      "repo_count": 2,
+      "fetched_repo_count": 2,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 7241732096,
+      "parameters_source_repo": "mistralai/Mistral-7B-Instruct-v0.1"
+    },
+    "teuken-7b-v0.6": {
+      "total_downloads_30d": 3931,
+      "total_downloads_all_time": 670085,
+      "repo_count": 2,
+      "fetched_repo_count": 2,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 7453544448,
+      "parameters_source_repo": "openGPT-X/Teuken-7B-base-v0.6"
+    },
+    "teuken-7b-v0.4-research": {
+      "total_downloads_30d": 1868,
+      "total_downloads_all_time": 78588,
+      "repo_count": 1,
+      "fetched_repo_count": 1,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 7452725248,
+      "parameters_source_repo": "openGPT-X/Teuken-7B-instruct-research-v0.4"
+    },
+    "teuken-7b-v0.4-commercial": {
+      "total_downloads_30d": 1825,
+      "total_downloads_all_time": 106236,
+      "repo_count": 1,
+      "fetched_repo_count": 1,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 7452725248,
+      "parameters_source_repo": "openGPT-X/Teuken-7B-instruct-commercial-v0.4"
+    },
+    "pharia-7b-control": {
+      "total_downloads_30d": 605,
+      "total_downloads_all_time": 76308,
+      "repo_count": 4,
+      "fetched_repo_count": 4,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 7041544704,
+      "parameters_source_repo": "Aleph-Alpha/Pharia-1-LLM-7B-control-aligned-hf"
+    },
+    "leo-hessianai-70b": {
+      "total_downloads_30d": 251,
+      "total_downloads_all_time": 19498,
+      "repo_count": 2,
+      "fetched_repo_count": 2,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 68976648192,
+      "parameters_source_repo": "LeoLM/leo-hessianai-70b"
+    },
+    "leo-hessianai-13b": {
+      "total_downloads_30d": 302,
+      "total_downloads_all_time": 106988,
+      "repo_count": 3,
+      "fetched_repo_count": 3,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": null,
+      "parameters_source_repo": null
+    },
+    "leo-hessianai-7b": {
+      "total_downloads_30d": 1101,
+      "total_downloads_all_time": 800651,
+      "repo_count": 3,
+      "fetched_repo_count": 3,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": null,
+      "parameters_source_repo": null
+    },
+    "leo-mistral-hessianai-7b": {
+      "total_downloads_30d": 497,
+      "total_downloads_all_time": 232754,
+      "repo_count": 2,
+      "fetched_repo_count": 2,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": null,
+      "parameters_source_repo": null
+    },
+    "velvet-14b": {
+      "total_downloads_30d": 4022,
+      "total_downloads_all_time": 66954,
+      "repo_count": 1,
+      "fetched_repo_count": 1,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 14080271360,
+      "parameters_source_repo": "Almawave/Velvet-14B"
+    },
+    "velvet-2b": {
+      "total_downloads_30d": 2610,
+      "total_downloads_all_time": 85887,
+      "repo_count": 1,
+      "fetched_repo_count": 1,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 2223097856,
+      "parameters_source_repo": "Almawave/Velvet-2B"
+    },
+    "minerva-7b-v1.0": {
+      "total_downloads_30d": 5225,
+      "total_downloads_all_time": 135274,
+      "repo_count": 3,
+      "fetched_repo_count": 3,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 7399542784,
+      "parameters_source_repo": "sapienzanlp/Minerva-7B-instruct-v1.0"
+    },
+    "alia-40b-base": {
+      "total_downloads_30d": 1806,
+      "total_downloads_all_time": 452588,
+      "repo_count": 1,
+      "fetched_repo_count": 1,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 40433885184,
+      "parameters_source_repo": "BSC-LT/ALIA-40b"
+    },
+    "alia-40b-instruct-2601": {
+      "total_downloads_30d": 443,
+      "total_downloads_all_time": 32579,
+      "repo_count": 2,
+      "fetched_repo_count": 2,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 40433885248,
+      "parameters_source_repo": "BSC-LT/ALIA-40b-instruct-2601-GGUF"
+    },
+    "salamandra-7b-base": {
+      "total_downloads_30d": 1802,
+      "total_downloads_all_time": 49883,
+      "repo_count": 1,
+      "fetched_repo_count": 1,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 7768117248,
+      "parameters_source_repo": "BSC-LT/salamandra-7b"
+    },
+    "salamandra-7b-instruct": {
+      "total_downloads_30d": 29883,
+      "total_downloads_all_time": 687489,
+      "repo_count": 8,
+      "fetched_repo_count": 8,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 7769280512,
+      "parameters_source_repo": "BSC-LT/salamandra-7b-instruct-fp8"
+    },
+    "salamandra-2b": {
+      "total_downloads_30d": 6040,
+      "total_downloads_all_time": 146474,
+      "repo_count": 7,
+      "fetched_repo_count": 7,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 2253997056,
+      "parameters_source_repo": "BSC-LT/salamandra-2b-base-fp8"
+    },
+    "poro-34b": {
+      "total_downloads_30d": 1160,
+      "total_downloads_all_time": 228238,
+      "repo_count": 4,
+      "fetched_repo_count": 4,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 35134453760,
+      "parameters_source_repo": "LumiOpen/Poro-34B-chat-GGUF"
+    },
+    "llama-poro-2-70b": {
+      "total_downloads_30d": 946,
+      "total_downloads_all_time": 39081,
+      "repo_count": 3,
+      "fetched_repo_count": 3,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 70553706496,
+      "parameters_source_repo": "LumiOpen/Llama-Poro-2-70B-Instruct"
+    },
+    "llama-poro-2-8b": {
+      "total_downloads_30d": 5229,
+      "total_downloads_all_time": 49698,
+      "repo_count": 7,
+      "fetched_repo_count": 7,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 8031309824,
+      "parameters_source_repo": "LumiOpen/Llama-Poro-2-8B-Long-Math-Reasoning-RL-Preview"
+    },
+    "viking-7b": {
+      "total_downloads_30d": 2226,
+      "total_downloads_all_time": 55558,
+      "repo_count": 1,
+      "fetched_repo_count": 1,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 7550013440,
+      "parameters_source_repo": "LumiOpen/Viking-7B"
+    },
+    "viking-13b": {
+      "total_downloads_30d": 1565,
+      "total_downloads_all_time": 31790,
+      "repo_count": 1,
+      "fetched_repo_count": 1,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 14030361600,
+      "parameters_source_repo": "LumiOpen/Viking-13B"
+    },
+    "viking-33b": {
+      "total_downloads_30d": 1824,
+      "total_downloads_all_time": 30279,
+      "repo_count": 1,
+      "fetched_repo_count": 1,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 33119034368,
+      "parameters_source_repo": "LumiOpen/Viking-33B"
+    },
+    "bggpt-7b-v0.1": {
+      "total_downloads_30d": 251,
+      "total_downloads_all_time": 16467,
+      "repo_count": 2,
+      "fetched_repo_count": 2,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 7290884096,
+      "parameters_source_repo": "INSAIT-Institute/BgGPT-7B-Instruct-v0.1"
+    },
+    "bggpt-7b-v0.2": {
+      "total_downloads_30d": 4780,
+      "total_downloads_all_time": 111638,
+      "repo_count": 2,
+      "fetched_repo_count": 2,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 7290884096,
+      "parameters_source_repo": "INSAIT-Institute/BgGPT-7B-Instruct-v0.2"
+    },
+    "bggpt-gemma3-27b": {
+      "total_downloads_30d": 4383,
+      "total_downloads_all_time": 12092,
+      "repo_count": 3,
+      "fetched_repo_count": 3,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 27432406640,
+      "parameters_source_repo": "INSAIT-Institute/BgGPT-Gemma-3-27B-IT"
+    },
+    "bggpt-gemma3-12b": {
+      "total_downloads_30d": 492,
+      "total_downloads_all_time": 217920,
+      "repo_count": 3,
+      "fetched_repo_count": 3,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 12187325040,
+      "parameters_source_repo": "INSAIT-Institute/BgGPT-Gemma-3-12B-IT"
+    },
+    "bggpt-gemma3-4b": {
+      "total_downloads_30d": 451,
+      "total_downloads_all_time": 13932,
+      "repo_count": 3,
+      "fetched_repo_count": 3,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 4325147468,
+      "parameters_source_repo": "INSAIT-Institute/BgGPT-Gemma-3-4B-IT-GPTQ-W4A16"
+    },
+    "bggpt-gemma2-27b": {
+      "total_downloads_30d": 376,
+      "total_downloads_all_time": 11801,
+      "repo_count": 2,
+      "fetched_repo_count": 2,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 27227128320,
+      "parameters_source_repo": "INSAIT-Institute/BgGPT-Gemma-2-27B-IT-v1.0"
+    },
+    "bggpt-gemma2-9b": {
+      "total_downloads_30d": 488,
+      "total_downloads_all_time": 27354,
+      "repo_count": 2,
+      "fetched_repo_count": 2,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 9241705984,
+      "parameters_source_repo": "INSAIT-Institute/BgGPT-Gemma-2-9B-IT-v1.0"
+    },
+    "bggpt-gemma2-2.6b": {
+      "total_downloads_30d": 454,
+      "total_downloads_all_time": 21836,
+      "repo_count": 2,
+      "fetched_repo_count": 2,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 2614341888,
+      "parameters_source_repo": "INSAIT-Institute/BgGPT-Gemma-2-2.6B-IT-v1.0"
+    },
+    "mamaylm-gemma3-27b-v2": {
+      "total_downloads_30d": 925,
+      "total_downloads_all_time": 8149,
+      "repo_count": 3,
+      "fetched_repo_count": 3,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 28842037282,
+      "parameters_source_repo": "INSAIT-Institute/MamayLM-Gemma-3-27B-IT-v2.0-FP8-dynamic"
+    },
+    "mamaylm-gemma3-12b-v2": {
+      "total_downloads_30d": 2117,
+      "total_downloads_all_time": 18170,
+      "repo_count": 2,
+      "fetched_repo_count": 2,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 12187325040,
+      "parameters_source_repo": "INSAIT-Institute/MamayLM-Gemma-3-12B-IT-v2.0"
+    },
+    "mamaylm-gemma3-12b-v1": {
+      "total_downloads_30d": 597,
+      "total_downloads_all_time": 44120,
+      "repo_count": 2,
+      "fetched_repo_count": 2,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 12187325040,
+      "parameters_source_repo": "INSAIT-Institute/MamayLM-Gemma-3-12B-IT-v1.0"
+    },
+    "mamaylm-gemma3-4b-v1": {
+      "total_downloads_30d": 1344,
+      "total_downloads_all_time": 20419,
+      "repo_count": 2,
+      "fetched_repo_count": 2,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 4300079472,
+      "parameters_source_repo": "INSAIT-Institute/MamayLM-Gemma-3-4B-IT-v1.0"
+    },
+    "mamaylm-gemma2-9b-v0.1": {
+      "total_downloads_30d": 317,
+      "total_downloads_all_time": 21538,
+      "repo_count": 2,
+      "fetched_repo_count": 2,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 9241705984,
+      "parameters_source_repo": "INSAIT-Institute/MamayLM-Gemma-2-9B-IT-v0.1"
+    },
+    "meltemi-7b-v1.5": {
+      "total_downloads_30d": 414,
+      "total_downloads_all_time": 39173,
+      "repo_count": 2,
+      "fetched_repo_count": 2,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 7482445824,
+      "parameters_source_repo": "ilsp/Meltemi-7B-Instruct-v1.5"
+    },
+    "meltemi-7b-v1": {
+      "total_downloads_30d": 305,
+      "total_downloads_all_time": 44473,
+      "repo_count": 5,
+      "fetched_repo_count": 5,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 7702227842,
+      "parameters_source_repo": "ilsp/Meltemi-7B-Instruct-v1-BnB-4bit"
+    },
+    "llama-krikri-8b": {
+      "total_downloads_30d": 5622,
+      "total_downloads_all_time": 110185,
+      "repo_count": 7,
+      "fetched_repo_count": 7,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 8420895380,
+      "parameters_source_repo": "ilsp/Llama-Krikri-8B-Instruct-bnb-4bit"
+    },
+    "occiglot-7b-eu5": {
+      "total_downloads_30d": 419,
+      "total_downloads_all_time": 322053,
+      "repo_count": 2,
+      "fetched_repo_count": 2,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 7241748480,
+      "parameters_source_repo": "occiglot/occiglot-7b-eu5-instruct"
+    },
+    "occiglot-7b-bilingual": {
+      "total_downloads_30d": 4664,
+      "total_downloads_all_time": 373269,
+      "repo_count": 8,
+      "fetched_repo_count": 8,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 7241748480,
+      "parameters_source_repo": "occiglot/occiglot-7b-de-en-instruct"
+    },
+    "croissantllm-base": {
+      "total_downloads_30d": 1146,
+      "total_downloads_all_time": 57554,
+      "repo_count": 3,
+      "fetched_repo_count": 3,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 1345423360,
+      "parameters_source_repo": "croissantllm/CroissantLLMBase-GGUF"
+    },
+    "croissantllm-chat-v0.1": {
+      "total_downloads_30d": 694,
+      "total_downloads_all_time": 95773,
+      "repo_count": 8,
+      "fetched_repo_count": 8,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 1345431552,
+      "parameters_source_repo": "croissantllm/CroissantLLMChat-v0.1"
+    },
+    "gams3-12b": {
+      "total_downloads_30d": 4801,
+      "total_downloads_all_time": 67819,
+      "repo_count": 5,
+      "fetched_repo_count": 5,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 12772912896,
+      "parameters_source_repo": "cjvt/GaMS3-12B-Instruct-Lex"
+    },
+    "gams2-27b": {
+      "total_downloads_30d": 203,
+      "total_downloads_all_time": 1244,
+      "repo_count": 3,
+      "fetched_repo_count": 3,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 27227128320,
+      "parameters_source_repo": "cjvt/GaMS2-27B-GRPO-Translator"
+    },
+    "gams-27b": {
+      "total_downloads_30d": 369,
+      "total_downloads_all_time": 37602,
+      "repo_count": 3,
+      "fetched_repo_count": 3,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 27227128320,
+      "parameters_source_repo": "cjvt/GaMS-27B"
+    },
+    "gams-9b": {
+      "total_downloads_30d": 2191,
+      "total_downloads_all_time": 49599,
+      "repo_count": 4,
+      "fetched_repo_count": 4,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 9241705984,
+      "parameters_source_repo": "cjvt/GaMS-9B"
+    },
+    "gams-2b": {
+      "total_downloads_30d": 740,
+      "total_downloads_all_time": 20208,
+      "repo_count": 2,
+      "fetched_repo_count": 2,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 3204165888,
+      "parameters_source_repo": "cjvt/GaMS-2B"
+    },
+    "gams-1b": {
+      "total_downloads_30d": 798,
+      "total_downloads_all_time": 16264,
+      "repo_count": 4,
+      "fetched_repo_count": 4,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 1540481024,
+      "parameters_source_repo": "cjvt/GaMS-1B"
+    },
+    "tildeopen-30b": {
+      "total_downloads_30d": 1809,
+      "total_downloads_all_time": 100074,
+      "repo_count": 1,
+      "fetched_repo_count": 1,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 30677882880,
+      "parameters_source_repo": "TildeAI/TildeOpen-30b"
+    },
+    "tildeopen-30b-64k": {
+      "total_downloads_30d": 377,
+      "total_downloads_all_time": 3085,
+      "repo_count": 1,
+      "fetched_repo_count": 1,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 30677882880,
+      "parameters_source_repo": "TildeAI/TildeOpen-30b-64k"
+    },
+    "tildeopen-15b-wmt26-cs-de": {
+      "total_downloads_30d": 31,
+      "total_downloads_all_time": 227,
+      "repo_count": 3,
+      "fetched_repo_count": 3,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 15169802240,
+      "parameters_source_repo": "TildeAI/TildeOpen15B-64k-wmt26-compression-task-cs-de-fp8-dyn"
+    },
+    "tildeopen-8b-wmt26-cs-de": {
+      "total_downloads_30d": 26,
+      "total_downloads_all_time": 171,
+      "repo_count": 3,
+      "fetched_repo_count": 3,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 8158570240,
+      "parameters_source_repo": "TildeAI/TildeOpen8B-64k-wmt26-compression-task-cs-de-fp8-dyn"
+    },
+    "soofi-s-instruct-preview": {
+      "total_downloads_30d": 370,
+      "total_downloads_all_time": 7364,
+      "repo_count": 6,
+      "fetched_repo_count": 6,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 31591508800,
+      "parameters_source_repo": "Soofi-Project/Soofi-S-Instruct-Preview-FP8"
+    },
+    "soofi-s-rhine-preview": {
+      "total_downloads_30d": 864,
+      "total_downloads_all_time": 2828,
+      "repo_count": 6,
+      "fetched_repo_count": 6,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 31591508800,
+      "parameters_source_repo": "Soofi-Project/Soofi-S-Rhine-Preview-FP8"
+    },
+    "soofi-s-isar-preview": {
+      "total_downloads_30d": 1291,
+      "total_downloads_all_time": 12023,
+      "repo_count": 6,
+      "fetched_repo_count": 6,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 31591508800,
+      "parameters_source_repo": "Soofi-Project/Soofi-S-Isar-Preview-FP8"
+    },
+    "soofi-s-base": {
+      "total_downloads_30d": 481,
+      "total_downloads_all_time": 1499,
+      "repo_count": 2,
+      "fetched_repo_count": 2,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 31577937344,
+      "parameters_source_repo": "Soofi-Project/Soofi-S-Base"
+    },
+    "domyn-small-v1.0": {
+      "total_downloads_30d": 1511,
+      "total_downloads_all_time": 7914,
+      "repo_count": 1,
+      "fetched_repo_count": 1,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 9815334912,
+      "parameters_source_repo": "domyn/Domyn-Small-v1.0"
+    },
+    "maestrale-chat-v0.4": {
+      "total_downloads_30d": 4103,
+      "total_downloads_all_time": 149503,
+      "repo_count": 4,
+      "fetched_repo_count": 4,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 7241748480,
+      "parameters_source_repo": "mii-llm/maestrale-chat-v0.4-alpha-sft"
+    },
+    "maestrale-chat-v0.3": {
+      "total_downloads_30d": 1401,
+      "total_downloads_all_time": 53015,
+      "repo_count": 5,
+      "fetched_repo_count": 5,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 7241748480,
+      "parameters_source_repo": "mii-llm/maestrale-chat-v0.3-alpha-GGUF"
+    },
+    "maestrale-chat-v0.2": {
+      "total_downloads_30d": 1308,
+      "total_downloads_all_time": 51850,
+      "repo_count": 1,
+      "fetched_repo_count": 1,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 7241748480,
+      "parameters_source_repo": "mii-llm/maestrale-chat-v0.2-alpha-sft"
+    },
+    "maestrale-chat-v0.1": {
+      "total_downloads_30d": 18,
+      "total_downloads_all_time": 118,
+      "repo_count": 1,
+      "fetched_repo_count": 1,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 7241748480,
+      "parameters_source_repo": "mii-llm/maestrale-chat-v0.1-alpha-sft"
+    },
+    "minerva-chat-v0.1": {
+      "total_downloads_30d": 3457,
+      "total_downloads_all_time": 92546,
+      "repo_count": 1,
+      "fetched_repo_count": 1,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 2894246400,
+      "parameters_source_repo": "mii-llm/minerva-chat-v0.1-alpha-sft"
+    },
+    "zagreus-0.4b-ita": {
+      "total_downloads_30d": 177,
+      "total_downloads_all_time": 5006,
+      "repo_count": 1,
+      "fetched_repo_count": 1,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 437760960,
+      "parameters_source_repo": "mii-llm/zagreus-0.4B-ita"
+    },
+    "zagreus-0.4b-fra": {
+      "total_downloads_30d": 21,
+      "total_downloads_all_time": 148,
+      "repo_count": 1,
+      "fetched_repo_count": 1,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 437760960,
+      "parameters_source_repo": "mii-llm/zagreus-0.4B-fra"
+    },
+    "zagreus-0.4b-spa": {
+      "total_downloads_30d": 41,
+      "total_downloads_all_time": 200,
+      "repo_count": 1,
+      "fetched_repo_count": 1,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 437760960,
+      "parameters_source_repo": "mii-llm/zagreus-0.4B-spa"
+    },
+    "zagreus-0.4b-por": {
+      "total_downloads_30d": 19,
+      "total_downloads_all_time": 261,
+      "repo_count": 1,
+      "fetched_repo_count": 1,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 437760960,
+      "parameters_source_repo": "mii-llm/zagreus-0.4B-por"
+    },
+    "open-zagreus-0.4b": {
+      "total_downloads_30d": 16,
+      "total_downloads_all_time": 360,
+      "repo_count": 1,
+      "fetched_repo_count": 1,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 437768640,
+      "parameters_source_repo": "mii-llm/open-zagreus-0.4B"
+    },
+    "nesso-4b": {
+      "total_downloads_30d": 231,
+      "total_downloads_all_time": 2543,
+      "repo_count": 2,
+      "fetched_repo_count": 2,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 4022468096,
+      "parameters_source_repo": "mii-llm/nesso-4B"
+    },
+    "nesso-0.4b-agentic": {
+      "total_downloads_30d": 458,
+      "total_downloads_all_time": 3013,
+      "repo_count": 2,
+      "fetched_repo_count": 2,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 560898240,
+      "parameters_source_repo": "mii-llm/nesso-0.4B-agentic"
+    },
+    "nesso-0.4b-instruct": {
+      "total_downloads_30d": 39,
+      "total_downloads_all_time": 1248,
+      "repo_count": 1,
+      "fetched_repo_count": 1,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 560898240,
+      "parameters_source_repo": "mii-llm/nesso-0.4B-instruct"
+    },
+    "emma-5-boost": {
+      "total_downloads_30d": 0,
+      "total_downloads_all_time": 8,
+      "repo_count": 1,
+      "fetched_repo_count": 1,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 1387186688,
+      "parameters_source_repo": "mii-llm/emma-5-boost"
+    },
+    "pleias-3b-preview": {
+      "total_downloads_30d": 3980,
+      "total_downloads_all_time": 399998,
+      "repo_count": 1,
+      "fetched_repo_count": 1,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 3211926528,
+      "parameters_source_repo": "PleIAs/Pleias-3b-Preview"
+    },
+    "pleias-1.2b-preview": {
+      "total_downloads_30d": 4190,
+      "total_downloads_all_time": 414959,
+      "repo_count": 1,
+      "fetched_repo_count": 1,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 1195468800,
+      "parameters_source_repo": "PleIAs/Pleias-1.2b-Preview"
+    },
+    "pleias-350m-preview": {
+      "total_downloads_30d": 4022,
+      "total_downloads_all_time": 418456,
+      "repo_count": 1,
+      "fetched_repo_count": 1,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 353424384,
+      "parameters_source_repo": "PleIAs/Pleias-350m-Preview"
+    },
+    "baguettotron": {
+      "total_downloads_30d": 2305,
+      "total_downloads_all_time": 40542,
+      "repo_count": 3,
+      "fetched_repo_count": 3,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 13290474240,
+      "parameters_source_repo": "PleIAs/Baguettotron-MoE"
+    },
+    "monad": {
+      "total_downloads_30d": 1765,
+      "total_downloads_all_time": 33459,
+      "repo_count": 1,
+      "fetched_repo_count": 1,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 56656128,
+      "parameters_source_repo": "PleIAs/Monad"
+    },
+    "pleias-pico": {
+      "total_downloads_30d": 173,
+      "total_downloads_all_time": 5363,
+      "repo_count": 2,
+      "fetched_repo_count": 2,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 353424384,
+      "parameters_source_repo": "PleIAs/Pleias-Pico"
+    },
+    "pleias-nano": {
+      "total_downloads_30d": 127,
+      "total_downloads_all_time": 7181,
+      "repo_count": 2,
+      "fetched_repo_count": 2,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 1195468800,
+      "parameters_source_repo": "PleIAs/Pleias-Nano"
+    },
+    "pleias-rag-1b": {
+      "total_downloads_30d": 1064,
+      "total_downloads_all_time": 18950,
+      "repo_count": 2,
+      "fetched_repo_count": 2,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 1195468800,
+      "parameters_source_repo": "PleIAs/Pleias-RAG-1B"
+    },
+    "pleias-rag-350m": {
+      "total_downloads_30d": 975,
+      "total_downloads_all_time": 14490,
+      "repo_count": 2,
+      "fetched_repo_count": 2,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 353424384,
+      "parameters_source_repo": "PleIAs/Pleias-RAG-350M"
+    },
+    "pleias-slm-rag": {
+      "total_downloads_30d": 87,
+      "total_downloads_all_time": 399,
+      "repo_count": 1,
+      "fetched_repo_count": 1,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 320956992,
+      "parameters_source_repo": "PleIAs/Pleias-SLM-RAG"
+    },
+    "ocronos": {
+      "total_downloads_30d": 639,
+      "total_downloads_all_time": 81472,
+      "repo_count": 3,
+      "fetched_repo_count": 3,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 8030261248,
+      "parameters_source_repo": "PleIAs/OCRonos"
+    }
+  },
+  "fetch_errors": []
+}
