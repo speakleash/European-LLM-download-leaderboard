@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T11:59:38Z",
+  "generated_at": "2026-10-12T12:42:01Z",
   "config_version": 2,
   "config_path": "european-llm-hf-download-leaderboard.json",
   "config_content_hash": "sha256:1a209b835d91c5e52a873e1c2ea445ed9cb2f3da12c5981f1db5d6ead7406dd2",
@@ -2037,6 +2037,7 @@
       "INSAIT-Institute/GRPO-Think-7B-4k",
       "INSAIT-Institute/GRPO-Think-7B-8k",
       "INSAIT-Institute/GenieRedux",
+      "INSAIT-Institute/GraphWrit3R",
       "INSAIT-Institute/Llama3-8B-MixAT",
       "INSAIT-Institute/Llama3-8B-MixAT-GCG",
       "INSAIT-Institute/Llama3.1-8B-MixAT",
@@ -2234,7 +2235,6 @@
       "ilsp/UD_Greek-Lesbian",
       "ilsp/UD_Greek-Messenian",
       "ilsp/VoxKrikri-21-full",
-      "ilsp/base_slerp",
       "ilsp/justice",
       "ilsp/llama-krikri-8b-ag-mg-full-ft",
       "ilsp/llama-krikri-8b-ag-mg-qlora",
@@ -2275,6 +2275,7 @@
       "mii-llm/propaganda-dpo-sx-v0.1"
     ],
     "mistralai": [
+      "mistralai/LIDstral-Arabic",
       "mistralai/Mamba-Codestral-7B-v0.1",
       "mistralai/Pixtral-12B-2409",
       "mistralai/Pixtral-12B-Base-2409",
@@ -2283,6 +2284,7 @@
       "mistralai/Voxtral-4B-TTS-2603",
       "mistralai/Voxtral-Mini-3B-2507",
       "mistralai/Voxtral-Mini-4B-Realtime-2602",
+      "mistralai/Voxtral-Mini-4B-Realtime-Arabic",
       "mistralai/Voxtral-Small-24B-2507"
     ],
     "openeurollm": [
@@ -2292,6 +2294,9 @@
       "openeurollm/OLMo-3-7B-Think-SFT",
       "openeurollm/complex-kda-1.3B-100B",
       "openeurollm/complex-kda-hybrid-1.3B-100B",
+      "openeurollm/datamix-0.7b-Nemotron-Math-Proofs-v1-100bt",
+      "openeurollm/datamix-0.7b-Nemotron-Math-v2-high-100bt",
+      "openeurollm/datamix-0.7b-Nemotron-Math-v2-high-medium-100bt",
       "openeurollm/datamix-0.7b-dolma3_dolmino_math-100bt",
       "openeurollm/datamix-0.7b-en_baseline-100bt",
       "openeurollm/datamix-0.7b-finephrase-100bt",
@@ -2407,6 +2412,13 @@
       "speakleash/Bielik-PL-11B-v3.0-Instruct"
     ],
     "swiss-ai": [
+      "swiss-ai/Apertus-v1.5-70B-RLVR",
+      "swiss-ai/Apertus-v1.5-70B-SFT",
+      "swiss-ai/Apertus-v1.5-70B-base",
+      "swiss-ai/Apertus-v1.5-8B-DPO",
+      "swiss-ai/Apertus-v1.5-8B-RLVR",
+      "swiss-ai/Apertus-v1.5-8B-SFT",
+      "swiss-ai/Apertus-v1.5-8B-base",
       "swiss-ai/apertus-pretrain-toxicity",
       "swiss-ai/wavtokenizer-large-unify-40token"
     ],
