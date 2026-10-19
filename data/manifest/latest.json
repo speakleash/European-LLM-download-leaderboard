@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T12:42:01Z",
+  "generated_at": "2026-10-19T10:27:36Z",
   "config_version": 2,
   "config_path": "european-llm-hf-download-leaderboard.json",
   "config_content_hash": "sha256:1a209b835d91c5e52a873e1c2ea445ed9cb2f3da12c5981f1db5d6ead7406dd2",
@@ -30,7 +30,7 @@
     "swiss-ai",
     "utter-project"
   ],
-  "manifest_content_hash": "sha256:19e7bcca7e0386b20188b70db8a6e71fa7af6358a3b80316e59ee6b585596e04",
+  "manifest_content_hash": "sha256:6dff0b676c20772e1a64cfde4733870998849f39dffb7ec0dde4dc98cfaed52e",
   "rows": {
     "bielik-11b-v3.0": {
       "display_name": "Bielik-11B v3.0",
@@ -1037,9 +1037,7 @@
       "country": "IT",
       "developer": "Almawave",
       "official_org": "Almawave",
-      "repos": [
-        "Almawave/Velvet-14B"
-      ]
+      "repos": []
     },
     "velvet-2b": {
       "display_name": "Velvet 2B",
@@ -1047,9 +1045,7 @@
       "country": "IT",
       "developer": "Almawave",
       "official_org": "Almawave",
-      "repos": [
-        "Almawave/Velvet-2B"
-      ]
+      "repos": []
     },
     "minerva-7b-v1.0": {
       "display_name": "Minerva 7B v1.0",
@@ -2271,6 +2267,10 @@
     "mii-llm": [
       "mii-llm/Llama-3-chat-v0.2-alpha-sft",
       "mii-llm/nesso2-0.4B-agentic",
+      "mii-llm/nesso3-0.4B-agentic",
+      "mii-llm/nesso3-0.4B-agentic-gguf",
+      "mii-llm/nev",
+      "mii-llm/nev-gguf",
       "mii-llm/propaganda-dpo-dx-v0.1",
       "mii-llm/propaganda-dpo-sx-v0.1"
     ],
@@ -2281,6 +2281,10 @@
       "mistralai/Pixtral-12B-Base-2409",
       "mistralai/Pixtral-Large-Instruct-2411",
       "mistralai/Shieldstral-1.0-3B",
+      "mistralai/Timestral-123M",
+      "mistralai/Timestral-209M",
+      "mistralai/Timestral-28M",
+      "mistralai/Timestral-5M",
       "mistralai/Voxtral-4B-TTS-2603",
       "mistralai/Voxtral-Mini-3B-2507",
       "mistralai/Voxtral-Mini-4B-Realtime-2602",
@@ -2292,8 +2296,10 @@
       "openeurollm/OLMo-3-7B-Dolci-Translated-A-75EN",
       "openeurollm/OLMo-3-7B-Instruct-SFT",
       "openeurollm/OLMo-3-7B-Think-SFT",
+      "openeurollm/OpenEuroLLM-Prelude-SFT-Excellent-Instructions",
       "openeurollm/complex-kda-1.3B-100B",
       "openeurollm/complex-kda-hybrid-1.3B-100B",
+      "openeurollm/complex-kda-ladder",
       "openeurollm/datamix-0.7b-Nemotron-Math-Proofs-v1-100bt",
       "openeurollm/datamix-0.7b-Nemotron-Math-v2-high-100bt",
       "openeurollm/datamix-0.7b-Nemotron-Math-v2-high-medium-100bt",
@@ -2412,11 +2418,11 @@
       "speakleash/Bielik-PL-11B-v3.0-Instruct"
     ],
     "swiss-ai": [
-      "swiss-ai/Apertus-v1.5-70B-RLVR",
+      "swiss-ai/Apertus-v1.5-70B-RL",
       "swiss-ai/Apertus-v1.5-70B-SFT",
       "swiss-ai/Apertus-v1.5-70B-base",
       "swiss-ai/Apertus-v1.5-8B-DPO",
-      "swiss-ai/Apertus-v1.5-8B-RLVR",
+      "swiss-ai/Apertus-v1.5-8B-RL",
       "swiss-ai/Apertus-v1.5-8B-SFT",
       "swiss-ai/Apertus-v1.5-8B-base",
       "swiss-ai/apertus-pretrain-toxicity",
@@ -2458,8 +2464,6 @@
     "Aleph-Alpha/Pharia-1-LLM-7B-control-aligned",
     "Aleph-Alpha/Pharia-1-LLM-7B-control-aligned-hf",
     "Aleph-Alpha/Pharia-1-LLM-7B-control-hf",
-    "Almawave/Velvet-14B",
-    "Almawave/Velvet-2B",
     "BSC-LT/ALIA-40b",
     "BSC-LT/ALIA-40b-instruct-2601",
     "BSC-LT/ALIA-40b-instruct-2601-GGUF",
