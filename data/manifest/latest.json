@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T10:27:36Z",
+  "generated_at": "2026-10-26T10:43:09Z",
   "config_version": 2,
   "config_path": "european-llm-hf-download-leaderboard.json",
   "config_content_hash": "sha256:1a209b835d91c5e52a873e1c2ea445ed9cb2f3da12c5981f1db5d6ead7406dd2",
@@ -1983,7 +1983,6 @@
       "BSC-LT/salamandraTA-2B-academic",
       "BSC-LT/salamandraTA-2B-instruct-GGUF",
       "BSC-LT/salamandraTA-2b-instruct",
-      "BSC-LT/salamandraTA-7B-academic",
       "BSC-LT/salamandraTA-7B-instruct-GGUF",
       "BSC-LT/salamandraTA-7b-instruct",
       "BSC-LT/sciroshot",
@@ -2034,6 +2033,7 @@
       "INSAIT-Institute/GRPO-Think-7B-8k",
       "INSAIT-Institute/GenieRedux",
       "INSAIT-Institute/GraphWrit3R",
+      "INSAIT-Institute/LADDER-Bridge-Policy",
       "INSAIT-Institute/Llama3-8B-MixAT",
       "INSAIT-Institute/Llama3-8B-MixAT-GCG",
       "INSAIT-Institute/Llama3.1-8B-MixAT",
@@ -2221,6 +2221,11 @@
       "croissantllm/croissant_small_models",
       "croissantllm/tinyllamaChat-v0.1"
     ],
+    "domyn": [
+      "domyn/Domyn-Edge-Base",
+      "domyn/Domyn-Edge-Base-checkpoints",
+      "domyn/Domyn-Edge-SFT"
+    ],
     "ilsp": [
       "ilsp/CoRM",
       "ilsp/CoRM-182M-top1",
@@ -2303,6 +2308,7 @@
       "openeurollm/datamix-0.7b-Nemotron-Math-Proofs-v1-100bt",
       "openeurollm/datamix-0.7b-Nemotron-Math-v2-high-100bt",
       "openeurollm/datamix-0.7b-Nemotron-Math-v2-high-medium-100bt",
+      "openeurollm/datamix-0.7b-Nemotron-Terminal-Corpus-100bt",
       "openeurollm/datamix-0.7b-dolma3_dolmino_math-100bt",
       "openeurollm/datamix-0.7b-en_baseline-100bt",
       "openeurollm/datamix-0.7b-finephrase-100bt",
@@ -2351,6 +2357,7 @@
       "openeurollm/oellm-9b-256k-theta64m-prelude",
       "openeurollm/oellm-9b-256k-theta64m-prelude-anneal300b",
       "openeurollm/oellm-9b-yarn-multilingual-v2-32k",
+      "openeurollm/prelude-anneal300b-256k-rope20m-cont",
       "openeurollm/prelude-wsm-merges",
       "openeurollm/tokenizer-128k",
       "openeurollm/tokenizer-128k-v2",
@@ -2365,6 +2372,7 @@
       "sapienzanlp/RAED-retriever-e5-base-v2-wikipedia",
       "sapienzanlp/RAED-t5-large",
       "sapienzanlp/abcd-base",
+      "sapienzanlp/ape-bge-small",
       "sapienzanlp/ecb",
       "sapienzanlp/maverick-mes-litbank",
       "sapienzanlp/maverick-mes-ontonotes",
