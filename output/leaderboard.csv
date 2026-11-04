@@ -1,159 +1,159 @@
 rank,row_id,display_name,version,country,developer,official_org,total_downloads_30d,total_downloads_all_time,momentum_score,momentum_rank,parameters,parameters_source_repo,repo_count,complete,delta_downloads_30d
-1,mistral-7b-v0.3,Mistral 7B v0.3,0.3,FR,Mistral AI,mistralai,1829024,59768582,0.030551,25,7248023552,mistralai/Mistral-7B-Instruct-v0.3,2,True,2842
-2,mistral-7b-v0.2,Mistral 7B v0.2,0.2,FR,Mistral AI,mistralai,1690368,66554403,0.02536,29,7241732096,mistralai/Mistral-7B-Instruct-v0.2,1,True,-19175
-3,mistral-7b-v0.1,Mistral 7B v0.1,0.1,FR,Mistral AI,mistralai,570733,46326857,0.012293,60,7241732096,mistralai/Mistral-7B-Instruct-v0.1,2,True,7872
-4,ministral-3-14b-2512,Ministral 3 14B (2512),2512,FR,Mistral AI,mistralai,565322,4305893,0.12831,2,13945031680,mistralai/Ministral-3-14B-Base-2512,6,True,11459
-5,apertus-8b-2509,Apertus 8B (2509),2509,CH,swiss-ai,swiss-ai,390552,4683972,0.081638,5,8053338176,swiss-ai/Apertus-8B-2509,2,True,-14351
-6,mixtral-8x7b-v0.1,Mixtral 8x7B v0.1,0.1,FR,Mistral AI,mistralai,330021,32709461,0.010059,69,46702792704,mistralai/Mixtral-8x7B-Instruct-v0.1,2,True,7182
-7,ministral-3-8b-2512,Ministral 3 8B (2512),2512,FR,Mistral AI,mistralai,219149,2460198,0.085598,4,8918026240,mistralai/Ministral-3-8B-Base-2512,6,True,-3074
-8,ministral-3-3b-2512,Ministral 3 3B (2512),2512,FR,Mistral AI,mistralai,201277,5834100,0.033919,23,3849090048,mistralai/Ministral-3-3B-Base-2512,7,True,483
-9,mistral-nemo-2407,Mistral NeMo (2407),2407,FR,Mistral AI,mistralai,185061,16638983,0.011056,63,12247782400,mistralai/Mistral-Nemo-Base-2407,3,True,-4509
-10,mistral-small-3.1-2503,"Mistral Small 3.1 (24B, 2503)",3.1,FR,Mistral AI,mistralai,183551,4974460,0.036172,21,24011361280,mistralai/Mistral-Small-3.1-24B-Base-2503,2,True,2017
-11,gams3-12b,GaMS3 12B,,SI,"CJVT UL (Center za jezikovne vire in tehnologije, University of Ljubljana)",cjvt,172495,239724,0.50775,1,12772912896,cjvt/GaMS3-12B-Instruct-Lex,5,True,9266
-12,devstral-small-2-2512,"Devstral Small 2 (24B, 2512)",2512,FR,Mistral AI,mistralai,131254,3004594,0.042277,20,24011361280,mistralai/Devstral-Small-2-24B-Instruct-2512,1,True,-6975
-13,mistral-small-3.2-2506,"Mistral Small 3.2 (24B, 2506)",3.2,FR,Mistral AI,mistralai,118879,5601659,0.02085,38,24011361280,mistralai/Mistral-Small-3.2-24B-Instruct-2506,1,True,-1106
-14,mistral-small-24b-2501,Mistral Small 24B (2501),2501,FR,Mistral AI,mistralai,101947,7693276,0.013081,58,23572403200,mistralai/Mistral-Small-24B-Base-2501,2,True,3899
-15,magistral-small-2506,Magistral Small (2506),2506,FR,Mistral AI,mistralai,65813,805698,0.072666,8,23572403200,mistralai/Magistral-Small-2506,2,True,-3091
-16,mixtral-8x22b-v0.1,Mixtral 8x22B v0.1,0.1,FR,Mistral AI,mistralai,58421,11277972,0.005135,92,140630071296,mistralai/Mixtral-8x22B-Instruct-v0.1,2,True,525
-17,mistral-small-4-2603,"Mistral Small 4 (119B, 2603)",2603,FR,Mistral AI,mistralai,50358,738372,0.060066,11,119401317376,mistralai/Mistral-Small-4-119B-2603,3,True,-9011
-18,salamandra-7b-instruct,Salamandra 7B Instruct,,ES,BSC-LT,BSC-LT,45137,727836,0.054524,12,7769280512,BSC-LT/salamandra-7b-instruct-fp8,8,True,907
-19,ministral-8b-2410,Ministral 8B Instruct (2410),2410,FR,Mistral AI,mistralai,44751,8574730,0.005159,91,8019808256,mistralai/Ministral-8B-Instruct-2410,1,True,-851
-20,apertus-v1.5-8b,Apertus v1.5 8B,1.5,CH,swiss-ai,swiss-ai,41953,739164,0.049994,15,8903547555,swiss-ai/Apertus-v1.5-8B,1,True,-32775
-21,magistral-small-2509,Magistral Small (2509),2509,FR,Mistral AI,mistralai,35547,363486,0.076695,6,24011361280,mistralai/Magistral-Small-2509,2,True,181
-22,mistral-medium-3.5-128b,Mistral Medium 3.5 (128B),3.5,FR,Mistral AI,mistralai,26745,1117033,0.021976,35,127704210176,mistralai/Mistral-Medium-3.5-128B,2,True,-96
-23,bielik-11b-v3.0,Bielik-11B v3.0,3.0,PL,SpeakLeash / ACK Cyfronet AGH,speakleash,25411,4174533,0.005945,86,11339190972,speakleash/Bielik-11B-v3.0-Instruct-awq,8,True,471
-24,eurollm-1.7b-base,EuroLLM-1.7B (base),,EU,utter-project,utter-project,25026,241727,0.073234,7,,,1,True,-1144
-25,eurollm-1.7b-instruct,EuroLLM-1.7B-Instruct,,EU,utter-project,utter-project,21082,943056,0.020212,40,1656850432,utter-project/EuroLLM-1.7B-Instruct,1,True,-14386
-26,pllum-12b-2512,PLLuM 12B (2512),2512,PL,CYFRAGOVPL / PLLuM consortium,CYFRAGOVPL,18020,44417,0.124778,3,12247782400,CYFRAGOVPL/PLLuM-12B-base-2512,3,True,-2504
-27,bielik-11b-v2.3,Bielik-11B v2.3,2.3,PL,SpeakLeash / ACK Cyfronet AGH,speakleash,15986,796051,0.017841,45,11253994172,speakleash/Bielik-11B-v2.3-Instruct-W4A16,10,True,468
-28,devstral-small-2507,Devstral Small (2507),2507,FR,Mistral AI,mistralai,15787,648696,0.021086,37,23572403200,mistralai/Devstral-Small-2507,2,True,76
-29,apertus-70b-2509,Apertus 70B (2509),2509,CH,swiss-ai,swiss-ai,15134,549696,0.023294,32,70599864480,swiss-ai/Apertus-70B-2509,2,True,-483
-30,mistral-large-instruct-2407,Mistral Large Instruct (2407),2407,FR,Mistral AI,mistralai,12712,5046323,0.00247,116,122610069504,mistralai/Mistral-Large-Instruct-2407,1,True,9
-31,mistral-large-instruct-2411,Mistral Large Instruct (2411),2411,FR,Mistral AI,mistralai,12509,4939915,0.002482,115,122610069504,mistralai/Mistral-Large-Instruct-2411,1,True,562
-32,eurollm-9b-instruct-2512,EuroLLM-9B-Instruct (2512),2512,EU,utter-project,utter-project,11590,158477,0.04484,18,9152319488,utter-project/EuroLLM-9B-Instruct-2512,1,True,5
-33,eurollm-9b-instruct,EuroLLM-9B-Instruct,,EU,utter-project,utter-project,11459,495275,0.01925,41,9152319488,utter-project/EuroLLM-9B-Instruct,1,True,511
-34,bielik-7b-v0.1,Bielik-7B v0.1,0.1,PL,SpeakLeash,speakleash,11227,521067,0.018077,43,7243108352,speakleash/Bielik-7B-Instruct-v0.1-GPTQ,8,True,61
-35,mistral-large-3-2512,"Mistral Large 3 (675B, 2512)",2512,FR,Mistral AI,mistralai,9628,84840,0.052088,13,,,5,True,29
-36,mistral-small-instruct-2409,Mistral Small Instruct (2409),2409,FR,Mistral AI,mistralai,8560,5388127,0.00156,130,22247282688,mistralai/Mistral-Small-Instruct-2409,1,True,-138
-37,bggpt-gemma3-27b,BgGPT Gemma 3 27B,,BG,INSAIT,INSAIT-Institute,8556,20531,0.070986,9,27432406640,INSAIT-Institute/BgGPT-Gemma-3-27B-IT,3,True,-345
-38,eurollm-22b-instruct-2512,EuroLLM-22B-Instruct (2512),2512,EU,utter-project,utter-project,8528,602743,0.012135,61,22637328384,utter-project/EuroLLM-22B-Instruct-2512,1,True,82
-39,apertus-v1.5-70b,Apertus v1.5 70B,1.5,CH,swiss-ai,swiss-ai,8421,34765,0.062487,10,72005819139,swiss-ai/Apertus-v1.5-70B,1,True,-10
-40,openeurollm-prelude,OpenEuroLLM Prelude,,EU,openeurollm,openeurollm,8294,76470,0.046999,16,,,1,True,0
-41,llama-krikri-8b,Llama-Krikri 8B,,GR,ILSP,ilsp,7614,117385,0.035025,22,8420895380,ilsp/Llama-Krikri-8B-Instruct-bnb-4bit,7,True,-33
-42,devstral-2-2512,"Devstral 2 (123B, 2512)",2512,FR,Mistral AI,mistralai,6284,356360,0.01377,54,125025988608,mistralai/Devstral-2-123B-Instruct-2512,1,True,159
-43,apertus-v1.1-1.5b,Apertus v1.1 1.5B,1.1,CH,swiss-ai,swiss-ai,5915,14443,0.051685,14,1510019104,swiss-ai/Apertus-v1.1-1.5B,6,True,439
-44,salamandra-2b,Salamandra 2B,,ES,BSC-LT,BSC-LT,5675,151047,0.022605,33,2253997056,BSC-LT/salamandra-2b-base-fp8,7,True,-228
-45,pharia-7b-control,Pharia-1-LLM-7B-control,,DE,Aleph Alpha,Aleph-Alpha,5586,81757,0.030733,24,7041544704,Aleph-Alpha/Pharia-1-LLM-7B-control-aligned-hf,4,True,41
-46,apertus-v1.1-4b,Apertus v1.1 4B,1.1,CH,swiss-ai,swiss-ai,5541,20573,0.045956,17,3825361968,swiss-ai/Apertus-v1.1-4B,5,True,209
-47,bielik-4.5b-v3.0,Bielik-4.5B v3.0,3.0,PL,SpeakLeash,speakleash,5375,258694,0.014985,52,4758980608,speakleash/Bielik-4.5B-v3.0-Instruct-FP8-Dynamic,5,True,539
-48,bielik-minitron-7b-v3.0,Bielik-Minitron 7B v3.0,3.0,PL,SpeakLeash / ACK Cyfronet AGH,speakleash,5241,139902,0.021846,36,7479201792,speakleash/Bielik-Minitron-7B-v3.0-Instruct-FP8-Dynamic,5,True,-9
-49,apertus-v1.1-0.5b,Apertus v1.1 0.5B,1.1,CH,swiss-ai,swiss-ai,5133,20910,0.042453,19,572567080,swiss-ai/Apertus-v1.1-0.5B-Instruct,5,True,-470
-50,codestral-22b-v0.1,Codestral 22B v0.1,0.1,FR,Mistral AI,mistralai,4706,5164522,0.000894,139,22247282688,mistralai/Codestral-22B-v0.1,1,True,-13
-51,devstral-small-2505,Devstral Small (2505),2505,FR,Mistral AI,mistralai,4566,909704,0.004522,98,23572403200,mistralai/Devstral-Small-2505,2,True,62
-52,occiglot-7b-bilingual,Occiglot 7B (bilingual),,EU,occiglot,occiglot,4556,377209,0.009547,72,7241748480,occiglot/occiglot-7b-de-en-instruct,8,True,14
-53,maestrale-chat-v0.4,Maestrale Chat v0.4,0.4,IT,mii-llm,mii-llm,4538,153530,0.017899,44,7241748480,mii-llm/maestrale-chat-v0.4-alpha-sft,4,True,20
-54,minerva-7b-v1.0,Minerva 7B v1.0,1.0,IT,SapienzaNLP,sapienzanlp,4492,139222,0.018778,42,7399542784,sapienzanlp/Minerva-7B-instruct-v1.0,3,True,-34
-55,bielik-1.5b-v3.0,Bielik-1.5B v3.0,3.0,PL,SpeakLeash,speakleash,4205,62358,0.0259,28,1597244928,speakleash/Bielik-1.5B-v3.0-Instruct-FP8-Dynamic,5,True,29
-56,bielik-11b-v2.2,Bielik-11B v2.2,2.2,PL,SpeakLeash / ACK Cyfronet AGH,speakleash,4050,169218,0.015044,51,11170947072,speakleash/Bielik-11B-v2.2-Instruct-Quanto-8bit,16,True,-54
-57,euromoe-2.6b-2512,EuroMoE 2.6B-A0.6B (2512),2512,EU,utter-project,utter-project,3997,39882,0.028574,26,2611528704,utter-project/EuroMoE-2.6B-A0.6B-2512,3,True,30
-58,llama-poro-2-8b,Llama-Poro 2 8B,2,FI,LumiOpen,LumiOpen,3877,53325,0.025286,30,8031309824,LumiOpen/Llama-Poro-2-8B-Long-Math-Reasoning-RL-Preview,7,True,45
-59,monad,Monad,,FR,PleIAs,PleIAs,3783,36763,0.027661,27,56656128,PleIAs/Monad,1,True,140
-60,baguettotron,Baguettotron,,FR,PleIAs,PleIAs,3240,43341,0.022603,34,13290474240,PleIAs/Baguettotron-MoE,3,True,318
-61,minerva-chat-v0.1,Minerva Chat v0.1,0.1,IT,mii-llm,mii-llm,3156,95335,0.016157,47,2894246400,mii-llm/minerva-chat-v0.1-alpha-sft,1,True,16
-62,eurollm-22b-2512,EuroLLM-22B (2512 base),2512,EU,utter-project,utter-project,3151,26816,0.024847,31,22637328384,utter-project/EuroLLM-22B-2512,1,True,82
-63,viking-13b,Viking 13B,,FI,LumiOpen,LumiOpen,2728,34464,0.020288,39,14030361600,LumiOpen/Viking-13B,1,True,26
-64,mathstral-7b-v0.1,Mathstral 7B v0.1,0.1,FR,Mistral AI,mistralai,2697,5303473,0.000499,144,7248023552,mistralai/Mathstral-7B-v0.1,1,True,66
-65,pllum-12b-2412,PLLuM 12B (2412),2412,PL,CYFRAGOVPL / PLLuM consortium,CYFRAGOVPL,2561,179428,0.009165,76,12247782400,CYFRAGOVPL/PLLuM-12B-base-2412,6,True,24
-66,magistral-small-2507,Magistral Small (2507),2507,FR,Mistral AI,mistralai,2551,156914,0.009929,71,23572403200,mistralai/Magistral-Small-2507,2,True,-15
-67,salamandra-7b-base,Salamandra 7B (base),,ES,BSC-LT,BSC-LT,2345,52052,0.015422,48,7768117248,BSC-LT/salamandra-7b,1,True,54
-68,poro-34b,Poro 34B,,FI,LumiOpen,LumiOpen,2316,230352,0.007011,80,35134453760,LumiOpen/Poro-34B-chat-GGUF,4,True,25
-69,mamaylm-gemma3-4b-v1,MamayLM Gemma 3 4B v1.0,1.0,UA,INSAIT,INSAIT-Institute,2124,22459,0.017345,46,4300079472,INSAIT-Institute/MamayLM-Gemma-3-4B-IT-v1.0,2,True,-215
-70,tildeopen-30b,TildeOpen 30B,,LV,Tilde,TildeAI,2077,101906,0.010287,67,30677882880,TildeAI/TildeOpen-30b,1,True,45
-71,gams-9b,GaMS 9B,,SI,"CJVT UL (Center za jezikovne vire in tehnologije, University of Ljubljana)",cjvt,2033,51418,0.013426,57,9241705984,cjvt/GaMS-9B,4,True,-45
-72,trurl-2-13b,TRURL 2 13B,2,PL,Voicelab,Voicelab,2016,358021,0.004402,100,,,3,True,6
-73,teuken-7b-v0.4-research,Teuken 7B v0.4 (research),0.4,DE,openGPT-X,openGPT-X,2004,80361,0.011111,62,7452725248,openGPT-X/Teuken-7B-instruct-research-v0.4,1,True,9
-74,teuken-7b-v0.4-commercial,Teuken 7B v0.4 (commercial),0.4,DE,openGPT-X,openGPT-X,1920,107930,0.009234,75,7452725248,openGPT-X/Teuken-7B-instruct-commercial-v0.4,1,True,4
-75,qra-1b,Qra 1B,,PL,OPI-PG,OPI-PG,1892,159658,0.007287,78,1100048384,OPI-PG/Qra-1b,1,True,16
-76,mamaylm-gemma3-12b-v2,MamayLM Gemma 3 12B v2.0,2.0,UA,INSAIT,INSAIT-Institute,1826,19868,0.015233,50,12187325040,INSAIT-Institute/MamayLM-Gemma-3-12B-IT-v2.0,2,True,10
-77,eurollm-22b-instruct-preview,EuroLLM-22B-Instruct (Preview),preview,EU,utter-project,utter-project,1813,34626,0.013467,56,22637328384,utter-project/EuroLLM-22B-Instruct-Preview,1,True,6
-78,qra-7b,Qra 7B,,PL,OPI-PG,OPI-PG,1811,186426,0.006323,85,6738415616,OPI-PG/Qra-7b,1,True,8
-79,trurl-2-7b,TRURL 2 7B,2,PL,Voicelab,Voicelab,1802,303071,0.004471,99,6739785728,Voicelab/trurl-2-7b-8bit,2,True,12
-80,pleias-1.2b-preview,Pleias 1.2B Preview,preview,FR,PleIAs,PleIAs,1789,415653,0.003469,107,1195468800,PleIAs/Pleias-1.2b-Preview,1,True,-3
-81,qra-13b,Qra 13B,,PL,OPI-PG,OPI-PG,1737,147148,0.007028,79,13015864320,OPI-PG/Qra-13b,1,True,10
-82,llama-poro-2-70b,Llama-Poro 2 70B,2,FI,LumiOpen,LumiOpen,1734,40629,0.01233,59,70553706496,LumiOpen/Llama-Poro-2-70B-Instruct,3,True,0
-83,pllum-4b-2512,PLLuM 4B (2512),2512,PL,CYFRAGOVPL / PLLuM consortium,CYFRAGOVPL,1680,9384,0.015359,49,4300079472,CYFRAGOVPL/PLLuM-4B-base-2512,3,True,23
-84,pleias-350m-preview,Pleias 350M Preview,preview,FR,PleIAs,PleIAs,1606,418985,0.003095,111,353424384,PleIAs/Pleias-350m-Preview,1,True,3
-85,maestrale-chat-v0.3,Maestrale Chat v0.3,0.3,IT,mii-llm,mii-llm,1605,54428,0.010393,66,7241748480,mii-llm/maestrale-chat-v0.3-alpha-GGUF,5,True,7
-86,pleias-3b-preview,Pleias 3B Preview,preview,FR,PleIAs,PleIAs,1570,400489,0.003137,110,3211926528,PleIAs/Pleias-3b-Preview,1,True,5
-87,domyn-small-v1.0,Domyn Small v1.0,1.0,IT,Domyn,domyn,1547,9372,0.014144,53,9815334912,domyn/Domyn-Small-v1.0,1,True,-30
-88,maestrale-chat-v0.2,Maestrale Chat v0.2,0.2,IT,mii-llm,mii-llm,1525,53197,0.009955,70,7241748480,mii-llm/maestrale-chat-v0.2-alpha-sft,1,True,5
-89,eurollm-9b-2512,EuroLLM-9B (2512),2512,EU,utter-project,utter-project,1514,10973,0.013643,55,9152319488,utter-project/EuroLLM-9B-2512,1,True,166
-90,viking-33b,Viking 33B,,FI,LumiOpen,LumiOpen,1450,31641,0.011015,64,33119034368,LumiOpen/Viking-33B,1,True,81
-91,leo-hessianai-7b,LeoLM HessianAI 7B,,DE,LeoLM,LeoLM,1445,801966,0.001602,128,,,3,True,17
-92,bielik-11b-v2.6,Bielik-11B v2.6,2.6,PL,SpeakLeash / ACK Cyfronet AGH,speakleash,1405,174864,0.005112,93,11510465240,speakleash/Bielik-11B-v2.6-Instruct-bnb-4bit,7,True,18
-93,pleias-rag-1b,Pleias RAG 1B,,FR,PleIAs,PleIAs,1311,20113,0.010915,65,1195468800,PleIAs/Pleias-RAG-1B,2,True,86
-94,teuken-7b-v0.6,Teuken 7B v0.6,0.6,DE,openGPT-X,openGPT-X,1229,671097,0.001594,129,7453544448,openGPT-X/Teuken-7B-base-v0.6,2,True,-55
-95,bielik-11b-v2.0,Bielik-11B v2.0,2.0,PL,SpeakLeash / ACK Cyfronet AGH,speakleash,1151,23842,0.009294,74,11168796672,speakleash/Bielik-11B-v2.0-Instruct,5,True,-41
-96,bggpt-gemma3-12b,BgGPT Gemma 3 12B,,BG,INSAIT,INSAIT-Institute,1146,219028,0.003592,104,12187325040,INSAIT-Institute/BgGPT-Gemma-3-12B-IT,3,True,213
-97,mamaylm-gemma3-27b-v2,MamayLM Gemma 3 27B v2.0,2.0,UA,INSAIT,INSAIT-Institute,1116,9180,0.010222,68,28842037282,INSAIT-Institute/MamayLM-Gemma-3-27B-IT-v2.0-FP8-dynamic,3,True,15
-98,pleias-rag-350m,Pleias RAG 350M,,FR,PleIAs,PleIAs,1078,15396,0.009342,73,353424384,PleIAs/Pleias-RAG-350M,2,True,-5
-99,croissantllm-base,CroissantLLM Base,,FR,croissantllm,croissantllm,1034,58478,0.006525,84,1345423360,croissantllm/CroissantLLMBase-GGUF,3,True,-16
-100,viking-7b,Viking 7B,,FI,LumiOpen,LumiOpen,1028,56387,0.006573,83,7550013440,LumiOpen/Viking-7B,1,True,12
-101,bielik-11b-v2.1,Bielik-11B v2.1,2.1,PL,SpeakLeash / ACK Cyfronet AGH,speakleash,993,31680,0.007541,77,11168796672,speakleash/Bielik-11B-v2.1-Instruct,5,True,-26
-102,alia-40b-base,ALIA 40B (base),,ES,BSC-LT,BSC-LT,986,453460,0.001782,123,40433885184,BSC-LT/ALIA-40b,1,True,15
-103,eurollm-9b-base,EuroLLM-9B (base),,EU,utter-project,utter-project,980,85287,0.005289,89,9152319488,utter-project/EuroLLM-9B,1,True,533
-104,mamaylm-gemma3-12b-v1,MamayLM Gemma 3 12B v1.0,1.0,UA,INSAIT,INSAIT-Institute,850,44923,0.005865,87,12187325040,INSAIT-Institute/MamayLM-Gemma-3-12B-IT-v1.0,2,True,11
-105,leo-mistral-hessianai-7b,LeoLM Mistral HessianAI 7B,,DE,LeoLM,LeoLM,840,233500,0.002519,114,,,2,True,29
-106,bggpt-gemma3-4b,BgGPT Gemma 3 4B,,BG,INSAIT,INSAIT-Institute,782,14681,0.006819,81,4325147468,INSAIT-Institute/BgGPT-Gemma-3-4B-IT-GPTQ-W4A16,3,True,75
-107,bggpt-7b-v0.2,BgGPT 7B v0.2,0.2,BG,INSAIT,INSAIT-Institute,743,112152,0.003502,106,7290884096,INSAIT-Institute/BgGPT-7B-Instruct-v0.2,2,True,-26
-108,ocronos,OCRonos,,FR,PleIAs,PleIAs,725,82108,0.003981,102,8030261248,PleIAs/OCRonos,3,True,8
-109,croissantllm-chat-v0.1,CroissantLLM Chat v0.1,0.1,FR,croissantllm,croissantllm,702,96424,0.003574,105,1345431552,croissantllm/CroissantLLMChat-v0.1,8,True,10
-110,gams2-27b,GaMS2 27B,,SI,"CJVT UL (Center za jezikovne vire in tehnologije, University of Ljubljana)",cjvt,695,1936,0.006818,82,27227128320,cjvt/GaMS2-27B-GRPO-Translator,3,True,201
-111,gams-1b,GaMS 1B,,SI,"CJVT UL (Center za jezikovne vire in tehnologije, University of Ljubljana)",cjvt,673,16866,0.005759,88,1540481024,cjvt/GaMS-1B,4,True,-5
-112,bggpt-gemma2-9b,BgGPT Gemma 2 9B,1.0,BG,INSAIT,INSAIT-Institute,607,27896,0.004746,96,9241705984,INSAIT-Institute/BgGPT-Gemma-2-9B-IT-v1.0,2,True,23
-113,mamaylm-gemma2-9b-v0.1,MamayLM Gemma 2 9B v0.1,0.1,UA,INSAIT,INSAIT-Institute,604,22103,0.004947,94,9241705984,INSAIT-Institute/MamayLM-Gemma-2-9B-IT-v0.1,2,True,-9
-114,gams-2b,GaMS 2B,,SI,"CJVT UL (Center za jezikovne vire in tehnologije, University of Ljubljana)",cjvt,565,20737,0.00468,97,3204165888,cjvt/GaMS-2B,2,True,-75
-115,tildeopen-30b-64k,TildeOpen 30B (64k),,LV,Tilde,TildeAI,543,3574,0.005243,90,30677882880,TildeAI/TildeOpen-30b-64k,1,True,29
-116,llama-pllum-8b-2512,Llama-PLLuM 8B (2512),2512,PL,CYFRAGOVPL / PLLuM consortium,CYFRAGOVPL,503,4325,0.004821,95,8030285824,CYFRAGOVPL/Llama-PLLuM-8B-instruct-2512,3,True,4
-117,leanstral-1.5,Leanstral 1.5 (119B-A6B),1.5,FR,Mistral AI,mistralai,443,1604,0.00436,101,,,1,True,-2
-118,bggpt-gemma2-27b,BgGPT Gemma 2 27B,1.0,BG,INSAIT,INSAIT-Institute,414,12194,0.00369,103,27227128320,INSAIT-Institute/BgGPT-Gemma-2-27B-IT-v1.0,2,True,3
-119,soofi-s-isar-preview,Soofi S Isar Preview,preview,DE,Soofi Project,Soofi-Project,361,12374,0.003212,108,31591508800,Soofi-Project/Soofi-S-Isar-Preview-FP8,6,True,0
-120,alia-40b-instruct-2601,ALIA 40B Instruct (2601),2601,ES,BSC-LT,BSC-LT,340,32867,0.002559,113,40433885248,BSC-LT/ALIA-40b-instruct-2601-GGUF,2,True,-7
-121,nesso-4b,Nesso 4B,,IT,mii-llm,mii-llm,327,2830,0.00318,109,4022468096,mii-llm/nesso-4B,2,True,-12
-122,gams-27b,GaMS 27B,,SI,"CJVT UL (Center za jezikovne vire in tehnologije, University of Ljubljana)",cjvt,326,37870,0.002365,117,27227128320,cjvt/GaMS-27B,3,True,12
-123,bielik-11b-v2.5,Bielik-11B v2.5,2.5,PL,SpeakLeash / ACK Cyfronet AGH,speakleash,321,5547,0.003041,112,11510465234,speakleash/Bielik-11B-v2.5-Instruct-bnb-4bit,5,True,-1
-124,leo-hessianai-13b,LeoLM HessianAI 13B,,DE,LeoLM,LeoLM,300,107241,0.001448,135,,,3,True,-5
-125,bggpt-gemma2-2.6b,BgGPT Gemma 2 2.6B,1.0,BG,INSAIT,INSAIT-Institute,287,22104,0.00235,118,2614341888,INSAIT-Institute/BgGPT-Gemma-2-2.6B-IT-v1.0,2,True,-8
-126,meltemi-7b-v1.5,Meltemi 7B v1.5,1.5,GR,ILSP,ilsp,284,39424,0.002037,120,7482445824,ilsp/Meltemi-7B-Instruct-v1.5,2,True,-34
-127,occiglot-7b-eu5,Occiglot 7B EU5,,EU,occiglot,occiglot,273,322248,0.000647,143,7241748480,occiglot/occiglot-7b-eu5-instruct,2,True,-2
-128,bielik-11b-v2-base,Bielik-11B v2 (base),2,PL,SpeakLeash / ACK Cyfronet AGH,speakleash,245,41908,0.001726,126,11168796672,speakleash/Bielik-11B-v2,1,True,4
-129,llama-pllum-8b-2412,Llama-PLLuM 8B (2412),2412,PL,CYFRAGOVPL / PLLuM consortium,CYFRAGOVPL,242,70532,0.001419,137,8030277632,CYFRAGOVPL/Llama-PLLuM-8B-chat-2412,3,True,17
-130,leo-hessianai-70b,LeoLM HessianAI 70B,,DE,LeoLM,LeoLM,227,19697,0.001896,122,68976648192,LeoLM/leo-hessianai-70b,2,True,-5
-131,llama-pllum-70b-2508,Llama-PLLuM 70B (2508),2508,PL,CYFRAGOVPL / PLLuM consortium,CYFRAGOVPL,221,5065,0.002103,119,70553788416,CYFRAGOVPL/Llama-PLLuM-70B-chat-2508,3,True,8
-132,zagreus-0.4b-ita,Zagreus 0.4B (ITA),0.4B,IT,mii-llm,mii-llm,213,5175,0.002025,121,437760960,mii-llm/zagreus-0.4B-ita,1,True,-19
-133,meltemi-7b-v1,Meltemi 7B v1,1,GR,ILSP,ilsp,210,44655,0.001452,133,7702227842,ilsp/Meltemi-7B-Instruct-v1-BnB-4bit,5,True,1
-134,bggpt-7b-v0.1,BgGPT 7B v0.1,0.1,BG,INSAIT,INSAIT-Institute,202,16632,0.001732,125,7290884096,INSAIT-Institute/BgGPT-7B-Instruct-v0.1,2,True,-3
-135,llama-pllum-70b-2512,Llama-PLLuM 70B (2512),2512,PL,CYFRAGOVPL / PLLuM consortium,CYFRAGOVPL,184,12711,0.001632,127,70553755648,CYFRAGOVPL/Llama-PLLuM-70B-chat-2512,2,True,-29
-136,eurollm-22b-preview,EuroLLM-22B (Preview base),preview,EU,utter-project,utter-project,181,2559,0.001765,124,,,1,True,-5
-137,pllum-8x7b-2412,PLLuM 8x7B (2412),2412,PL,CYFRAGOVPL / PLLuM consortium,CYFRAGOVPL,165,28420,0.001285,138,46702817280,CYFRAGOVPL/PLLuM-8x7B-chat-2412,6,True,-2
-138,soofi-s-instruct-preview,Soofi S Instruct Preview,preview,DE,Soofi Project,Soofi-Project,161,7476,0.001498,131,31591508800,Soofi-Project/Soofi-S-Instruct-Preview-FP8,6,True,0
-139,pleias-pico,Pleias Pico,,FR,PleIAs,PleIAs,153,5501,0.00145,134,353424384,PleIAs/Pleias-Pico,2,True,-4
-140,nesso-0.4b-agentic,Nesso 0.4B Agentic,0.4B,IT,mii-llm,mii-llm,150,3146,0.001454,132,560898240,mii-llm/nesso-0.4B-agentic,2,True,-3
-141,leanstral-2603,Leanstral (2603),2603,FR,Mistral AI,mistralai,144,1159,0.001424,136,,,1,True,3
-142,llama-pllum-70b-2412,Llama-PLLuM 70B (2412),2412,PL,CYFRAGOVPL / PLLuM consortium,CYFRAGOVPL,96,38719,0.000692,142,70553739264,CYFRAGOVPL/Llama-PLLuM-70B-chat-2412,3,True,1
-143,pleias-nano,Pleias Nano,,FR,PleIAs,PleIAs,89,7255,0.00083,140,1195468800,PleIAs/Pleias-Nano,2,True,-2
-144,nesso-0.4b-instruct,Nesso 0.4B Instruct,0.4B,IT,mii-llm,mii-llm,74,1316,0.00073,141,560898240,mii-llm/nesso-0.4B-instruct,1,True,-1
-145,open-zagreus-0.4b,Open Zagreus 0.4B,0.4B,IT,mii-llm,mii-llm,46,402,0.000458,145,437768640,mii-llm/open-zagreus-0.4B,1,True,0
+1,mistral-7b-v0.3,Mistral 7B v0.3,0.3,FR,Mistral AI,mistralai,1849875,59860654,0.030851,24,7248023552,mistralai/Mistral-7B-Instruct-v0.3,2,True,20851
+2,mistral-7b-v0.2,Mistral 7B v0.2,0.2,FR,Mistral AI,mistralai,1665600,66585534,0.024977,31,7241732096,mistralai/Mistral-7B-Instruct-v0.2,1,True,-24768
+3,mistral-7b-v0.1,Mistral 7B v0.1,0.1,FR,Mistral AI,mistralai,578459,46348715,0.012454,60,7241732096,mistralai/Mistral-7B-Instruct-v0.1,2,True,7726
+4,ministral-3-14b-2512,Ministral 3 14B (2512),2512,FR,Mistral AI,mistralai,567216,4330066,0.128038,2,13945031680,mistralai/Ministral-3-14B-Base-2512,6,True,1894
+5,apertus-8b-2509,Apertus 8B (2509),2509,CH,swiss-ai,swiss-ai,375356,4685082,0.078443,5,8053338176,swiss-ai/Apertus-8B-2509,2,True,-15196
+6,mixtral-8x7b-v0.1,Mixtral 8x7B v0.1,0.1,FR,Mistral AI,mistralai,329889,32719872,0.010052,70,46702792704,mistralai/Mixtral-8x7B-Instruct-v0.1,2,True,-132
+7,ministral-3-8b-2512,Ministral 3 8B (2512),2512,FR,Mistral AI,mistralai,217185,2464756,0.084681,4,8918026240,mistralai/Ministral-3-8B-Base-2512,6,True,-1964
+8,ministral-3-3b-2512,Ministral 3 3B (2512),2512,FR,Mistral AI,mistralai,201899,5841683,0.03398,22,3849090048,mistralai/Ministral-3-3B-Base-2512,7,True,622
+9,gams3-12b,GaMS3 12B,,SI,"CJVT UL (Center za jezikovne vire in tehnologije, University of Ljubljana)",cjvt,181652,248959,0.520554,1,12772912896,cjvt/GaMS3-12B-Instruct-Lex,5,True,9157
+10,mistral-small-3.1-2503,"Mistral Small 3.1 (24B, 2503)",3.1,FR,Mistral AI,mistralai,180765,4980598,0.035579,21,24011361280,mistralai/Mistral-Small-3.1-24B-Base-2503,2,True,-2786
+11,mistral-nemo-2407,Mistral NeMo (2407),2407,FR,Mistral AI,mistralai,178312,16641167,0.010651,66,12247782400,mistralai/Mistral-Nemo-Base-2407,3,True,-6749
+12,devstral-small-2-2512,"Devstral Small 2 (24B, 2512)",2512,FR,Mistral AI,mistralai,123743,3005300,0.039849,18,24011361280,mistralai/Devstral-Small-2-24B-Instruct-2512,1,True,-7511
+13,mistral-small-3.2-2506,"Mistral Small 3.2 (24B, 2506)",3.2,FR,Mistral AI,mistralai,115617,5604213,0.020269,39,24011361280,mistralai/Mistral-Small-3.2-24B-Instruct-2506,1,True,-3262
+14,mistral-small-24b-2501,Mistral Small 24B (2501),2501,FR,Mistral AI,mistralai,108698,7702339,0.013931,55,23572403200,mistralai/Mistral-Small-24B-Base-2501,2,True,6751
+15,magistral-small-2506,Magistral Small (2506),2506,FR,Mistral AI,mistralai,63391,805830,0.069981,9,23572403200,mistralai/Magistral-Small-2506,2,True,-2422
+16,mixtral-8x22b-v0.1,Mixtral 8x22B v0.1,0.1,FR,Mistral AI,mistralai,58311,11279177,0.005124,91,140630071296,mistralai/Mixtral-8x22B-Instruct-v0.1,2,True,-110
+17,salamandra-7b-instruct,Salamandra 7B Instruct,,ES,BSC-LT,BSC-LT,47508,730707,0.05719,11,7769280512,BSC-LT/salamandra-7b-instruct-fp8,8,True,2371
+18,ministral-8b-2410,Ministral 8B Instruct (2410),2410,FR,Mistral AI,mistralai,43860,8575705,0.005055,93,8019808256,mistralai/Ministral-8B-Instruct-2410,1,True,-891
+19,mistral-small-4-2603,"Mistral Small 4 (119B, 2603)",2603,FR,Mistral AI,mistralai,38654,739262,0.046057,16,119401317376,mistralai/Mistral-Small-4-119B-2603,3,True,-11704
+20,magistral-small-2509,Magistral Small (2509),2509,FR,Mistral AI,mistralai,35682,364011,0.076899,6,24011361280,mistralai/Magistral-Small-2509,2,True,135
+21,mistral-medium-3.5-128b,Mistral Medium 3.5 (128B),3.5,FR,Mistral AI,mistralai,26578,1117839,0.021824,35,127704210176,mistralai/Mistral-Medium-3.5-128B,2,True,-167
+22,bielik-11b-v3.0,Bielik-11B v3.0,3.0,PL,SpeakLeash / ACK Cyfronet AGH,speakleash,25407,4175241,0.005943,88,11339190972,speakleash/Bielik-11B-v3.0-Instruct-awq,8,True,-4
+23,eurollm-1.7b-base,EuroLLM-1.7B (base),,EU,utter-project,utter-project,24249,241905,0.070923,7,,,1,True,-777
+24,apertus-v1.5-8b,Apertus v1.5 8B,1.5,CH,swiss-ai,swiss-ai,22788,739344,0.02715,27,8903547555,swiss-ai/Apertus-v1.5-8B,1,True,-19165
+25,eurollm-1.7b-instruct,EuroLLM-1.7B-Instruct,,EU,utter-project,utter-project,20733,943529,0.019868,40,1656850432,utter-project/EuroLLM-1.7B-Instruct,1,True,-349
+26,bielik-11b-v2.3,Bielik-11B v2.3,2.3,PL,SpeakLeash / ACK Cyfronet AGH,speakleash,16040,796604,0.01789,45,11253994172,speakleash/Bielik-11B-v2.3-Instruct-W4A16,10,True,54
+27,devstral-small-2507,Devstral Small (2507),2507,FR,Mistral AI,mistralai,15949,649077,0.021292,36,23572403200,mistralai/Devstral-Small-2507,2,True,162
+28,pllum-12b-2512,PLLuM 12B (2512),2512,PL,CYFRAGOVPL / PLLuM consortium,CYFRAGOVPL,14972,44473,0.103632,3,12247782400,CYFRAGOVPL/PLLuM-12B-base-2512,3,True,-3048
+29,apertus-70b-2509,Apertus 70B (2509),2509,CH,swiss-ai,swiss-ai,14428,549886,0.022201,33,70599864480,swiss-ai/Apertus-70B-2509,2,True,-706
+30,mistral-large-instruct-2411,Mistral Large Instruct (2411),2411,FR,Mistral AI,mistralai,12887,4940577,0.002557,111,122610069504,mistralai/Mistral-Large-Instruct-2411,1,True,378
+31,mistral-large-instruct-2407,Mistral Large Instruct (2407),2407,FR,Mistral AI,mistralai,12709,5046446,0.002469,113,122610069504,mistralai/Mistral-Large-Instruct-2407,1,True,-3
+32,eurollm-9b-instruct-2512,EuroLLM-9B-Instruct (2512),2512,EU,utter-project,utter-project,11712,158887,0.04524,17,9152319488,utter-project/EuroLLM-9B-Instruct-2512,1,True,122
+33,eurollm-9b-instruct,EuroLLM-9B-Instruct,,EU,utter-project,utter-project,11243,495523,0.018879,42,9152319488,utter-project/EuroLLM-9B-Instruct,1,True,-216
+34,bielik-7b-v0.1,Bielik-7B v0.1,0.1,PL,SpeakLeash,speakleash,11147,521450,0.017937,43,7243108352,speakleash/Bielik-7B-Instruct-v0.1-GPTQ,8,True,-80
+35,mistral-large-3-2512,"Mistral Large 3 (675B, 2512)",2512,FR,Mistral AI,mistralai,9387,85122,0.050707,13,,,5,True,-241
+36,bggpt-gemma3-27b,BgGPT Gemma 3 27B,,BG,INSAIT,INSAIT-Institute,8546,20550,0.070892,8,27432406640,INSAIT-Institute/BgGPT-Gemma-3-27B-IT,3,True,-10
+37,mistral-small-instruct-2409,Mistral Small Instruct (2409),2409,FR,Mistral AI,mistralai,8464,5388451,0.001542,130,22247282688,mistralai/Mistral-Small-Instruct-2409,1,True,-96
+38,openeurollm-prelude,OpenEuroLLM Prelude,,EU,openeurollm,openeurollm,8463,76656,0.047907,14,,,1,True,169
+39,eurollm-22b-instruct-2512,EuroLLM-22B-Instruct (2512),2512,EU,utter-project,utter-project,8368,602892,0.011905,62,22637328384,utter-project/EuroLLM-22B-Instruct-2512,1,True,-160
+40,apertus-v1.5-70b,Apertus v1.5 70B,1.5,CH,swiss-ai,swiss-ai,8238,34908,0.061064,10,72005819139,swiss-ai/Apertus-v1.5-70B,1,True,-183
+41,llama-krikri-8b,Llama-Krikri 8B,,GR,ILSP,ilsp,7818,117733,0.035906,20,8420895380,ilsp/Llama-Krikri-8B-Instruct-bnb-4bit,7,True,204
+42,apertus-v1.1-1.5b,Apertus v1.1 1.5B,1.1,CH,swiss-ai,swiss-ai,6423,15047,0.055829,12,1510019104,swiss-ai/Apertus-v1.1-1.5B,6,True,508
+43,devstral-2-2512,"Devstral 2 (123B, 2512)",2512,FR,Mistral AI,mistralai,6380,356641,0.013972,54,125025988608,mistralai/Devstral-2-123B-Instruct-2512,1,True,96
+44,pharia-7b-control,Pharia-1-LLM-7B-control,,DE,Aleph Alpha,Aleph-Alpha,5615,81808,0.030884,23,7041544704,Aleph-Alpha/Pharia-1-LLM-7B-control-aligned-hf,4,True,29
+45,apertus-v1.1-4b,Apertus v1.1 4B,1.1,CH,swiss-ai,swiss-ai,5561,20684,0.046079,15,3825361968,swiss-ai/Apertus-v1.1-4B,5,True,20
+46,salamandra-2b,Salamandra 2B,,ES,BSC-LT,BSC-LT,5528,151251,0.022002,34,2253997056,BSC-LT/salamandra-2b-base-fp8,7,True,-147
+47,bielik-4.5b-v3.0,Bielik-4.5B v3.0,3.0,PL,SpeakLeash,speakleash,5497,258992,0.015312,49,4758980608,speakleash/Bielik-4.5B-v3.0-Instruct-FP8-Dynamic,5,True,122
+48,bielik-minitron-7b-v3.0,Bielik-Minitron 7B v3.0,3.0,PL,SpeakLeash / ACK Cyfronet AGH,speakleash,5088,139970,0.021203,37,7479201792,speakleash/Bielik-Minitron-7B-v3.0-Instruct-FP8-Dynamic,5,True,-153
+49,devstral-small-2505,Devstral Small (2505),2505,FR,Mistral AI,mistralai,4627,909876,0.004582,98,23572403200,mistralai/Devstral-Small-2505,2,True,61
+50,maestrale-chat-v0.4,Maestrale Chat v0.4,0.4,IT,mii-llm,mii-llm,4545,153688,0.017916,44,7241748480,mii-llm/maestrale-chat-v0.4-alpha-sft,4,True,7
+51,minerva-7b-v1.0,Minerva 7B v1.0,1.0,IT,SapienzaNLP,sapienzanlp,4530,139435,0.01892,41,7399542784,sapienzanlp/Minerva-7B-instruct-v1.0,3,True,38
+52,codestral-22b-v0.1,Codestral 22B v0.1,0.1,FR,Mistral AI,mistralai,4515,5164678,0.000858,139,22247282688,mistralai/Codestral-22B-v0.1,1,True,-191
+53,apertus-v1.1-0.5b,Apertus v1.1 0.5B,1.1,CH,swiss-ai,swiss-ai,4505,21071,0.03721,19,572567080,swiss-ai/Apertus-v1.1-0.5B-Instruct,5,True,-628
+54,occiglot-7b-bilingual,Occiglot 7B (bilingual),,EU,occiglot,occiglot,4479,377371,0.009383,73,7241748480,occiglot/occiglot-7b-de-en-instruct,8,True,-77
+55,bielik-1.5b-v3.0,Bielik-1.5B v3.0,3.0,PL,SpeakLeash,speakleash,4334,62593,0.026656,28,1597244928,speakleash/Bielik-1.5B-v3.0-Instruct-FP8-Dynamic,5,True,129
+56,euromoe-2.6b-2512,EuroMoE 2.6B-A0.6B (2512),2512,EU,utter-project,utter-project,4004,40014,0.028597,26,2611528704,utter-project/EuroMoE-2.6B-A0.6B-2512,3,True,7
+57,monad,Monad,,FR,PleIAs,PleIAs,3984,37168,0.029045,25,56656128,PleIAs/Monad,1,True,201
+58,bielik-11b-v2.2,Bielik-11B v2.2,2.2,PL,SpeakLeash / ACK Cyfronet AGH,speakleash,3922,169311,0.014563,52,11170947072,speakleash/Bielik-11B-v2.2-Instruct-Quanto-8bit,16,True,-128
+59,llama-poro-2-8b,Llama-Poro 2 8B,2,FI,LumiOpen,LumiOpen,3876,53379,0.025271,30,8031309824,LumiOpen/Llama-Poro-2-8B-Long-Math-Reasoning-RL-Preview,7,True,-1
+60,baguettotron,Baguettotron,,FR,PleIAs,PleIAs,3732,43978,0.025921,29,13290474240,PleIAs/Baguettotron-MoE,3,True,492
+61,minerva-chat-v0.1,Minerva Chat v0.1,0.1,IT,mii-llm,mii-llm,3270,95576,0.01672,47,2894246400,mii-llm/minerva-chat-v0.1-alpha-sft,1,True,114
+62,eurollm-22b-2512,EuroLLM-22B (2512 base),2512,EU,utter-project,utter-project,3145,26893,0.024785,32,22637328384,utter-project/EuroLLM-22B-2512,1,True,-6
+63,viking-13b,Viking 13B,,FI,LumiOpen,LumiOpen,2742,34488,0.020388,38,14030361600,LumiOpen/Viking-13B,1,True,14
+64,mathstral-7b-v0.1,Mathstral 7B v0.1,0.1,FR,Mistral AI,mistralai,2697,5303541,0.000499,144,7248023552,mistralai/Mathstral-7B-v0.1,1,True,0
+65,pllum-12b-2412,PLLuM 12B (2412),2412,PL,CYFRAGOVPL / PLLuM consortium,CYFRAGOVPL,2563,179491,0.00917,74,12247782400,CYFRAGOVPL/PLLuM-12B-base-2412,6,True,2
+66,magistral-small-2507,Magistral Small (2507),2507,FR,Mistral AI,mistralai,2543,156937,0.009897,72,23572403200,mistralai/Magistral-Small-2507,2,True,-8
+67,salamandra-7b-base,Salamandra 7B (base),,ES,BSC-LT,BSC-LT,2425,52182,0.015935,48,7768117248,BSC-LT/salamandra-7b,1,True,80
+68,poro-34b,Poro 34B,,FI,LumiOpen,LumiOpen,2283,230415,0.006909,81,35134453760,LumiOpen/Poro-34B-chat-GGUF,4,True,-33
+69,mamaylm-gemma3-4b-v1,MamayLM Gemma 3 4B v1.0,1.0,UA,INSAIT,INSAIT-Institute,2143,22496,0.017494,46,4300079472,INSAIT-Institute/MamayLM-Gemma-3-4B-IT-v1.0,2,True,19
+70,tildeopen-30b,TildeOpen 30B,,LV,Tilde,TildeAI,2055,101974,0.010175,69,30677882880,TildeAI/TildeOpen-30b,1,True,-22
+71,trurl-2-13b,TRURL 2 13B,2,PL,Voicelab,Voicelab,2030,358094,0.004431,100,,,3,True,14
+72,gams-9b,GaMS 9B,,SI,"CJVT UL (Center za jezikovne vire in tehnologije, University of Ljubljana)",cjvt,2025,51481,0.013368,58,9241705984,cjvt/GaMS-9B,4,True,-8
+73,teuken-7b-v0.4-research,Teuken 7B v0.4 (research),0.4,DE,openGPT-X,openGPT-X,2002,80436,0.011095,64,7452725248,openGPT-X/Teuken-7B-instruct-research-v0.4,1,True,-2
+74,qra-1b,Qra 1B,,PL,OPI-PG,OPI-PG,1903,159723,0.007327,78,1100048384,OPI-PG/Qra-1b,1,True,11
+75,teuken-7b-v0.4-commercial,Teuken 7B v0.4 (commercial),0.4,DE,openGPT-X,openGPT-X,1900,107996,0.009135,75,7452725248,openGPT-X/Teuken-7B-instruct-commercial-v0.4,1,True,-20
+76,mamaylm-gemma3-12b-v2,MamayLM Gemma 3 12B v2.0,2.0,UA,INSAIT,INSAIT-Institute,1834,19905,0.015295,50,12187325040,INSAIT-Institute/MamayLM-Gemma-3-12B-IT-v2.0,2,True,8
+77,qra-7b,Qra 7B,,PL,OPI-PG,OPI-PG,1825,186490,0.00637,85,6738415616,OPI-PG/Qra-7b,1,True,14
+78,eurollm-22b-instruct-preview,EuroLLM-22B-Instruct (Preview),preview,EU,utter-project,utter-project,1820,34693,0.013512,57,22637328384,utter-project/EuroLLM-22B-Instruct-Preview,1,True,7
+79,trurl-2-7b,TRURL 2 7B,2,PL,Voicelab,Voicelab,1813,303138,0.004497,99,6739785728,Voicelab/trurl-2-7b-8bit,2,True,11
+80,llama-poro-2-70b,Llama-Poro 2 70B,2,FI,LumiOpen,LumiOpen,1749,40677,0.012433,61,70553706496,LumiOpen/Llama-Poro-2-70B-Instruct,3,True,15
+81,qra-13b,Qra 13B,,PL,OPI-PG,OPI-PG,1743,147209,0.007051,80,13015864320,OPI-PG/Qra-13b,1,True,6
+82,pllum-4b-2512,PLLuM 4B (2512),2512,PL,CYFRAGOVPL / PLLuM consortium,CYFRAGOVPL,1672,9415,0.015281,51,4300079472,CYFRAGOVPL/PLLuM-4B-base-2512,3,True,-8
+83,pleias-rag-1b,Pleias RAG 1B,,FR,PleIAs,PleIAs,1603,20433,0.01331,59,1195468800,PleIAs/Pleias-RAG-1B,2,True,292
+84,maestrale-chat-v0.3,Maestrale Chat v0.3,0.3,IT,mii-llm,mii-llm,1602,54481,0.01037,67,7241748480,mii-llm/maestrale-chat-v0.3-alpha-GGUF,5,True,-3
+85,domyn-small-v1.0,Domyn Small v1.0,1.0,IT,Domyn,domyn,1546,9400,0.014132,53,9815334912,domyn/Domyn-Small-v1.0,1,True,-1
+86,eurollm-9b-2512,EuroLLM-9B (2512),2512,EU,utter-project,utter-project,1540,11031,0.01387,56,9152319488,utter-project/EuroLLM-9B-2512,1,True,26
+87,maestrale-chat-v0.2,Maestrale Chat v0.2,0.2,IT,mii-llm,mii-llm,1525,53249,0.009951,71,7241748480,mii-llm/maestrale-chat-v0.2-alpha-sft,1,True,0
+88,viking-33b,Viking 33B,,FI,LumiOpen,LumiOpen,1456,31664,0.011058,65,33119034368,LumiOpen/Viking-33B,1,True,6
+89,leo-hessianai-7b,LeoLM HessianAI 7B,,DE,LeoLM,LeoLM,1452,802012,0.00161,127,,,3,True,7
+90,bielik-11b-v2.6,Bielik-11B v2.6,2.6,PL,SpeakLeash / ACK Cyfronet AGH,speakleash,1398,174898,0.005086,92,11510465240,speakleash/Bielik-11B-v2.6-Instruct-bnb-4bit,7,True,-7
+91,pleias-rag-350m,Pleias RAG 350M,,FR,PleIAs,PleIAs,1326,15695,0.011461,63,353424384,PleIAs/Pleias-RAG-350M,2,True,248
+92,teuken-7b-v0.6,Teuken 7B v0.6,0.6,DE,openGPT-X,openGPT-X,1216,671135,0.001577,128,7453544448,openGPT-X/Teuken-7B-base-v0.6,2,True,-13
+93,bggpt-gemma3-12b,BgGPT Gemma 3 12B,,BG,INSAIT,INSAIT-Institute,1147,219042,0.003595,106,12187325040,INSAIT-Institute/BgGPT-Gemma-3-12B-IT,3,True,1
+94,mamaylm-gemma3-27b-v2,MamayLM Gemma 3 27B v2.0,2.0,UA,INSAIT,INSAIT-Institute,1125,9207,0.010302,68,28842037282,INSAIT-Institute/MamayLM-Gemma-3-27B-IT-v2.0-FP8-dynamic,3,True,9
+95,eurollm-9b-base,EuroLLM-9B (base),,EU,utter-project,utter-project,1111,85440,0.005991,87,9152319488,utter-project/EuroLLM-9B,1,True,131
+96,bielik-11b-v2.0,Bielik-11B v2.0,2.0,PL,SpeakLeash / ACK Cyfronet AGH,speakleash,1092,23853,0.008817,76,11168796672,speakleash/Bielik-11B-v2.0-Instruct,5,True,-59
+97,croissantllm-base,CroissantLLM Base,,FR,croissantllm,croissantllm,1043,58509,0.00658,83,1345423360,croissantllm/CroissantLLMBase-GGUF,3,True,9
+98,viking-7b,Viking 7B,,FI,LumiOpen,LumiOpen,1026,56488,0.006556,84,7550013440,LumiOpen/Viking-7B,1,True,-2
+99,alia-40b-base,ALIA 40B (base),,ES,BSC-LT,BSC-LT,989,453491,0.001787,120,40433885184,BSC-LT/ALIA-40b,1,True,3
+100,pleias-1.2b-preview,Pleias 1.2B Preview,preview,FR,PleIAs,PleIAs,981,415672,0.001902,118,1195468800,PleIAs/Pleias-1.2b-Preview,1,True,-808
+101,bielik-11b-v2.1,Bielik-11B v2.1,2.1,PL,SpeakLeash / ACK Cyfronet AGH,speakleash,959,31698,0.007282,79,11168796672,speakleash/Bielik-11B-v2.1-Instruct,5,True,-34
+102,mamaylm-gemma3-12b-v1,MamayLM Gemma 3 12B v1.0,1.0,UA,INSAIT,INSAIT-Institute,874,44954,0.006029,86,12187325040,INSAIT-Institute/MamayLM-Gemma-3-12B-IT-v1.0,2,True,24
+103,bggpt-7b-v0.2,BgGPT 7B v0.2,0.2,BG,INSAIT,INSAIT-Institute,868,112322,0.004088,102,7290884096,INSAIT-Institute/BgGPT-7B-Instruct-v0.2,2,True,125
+104,leo-mistral-hessianai-7b,LeoLM Mistral HessianAI 7B,,DE,LeoLM,LeoLM,844,233572,0.00253,112,,,2,True,4
+105,pleias-350m-preview,Pleias 350M Preview,preview,FR,PleIAs,PleIAs,807,419009,0.001555,129,353424384,PleIAs/Pleias-350m-Preview,1,True,-799
+106,bggpt-gemma3-4b,BgGPT Gemma 3 4B,,BG,INSAIT,INSAIT-Institute,774,14689,0.006749,82,4325147468,INSAIT-Institute/BgGPT-Gemma-3-4B-IT-GPTQ-W4A16,3,True,-8
+107,pleias-3b-preview,Pleias 3B Preview,preview,FR,PleIAs,PleIAs,769,400517,0.001536,131,3211926528,PleIAs/Pleias-3b-Preview,1,True,-801
+108,gams2-27b,GaMS2 27B,,SI,"CJVT UL (Center za jezikovne vire in tehnologije, University of Ljubljana)",cjvt,757,1998,0.007422,77,27227128320,cjvt/GaMS2-27B-GRPO-Translator,3,True,62
+109,croissantllm-chat-v0.1,CroissantLLM Chat v0.1,0.1,FR,croissantllm,croissantllm,737,96469,0.003751,105,1345431552,croissantllm/CroissantLLMChat-v0.1,8,True,35
+110,ocronos,OCRonos,,FR,PleIAs,PleIAs,710,82123,0.003898,103,8030261248,PleIAs/OCRonos,3,True,-15
+111,gams-1b,GaMS 1B,,SI,"CJVT UL (Center za jezikovne vire in tehnologije, University of Ljubljana)",cjvt,672,16883,0.005749,89,1540481024,cjvt/GaMS-1B,4,True,-1
+112,bggpt-gemma2-9b,BgGPT Gemma 2 9B,1.0,BG,INSAIT,INSAIT-Institute,630,27932,0.004924,95,9241705984,INSAIT-Institute/BgGPT-Gemma-2-9B-IT-v1.0,2,True,23
+113,mamaylm-gemma2-9b-v0.1,MamayLM Gemma 2 9B v0.1,0.1,UA,INSAIT,INSAIT-Institute,608,22134,0.004978,94,9241705984,INSAIT-Institute/MamayLM-Gemma-2-9B-IT-v0.1,2,True,4
+114,gams-2b,GaMS 2B,,SI,"CJVT UL (Center za jezikovne vire in tehnologije, University of Ljubljana)",cjvt,573,20751,0.004745,97,3204165888,cjvt/GaMS-2B,2,True,8
+115,tildeopen-30b-64k,TildeOpen 30B (64k),,LV,Tilde,TildeAI,551,3590,0.005319,90,30677882880,TildeAI/TildeOpen-30b-64k,1,True,8
+116,llama-pllum-8b-2512,Llama-PLLuM 8B (2512),2512,PL,CYFRAGOVPL / PLLuM consortium,CYFRAGOVPL,501,4354,0.004801,96,8030285824,CYFRAGOVPL/Llama-PLLuM-8B-instruct-2512,3,True,-2
+117,leanstral-1.5,Leanstral 1.5 (119B-A6B),1.5,FR,Mistral AI,mistralai,434,1616,0.004271,101,,,1,True,-9
+118,bggpt-gemma2-27b,BgGPT Gemma 2 27B,1.0,BG,INSAIT,INSAIT-Institute,422,12213,0.003761,104,27227128320,INSAIT-Institute/BgGPT-Gemma-2-27B-IT-v1.0,2,True,8
+119,soofi-s-isar-preview,Soofi S Isar Preview,preview,DE,Soofi Project,Soofi-Project,361,12374,0.003212,107,31591508800,Soofi-Project/Soofi-S-Isar-Preview-FP8,6,True,0
+120,gams-27b,GaMS 27B,,SI,"CJVT UL (Center za jezikovne vire in tehnologije, University of Ljubljana)",cjvt,319,37887,0.002313,116,27227128320,cjvt/GaMS-27B,3,True,-7
+121,nesso-4b,Nesso 4B,,IT,mii-llm,mii-llm,315,2833,0.003063,108,4022468096,mii-llm/nesso-4B,2,True,-12
+122,bielik-11b-v2.5,Bielik-11B v2.5,2.5,PL,SpeakLeash / ACK Cyfronet AGH,speakleash,311,5549,0.002946,109,11510465234,speakleash/Bielik-11B-v2.5-Instruct-bnb-4bit,5,True,-10
+123,alia-40b-instruct-2601,ALIA 40B Instruct (2601),2601,ES,BSC-LT,BSC-LT,310,32871,0.002333,115,40433885248,BSC-LT/ALIA-40b-instruct-2601-GGUF,2,True,-30
+124,leo-hessianai-13b,LeoLM HessianAI 13B,,DE,LeoLM,LeoLM,292,107251,0.001409,134,,,3,True,-8
+125,bggpt-gemma2-2.6b,BgGPT Gemma 2 2.6B,1.0,BG,INSAIT,INSAIT-Institute,291,22118,0.002383,114,2614341888,INSAIT-Institute/BgGPT-Gemma-2-2.6B-IT-v1.0,2,True,4
+126,nesso-0.4b-agentic,Nesso 0.4B Agentic,0.4B,IT,mii-llm,mii-llm,278,3281,0.002692,110,560898240,mii-llm/nesso-0.4B-agentic,2,True,128
+127,meltemi-7b-v1.5,Meltemi 7B v1.5,1.5,GR,ILSP,ilsp,277,39426,0.001987,117,7482445824,ilsp/Meltemi-7B-Instruct-v1.5,2,True,-7
+128,bielik-11b-v2-base,Bielik-11B v2 (base),2,PL,SpeakLeash / ACK Cyfronet AGH,speakleash,242,41912,0.001705,125,11168796672,speakleash/Bielik-11B-v2,1,True,-3
+129,llama-pllum-8b-2412,Llama-PLLuM 8B (2412),2412,PL,CYFRAGOVPL / PLLuM consortium,CYFRAGOVPL,240,70535,0.001407,135,8030277632,CYFRAGOVPL/Llama-PLLuM-8B-chat-2412,3,True,-2
+130,occiglot-7b-eu5,Occiglot 7B EU5,,EU,occiglot,occiglot,234,322259,0.000554,143,7241748480,occiglot/occiglot-7b-eu5-instruct,2,True,-39
+131,leo-hessianai-70b,LeoLM HessianAI 70B,,DE,LeoLM,LeoLM,223,19702,0.001863,119,68976648192,LeoLM/leo-hessianai-70b,2,True,-4
+132,meltemi-7b-v1,Meltemi 7B v1,1,GR,ILSP,ilsp,211,44659,0.001459,132,7702227842,ilsp/Meltemi-7B-Instruct-v1-BnB-4bit,5,True,1
+133,bggpt-7b-v0.1,BgGPT 7B v0.1,0.1,BG,INSAIT,INSAIT-Institute,199,16644,0.001706,124,7290884096,INSAIT-Institute/BgGPT-7B-Instruct-v0.1,2,True,-3
+134,llama-pllum-70b-2508,Llama-PLLuM 70B (2508),2508,PL,CYFRAGOVPL / PLLuM consortium,CYFRAGOVPL,187,5065,0.00178,121,70553788416,CYFRAGOVPL/Llama-PLLuM-70B-chat-2508,3,True,-34
+135,zagreus-0.4b-ita,Zagreus 0.4B (ITA),0.4B,IT,mii-llm,mii-llm,187,5176,0.001778,122,437760960,mii-llm/zagreus-0.4B-ita,1,True,-26
+136,llama-pllum-70b-2512,Llama-PLLuM 70B (2512),2512,PL,CYFRAGOVPL / PLLuM consortium,CYFRAGOVPL,185,12713,0.001641,126,70553755648,CYFRAGOVPL/Llama-PLLuM-70B-chat-2512,2,True,1
+137,eurollm-22b-preview,EuroLLM-22B (Preview base),preview,EU,utter-project,utter-project,177,2564,0.001726,123,,,1,True,-4
+138,pllum-8x7b-2412,PLLuM 8x7B (2412),2412,PL,CYFRAGOVPL / PLLuM consortium,CYFRAGOVPL,163,28422,0.001269,138,46702817280,CYFRAGOVPL/PLLuM-8x7B-chat-2412,6,True,-2
+139,pleias-pico,Pleias Pico,,FR,PleIAs,PleIAs,149,5503,0.001412,133,353424384,PleIAs/Pleias-Pico,2,True,-4
+140,soofi-s-instruct-preview,Soofi S Instruct Preview,preview,DE,Soofi Project,Soofi-Project,146,7476,0.001358,137,31591508800,Soofi-Project/Soofi-S-Instruct-Preview-FP8,6,True,-15
+141,leanstral-2603,Leanstral (2603),2603,FR,Mistral AI,mistralai,140,1161,0.001384,136,,,1,True,-4
+142,llama-pllum-70b-2412,Llama-PLLuM 70B (2412),2412,PL,CYFRAGOVPL / PLLuM consortium,CYFRAGOVPL,91,38721,0.000656,142,70553739264,CYFRAGOVPL/Llama-PLLuM-70B-chat-2412,3,True,-5
+143,pleias-nano,Pleias Nano,,FR,PleIAs,PleIAs,83,7255,0.000774,140,1195468800,PleIAs/Pleias-Nano,2,True,-6
+144,nesso-0.4b-instruct,Nesso 0.4B Instruct,0.4B,IT,mii-llm,mii-llm,71,1316,0.000701,141,560898240,mii-llm/nesso-0.4B-instruct,1,True,-3
+145,open-zagreus-0.4b,Open Zagreus 0.4B,0.4B,IT,mii-llm,mii-llm,45,403,0.000448,145,437768640,mii-llm/open-zagreus-0.4B,1,True,-1
 146,soofi-s-rhine-preview,Soofi S Rhine Preview,preview,DE,Soofi Project,Soofi-Project,45,2856,0.000438,146,31591508800,Soofi-Project/Soofi-S-Rhine-Preview-FP8,6,True,0
-147,pleias-slm-rag,Pleias SLM RAG,,FR,PleIAs,PleIAs,42,437,0.000418,147,320956992,PleIAs/Pleias-SLM-RAG,1,True,-1
-148,tildeopen-15b-wmt26-cs-de,TildeOpen 15B WMT26 (cs-de),,LV,Tilde,TildeAI,39,263,0.000389,148,15169802240,TildeAI/TildeOpen15B-64k-wmt26-compression-task-cs-de-fp8-dyn,3,True,4
-149,tildeopen-8b-wmt26-cs-de,TildeOpen 8B WMT26 (cs-de),,LV,Tilde,TildeAI,36,204,0.000359,149,8158570240,TildeAI/TildeOpen8B-64k-wmt26-compression-task-cs-de-fp8-dyn,3,True,3
-150,zagreus-0.4b-spa,Zagreus 0.4B (SPA),0.4B,IT,mii-llm,mii-llm,33,228,0.000329,150,437760960,mii-llm/zagreus-0.4B-spa,1,True,-5
-151,maestrale-chat-v0.1,Maestrale Chat v0.1,0.1,IT,mii-llm,mii-llm,30,145,0.0003,151,7241748480,mii-llm/maestrale-chat-v0.1-alpha-sft,1,True,0
-152,zagreus-0.4b-por,Zagreus 0.4B (POR),0.4B,IT,mii-llm,mii-llm,21,279,0.000209,152,437760960,mii-llm/zagreus-0.4B-por,1,True,0
-153,zagreus-0.4b-fra,Zagreus 0.4B (FRA),0.4B,IT,mii-llm,mii-llm,20,165,0.0002,153,437760960,mii-llm/zagreus-0.4B-fra,1,True,0
-154,soofi-s-base,Soofi S Base,,DE,Soofi Project,Soofi-Project,12,1509,0.000118,154,31577937344,Soofi-Project/Soofi-S-Base,2,True,2
-155,pllum-12b-nc-2507,PLLuM 12B nc (2507),2507,PL,CYFRAGOVPL / PLLuM consortium,CYFRAGOVPL,4,6171,3.8e-05,155,12247802880,CYFRAGOVPL/PLLuM-12b-nc-chat-2507,3,True,-9
+147,pleias-slm-rag,Pleias SLM RAG,,FR,PleIAs,PleIAs,41,438,0.000408,147,320956992,PleIAs/Pleias-SLM-RAG,1,True,-1
+148,tildeopen-15b-wmt26-cs-de,TildeOpen 15B WMT26 (cs-de),,LV,Tilde,TildeAI,38,263,0.000379,148,15169802240,TildeAI/TildeOpen15B-64k-wmt26-compression-task-cs-de-fp8-dyn,3,True,-1
+149,tildeopen-8b-wmt26-cs-de,TildeOpen 8B WMT26 (cs-de),,LV,Tilde,TildeAI,35,204,0.000349,149,8158570240,TildeAI/TildeOpen8B-64k-wmt26-compression-task-cs-de-fp8-dyn,3,True,-1
+150,maestrale-chat-v0.1,Maestrale Chat v0.1,0.1,IT,mii-llm,mii-llm,30,145,0.0003,150,7241748480,mii-llm/maestrale-chat-v0.1-alpha-sft,1,True,0
+151,zagreus-0.4b-spa,Zagreus 0.4B (SPA),0.4B,IT,mii-llm,mii-llm,30,228,0.000299,151,437760960,mii-llm/zagreus-0.4B-spa,1,True,-3
+152,zagreus-0.4b-por,Zagreus 0.4B (POR),0.4B,IT,mii-llm,mii-llm,21,280,0.000209,152,437760960,mii-llm/zagreus-0.4B-por,1,True,0
+153,zagreus-0.4b-fra,Zagreus 0.4B (FRA),0.4B,IT,mii-llm,mii-llm,20,166,0.0002,153,437760960,mii-llm/zagreus-0.4B-fra,1,True,0
+154,soofi-s-base,Soofi S Base,,DE,Soofi Project,Soofi-Project,12,1509,0.000118,154,31577937344,Soofi-Project/Soofi-S-Base,2,True,0
+155,pllum-12b-nc-2507,PLLuM 12B nc (2507),2507,PL,CYFRAGOVPL / PLLuM consortium,CYFRAGOVPL,4,6171,3.8e-05,155,12247802880,CYFRAGOVPL/PLLuM-12b-nc-chat-2507,3,True,0
 156,emma-5-boost,Emma 5 Boost,,IT,mii-llm,mii-llm,0,8,0.0,156,1387186688,mii-llm/emma-5-boost,1,True,0
 157,velvet-14b,Velvet 14B,,IT,Almawave,Almawave,0,0,0.0,157,,,0,True,0
 158,velvet-2b,Velvet 2B,,IT,Almawave,Almawave,0,0,0.0,158,,,0,True,0
