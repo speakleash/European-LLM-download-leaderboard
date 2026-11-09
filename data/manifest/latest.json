@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T13:01:17Z",
+  "generated_at": "2026-11-09T13:33:16Z",
   "config_version": 2,
   "config_path": "european-llm-hf-download-leaderboard.json",
   "config_content_hash": "sha256:1a209b835d91c5e52a873e1c2ea445ed9cb2f3da12c5981f1db5d6ead7406dd2",
@@ -30,7 +30,7 @@
     "swiss-ai",
     "utter-project"
   ],
-  "manifest_content_hash": "sha256:6dff0b676c20772e1a64cfde4733870998849f39dffb7ec0dde4dc98cfaed52e",
+  "manifest_content_hash": "sha256:9e8c3687a2a50d0bab480143d844644683e1e928f10ade13a7a6ae62d4cd14a1",
   "rows": {
     "bielik-11b-v3.0": {
       "display_name": "Bielik-11B v3.0",
@@ -516,9 +516,7 @@
       "country": "EU",
       "developer": "openeurollm",
       "official_org": "openeurollm",
-      "repos": [
-        "openeurollm/prelude"
-      ]
+      "repos": []
     },
     "apertus-70b-2509": {
       "display_name": "Apertus 70B (2509)",
@@ -1978,6 +1976,7 @@
       "BSC-LT/salamandra-7b-fc-2607",
       "BSC-LT/salamandra-7b-fc-2607-GGUF",
       "BSC-LT/salamandra-7b-fc-2610-evo",
+      "BSC-LT/salamandra-7b-fc-private-test",
       "BSC-LT/salamandra-7b-vision",
       "BSC-LT/salamandra-TAV-7b",
       "BSC-LT/salamandra7b_rag_prompt_ca-en-es",
@@ -2225,7 +2224,8 @@
     "domyn": [
       "domyn/Domyn-Edge-Base",
       "domyn/Domyn-Edge-Base-checkpoints",
-      "domyn/Domyn-Edge-SFT"
+      "domyn/Domyn-Edge-SFT",
+      "domyn/Domyn-Edge-Teacher-IF"
     ],
     "ilsp": [
       "ilsp/CoRM",
@@ -2304,7 +2304,10 @@
       "openeurollm/OLMo-3-7B-Dolci-Translated-A-75EN",
       "openeurollm/OLMo-3-7B-Instruct-SFT",
       "openeurollm/OLMo-3-7B-Think-SFT",
-      "openeurollm/OpenEuroLLM-Prelude-SFT-Excellent-Instructions",
+      "openeurollm/Prelude-Marianna-midtrain-SFT-Excellent-v0.2",
+      "openeurollm/Prelude-SFT-Excellent-v0.1",
+      "openeurollm/Prelude-SFT-Excellent-v0.2",
+      "openeurollm/bsc-edu-annotator",
       "openeurollm/complex-kda-1.3B-100B",
       "openeurollm/complex-kda-hybrid-1.3B-100B",
       "openeurollm/complex-kda-ladder",
@@ -2370,6 +2373,8 @@
       "openeurollm/oellm-9b-256k-theta64m-prelude-anneal300b",
       "openeurollm/oellm-9b-yarn-multilingual-v2-32k",
       "openeurollm/prelude-anneal300b-256k-rope20m-cont",
+      "openeurollm/prelude-base",
+      "openeurollm/prelude-experiments",
       "openeurollm/prelude-wsm-merges",
       "openeurollm/tokenizer-128k",
       "openeurollm/tokenizer-128k-v2",
@@ -2451,6 +2456,7 @@
     ],
     "utter-project": [
       "utter-project/EuroFilter-v1",
+      "utter-project/EuroLLM1.5-9B-SFT",
       "utter-project/EuroVLM-1.7B-Preview",
       "utter-project/EuroVLM-9B-Preview",
       "utter-project/SpireBase",
@@ -2801,7 +2807,6 @@
     "openGPT-X/Teuken-7B-instruct-commercial-v0.4",
     "openGPT-X/Teuken-7B-instruct-research-v0.4",
     "openGPT-X/Teuken-7B-instruct-v0.6",
-    "openeurollm/prelude",
     "sapienzanlp/Minerva-7B-base-v1.0",
     "sapienzanlp/Minerva-7B-instruct-v1.0",
     "sapienzanlp/Minerva-7B-instruct-v1.0-GGUF",
