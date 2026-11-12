@@ -13,6 +13,16 @@
     "comment": "List narrower version rows before broader ones (e.g. bielik-11b-v2.6 before any accidental broad pattern)."
   },
   "models": {
+    "bielik-11b-v3.1": {
+      "display_name": "Bielik-11B v3.1",
+      "version": "3.1",
+      "country": "PL",
+      "developer": "SpeakLeash / ACK Cyfronet AGH",
+      "official_org": "speakleash",
+      "regex": [
+        "^speakleash/Bielik-11B-v3\\.1"
+      ]
+    },
     "bielik-11b-v3.0": {
       "display_name": "Bielik-11B v3.0",
       "version": "3.0",
@@ -20,7 +30,7 @@
       "developer": "SpeakLeash / ACK Cyfronet AGH",
       "official_org": "speakleash",
       "regex": [
-        "^speakleash/Bielik-11B-v3\\.0",
+        "^speakleash/Bielik-(?:PL-)?11B-v3\\.0",
         "^speakleash/Bielik-11B-v3-Base"
       ]
     },
@@ -175,6 +185,16 @@
         "^CYFRAGOVPL/Llama-PLLuM-8B-(?:base|chat|instruct)-2512$"
       ]
     },
+    "llama-pllum-8b-2508": {
+      "display_name": "Llama-PLLuM 8B (2508)",
+      "version": "2508",
+      "country": "PL",
+      "developer": "CYFRAGOVPL / PLLuM consortium",
+      "official_org": "CYFRAGOVPL",
+      "regex": [
+        "^CYFRAGOVPL/Llama-PLLuM-8B-(?:base|chat|instruct)-2508$"
+      ]
+    },
     "llama-pllum-8b-2412": {
       "display_name": "Llama-PLLuM 8B (2412)",
       "version": "2412",
@@ -193,6 +213,16 @@
       "official_org": "CYFRAGOVPL",
       "regex": [
         "^CYFRAGOVPL/PLLuM-12B-(?:base|chat|instruct|nc-base|nc-chat|nc-instruct)-2512$"
+      ]
+    },
+    "pllum-12b-2508": {
+      "display_name": "PLLuM 12B (2508)",
+      "version": "2508",
+      "country": "PL",
+      "developer": "CYFRAGOVPL / PLLuM consortium",
+      "official_org": "CYFRAGOVPL",
+      "regex": [
+        "^CYFRAGOVPL/PLLuM-12B-(?:base|chat|instruct)-2508$"
       ]
     },
     "pllum-12b-2412": {
@@ -325,6 +355,16 @@
         "^utter-project/EuroLLM-22B-Preview$"
       ]
     },
+    "eurollm-1.5-9b": {
+      "display_name": "EuroLLM 1.5 9B",
+      "version": "1.5",
+      "country": "EU",
+      "developer": "utter-project",
+      "official_org": "utter-project",
+      "regex": [
+        "^utter-project/EuroLLM1\\.5-9B"
+      ]
+    },
     "eurollm-9b-2512": {
       "display_name": "EuroLLM-9B (2512)",
       "version": "2512",
@@ -435,7 +475,7 @@
       "developer": "swiss-ai",
       "official_org": "swiss-ai",
       "regex": [
-        "^swiss-ai/Apertus-v1\\.5-70B$"
+        "^swiss-ai/Apertus-v1\\.5-70B"
       ]
     },
     "apertus-v1.5-8b": {
@@ -445,7 +485,7 @@
       "developer": "swiss-ai",
       "official_org": "swiss-ai",
       "regex": [
-        "^swiss-ai/Apertus-v1\\.5-8B$"
+        "^swiss-ai/Apertus-v1\\.5-8B"
       ]
     },
     "apertus-v1.1-4b": {
@@ -476,6 +516,16 @@
       "official_org": "swiss-ai",
       "regex": [
         "^swiss-ai/Apertus-v1\\.1-0\\.5B"
+      ]
+    },
+    "mistral-large-4": {
+      "display_name": "Mistral Large 4 (1T-A52B)",
+      "version": "4",
+      "country": "FR",
+      "developer": "Mistral AI",
+      "official_org": "mistralai",
+      "regex": [
+        "^mistralai/Mistral-Large-4-1T-A52B"
       ]
     },
     "mistral-large-3-2512": {
@@ -659,6 +709,16 @@
         "^mistralai/Magistral-Small-2509"
       ]
     },
+    "mamba-codestral-7b-v0.1": {
+      "display_name": "Mamba-Codestral 7B v0.1",
+      "version": "0.1",
+      "country": "FR",
+      "developer": "Mistral AI",
+      "official_org": "mistralai",
+      "regex": [
+        "^mistralai/Mamba-Codestral-7B-v0\\.1"
+      ]
+    },
     "codestral-22b-v0.1": {
       "display_name": "Codestral 22B v0.1",
       "version": "0.1",
@@ -811,6 +871,16 @@
         "^openGPT-X/Teuken-7B-instruct-commercial-v0\\.4$"
       ]
     },
+    "kolibri-1": {
+      "display_name": "Kolibri-1",
+      "version": null,
+      "country": "DE",
+      "developer": "Aleph Alpha",
+      "official_org": "Aleph-Alpha",
+      "regex": [
+        "^Aleph-Alpha/Kolibri-1"
+      ]
+    },
     "pharia-7b-control": {
       "display_name": "Pharia-1-LLM-7B-control",
       "version": null,
@@ -891,6 +961,46 @@
         "^sapienzanlp/Minerva-7B-(?:base|instruct)-v1\\.0"
       ]
     },
+    "minerva-3b-v1.0": {
+      "display_name": "Minerva 3B v1.0",
+      "version": "1.0",
+      "country": "IT",
+      "developer": "SapienzaNLP",
+      "official_org": "sapienzanlp",
+      "regex": [
+        "^sapienzanlp/Minerva-3B-(?:base|instruct)-v1\\.0"
+      ]
+    },
+    "minerva-1b-v1.0": {
+      "display_name": "Minerva 1B v1.0",
+      "version": "1.0",
+      "country": "IT",
+      "developer": "SapienzaNLP",
+      "official_org": "sapienzanlp",
+      "regex": [
+        "^sapienzanlp/Minerva-1B-(?:base|instruct)-v1\\.0"
+      ]
+    },
+    "minerva-350m-v1.0": {
+      "display_name": "Minerva 350M v1.0",
+      "version": "1.0",
+      "country": "IT",
+      "developer": "SapienzaNLP",
+      "official_org": "sapienzanlp",
+      "regex": [
+        "^sapienzanlp/Minerva-350M-(?:base|instruct)-v1\\.0"
+      ]
+    },
+    "modello-italia-9b": {
+      "display_name": "Modello Italia 9B",
+      "version": null,
+      "country": "IT",
+      "developer": "SapienzaNLP",
+      "official_org": "sapienzanlp",
+      "regex": [
+        "^sapienzanlp/modello-italia-9b"
+      ]
+    },
     "alia-40b-base": {
       "display_name": "ALIA 40B (base)",
       "version": null,
@@ -899,6 +1009,26 @@
       "official_org": "BSC-LT",
       "regex": [
         "^BSC-LT/ALIA-40b$"
+      ]
+    },
+    "alia-40b-instruct-2606": {
+      "display_name": "ALIA 40B Instruct (2606)",
+      "version": "2606",
+      "country": "ES",
+      "developer": "BSC-LT",
+      "official_org": "BSC-LT",
+      "regex": [
+        "^BSC-LT/ALIA-40b-instruct-2606"
+      ]
+    },
+    "alia-40b-instruct-2605": {
+      "display_name": "ALIA 40B Instruct (2605)",
+      "version": "2605",
+      "country": "ES",
+      "developer": "BSC-LT",
+      "official_org": "BSC-LT",
+      "regex": [
+        "^BSC-LT/ALIA-40b-instruct-2605"
       ]
     },
     "alia-40b-instruct-2601": {
@@ -911,6 +1041,36 @@
         "^BSC-LT/ALIA-40b-instruct-2601"
       ]
     },
+    "alia-40b-fc-2607": {
+      "display_name": "ALIA 40B Function Calling (2607)",
+      "version": "2607",
+      "country": "ES",
+      "developer": "BSC-LT",
+      "official_org": "BSC-LT",
+      "regex": [
+        "^BSC-LT/ALIA-40b-fc-2607"
+      ]
+    },
+    "alia-40b-fc-2606": {
+      "display_name": "ALIA 40B Function Calling (2606)",
+      "version": "2606",
+      "country": "ES",
+      "developer": "BSC-LT",
+      "official_org": "BSC-LT",
+      "regex": [
+        "^BSC-LT/ALIA-40b-fc-2606"
+      ]
+    },
+    "alia-40b-fc-2605": {
+      "display_name": "ALIA 40B Function Calling (2605)",
+      "version": "2605",
+      "country": "ES",
+      "developer": "BSC-LT",
+      "official_org": "BSC-LT",
+      "regex": [
+        "^BSC-LT/ALIA-40b-fc-2605"
+      ]
+    },
     "salamandra-7b-base": {
       "display_name": "Salamandra 7B (base)",
       "version": null,
@@ -918,7 +1078,7 @@
       "developer": "BSC-LT",
       "official_org": "BSC-LT",
       "regex": [
-        "^BSC-LT/salamandra-7b$"
+        "^BSC-LT/salamandra-7b(?:$|-base)"
       ]
     },
     "salamandra-7b-instruct": {
@@ -931,6 +1091,26 @@
         "^BSC-LT/salamandra-7b-instruct"
       ]
     },
+    "salamandra-7b-fc-2610-evo": {
+      "display_name": "Salamandra 7B Function Calling (2610 evo)",
+      "version": "2610",
+      "country": "ES",
+      "developer": "BSC-LT",
+      "official_org": "BSC-LT",
+      "regex": [
+        "^BSC-LT/salamandra-7b-fc-2610"
+      ]
+    },
+    "salamandra-7b-fc-2607": {
+      "display_name": "Salamandra 7B Function Calling (2607)",
+      "version": "2607",
+      "country": "ES",
+      "developer": "BSC-LT",
+      "official_org": "BSC-LT",
+      "regex": [
+        "^BSC-LT/salamandra-7b-fc-2607"
+      ]
+    },
     "salamandra-2b": {
       "display_name": "Salamandra 2B",
       "version": null,
@@ -939,6 +1119,16 @@
       "official_org": "BSC-LT",
       "regex": [
         "^BSC-LT/salamandra-2b"
+      ]
+    },
+    "flor-6.3b": {
+      "display_name": "Flor 6.3B",
+      "version": null,
+      "country": "ES",
+      "developer": "BSC-LT",
+      "official_org": "BSC-LT",
+      "regex": [
+        "^BSC-LT/Flor-6\\.3B"
       ]
     },
     "poro-34b": {
@@ -1343,6 +1533,67 @@
         "^Soofi-Project/Soofi-S-Base"
       ]
     },
+    "domyn-edge": {
+      "display_name": "Domyn Edge",
+      "version": null,
+      "country": "IT",
+      "developer": "Domyn",
+      "official_org": "domyn",
+      "regex": [
+        "^domyn/Domyn-Edge-Base$",
+        "^domyn/Domyn-Edge-SFT$"
+      ]
+    },
+    "domyn-edge-teacher-if": {
+      "display_name": "Domyn Edge Teacher IF",
+      "version": null,
+      "country": "IT",
+      "developer": "Domyn",
+      "official_org": "domyn",
+      "regex": [
+        "^domyn/Domyn-Edge-Teacher-IF"
+      ]
+    },
+    "domyn-edge-teacher-stem": {
+      "display_name": "Domyn Edge Teacher STEM",
+      "version": null,
+      "country": "IT",
+      "developer": "Domyn",
+      "official_org": "domyn",
+      "regex": [
+        "^domyn/Domyn-Edge-Teacher-STEM"
+      ]
+    },
+    "domyn-edge-teacher-math": {
+      "display_name": "Domyn Edge Teacher Math",
+      "version": null,
+      "country": "IT",
+      "developer": "Domyn",
+      "official_org": "domyn",
+      "regex": [
+        "^domyn/Domyn-Edge-Teacher-Math"
+      ]
+    },
+    "domyn-edge-teacher-code": {
+      "display_name": "Domyn Edge Teacher Code",
+      "version": null,
+      "country": "IT",
+      "developer": "Domyn",
+      "official_org": "domyn",
+      "regex": [
+        "^domyn/Domyn-Edge-Teacher-Code"
+      ]
+    },
+    "domyn-edge-teacher-agentic": {
+      "display_name": "Domyn Edge Teacher Agentic",
+      "version": null,
+      "country": "IT",
+      "developer": "Domyn",
+      "official_org": "domyn",
+      "regex": [
+        "^domyn/Domyn-Edge-Teacher-Agentic"
+      ]
+    },
     "domyn-small-v1.0": {
       "display_name": "Domyn Small v1.0",
       "version": "1.0",
@@ -1453,6 +1704,26 @@
         "^mii-llm/open-zagreus-0\\.4B"
       ]
     },
+    "nesso3-0.4b-agentic": {
+      "display_name": "Nesso 3 0.4B Agentic",
+      "version": "0.4B",
+      "country": "IT",
+      "developer": "mii-llm",
+      "official_org": "mii-llm",
+      "regex": [
+        "^mii-llm/nesso3-0\\.4B"
+      ]
+    },
+    "nesso2-0.4b-agentic": {
+      "display_name": "Nesso 2 0.4B Agentic",
+      "version": "0.4B",
+      "country": "IT",
+      "developer": "mii-llm",
+      "official_org": "mii-llm",
+      "regex": [
+        "^mii-llm/nesso2-0\\.4B"
+      ]
+    },
     "nesso-4b": {
       "display_name": "Nesso 4B",
       "version": null,
@@ -1521,6 +1792,16 @@
       "official_org": "PleIAs",
       "regex": [
         "^PleIAs/Pleias-350m-Preview"
+      ]
+    },
+    "baguettotron-600m": {
+      "display_name": "Baguettotron 600M",
+      "version": "600M",
+      "country": "FR",
+      "developer": "PleIAs",
+      "official_org": "PleIAs",
+      "regex": [
+        "^PleIAs/baguettotron-600m"
       ]
     },
     "baguettotron": {

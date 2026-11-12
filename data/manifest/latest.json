@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-09T13:33:16Z",
+  "generated_at": "2026-11-12T00:49:42Z",
   "config_version": 2,
   "config_path": "european-llm-hf-download-leaderboard.json",
-  "config_content_hash": "sha256:1a209b835d91c5e52a873e1c2ea445ed9cb2f3da12c5981f1db5d6ead7406dd2",
+  "config_content_hash": "sha256:fe43429a919f279b87abc0eea9211f14e3c287bcac906b0c50365b0f1da1a08e",
   "organizations_scanned": [
     "Aleph-Alpha",
     "Almawave",
@@ -30,8 +30,31 @@
     "swiss-ai",
     "utter-project"
   ],
-  "manifest_content_hash": "sha256:9e8c3687a2a50d0bab480143d844644683e1e928f10ade13a7a6ae62d4cd14a1",
+  "manifest_content_hash": "sha256:366508057458a21f6ef46ff0627166368a097108cf273dac11cd67be8449199e",
   "rows": {
+    "bielik-11b-v3.1": {
+      "display_name": "Bielik-11B v3.1",
+      "version": "3.1",
+      "country": "PL",
+      "developer": "SpeakLeash / ACK Cyfronet AGH",
+      "official_org": "speakleash",
+      "repos": [
+        "speakleash/Bielik-11B-v3.1-DFlash",
+        "speakleash/Bielik-11B-v3.1-DFlash-FP8-Dynamic",
+        "speakleash/Bielik-11B-v3.1-DFlash-GGUF",
+        "speakleash/Bielik-11B-v3.1-DFlash2",
+        "speakleash/Bielik-11B-v3.1-DFlash2-FP8-Dynamic",
+        "speakleash/Bielik-11B-v3.1-DFlash2-GGUF",
+        "speakleash/Bielik-11B-v3.1-Instruct",
+        "speakleash/Bielik-11B-v3.1-Instruct-AWQ",
+        "speakleash/Bielik-11B-v3.1-Instruct-FP8-Dynamic",
+        "speakleash/Bielik-11B-v3.1-Instruct-GGUF",
+        "speakleash/Bielik-11B-v3.1-Instruct-MLX-4bit",
+        "speakleash/Bielik-11B-v3.1-Instruct-MLX-8bit",
+        "speakleash/Bielik-11B-v3.1-Instruct-NVFP4",
+        "speakleash/Bielik-11B-v3.1-Instruct-NVFP4A16"
+      ]
+    },
     "bielik-11b-v3.0": {
       "display_name": "Bielik-11B v3.0",
       "version": "3.0",
@@ -46,7 +69,8 @@
         "speakleash/Bielik-11B-v3.0-Instruct-GGUF",
         "speakleash/Bielik-11B-v3.0-Instruct-MLX-4bit",
         "speakleash/Bielik-11B-v3.0-Instruct-MLX-8bit",
-        "speakleash/Bielik-11B-v3.0-Instruct-awq"
+        "speakleash/Bielik-11B-v3.0-Instruct-awq",
+        "speakleash/Bielik-PL-11B-v3.0-Instruct"
       ]
     },
     "bielik-minitron-7b-v3.0": {
@@ -90,6 +114,7 @@
         "speakleash/Bielik-11B-v2.5-Instruct-AWQ",
         "speakleash/Bielik-11B-v2.5-Instruct-FP8-Dynamic",
         "speakleash/Bielik-11B-v2.5-Instruct-GGUF",
+        "speakleash/Bielik-11B-v2.5-Instruct-RC042025",
         "speakleash/Bielik-11B-v2.5-Instruct-bnb-4bit"
       ]
     },
@@ -267,6 +292,16 @@
         "CYFRAGOVPL/Llama-PLLuM-8B-instruct-2512"
       ]
     },
+    "llama-pllum-8b-2508": {
+      "display_name": "Llama-PLLuM 8B (2508)",
+      "version": "2508",
+      "country": "PL",
+      "developer": "CYFRAGOVPL / PLLuM consortium",
+      "official_org": "CYFRAGOVPL",
+      "repos": [
+        "CYFRAGOVPL/Llama-PLLuM-8B-base-2508"
+      ]
+    },
     "llama-pllum-8b-2412": {
       "display_name": "Llama-PLLuM 8B (2412)",
       "version": "2412",
@@ -289,6 +324,16 @@
         "CYFRAGOVPL/PLLuM-12B-base-2512",
         "CYFRAGOVPL/PLLuM-12B-chat-2512",
         "CYFRAGOVPL/PLLuM-12B-instruct-2512"
+      ]
+    },
+    "pllum-12b-2508": {
+      "display_name": "PLLuM 12B (2508)",
+      "version": "2508",
+      "country": "PL",
+      "developer": "CYFRAGOVPL / PLLuM consortium",
+      "official_org": "CYFRAGOVPL",
+      "repos": [
+        "CYFRAGOVPL/PLLuM-12B-base-2508"
       ]
     },
     "pllum-12b-2412": {
@@ -438,6 +483,16 @@
         "utter-project/EuroLLM-22B-Preview"
       ]
     },
+    "eurollm-1.5-9b": {
+      "display_name": "EuroLLM 1.5 9B",
+      "version": "1.5",
+      "country": "EU",
+      "developer": "utter-project",
+      "official_org": "utter-project",
+      "repos": [
+        "utter-project/EuroLLM1.5-9B-SFT"
+      ]
+    },
     "eurollm-9b-2512": {
       "display_name": "EuroLLM-9B (2512)",
       "version": "2512",
@@ -547,7 +602,10 @@
       "developer": "swiss-ai",
       "official_org": "swiss-ai",
       "repos": [
-        "swiss-ai/Apertus-v1.5-70B"
+        "swiss-ai/Apertus-v1.5-70B",
+        "swiss-ai/Apertus-v1.5-70B-RL",
+        "swiss-ai/Apertus-v1.5-70B-SFT",
+        "swiss-ai/Apertus-v1.5-70B-base"
       ]
     },
     "apertus-v1.5-8b": {
@@ -557,7 +615,11 @@
       "developer": "swiss-ai",
       "official_org": "swiss-ai",
       "repos": [
-        "swiss-ai/Apertus-v1.5-8B"
+        "swiss-ai/Apertus-v1.5-8B",
+        "swiss-ai/Apertus-v1.5-8B-DPO",
+        "swiss-ai/Apertus-v1.5-8B-RL",
+        "swiss-ai/Apertus-v1.5-8B-SFT",
+        "swiss-ai/Apertus-v1.5-8B-base"
       ]
     },
     "apertus-v1.1-4b": {
@@ -601,6 +663,17 @@
         "swiss-ai/Apertus-v1.1-0.5B-Instruct-MLX-INT3",
         "swiss-ai/Apertus-v1.1-0.5B-Instruct-MLX-INT4",
         "swiss-ai/Apertus-v1.1-0.5B-Instruct-MLX-INT6"
+      ]
+    },
+    "mistral-large-4": {
+      "display_name": "Mistral Large 4 (1T-A52B)",
+      "version": "4",
+      "country": "FR",
+      "developer": "Mistral AI",
+      "official_org": "mistralai",
+      "repos": [
+        "mistralai/Mistral-Large-4-1T-A52B",
+        "mistralai/Mistral-Large-4-1T-A52B-NVFP4"
       ]
     },
     "mistral-large-3-2512": {
@@ -801,6 +874,16 @@
         "mistralai/Magistral-Small-2509-GGUF"
       ]
     },
+    "mamba-codestral-7b-v0.1": {
+      "display_name": "Mamba-Codestral 7B v0.1",
+      "version": "0.1",
+      "country": "FR",
+      "developer": "Mistral AI",
+      "official_org": "mistralai",
+      "repos": [
+        "mistralai/Mamba-Codestral-7B-v0.1"
+      ]
+    },
     "codestral-22b-v0.1": {
       "display_name": "Codestral 22B v0.1",
       "version": "0.1",
@@ -970,6 +1053,17 @@
         "openGPT-X/Teuken-7B-instruct-commercial-v0.4"
       ]
     },
+    "kolibri-1": {
+      "display_name": "Kolibri-1",
+      "version": null,
+      "country": "DE",
+      "developer": "Aleph Alpha",
+      "official_org": "Aleph-Alpha",
+      "repos": [
+        "Aleph-Alpha/Kolibri-1",
+        "Aleph-Alpha/Kolibri-1-BF16"
+      ]
+    },
     "pharia-7b-control": {
       "display_name": "Pharia-1-LLM-7B-control",
       "version": null,
@@ -1057,6 +1151,47 @@
         "sapienzanlp/Minerva-7B-instruct-v1.0-GGUF"
       ]
     },
+    "minerva-3b-v1.0": {
+      "display_name": "Minerva 3B v1.0",
+      "version": "1.0",
+      "country": "IT",
+      "developer": "SapienzaNLP",
+      "official_org": "sapienzanlp",
+      "repos": [
+        "sapienzanlp/Minerva-3B-base-v1.0"
+      ]
+    },
+    "minerva-1b-v1.0": {
+      "display_name": "Minerva 1B v1.0",
+      "version": "1.0",
+      "country": "IT",
+      "developer": "SapienzaNLP",
+      "official_org": "sapienzanlp",
+      "repos": [
+        "sapienzanlp/Minerva-1B-base-v1.0"
+      ]
+    },
+    "minerva-350m-v1.0": {
+      "display_name": "Minerva 350M v1.0",
+      "version": "1.0",
+      "country": "IT",
+      "developer": "SapienzaNLP",
+      "official_org": "sapienzanlp",
+      "repos": [
+        "sapienzanlp/Minerva-350M-base-v1.0"
+      ]
+    },
+    "modello-italia-9b": {
+      "display_name": "Modello Italia 9B",
+      "version": null,
+      "country": "IT",
+      "developer": "SapienzaNLP",
+      "official_org": "sapienzanlp",
+      "repos": [
+        "sapienzanlp/modello-italia-9b",
+        "sapienzanlp/modello-italia-9b-bf16"
+      ]
+    },
     "alia-40b-base": {
       "display_name": "ALIA 40B (base)",
       "version": null,
@@ -1065,6 +1200,28 @@
       "official_org": "BSC-LT",
       "repos": [
         "BSC-LT/ALIA-40b"
+      ]
+    },
+    "alia-40b-instruct-2606": {
+      "display_name": "ALIA 40B Instruct (2606)",
+      "version": "2606",
+      "country": "ES",
+      "developer": "BSC-LT",
+      "official_org": "BSC-LT",
+      "repos": [
+        "BSC-LT/ALIA-40b-instruct-2606",
+        "BSC-LT/ALIA-40b-instruct-2606-GGUF"
+      ]
+    },
+    "alia-40b-instruct-2605": {
+      "display_name": "ALIA 40B Instruct (2605)",
+      "version": "2605",
+      "country": "ES",
+      "developer": "BSC-LT",
+      "official_org": "BSC-LT",
+      "repos": [
+        "BSC-LT/ALIA-40b-instruct-2605",
+        "BSC-LT/ALIA-40b-instruct-2605-GGUF"
       ]
     },
     "alia-40b-instruct-2601": {
@@ -1078,6 +1235,39 @@
         "BSC-LT/ALIA-40b-instruct-2601-GGUF"
       ]
     },
+    "alia-40b-fc-2607": {
+      "display_name": "ALIA 40B Function Calling (2607)",
+      "version": "2607",
+      "country": "ES",
+      "developer": "BSC-LT",
+      "official_org": "BSC-LT",
+      "repos": [
+        "BSC-LT/ALIA-40b-fc-2607",
+        "BSC-LT/ALIA-40b-fc-2607-GGUF"
+      ]
+    },
+    "alia-40b-fc-2606": {
+      "display_name": "ALIA 40B Function Calling (2606)",
+      "version": "2606",
+      "country": "ES",
+      "developer": "BSC-LT",
+      "official_org": "BSC-LT",
+      "repos": [
+        "BSC-LT/ALIA-40b-fc-2606",
+        "BSC-LT/ALIA-40b-fc-2606-GGUF"
+      ]
+    },
+    "alia-40b-fc-2605": {
+      "display_name": "ALIA 40B Function Calling (2605)",
+      "version": "2605",
+      "country": "ES",
+      "developer": "BSC-LT",
+      "official_org": "BSC-LT",
+      "repos": [
+        "BSC-LT/ALIA-40b-fc-2605",
+        "BSC-LT/ALIA-40b-fc-2605-GGUF"
+      ]
+    },
     "salamandra-7b-base": {
       "display_name": "Salamandra 7B (base)",
       "version": null,
@@ -1085,7 +1275,9 @@
       "developer": "BSC-LT",
       "official_org": "BSC-LT",
       "repos": [
-        "BSC-LT/salamandra-7b"
+        "BSC-LT/salamandra-7b",
+        "BSC-LT/salamandra-7b-base-fp8",
+        "BSC-LT/salamandra-7b-base-gptq"
       ]
     },
     "salamandra-7b-instruct": {
@@ -1105,6 +1297,27 @@
         "BSC-LT/salamandra-7b-instruct-tools-16k"
       ]
     },
+    "salamandra-7b-fc-2610-evo": {
+      "display_name": "Salamandra 7B Function Calling (2610 evo)",
+      "version": "2610",
+      "country": "ES",
+      "developer": "BSC-LT",
+      "official_org": "BSC-LT",
+      "repos": [
+        "BSC-LT/salamandra-7b-fc-2610-evo"
+      ]
+    },
+    "salamandra-7b-fc-2607": {
+      "display_name": "Salamandra 7B Function Calling (2607)",
+      "version": "2607",
+      "country": "ES",
+      "developer": "BSC-LT",
+      "official_org": "BSC-LT",
+      "repos": [
+        "BSC-LT/salamandra-7b-fc-2607",
+        "BSC-LT/salamandra-7b-fc-2607-GGUF"
+      ]
+    },
     "salamandra-2b": {
       "display_name": "Salamandra 2B",
       "version": null,
@@ -1119,6 +1332,17 @@
         "BSC-LT/salamandra-2b-instruct-aina-hack",
         "BSC-LT/salamandra-2b-instruct-fp8",
         "BSC-LT/salamandra-2b-instruct-gptq"
+      ]
+    },
+    "flor-6.3b": {
+      "display_name": "Flor 6.3B",
+      "version": null,
+      "country": "ES",
+      "developer": "BSC-LT",
+      "official_org": "BSC-LT",
+      "repos": [
+        "BSC-LT/Flor-6.3B-Instruct",
+        "BSC-LT/Flor-6.3B-Instruct-4096"
       ]
     },
     "poro-34b": {
@@ -1612,6 +1836,67 @@
         "Soofi-Project/Soofi-S-Base-Megatron"
       ]
     },
+    "domyn-edge": {
+      "display_name": "Domyn Edge",
+      "version": null,
+      "country": "IT",
+      "developer": "Domyn",
+      "official_org": "domyn",
+      "repos": [
+        "domyn/Domyn-Edge-Base",
+        "domyn/Domyn-Edge-SFT"
+      ]
+    },
+    "domyn-edge-teacher-if": {
+      "display_name": "Domyn Edge Teacher IF",
+      "version": null,
+      "country": "IT",
+      "developer": "Domyn",
+      "official_org": "domyn",
+      "repos": [
+        "domyn/Domyn-Edge-Teacher-IF"
+      ]
+    },
+    "domyn-edge-teacher-stem": {
+      "display_name": "Domyn Edge Teacher STEM",
+      "version": null,
+      "country": "IT",
+      "developer": "Domyn",
+      "official_org": "domyn",
+      "repos": [
+        "domyn/Domyn-Edge-Teacher-STEM"
+      ]
+    },
+    "domyn-edge-teacher-math": {
+      "display_name": "Domyn Edge Teacher Math",
+      "version": null,
+      "country": "IT",
+      "developer": "Domyn",
+      "official_org": "domyn",
+      "repos": [
+        "domyn/Domyn-Edge-Teacher-Math"
+      ]
+    },
+    "domyn-edge-teacher-code": {
+      "display_name": "Domyn Edge Teacher Code",
+      "version": null,
+      "country": "IT",
+      "developer": "Domyn",
+      "official_org": "domyn",
+      "repos": [
+        "domyn/Domyn-Edge-Teacher-Code"
+      ]
+    },
+    "domyn-edge-teacher-agentic": {
+      "display_name": "Domyn Edge Teacher Agentic",
+      "version": null,
+      "country": "IT",
+      "developer": "Domyn",
+      "official_org": "domyn",
+      "repos": [
+        "domyn/Domyn-Edge-Teacher-Agentic"
+      ]
+    },
     "domyn-small-v1.0": {
       "display_name": "Domyn Small v1.0",
       "version": "1.0",
@@ -1729,6 +2014,27 @@
         "mii-llm/open-zagreus-0.4B"
       ]
     },
+    "nesso3-0.4b-agentic": {
+      "display_name": "Nesso 3 0.4B Agentic",
+      "version": "0.4B",
+      "country": "IT",
+      "developer": "mii-llm",
+      "official_org": "mii-llm",
+      "repos": [
+        "mii-llm/nesso3-0.4B-agentic",
+        "mii-llm/nesso3-0.4B-agentic-gguf"
+      ]
+    },
+    "nesso2-0.4b-agentic": {
+      "display_name": "Nesso 2 0.4B Agentic",
+      "version": "0.4B",
+      "country": "IT",
+      "developer": "mii-llm",
+      "official_org": "mii-llm",
+      "repos": [
+        "mii-llm/nesso2-0.4B-agentic"
+      ]
+    },
     "nesso-4b": {
       "display_name": "Nesso 4B",
       "version": null,
@@ -1799,6 +2105,16 @@
       "official_org": "PleIAs",
       "repos": [
         "PleIAs/Pleias-350m-Preview"
+      ]
+    },
+    "baguettotron-600m": {
+      "display_name": "Baguettotron 600M",
+      "version": "600M",
+      "country": "FR",
+      "developer": "PleIAs",
+      "official_org": "PleIAs",
+      "repos": [
+        "PleIAs/baguettotron-600m"
       ]
     },
     "baguettotron": {
@@ -1896,8 +2212,6 @@
       "Aleph-Alpha/Aleph-Alpha-GermanWeb-Grammar-Classifier-fastText",
       "Aleph-Alpha/Aleph-Alpha-GermanWeb-Quality-Classifier-BERT",
       "Aleph-Alpha/Aleph-Alpha-GermanWeb-Quality-Classifier-fastText",
-      "Aleph-Alpha/Kolibri-1",
-      "Aleph-Alpha/Kolibri-1-BF16",
       "Aleph-Alpha/Pharia-1-Embedding-4608-control",
       "Aleph-Alpha/Pharia-1-Embedding-4608-control-256",
       "Aleph-Alpha/Pharia-1-Embedding-4608-control-hf",
@@ -1920,22 +2234,10 @@
       "Aleph-Alpha/umup-research-7b-fp8"
     ],
     "BSC-LT": [
-      "BSC-LT/ALIA-40b-fc-2605",
-      "BSC-LT/ALIA-40b-fc-2605-GGUF",
-      "BSC-LT/ALIA-40b-fc-2606",
-      "BSC-LT/ALIA-40b-fc-2606-GGUF",
-      "BSC-LT/ALIA-40b-fc-2607",
-      "BSC-LT/ALIA-40b-fc-2607-GGUF",
-      "BSC-LT/ALIA-40b-instruct-2605",
-      "BSC-LT/ALIA-40b-instruct-2605-GGUF",
-      "BSC-LT/ALIA-40b-instruct-2606",
-      "BSC-LT/ALIA-40b-instruct-2606-GGUF",
       "BSC-LT/Checkpoint_2b_instructed_beta",
       "BSC-LT/Checkpoint_4epoch_rag",
       "BSC-LT/ConMamba-small-ca",
       "BSC-LT/ConMamba-small-es",
-      "BSC-LT/Flor-6.3B-Instruct",
-      "BSC-LT/Flor-6.3B-Instruct-4096",
       "BSC-LT/MrBERT",
       "BSC-LT/MrBERT-biomed",
       "BSC-LT/MrBERT-ca",
@@ -1971,11 +2273,6 @@
       "BSC-LT/roberta-base-biomedical-es",
       "BSC-LT/roberta-base-ca",
       "BSC-LT/roberta_model_for_anonimization",
-      "BSC-LT/salamandra-7b-base-fp8",
-      "BSC-LT/salamandra-7b-base-gptq",
-      "BSC-LT/salamandra-7b-fc-2607",
-      "BSC-LT/salamandra-7b-fc-2607-GGUF",
-      "BSC-LT/salamandra-7b-fc-2610-evo",
       "BSC-LT/salamandra-7b-fc-private-test",
       "BSC-LT/salamandra-7b-vision",
       "BSC-LT/salamandra-TAV-7b",
@@ -2006,10 +2303,6 @@
       "BSC-LT/whisper-large-v3-ca-punctuated-3370h",
       "BSC-LT/whisper-timestamped-cs"
     ],
-    "CYFRAGOVPL": [
-      "CYFRAGOVPL/Llama-PLLuM-8B-base-2508",
-      "CYFRAGOVPL/PLLuM-12B-base-2508"
-    ],
     "INSAIT-Institute": [
       "INSAIT-Institute/BatchOnline-GRPO-1.5B",
       "INSAIT-Institute/BatchOnline-GRPO-14B",
@@ -2034,6 +2327,9 @@
       "INSAIT-Institute/GenieRedux",
       "INSAIT-Institute/GraphWrit3R",
       "INSAIT-Institute/LADDER-Bridge-Policy",
+      "INSAIT-Institute/LADDER-RoboLab-Long",
+      "INSAIT-Institute/LADDER-RobotArena-Long",
+      "INSAIT-Institute/LADDER-SimplerEnv-Long",
       "INSAIT-Institute/Llama3-8B-MixAT",
       "INSAIT-Institute/Llama3-8B-MixAT-GCG",
       "INSAIT-Institute/Llama3.1-8B-MixAT",
@@ -2143,7 +2439,6 @@
       "PleIAs/OCRerrcr",
       "PleIAs/Segmentext",
       "PleIAs/Topical",
-      "PleIAs/baguettotron-600m",
       "PleIAs/celadon",
       "PleIAs/classifier_bandeaux",
       "PleIAs/journaux-lm-v1",
@@ -2222,10 +2517,7 @@
       "croissantllm/tinyllamaChat-v0.1"
     ],
     "domyn": [
-      "domyn/Domyn-Edge-Base",
-      "domyn/Domyn-Edge-Base-checkpoints",
-      "domyn/Domyn-Edge-SFT",
-      "domyn/Domyn-Edge-Teacher-IF"
+      "domyn/Domyn-Edge-Base-checkpoints"
     ],
     "ilsp": [
       "ilsp/CoRM",
@@ -2272,9 +2564,6 @@
     ],
     "mii-llm": [
       "mii-llm/Llama-3-chat-v0.2-alpha-sft",
-      "mii-llm/nesso2-0.4B-agentic",
-      "mii-llm/nesso3-0.4B-agentic",
-      "mii-llm/nesso3-0.4B-agentic-gguf",
       "mii-llm/nev",
       "mii-llm/nev-gguf",
       "mii-llm/propaganda-dpo-dx-v0.1",
@@ -2282,9 +2571,6 @@
     ],
     "mistralai": [
       "mistralai/LIDstral-Arabic",
-      "mistralai/Mamba-Codestral-7B-v0.1",
-      "mistralai/Mistral-Large-4-1T-A52B",
-      "mistralai/Mistral-Large-4-1T-A52B-NVFP4",
       "mistralai/Pixtral-12B-2409",
       "mistralai/Pixtral-12B-Base-2409",
       "mistralai/Pixtral-Large-Instruct-2411",
@@ -2311,7 +2597,26 @@
       "openeurollm/complex-kda-1.3B-100B",
       "openeurollm/complex-kda-hybrid-1.3B-100B",
       "openeurollm/complex-kda-ladder",
+      "openeurollm/datamix-0.7B-bsc-edu-gt1.0-100bt-por_Latn",
+      "openeurollm/datamix-0.7B-bsc-edu-gt2.0-100bt-fra_Latn",
+      "openeurollm/datamix-0.7B-bsc-edu-gt2.0-100bt-ita_Latn",
+      "openeurollm/datamix-0.7B-bsc-edu-gt2.0-100bt-por_Latn",
+      "openeurollm/datamix-0.7B-hplt4-globaldedup-100bt-fra_Latn",
+      "openeurollm/datamix-0.7B-hplt4-globaldedup-100bt-ita_Latn",
+      "openeurollm/datamix-0.7B-hplt4-globaldedup-100bt-por_Latn",
+      "openeurollm/datamix-0.7B-propella-edu-high-mod-100bt-fra_Latn",
+      "openeurollm/datamix-0.7B-propella-edu-high-mod-100bt-ita_Latn",
+      "openeurollm/datamix-0.7B-propella-edu-high-mod-100bt-por_Latn",
       "openeurollm/datamix-0.7b-AutoMathText-100bt",
+      "openeurollm/datamix-0.7b-Code-Reasoning-code-no-thinking-100bt",
+      "openeurollm/datamix-0.7b-Code-Reasoning-code-no-thinking-hard-100bt",
+      "openeurollm/datamix-0.7b-Code-Reasoning-code-task-synthesis-100bt",
+      "openeurollm/datamix-0.7b-Code-Reasoning-code-thinking-hard-100bt",
+      "openeurollm/datamix-0.7b-Code-Reasoning-code-thinking-v0-100bt",
+      "openeurollm/datamix-0.7b-Code-Reasoning-code-thinking-v1-100bt",
+      "openeurollm/datamix-0.7b-Code-Reasoning-code-thinking-v1-1516-100bt",
+      "openeurollm/datamix-0.7b-Code-Reasoning-codeio-100bt",
+      "openeurollm/datamix-0.7b-Llama-Nemotron-Post-Training-Dataset_wo_Llama-100bt",
       "openeurollm/datamix-0.7b-Math-Reasoning-math-rewrite-100bt",
       "openeurollm/datamix-0.7b-Math-Reasoning-math-thinking-oss-100bt",
       "openeurollm/datamix-0.7b-Math-Reasoning-math-thinking-qwen-100bt",
@@ -2319,12 +2624,14 @@
       "openeurollm/datamix-0.7b-Nemotron-Math-Proofs-v1-100bt",
       "openeurollm/datamix-0.7b-Nemotron-Math-v2-high-100bt",
       "openeurollm/datamix-0.7b-Nemotron-Math-v2-high-medium-100bt",
+      "openeurollm/datamix-0.7b-Nemotron-Pretraining-Code-Concepts-100bt",
       "openeurollm/datamix-0.7b-Nemotron-SFT-Agentic-v2-100bt",
       "openeurollm/datamix-0.7b-Nemotron-Terminal-Corpus-100bt",
       "openeurollm/datamix-0.7b-SYNTHETIC-1-100bt",
       "openeurollm/datamix-0.7b-Superior-Reasoning-SFT-100bt",
       "openeurollm/datamix-0.7b-Toucan-1.5M-100bt",
       "openeurollm/datamix-0.7b-dolma3_dolmino_math-100bt",
+      "openeurollm/datamix-0.7b-eai-taxonomy-code-w-dclm-100bt",
       "openeurollm/datamix-0.7b-en_baseline-100bt",
       "openeurollm/datamix-0.7b-finephrase-100bt",
       "openeurollm/datamix-0.7b-finewiki-100bt",
@@ -2338,6 +2645,7 @@
       "openeurollm/datamix-0.7b-nemotron_pre_spec_v1.1-100bt",
       "openeurollm/datamix-0.7b-open_web_math-100bt",
       "openeurollm/datamix-0.7b-openthoughts_3-100bt",
+      "openeurollm/datamix-0.7b-stack-v3-100bt",
       "openeurollm/datamix-0.7b-stackv2-100bt",
       "openeurollm/datamix-0.7b-stackv2_edu_filtered-100bt",
       "openeurollm/datamix-0.7b-swallow_code_v2-100bt",
@@ -2365,6 +2673,7 @@
       "openeurollm/hplt2c-nemotron-cc_eurollm_500BT",
       "openeurollm/kda-sigmoid-1.3B-100B",
       "openeurollm/kda-sigmoid-hybrid-1.3B-100B",
+      "openeurollm/nucleus-experiments",
       "openeurollm/oellm-32b",
       "openeurollm/oellm-9b-128k-theta32m-prelude",
       "openeurollm/oellm-9b-128k-theta32m-v3",
@@ -2383,9 +2692,6 @@
       "openeurollm/tokenizer-256k-v2"
     ],
     "sapienzanlp": [
-      "sapienzanlp/Minerva-1B-base-v1.0",
-      "sapienzanlp/Minerva-350M-base-v1.0",
-      "sapienzanlp/Minerva-3B-base-v1.0",
       "sapienzanlp/RAED-passage-index-wikipedia",
       "sapienzanlp/RAED-retriever-e5-base-v2-wikipedia",
       "sapienzanlp/RAED-t5-large",
@@ -2395,8 +2701,6 @@
       "sapienzanlp/maverick-mes-litbank",
       "sapienzanlp/maverick-mes-ontonotes",
       "sapienzanlp/maverick-mes-preco",
-      "sapienzanlp/modello-italia-9b",
-      "sapienzanlp/modello-italia-9b-bf16",
       "sapienzanlp/rbr-retriever-gkb-omcs-atomic",
       "sapienzanlp/relik-entity-linking-base",
       "sapienzanlp/relik-entity-linking-large",
@@ -2440,23 +2744,14 @@
       "speakleash/Bielik-Guard-0.1B-v1.0",
       "speakleash/Bielik-Guard-0.1B-v1.1",
       "speakleash/Bielik-Guard-0.5B-v1.0",
-      "speakleash/Bielik-Guard-0.5B-v1.1",
-      "speakleash/Bielik-PL-11B-v3.0-Instruct"
+      "speakleash/Bielik-Guard-0.5B-v1.1"
     ],
     "swiss-ai": [
-      "swiss-ai/Apertus-v1.5-70B-RL",
-      "swiss-ai/Apertus-v1.5-70B-SFT",
-      "swiss-ai/Apertus-v1.5-70B-base",
-      "swiss-ai/Apertus-v1.5-8B-DPO",
-      "swiss-ai/Apertus-v1.5-8B-RL",
-      "swiss-ai/Apertus-v1.5-8B-SFT",
-      "swiss-ai/Apertus-v1.5-8B-base",
       "swiss-ai/apertus-pretrain-toxicity",
       "swiss-ai/wavtokenizer-large-unify-40token"
     ],
     "utter-project": [
       "utter-project/EuroFilter-v1",
-      "utter-project/EuroLLM1.5-9B-SFT",
       "utter-project/EuroVLM-1.7B-Preview",
       "utter-project/EuroVLM-9B-Preview",
       "utter-project/SpireBase",
@@ -2487,13 +2782,27 @@
     ]
   },
   "all_repo_ids": [
+    "Aleph-Alpha/Kolibri-1",
+    "Aleph-Alpha/Kolibri-1-BF16",
     "Aleph-Alpha/Pharia-1-LLM-7B-control",
     "Aleph-Alpha/Pharia-1-LLM-7B-control-aligned",
     "Aleph-Alpha/Pharia-1-LLM-7B-control-aligned-hf",
     "Aleph-Alpha/Pharia-1-LLM-7B-control-hf",
     "BSC-LT/ALIA-40b",
+    "BSC-LT/ALIA-40b-fc-2605",
+    "BSC-LT/ALIA-40b-fc-2605-GGUF",
+    "BSC-LT/ALIA-40b-fc-2606",
+    "BSC-LT/ALIA-40b-fc-2606-GGUF",
+    "BSC-LT/ALIA-40b-fc-2607",
+    "BSC-LT/ALIA-40b-fc-2607-GGUF",
     "BSC-LT/ALIA-40b-instruct-2601",
     "BSC-LT/ALIA-40b-instruct-2601-GGUF",
+    "BSC-LT/ALIA-40b-instruct-2605",
+    "BSC-LT/ALIA-40b-instruct-2605-GGUF",
+    "BSC-LT/ALIA-40b-instruct-2606",
+    "BSC-LT/ALIA-40b-instruct-2606-GGUF",
+    "BSC-LT/Flor-6.3B-Instruct",
+    "BSC-LT/Flor-6.3B-Instruct-4096",
     "BSC-LT/salamandra-2b",
     "BSC-LT/salamandra-2b-base-fp8",
     "BSC-LT/salamandra-2b-base-gptq",
@@ -2502,6 +2811,11 @@
     "BSC-LT/salamandra-2b-instruct-fp8",
     "BSC-LT/salamandra-2b-instruct-gptq",
     "BSC-LT/salamandra-7b",
+    "BSC-LT/salamandra-7b-base-fp8",
+    "BSC-LT/salamandra-7b-base-gptq",
+    "BSC-LT/salamandra-7b-fc-2607",
+    "BSC-LT/salamandra-7b-fc-2607-GGUF",
+    "BSC-LT/salamandra-7b-fc-2610-evo",
     "BSC-LT/salamandra-7b-instruct",
     "BSC-LT/salamandra-7b-instruct-2606",
     "BSC-LT/salamandra-7b-instruct-aina-hack",
@@ -2519,12 +2833,14 @@
     "CYFRAGOVPL/Llama-PLLuM-70B-instruct-2508",
     "CYFRAGOVPL/Llama-PLLuM-70B-instruct-2512",
     "CYFRAGOVPL/Llama-PLLuM-8B-base-2412",
+    "CYFRAGOVPL/Llama-PLLuM-8B-base-2508",
     "CYFRAGOVPL/Llama-PLLuM-8B-base-2512",
     "CYFRAGOVPL/Llama-PLLuM-8B-chat-2412",
     "CYFRAGOVPL/Llama-PLLuM-8B-chat-2512",
     "CYFRAGOVPL/Llama-PLLuM-8B-instruct-2412",
     "CYFRAGOVPL/Llama-PLLuM-8B-instruct-2512",
     "CYFRAGOVPL/PLLuM-12B-base-2412",
+    "CYFRAGOVPL/PLLuM-12B-base-2508",
     "CYFRAGOVPL/PLLuM-12B-base-2512",
     "CYFRAGOVPL/PLLuM-12B-chat-2412",
     "CYFRAGOVPL/PLLuM-12B-chat-2512",
@@ -2624,6 +2940,7 @@
     "PleIAs/Pleias-RAG-350M",
     "PleIAs/Pleias-RAG-350M-gguf",
     "PleIAs/Pleias-SLM-RAG",
+    "PleIAs/baguettotron-600m",
     "Soofi-Project/Soofi-S-Base",
     "Soofi-Project/Soofi-S-Base-Megatron",
     "Soofi-Project/Soofi-S-Instruct-Preview",
@@ -2689,6 +3006,13 @@
     "croissantllm/CroissantLLMChat-v0.1-q3f16_1-MLC",
     "croissantllm/CroissantLLMChat-v0.1-q4f16_1-MLC",
     "croissantllm/CroissantLLMChat-v0.1-q4f32_1-MLC",
+    "domyn/Domyn-Edge-Base",
+    "domyn/Domyn-Edge-SFT",
+    "domyn/Domyn-Edge-Teacher-Agentic",
+    "domyn/Domyn-Edge-Teacher-Code",
+    "domyn/Domyn-Edge-Teacher-IF",
+    "domyn/Domyn-Edge-Teacher-Math",
+    "domyn/Domyn-Edge-Teacher-STEM",
     "domyn/Domyn-Small-v1.0",
     "ilsp/Llama-Krikri-8B-Base",
     "ilsp/Llama-Krikri-8B-Instruct",
@@ -2722,6 +3046,9 @@
     "mii-llm/nesso-0.4B-instruct",
     "mii-llm/nesso-4B",
     "mii-llm/nesso-4B-GGUF",
+    "mii-llm/nesso2-0.4B-agentic",
+    "mii-llm/nesso3-0.4B-agentic",
+    "mii-llm/nesso3-0.4B-agentic-gguf",
     "mii-llm/open-zagreus-0.4B",
     "mii-llm/zagreus-0.4B-fra",
     "mii-llm/zagreus-0.4B-ita",
@@ -2742,6 +3069,7 @@
     "mistralai/Magistral-Small-2507-GGUF",
     "mistralai/Magistral-Small-2509",
     "mistralai/Magistral-Small-2509-GGUF",
+    "mistralai/Mamba-Codestral-7B-v0.1",
     "mistralai/Mathstral-7B-v0.1",
     "mistralai/Ministral-3-14B-Base-2512",
     "mistralai/Ministral-3-14B-Instruct-2512",
@@ -2773,6 +3101,8 @@
     "mistralai/Mistral-Large-3-675B-Instruct-2512-BF16",
     "mistralai/Mistral-Large-3-675B-Instruct-2512-Eagle",
     "mistralai/Mistral-Large-3-675B-Instruct-2512-NVFP4",
+    "mistralai/Mistral-Large-4-1T-A52B",
+    "mistralai/Mistral-Large-4-1T-A52B-NVFP4",
     "mistralai/Mistral-Large-Instruct-2407",
     "mistralai/Mistral-Large-Instruct-2411",
     "mistralai/Mistral-Medium-3.5-128B",
@@ -2807,9 +3137,14 @@
     "openGPT-X/Teuken-7B-instruct-commercial-v0.4",
     "openGPT-X/Teuken-7B-instruct-research-v0.4",
     "openGPT-X/Teuken-7B-instruct-v0.6",
+    "sapienzanlp/Minerva-1B-base-v1.0",
+    "sapienzanlp/Minerva-350M-base-v1.0",
+    "sapienzanlp/Minerva-3B-base-v1.0",
     "sapienzanlp/Minerva-7B-base-v1.0",
     "sapienzanlp/Minerva-7B-instruct-v1.0",
     "sapienzanlp/Minerva-7B-instruct-v1.0-GGUF",
+    "sapienzanlp/modello-italia-9b",
+    "sapienzanlp/modello-italia-9b-bf16",
     "speakleash/Bielik-1.5B-v3",
     "speakleash/Bielik-1.5B-v3.0-Instruct",
     "speakleash/Bielik-1.5B-v3.0-Instruct-FP8-Dynamic",
@@ -2856,6 +3191,7 @@
     "speakleash/Bielik-11B-v2.5-Instruct-AWQ",
     "speakleash/Bielik-11B-v2.5-Instruct-FP8-Dynamic",
     "speakleash/Bielik-11B-v2.5-Instruct-GGUF",
+    "speakleash/Bielik-11B-v2.5-Instruct-RC042025",
     "speakleash/Bielik-11B-v2.5-Instruct-bnb-4bit",
     "speakleash/Bielik-11B-v2.6-Instruct",
     "speakleash/Bielik-11B-v2.6-Instruct-AWQ",
@@ -2872,6 +3208,20 @@
     "speakleash/Bielik-11B-v3.0-Instruct-MLX-4bit",
     "speakleash/Bielik-11B-v3.0-Instruct-MLX-8bit",
     "speakleash/Bielik-11B-v3.0-Instruct-awq",
+    "speakleash/Bielik-11B-v3.1-DFlash",
+    "speakleash/Bielik-11B-v3.1-DFlash-FP8-Dynamic",
+    "speakleash/Bielik-11B-v3.1-DFlash-GGUF",
+    "speakleash/Bielik-11B-v3.1-DFlash2",
+    "speakleash/Bielik-11B-v3.1-DFlash2-FP8-Dynamic",
+    "speakleash/Bielik-11B-v3.1-DFlash2-GGUF",
+    "speakleash/Bielik-11B-v3.1-Instruct",
+    "speakleash/Bielik-11B-v3.1-Instruct-AWQ",
+    "speakleash/Bielik-11B-v3.1-Instruct-FP8-Dynamic",
+    "speakleash/Bielik-11B-v3.1-Instruct-GGUF",
+    "speakleash/Bielik-11B-v3.1-Instruct-MLX-4bit",
+    "speakleash/Bielik-11B-v3.1-Instruct-MLX-8bit",
+    "speakleash/Bielik-11B-v3.1-Instruct-NVFP4",
+    "speakleash/Bielik-11B-v3.1-Instruct-NVFP4A16",
     "speakleash/Bielik-4.5B-v3",
     "speakleash/Bielik-4.5B-v3.0-Instruct",
     "speakleash/Bielik-4.5B-v3.0-Instruct-FP8-Dynamic",
@@ -2889,6 +3239,7 @@
     "speakleash/Bielik-Minitron-7B-v3.0-Instruct",
     "speakleash/Bielik-Minitron-7B-v3.0-Instruct-FP8-Dynamic",
     "speakleash/Bielik-Minitron-7B-v3.0-Instruct-GGUF",
+    "speakleash/Bielik-PL-11B-v3.0-Instruct",
     "speakleash/Bielik-PL-Minitron-7B-v3.0-Instruct",
     "swiss-ai/Apertus-70B-2509",
     "swiss-ai/Apertus-70B-Instruct-2509",
@@ -2911,7 +3262,14 @@
     "swiss-ai/Apertus-v1.1-4B-Instruct-MLX-INT4",
     "swiss-ai/Apertus-v1.1-4B-Instruct-MLX-INT6",
     "swiss-ai/Apertus-v1.5-70B",
+    "swiss-ai/Apertus-v1.5-70B-RL",
+    "swiss-ai/Apertus-v1.5-70B-SFT",
+    "swiss-ai/Apertus-v1.5-70B-base",
     "swiss-ai/Apertus-v1.5-8B",
+    "swiss-ai/Apertus-v1.5-8B-DPO",
+    "swiss-ai/Apertus-v1.5-8B-RL",
+    "swiss-ai/Apertus-v1.5-8B-SFT",
+    "swiss-ai/Apertus-v1.5-8B-base",
     "utter-project/EuroLLM-1.7B",
     "utter-project/EuroLLM-1.7B-Instruct",
     "utter-project/EuroLLM-22B-2512",
@@ -2922,6 +3280,7 @@
     "utter-project/EuroLLM-9B-2512",
     "utter-project/EuroLLM-9B-Instruct",
     "utter-project/EuroLLM-9B-Instruct-2512",
+    "utter-project/EuroLLM1.5-9B-SFT",
     "utter-project/EuroMoE-2.6B-A0.6B-2512",
     "utter-project/EuroMoE-2.6B-A0.6B-Instruct-2512",
     "utter-project/EuroMoE-2.6B-A0.6B-Instruct-Preview"
