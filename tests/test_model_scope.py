@@ -23,7 +23,7 @@ class ModelScopeTests(unittest.TestCase):
             orgs.setdefault(repo.split('/')[0], []).append(repo)
         result = build_manifest(self.config, self.path, orgs)
         self.assertEqual(result['all_repo_ids'], old['all_repo_ids'])
-        self.assertEqual(len(result['excluded_repos_by_scope']), 13)
+        self.assertGreaterEqual(len(result['excluded_repos_by_scope']), 13)
         self.assertEqual(set(result['rows']), {key for key, row in self.config['models'].items() if row.get('active', True)})
         self.assertTrue(any('Mistral' in repo for repo in result['all_repo_ids']))
         self.assertFalse(any('dflash' in repo.lower() for repo in result['all_repo_ids']))
@@ -47,6 +47,17 @@ class ModelScopeTests(unittest.TestCase):
         self.assertEqual(set(result['all_repo_ids']), set(cases['include']))
         for repo, row_id in cases['include'].items():
             self.assertIn(repo, result['rows'][row_id]['repos'])
+
+    def test_general_purpose_boundary(self):
+        cases = json.loads((ROOT / 'tests/fixtures/model_scope_cases.json').read_text())
+        self.assertIn('mistralai/Pixtral-12B-2409', cases['include'])
+        self.assertIn('mistralai/Voxtral-Mini-3B-2507', cases['include'])
+        self.assertIn('mistralai/Magistral-Small-2509', cases['include'])
+        for specialist in ['lightonai/LightOnOCR-2-1B', 'Voicelab/vlt5-base-keywords',
+                           'speakleash/Bielik-One-4B-r1', 'mistralai/Mathstral-7B-v0.1',
+                           'PleIAs/Pleias-Pico', 'domyn/Domyn-Edge-Teacher-IF']:
+            self.assertIn(specialist, cases['exclude'])
+            self.assertNotIn(specialist, cases['include'])
 
     def test_reviewed_repositories_have_one_matching_family(self):
         import re

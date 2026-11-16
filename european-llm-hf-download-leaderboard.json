@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "description": "Version-specific European LLM leaderboard rows. Each row sums downloads from official Hugging Face repos only (published under official_org), including format variants (GGUF, MLX, FP8, GPTQ, AWQ, etc.) when that org publishes them.",
+  "description": "Version-specific general-purpose European generative LLM leaderboard rows. Each row sums downloads from official Hugging Face repos only (published under official_org), including format variants (GGUF, MLX, FP8, GPTQ, AWQ, etc.) when that org publishes them.",
   "match_target": "huggingface_model_id",
   "regex_flavor": "python",
   "official_only": true,
@@ -639,46 +639,6 @@
         "^mistralai/Mixtral-8x22B-(?:Instruct-)?v0\\.1"
       ]
     },
-    "devstral-small-2505": {
-      "display_name": "Devstral Small (2505)",
-      "version": "2505",
-      "country": "FR",
-      "developer": "Mistral AI",
-      "official_org": "mistralai",
-      "regex": [
-        "^mistralai/Devstral-Small-2505"
-      ]
-    },
-    "devstral-small-2507": {
-      "display_name": "Devstral Small (2507)",
-      "version": "2507",
-      "country": "FR",
-      "developer": "Mistral AI",
-      "official_org": "mistralai",
-      "regex": [
-        "^mistralai/Devstral-Small-2507"
-      ]
-    },
-    "devstral-small-2-2512": {
-      "display_name": "Devstral Small 2 (24B, 2512)",
-      "version": "2512",
-      "country": "FR",
-      "developer": "Mistral AI",
-      "official_org": "mistralai",
-      "regex": [
-        "^mistralai/Devstral-Small-2-24B-Instruct-2512$"
-      ]
-    },
-    "devstral-2-2512": {
-      "display_name": "Devstral 2 (123B, 2512)",
-      "version": "2512",
-      "country": "FR",
-      "developer": "Mistral AI",
-      "official_org": "mistralai",
-      "regex": [
-        "^mistralai/Devstral-2-123B-Instruct-2512$"
-      ]
-    },
     "magistral-small-2506": {
       "display_name": "Magistral Small (2506)",
       "version": "2506",
@@ -707,26 +667,6 @@
       "official_org": "mistralai",
       "regex": [
         "^mistralai/Magistral-Small-2509"
-      ]
-    },
-    "mamba-codestral-7b-v0.1": {
-      "display_name": "Mamba-Codestral 7B v0.1",
-      "version": "0.1",
-      "country": "FR",
-      "developer": "Mistral AI",
-      "official_org": "mistralai",
-      "regex": [
-        "^mistralai/Mamba-Codestral-7B-v0\\.1"
-      ]
-    },
-    "codestral-22b-v0.1": {
-      "display_name": "Codestral 22B v0.1",
-      "version": "0.1",
-      "country": "FR",
-      "developer": "Mistral AI",
-      "official_org": "mistralai",
-      "regex": [
-        "^mistralai/Codestral-22B-v0\\.1$"
       ]
     },
     "ministral-3-14b-2512": {
@@ -769,16 +709,6 @@
         "^mistralai/Ministral-8B-Instruct-2410"
       ]
     },
-    "mathstral-7b-v0.1": {
-      "display_name": "Mathstral 7B v0.1",
-      "version": "0.1",
-      "country": "FR",
-      "developer": "Mistral AI",
-      "official_org": "mistralai",
-      "regex": [
-        "^mistralai/Mathstral-7B-v0\\.1"
-      ]
-    },
     "mistral-small-instruct-2409": {
       "display_name": "Mistral Small Instruct (2409)",
       "version": "2409",
@@ -787,26 +717,6 @@
       "official_org": "mistralai",
       "regex": [
         "^mistralai/Mistral-Small-Instruct-2409"
-      ]
-    },
-    "leanstral-1.5": {
-      "display_name": "Leanstral 1.5 (119B-A6B)",
-      "version": "1.5",
-      "country": "FR",
-      "developer": "Mistral AI",
-      "official_org": "mistralai",
-      "regex": [
-        "^mistralai/Leanstral-1\\.5-119B-A6B"
-      ]
-    },
-    "leanstral-2603": {
-      "display_name": "Leanstral (2603)",
-      "version": "2603",
-      "country": "FR",
-      "developer": "Mistral AI",
-      "official_org": "mistralai",
-      "regex": [
-        "^mistralai/Leanstral-2603"
       ]
     },
     "mistral-7b-v0.3": {
@@ -1041,36 +951,6 @@
         "^BSC-LT/ALIA-40b-instruct-2601"
       ]
     },
-    "alia-40b-fc-2607": {
-      "display_name": "ALIA 40B Function Calling (2607)",
-      "version": "2607",
-      "country": "ES",
-      "developer": "BSC-LT",
-      "official_org": "BSC-LT",
-      "regex": [
-        "^BSC-LT/ALIA-40b-fc-2607"
-      ]
-    },
-    "alia-40b-fc-2606": {
-      "display_name": "ALIA 40B Function Calling (2606)",
-      "version": "2606",
-      "country": "ES",
-      "developer": "BSC-LT",
-      "official_org": "BSC-LT",
-      "regex": [
-        "^BSC-LT/ALIA-40b-fc-2606"
-      ]
-    },
-    "alia-40b-fc-2605": {
-      "display_name": "ALIA 40B Function Calling (2605)",
-      "version": "2605",
-      "country": "ES",
-      "developer": "BSC-LT",
-      "official_org": "BSC-LT",
-      "regex": [
-        "^BSC-LT/ALIA-40b-fc-2605"
-      ]
-    },
     "salamandra-7b-base": {
       "display_name": "Salamandra 7B (base)",
       "version": null,
@@ -1089,26 +969,6 @@
       "official_org": "BSC-LT",
       "regex": [
         "^BSC-LT/salamandra-7b-instruct"
-      ]
-    },
-    "salamandra-7b-fc-2610-evo": {
-      "display_name": "Salamandra 7B Function Calling (2610 evo)",
-      "version": "2610",
-      "country": "ES",
-      "developer": "BSC-LT",
-      "official_org": "BSC-LT",
-      "regex": [
-        "^BSC-LT/salamandra-7b-fc-2610"
-      ]
-    },
-    "salamandra-7b-fc-2607": {
-      "display_name": "Salamandra 7B Function Calling (2607)",
-      "version": "2607",
-      "country": "ES",
-      "developer": "BSC-LT",
-      "official_org": "BSC-LT",
-      "regex": [
-        "^BSC-LT/salamandra-7b-fc-2607"
       ]
     },
     "salamandra-2b": {
@@ -1473,26 +1333,6 @@
         "^TildeAI/TildeOpen-30b-64k"
       ]
     },
-    "tildeopen-15b-wmt26-cs-de": {
-      "display_name": "TildeOpen 15B WMT26 (cs-de)",
-      "version": null,
-      "country": "LV",
-      "developer": "Tilde",
-      "official_org": "TildeAI",
-      "regex": [
-        "^TildeAI/TildeOpen15B-64k-wmt26-compression-task-cs-de"
-      ]
-    },
-    "tildeopen-8b-wmt26-cs-de": {
-      "display_name": "TildeOpen 8B WMT26 (cs-de)",
-      "version": null,
-      "country": "LV",
-      "developer": "Tilde",
-      "official_org": "TildeAI",
-      "regex": [
-        "^TildeAI/TildeOpen8B-64k-wmt26-compression-task-cs-de"
-      ]
-    },
     "soofi-s-instruct-preview": {
       "display_name": "Soofi S Instruct Preview",
       "version": "preview",
@@ -1542,56 +1382,6 @@
       "regex": [
         "^domyn/Domyn-Edge-Base$",
         "^domyn/Domyn-Edge-SFT$"
-      ]
-    },
-    "domyn-edge-teacher-if": {
-      "display_name": "Domyn Edge Teacher IF",
-      "version": null,
-      "country": "IT",
-      "developer": "Domyn",
-      "official_org": "domyn",
-      "regex": [
-        "^domyn/Domyn-Edge-Teacher-IF"
-      ]
-    },
-    "domyn-edge-teacher-stem": {
-      "display_name": "Domyn Edge Teacher STEM",
-      "version": null,
-      "country": "IT",
-      "developer": "Domyn",
-      "official_org": "domyn",
-      "regex": [
-        "^domyn/Domyn-Edge-Teacher-STEM"
-      ]
-    },
-    "domyn-edge-teacher-math": {
-      "display_name": "Domyn Edge Teacher Math",
-      "version": null,
-      "country": "IT",
-      "developer": "Domyn",
-      "official_org": "domyn",
-      "regex": [
-        "^domyn/Domyn-Edge-Teacher-Math"
-      ]
-    },
-    "domyn-edge-teacher-code": {
-      "display_name": "Domyn Edge Teacher Code",
-      "version": null,
-      "country": "IT",
-      "developer": "Domyn",
-      "official_org": "domyn",
-      "regex": [
-        "^domyn/Domyn-Edge-Teacher-Code"
-      ]
-    },
-    "domyn-edge-teacher-agentic": {
-      "display_name": "Domyn Edge Teacher Agentic",
-      "version": null,
-      "country": "IT",
-      "developer": "Domyn",
-      "official_org": "domyn",
-      "regex": [
-        "^domyn/Domyn-Edge-Teacher-Agentic"
       ]
     },
     "domyn-small-v1.0": {
@@ -1704,26 +1494,6 @@
         "^mii-llm/open-zagreus-0\\.4B"
       ]
     },
-    "nesso3-0.4b-agentic": {
-      "display_name": "Nesso 3 0.4B Agentic",
-      "version": "0.4B",
-      "country": "IT",
-      "developer": "mii-llm",
-      "official_org": "mii-llm",
-      "regex": [
-        "^mii-llm/nesso3-0\\.4B"
-      ]
-    },
-    "nesso2-0.4b-agentic": {
-      "display_name": "Nesso 2 0.4B Agentic",
-      "version": "0.4B",
-      "country": "IT",
-      "developer": "mii-llm",
-      "official_org": "mii-llm",
-      "regex": [
-        "^mii-llm/nesso2-0\\.4B"
-      ]
-    },
     "nesso-4b": {
       "display_name": "Nesso 4B",
       "version": null,
@@ -1732,16 +1502,6 @@
       "official_org": "mii-llm",
       "regex": [
         "^mii-llm/nesso-4B"
-      ]
-    },
-    "nesso-0.4b-agentic": {
-      "display_name": "Nesso 0.4B Agentic",
-      "version": "0.4B",
-      "country": "IT",
-      "developer": "mii-llm",
-      "official_org": "mii-llm",
-      "regex": [
-        "^mii-llm/nesso-0\\.4B-agentic"
       ]
     },
     "nesso-0.4b-instruct": {
@@ -1822,66 +1582,6 @@
       "official_org": "PleIAs",
       "regex": [
         "^PleIAs/Monad"
-      ]
-    },
-    "pleias-pico": {
-      "display_name": "Pleias Pico",
-      "version": null,
-      "country": "FR",
-      "developer": "PleIAs",
-      "official_org": "PleIAs",
-      "regex": [
-        "^PleIAs/Pleias-Pico"
-      ]
-    },
-    "pleias-nano": {
-      "display_name": "Pleias Nano",
-      "version": null,
-      "country": "FR",
-      "developer": "PleIAs",
-      "official_org": "PleIAs",
-      "regex": [
-        "^PleIAs/Pleias-Nano"
-      ]
-    },
-    "pleias-rag-1b": {
-      "display_name": "Pleias RAG 1B",
-      "version": null,
-      "country": "FR",
-      "developer": "PleIAs",
-      "official_org": "PleIAs",
-      "regex": [
-        "^PleIAs/Pleias-RAG-1B"
-      ]
-    },
-    "pleias-rag-350m": {
-      "display_name": "Pleias RAG 350M",
-      "version": null,
-      "country": "FR",
-      "developer": "PleIAs",
-      "official_org": "PleIAs",
-      "regex": [
-        "^PleIAs/Pleias-RAG-350M"
-      ]
-    },
-    "pleias-slm-rag": {
-      "display_name": "Pleias SLM RAG",
-      "version": null,
-      "country": "FR",
-      "developer": "PleIAs",
-      "official_org": "PleIAs",
-      "regex": [
-        "^PleIAs/Pleias-SLM-RAG"
-      ]
-    },
-    "ocronos": {
-      "display_name": "OCRonos",
-      "version": null,
-      "country": "FR",
-      "developer": "PleIAs",
-      "official_org": "PleIAs",
-      "regex": [
-        "^PleIAs/OCRonos(?:$|-)"
       ]
     },
     "velvet2-3b": {
@@ -2034,36 +1734,6 @@
         "^lightonai/alfred-40b-1023$"
       ]
     },
-    "bielik-one-11b-v3.1-r1": {
-      "display_name": "Bielik-One 11B v3.1 r1",
-      "version": "3.1-r1",
-      "country": "PL",
-      "developer": "SpeakLeash",
-      "official_org": "speakleash",
-      "regex": [
-        "^speakleash/Bielik-One-11B-v3\\.1-r1$"
-      ]
-    },
-    "bielik-one-11b-v3.0-r1": {
-      "display_name": "Bielik-One 11B v3.0 r1",
-      "version": "3.0-r1",
-      "country": "PL",
-      "developer": "SpeakLeash",
-      "official_org": "speakleash",
-      "regex": [
-        "^speakleash/Bielik-One-11B-v3\\.0-r1$"
-      ]
-    },
-    "bielik-one-7b-v3.0-r1": {
-      "display_name": "Bielik-One 7B v3.0 r1",
-      "version": "3.0-r1",
-      "country": "PL",
-      "developer": "SpeakLeash",
-      "official_org": "speakleash",
-      "regex": [
-        "^speakleash/Bielik-One-7B-v3\\.0-r1$"
-      ]
-    },
     "openeurollm-prelude-long": {
       "display_name": "OpenEuroLLM Prelude-long 9B",
       "version": null,
@@ -2145,16 +1815,6 @@
         "^AlmawaveLabs/Velvet2\\-3B\\-Vision$"
       ]
     },
-    "bielik-one-4b-r1": {
-      "display_name": "Bielik-One 4B r1",
-      "version": "r1",
-      "country": "PL",
-      "developer": "SpeakLeash / ACK Cyfronet AGH",
-      "official_org": "speakleash",
-      "regex": [
-        "^speakleash/Bielik\\-One\\-4B\\-r1$"
-      ]
-    },
     "salamandra-7b-vision": {
       "display_name": "Salamandra 7B Vision",
       "version": null,
@@ -2173,39 +1833,6 @@
       "official_org": "BSC-LT",
       "regex": [
         "^BSC\\-LT/Salamandra\\-VL\\-7B\\-2512$"
-      ]
-    },
-    "salamandrata-7b": {
-      "display_name": "SalamandraTA 7B",
-      "version": null,
-      "country": "ES",
-      "developer": "Barcelona Supercomputing Center",
-      "official_org": "BSC-LT",
-      "regex": [
-        "^BSC\\-LT/salamandraTA\\-7b\\-instruct$",
-        "^BSC\\-LT/salamandraTA\\-7B\\-instruct\\-GGUF$"
-      ]
-    },
-    "salamandrata-2b": {
-      "display_name": "SalamandraTA 2B",
-      "version": null,
-      "country": "ES",
-      "developer": "Barcelona Supercomputing Center",
-      "official_org": "BSC-LT",
-      "regex": [
-        "^BSC\\-LT/salamandraTA\\-2b\\-instruct$",
-        "^BSC\\-LT/salamandraTA\\-2B\\-instruct\\-GGUF$",
-        "^BSC\\-LT/salamandraTA\\-2B\\-academic$"
-      ]
-    },
-    "salamandra-tav-7b": {
-      "display_name": "Salamandra TAV 7B",
-      "version": null,
-      "country": "ES",
-      "developer": "Barcelona Supercomputing Center",
-      "official_org": "BSC-LT",
-      "regex": [
-        "^BSC\\-LT/salamandra\\-TAV\\-7b$"
       ]
     },
     "eurovlm-1.7b-preview": {
@@ -2246,81 +1873,6 @@
       "official_org": "utter-project",
       "regex": [
         "^utter\\-project/TowerVision\\-9B$"
-      ]
-    },
-    "lightonocr-0.9b-16k-1025": {
-      "display_name": "LightOnOCR 0.9B 16k (1025)",
-      "version": "1025",
-      "country": "FR",
-      "developer": "LightOn",
-      "official_org": "lightonai",
-      "regex": [
-        "^lightonai/LightOnOCR\\-0\\.9B\\-16k\\-1025$"
-      ]
-    },
-    "lightonocr-0.9b-32k-1025": {
-      "display_name": "LightOnOCR 0.9B 32k (1025)",
-      "version": "1025",
-      "country": "FR",
-      "developer": "LightOn",
-      "official_org": "lightonai",
-      "regex": [
-        "^lightonai/LightOnOCR\\-0\\.9B\\-32k\\-1025$"
-      ]
-    },
-    "lightonocr-1b-1025": {
-      "display_name": "LightOnOCR 1B (1025)",
-      "version": "1025",
-      "country": "FR",
-      "developer": "LightOn",
-      "official_org": "lightonai",
-      "regex": [
-        "^lightonai/LightOnOCR\\-1B\\-1025$"
-      ]
-    },
-    "lightonocr-2-1b": {
-      "display_name": "LightOnOCR 2 1B",
-      "version": "2",
-      "country": "FR",
-      "developer": "LightOn",
-      "official_org": "lightonai",
-      "regex": [
-        "^lightonai/LightOnOCR\\-2\\-1B$",
-        "^lightonai/LightOnOCR\\-2\\-1B\\-base$",
-        "^lightonai/LightOnOCR\\-2\\-1B\\-bbox$",
-        "^lightonai/LightOnOCR\\-2\\-1B\\-bbox\\-base$",
-        "^lightonai/LightOnOCR\\-2\\-1B\\-ocr\\-soup$",
-        "^lightonai/LightOnOCR\\-2\\-1B\\-bbox\\-soup$"
-      ]
-    },
-    "lightonocr-3-0.8b": {
-      "display_name": "LightOnOCR 3 0.8B",
-      "version": "3",
-      "country": "FR",
-      "developer": "LightOn",
-      "official_org": "lightonai",
-      "regex": [
-        "^lightonai/LightOnOCR\\-3\\-0\\.8B$"
-      ]
-    },
-    "lightonocr-3-1b": {
-      "display_name": "LightOnOCR 3 1B",
-      "version": "3",
-      "country": "FR",
-      "developer": "LightOn",
-      "official_org": "lightonai",
-      "regex": [
-        "^lightonai/LightOnOCR\\-3\\-1B$"
-      ]
-    },
-    "lightonocr-3-4b": {
-      "display_name": "LightOnOCR 3 4B",
-      "version": "3",
-      "country": "FR",
-      "developer": "LightOn",
-      "official_org": "lightonai",
-      "regex": [
-        "^lightonai/LightOnOCR\\-3\\-4B$"
       ]
     },
     "pagnol-small": {
@@ -2373,47 +1925,6 @@
         "^lightonai/mambaoutai$"
       ]
     },
-    "colgrep-agent-2b": {
-      "display_name": "ColGrep Agent 2B",
-      "version": null,
-      "country": "FR",
-      "developer": "LightOn",
-      "official_org": "lightonai",
-      "regex": [
-        "^lightonai/colgrep\\-agent\\-2B$",
-        "^lightonai/colgrep\\-agent\\-2B\\-GGUF$"
-      ]
-    },
-    "orion-mistral-24b": {
-      "display_name": "OriOn Mistral 24B",
-      "version": null,
-      "country": "FR",
-      "developer": "LightOn",
-      "official_org": "lightonai",
-      "regex": [
-        "^lightonai/OriOn\\-Mistral$"
-      ]
-    },
-    "orion-qwen-32b": {
-      "display_name": "OriOn Qwen 32B",
-      "version": null,
-      "country": "FR",
-      "developer": "LightOn",
-      "official_org": "lightonai",
-      "regex": [
-        "^lightonai/OriOn\\-Qwen$"
-      ]
-    },
-    "orion-qwen-32b-sr1": {
-      "display_name": "OriOn Qwen 32B SR1",
-      "version": null,
-      "country": "FR",
-      "developer": "LightOn",
-      "official_org": "lightonai",
-      "regex": [
-        "^lightonai/OriOn\\-Qwen\\-SR1$"
-      ]
-    },
     "tyr-7b": {
       "display_name": "Tyr 7B",
       "version": null,
@@ -2424,16 +1935,6 @@
         "^AI\\-Sweden\\-Models/tyr$"
       ]
     },
-    "cassandre-rag-8b": {
-      "display_name": "Cassandre RAG 8B",
-      "version": null,
-      "country": "FR",
-      "developer": "Pleias",
-      "official_org": "PleIAs",
-      "regex": [
-        "^PleIAs/Cassandre\\-RAG$"
-      ]
-    },
     "gpt-sl-base": {
       "display_name": "GPT-sl Base",
       "version": null,
@@ -2442,36 +1943,6 @@
       "official_org": "cjvt",
       "regex": [
         "^cjvt/gpt\\-sl\\-base$"
-      ]
-    },
-    "t5-sl-small": {
-      "display_name": "T5-sl small",
-      "version": null,
-      "country": "SI",
-      "developer": "CJVT UL",
-      "official_org": "cjvt",
-      "regex": [
-        "^cjvt/t5\\-sl\\-small$"
-      ]
-    },
-    "t5-sl-large": {
-      "display_name": "T5-sl large",
-      "version": null,
-      "country": "SI",
-      "developer": "CJVT UL",
-      "official_org": "cjvt",
-      "regex": [
-        "^cjvt/t5\\-sl\\-large$"
-      ]
-    },
-    "gams-dpo-translator": {
-      "display_name": "GaMS DPO Translator",
-      "version": null,
-      "country": "SI",
-      "developer": "CJVT UL",
-      "official_org": "cjvt",
-      "regex": [
-        "^cjvt/GaMS\\-DPO\\-Translator$"
       ]
     },
     "towervideo-2b": {
@@ -2514,47 +1985,6 @@
         "^croissantllm/CroissantCool\\-v0\\.2$"
       ]
     },
-    "spire-7b": {
-      "display_name": "Spire 7B",
-      "version": null,
-      "country": "EU",
-      "developer": "UTTER consortium",
-      "official_org": "utter-project",
-      "regex": [
-        "^utter\\-project/SpireBase$",
-        "^utter\\-project/SpireFull$"
-      ]
-    },
-    "vlt5-base-keywords": {
-      "display_name": "VLT5 Base Keywords",
-      "version": null,
-      "country": "PL",
-      "developer": "VoiceLab",
-      "official_org": "Voicelab",
-      "regex": [
-        "^Voicelab/vlt5\\-base\\-keywords$"
-      ]
-    },
-    "krikri-8b-ag-mg": {
-      "display_name": "Krikri 8B Ancient to Modern Greek",
-      "version": null,
-      "country": "GR",
-      "developer": "Athena Research Center / ILSP",
-      "official_org": "ilsp",
-      "regex": [
-        "^ilsp/llama\\-krikri\\-8b\\-ag\\-mg\\-full\\-ft$"
-      ]
-    },
-    "m2m100-1.2b-ag-mg": {
-      "display_name": "M2M100 1.2B Ancient to Modern Greek",
-      "version": null,
-      "country": "GR",
-      "developer": "Athena Research Center / ILSP",
-      "official_org": "ilsp",
-      "regex": [
-        "^ilsp/m2m100\\-1\\.2B\\-ag\\-mg\\-full\\-ft$"
-      ]
-    },
     "velvet2-3b-speech": {
       "display_name": "Velvet2 3B Speech",
       "version": null,
@@ -2566,9 +1996,12 @@
       ]
     }
   },
-  "model_scope": "User-facing standalone generative language models, including specialist natural-language/code models and multimodal LLMs generating text from image, audio or video inputs. Encoder-decoder and small generative models remain eligible; no new parameter floor. Exclude embedding/reranking/classification models, protein-only models, speech-only ASR/TTS, auxiliary draft models, adapter-only packages, intermediate checkpoints and comparison-only research series. A research paper does not exclude a usable final release. Review model cards, not pipeline tags alone.",
+  "model_scope": "General-purpose generative language models only: open-ended text generation and broad instruction/chat/reasoning capabilities across domains. General-purpose pretrained base models and general-purpose multimodal LLMs (image/audio/video input, text output) remain eligible. Exclude task- or domain-specialist releases, even if they retain incidental chat capability: OCR, translation-only, RAG/document-QA-only, keyword generation, coding-only, math/proof-only, structured decisions, domain teachers and function-calling-only variants. Also exclude embeddings, rerankers, classifiers, speech-only ASR/TTS, protein models, draft helpers, adapter-only packages and comparison-only research series. No parameter floor. Review the model card and intended use; architecture/pipeline tag alone is insufficient.",
   "exclude_repo_regex": [
     "(?i)(?:^|[/_-])dflash[0-9]*(?:$|[/_-])",
-    "^BSC-LT/salamandra-7b-instruct-guard$"
+    "^BSC-LT/salamandra-7b-instruct-guard$",
+    "(?i)(?:^|[/_-])translator(?:$|[/_-])",
+    "^BSC\\-LT/salamandra\\-7b\\-instruct\\-tools$",
+    "^BSC\\-LT/salamandra\\-7b\\-instruct\\-tools\\-16k$"
   ]
 }

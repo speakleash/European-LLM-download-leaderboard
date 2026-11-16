@@ -225,27 +225,26 @@ Inspect `README.md`, `output/leaderboard.json`/`.csv`, or
 
 ## Model scope
 
-Only standalone generative language models qualify, including multimodal LLMs
-that generate text. Official quantizations and formats remain eligible. Model
-cards must be reviewed when adding families: a missing pipeline tag does not
-exclude a model, and `text-generation` alone does not establish eligibility.
-`exclude_repo_regex` is applied after family matching and records excluded IDs
-in `excluded_repos_by_scope`. Current exclusions cover DFlash draft helpers
-(which require a target model) and the Salamandra Guard classification adapters:
-https://huggingface.co/speakleash/Bielik-11B-v3.1-DFlash
-https://huggingface.co/BSC-LT/salamandra-7b-instruct-guard
-Historical snapshots retain their original scope; current totals exclude these
-repositories, so comparisons across the scope change reflect both effects.
+Only general-purpose generative language models qualify: open-ended generation
+and broad instruction/chat/reasoning across domains. General-purpose pretrained
+base models and multimodal LLMs generating text from images, audio or video
+remain eligible. There is no parameter-count floor.
 
-### User-facing catalog qualification
+Exclude task/domain-specialist releases, even when the inherited architecture
+can still produce chat: OCR, translation-only, RAG/document-QA-only, keyword
+generation, code-only models, math/proof-only models, structured decisions,
+domain teachers and function-calling-only releases. This includes older catalog
+entries, not just recent additions. General reasoning models remain eligible.
 
-Include usable final natural-language/code generators, including specialist
-translation, document/OCR, keyword generation, code agents and multimodal
-image/audio/video models. Encoder-decoder generators and small generative
-models remain eligible; no new parameter cutoff is imposed. A research paper
-does not exclude a usable final release. Comparison-only ablation series and
-intermediate training checkpoints are outside the curated catalog. Exclude
-embeddings, rerankers, classifiers, protein-only models, speech-only ASR/TTS,
-draft helpers and adapter-only packages. A LoRA-trained model with full merged
-weights is eligible. See the dated catalog verification report for sources,
-coverage and negative controls.
+Embeddings, rerankers, classifiers, protein models, speech-only ASR/TTS, draft
+helpers, adapter-only packages, intermediate checkpoints and comparison-only
+research series remain excluded. Architecture and pipeline tags alone do not
+establish general-purpose capabilities; inspect the official model card and
+intended use. Reviewed positive and negative cases live in
+`tests/fixtures/model_scope_cases.json`.
+
+`exclude_repo_regex` prevents matching auxiliary variants within retained
+families; removed specialist families have no active row definitions. Historical
+snapshots preserve their original scope. Only the current-day record is
+recomputed after a scope correction; cross-scope differences are not demand
+changes. Source counters of retained repositories are preserved.

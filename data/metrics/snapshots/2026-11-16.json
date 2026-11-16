@@ -1,7 +1,7 @@
 {
   "snapshot_date": "2026-11-16",
   "fetched_at": "2026-11-16T11:52:15Z",
-  "manifest_content_hash": "sha256:b55d5056375496641ef717de383ff648c84092bb0aa1de5f4f9b6514761cb3e6",
+  "manifest_content_hash": "sha256:0f31684483694cd1d2ad05aa566fc672ec0e0ddcd7c1fa94fe4af5b6fcd96ff4",
   "config_version": 2,
   "fetch_concurrency": 8,
   "repos": {
@@ -215,18 +215,6 @@
       "parameters": 6976839680,
       "parameters_source": "gguf"
     },
-    "AI-Sweden-Models/gpt-sw3-6.7b-v2-translator": {
-      "downloads_30d": 0,
-      "downloads_all_time": 8737,
-      "parameters": 6714695680,
-      "parameters_source": "safetensors"
-    },
-    "AI-Sweden-Models/gpt-sw3-6.7b-v2-translator-gguf": {
-      "downloads_30d": 0,
-      "downloads_all_time": 5353,
-      "parameters": 6976839680,
-      "parameters_source": "gguf"
-    },
     "AI-Sweden-Models/tyr": {
       "downloads_30d": 21,
       "downloads_all_time": 910,
@@ -304,42 +292,6 @@
       "downloads_all_time": 454954,
       "parameters": 40433885184,
       "parameters_source": "safetensors"
-    },
-    "BSC-LT/ALIA-40b-fc-2605": {
-      "downloads_30d": 37,
-      "downloads_all_time": 830,
-      "parameters": 40433885184,
-      "parameters_source": "safetensors"
-    },
-    "BSC-LT/ALIA-40b-fc-2605-GGUF": {
-      "downloads_30d": 11,
-      "downloads_all_time": 143,
-      "parameters": 40433885248,
-      "parameters_source": "gguf"
-    },
-    "BSC-LT/ALIA-40b-fc-2606": {
-      "downloads_30d": 860,
-      "downloads_all_time": 2646,
-      "parameters": 40433885184,
-      "parameters_source": "safetensors"
-    },
-    "BSC-LT/ALIA-40b-fc-2606-GGUF": {
-      "downloads_30d": 25,
-      "downloads_all_time": 279,
-      "parameters": 40433885248,
-      "parameters_source": "gguf"
-    },
-    "BSC-LT/ALIA-40b-fc-2607": {
-      "downloads_30d": 36,
-      "downloads_all_time": 213,
-      "parameters": 40433885184,
-      "parameters_source": "safetensors"
-    },
-    "BSC-LT/ALIA-40b-fc-2607-GGUF": {
-      "downloads_30d": 3,
-      "downloads_all_time": 17,
-      "parameters": 40433885248,
-      "parameters_source": "gguf"
     },
     "BSC-LT/ALIA-40b-instruct-2601": {
       "downloads_30d": 185,
@@ -455,24 +407,6 @@
       "parameters": 7768117248,
       "parameters_source": "safetensors"
     },
-    "BSC-LT/salamandra-7b-fc-2607": {
-      "downloads_30d": 26,
-      "downloads_all_time": 214,
-      "parameters": 7768117248,
-      "parameters_source": "safetensors"
-    },
-    "BSC-LT/salamandra-7b-fc-2607-GGUF": {
-      "downloads_30d": 25,
-      "downloads_all_time": 176,
-      "parameters": 7768117312,
-      "parameters_source": "gguf"
-    },
-    "BSC-LT/salamandra-7b-fc-2610-evo": {
-      "downloads_30d": 170,
-      "downloads_all_time": 170,
-      "parameters": 7768117248,
-      "parameters_source": "safetensors"
-    },
     "BSC-LT/salamandra-7b-instruct": {
       "downloads_30d": 33786,
       "downloads_all_time": 718889,
@@ -503,58 +437,10 @@
       "parameters": 7768117248,
       "parameters_source": "safetensors"
     },
-    "BSC-LT/salamandra-7b-instruct-tools": {
-      "downloads_30d": 0,
-      "downloads_all_time": 2392,
-      "parameters": 7768166400,
-      "parameters_source": "safetensors"
-    },
-    "BSC-LT/salamandra-7b-instruct-tools-16k": {
-      "downloads_30d": 48,
-      "downloads_all_time": 2742,
-      "parameters": 7768166400,
-      "parameters_source": "safetensors"
-    },
     "BSC-LT/salamandra-7b-vision": {
       "downloads_30d": 44,
       "downloads_all_time": 3716,
       "parameters": 8187373088,
-      "parameters_source": "safetensors"
-    },
-    "BSC-LT/salamandra-TAV-7b": {
-      "downloads_30d": 83,
-      "downloads_all_time": 759,
-      "parameters": 7776505856,
-      "parameters_source": "safetensors"
-    },
-    "BSC-LT/salamandraTA-2B-academic": {
-      "downloads_30d": 33,
-      "downloads_all_time": 438,
-      "parameters": 2253490176,
-      "parameters_source": "safetensors"
-    },
-    "BSC-LT/salamandraTA-2B-instruct-GGUF": {
-      "downloads_30d": 717,
-      "downloads_all_time": 4241,
-      "parameters": 2253490176,
-      "parameters_source": "gguf"
-    },
-    "BSC-LT/salamandraTA-2b-instruct": {
-      "downloads_30d": 587,
-      "downloads_all_time": 26166,
-      "parameters": 2253490176,
-      "parameters_source": "safetensors"
-    },
-    "BSC-LT/salamandraTA-7B-instruct-GGUF": {
-      "downloads_30d": 1894,
-      "downloads_all_time": 28772,
-      "parameters": 7768117248,
-      "parameters_source": "gguf"
-    },
-    "BSC-LT/salamandraTA-7b-instruct": {
-      "downloads_30d": 923,
-      "downloads_all_time": 545937,
-      "parameters": 7768117248,
       "parameters_source": "safetensors"
     },
     "CYFRAGOVPL/Llama-PLLuM-70B-base-2412": {
@@ -1199,35 +1085,11 @@
       "parameters": 13290474240,
       "parameters_source": "safetensors"
     },
-    "PleIAs/Cassandre-RAG": {
-      "downloads_30d": 28,
-      "downloads_all_time": 1106,
-      "parameters": 8030261248,
-      "parameters_source": "safetensors"
-    },
     "PleIAs/Monad": {
       "downloads_30d": 4695,
       "downloads_all_time": 39255,
       "parameters": 56656128,
       "parameters_source": "safetensors"
-    },
-    "PleIAs/OCRonos": {
-      "downloads_30d": 116,
-      "downloads_all_time": 6929,
-      "parameters": 8030261248,
-      "parameters_source": "safetensors"
-    },
-    "PleIAs/OCRonos-Vintage": {
-      "downloads_30d": 609,
-      "downloads_all_time": 75192,
-      "parameters": 124439808,
-      "parameters_source": "safetensors"
-    },
-    "PleIAs/OCRonos-Vintage-CT2": {
-      "downloads_30d": 35,
-      "downloads_all_time": 334,
-      "parameters": null,
-      "parameters_source": null
     },
     "PleIAs/Pleias-1.2b-Preview": {
       "downloads_30d": 1522,
@@ -1246,60 +1108,6 @@
       "downloads_all_time": 401483,
       "parameters": 3211926528,
       "parameters_source": "safetensors"
-    },
-    "PleIAs/Pleias-Nano": {
-      "downloads_30d": 57,
-      "downloads_all_time": 7154,
-      "parameters": 1195468800,
-      "parameters_source": "safetensors"
-    },
-    "PleIAs/Pleias-Nano-GGUF": {
-      "downloads_30d": 8,
-      "downloads_all_time": 136,
-      "parameters": 1195468800,
-      "parameters_source": "safetensors"
-    },
-    "PleIAs/Pleias-Pico": {
-      "downloads_30d": 104,
-      "downloads_all_time": 3598,
-      "parameters": 353424384,
-      "parameters_source": "safetensors"
-    },
-    "PleIAs/Pleias-Pico-GGUF": {
-      "downloads_30d": 38,
-      "downloads_all_time": 1964,
-      "parameters": 353424384,
-      "parameters_source": "gguf"
-    },
-    "PleIAs/Pleias-RAG-1B": {
-      "downloads_30d": 1041,
-      "downloads_all_time": 17588,
-      "parameters": 1195468800,
-      "parameters_source": "safetensors"
-    },
-    "PleIAs/Pleias-RAG-1B-gguf": {
-      "downloads_30d": 374,
-      "downloads_all_time": 3391,
-      "parameters": 1195468800,
-      "parameters_source": "gguf"
-    },
-    "PleIAs/Pleias-RAG-350M": {
-      "downloads_30d": 1273,
-      "downloads_all_time": 14832,
-      "parameters": 353424384,
-      "parameters_source": "safetensors"
-    },
-    "PleIAs/Pleias-RAG-350M-gguf": {
-      "downloads_30d": 112,
-      "downloads_all_time": 1396,
-      "parameters": 353424384,
-      "parameters_source": "gguf"
-    },
-    "PleIAs/Pleias-SLM-RAG": {
-      "downloads_30d": 47,
-      "downloads_all_time": 457,
-      "parameters": 320956992,
-      "parameters_source": "gguf"
     },
     "PleIAs/baguettotron-600m": {
       "downloads_30d": 816,
@@ -1439,42 +1247,6 @@
       "parameters": 30677882880,
       "parameters_source": "safetensors"
     },
-    "TildeAI/TildeOpen15B-64k-wmt26-compression-task-cs-de": {
-      "downloads_30d": 10,
-      "downloads_all_time": 79,
-      "parameters": 15167098880,
-      "parameters_source": "safetensors"
-    },
-    "TildeAI/TildeOpen15B-64k-wmt26-compression-task-cs-de-fp4a16": {
-      "downloads_30d": 15,
-      "downloads_all_time": 106,
-      "parameters": 9001472420,
-      "parameters_source": "safetensors"
-    },
-    "TildeAI/TildeOpen15B-64k-wmt26-compression-task-cs-de-fp8-dyn": {
-      "downloads_30d": 16,
-      "downloads_all_time": 92,
-      "parameters": 15169802240,
-      "parameters_source": "safetensors"
-    },
-    "TildeAI/TildeOpen8B-64k-wmt26-compression-task-cs-de": {
-      "downloads_30d": 14,
-      "downloads_all_time": 95,
-      "parameters": 8156558080,
-      "parameters_source": "safetensors"
-    },
-    "TildeAI/TildeOpen8B-64k-wmt26-compression-task-cs-de-fp4a16": {
-      "downloads_30d": 17,
-      "downloads_all_time": 66,
-      "parameters": 4911174820,
-      "parameters_source": "safetensors"
-    },
-    "TildeAI/TildeOpen8B-64k-wmt26-compression-task-cs-de-fp8-dyn": {
-      "downloads_30d": 13,
-      "downloads_all_time": 60,
-      "parameters": 8158570240,
-      "parameters_source": "safetensors"
-    },
     "Voicelab/trurl-2-13b": {
       "downloads_30d": 50,
       "downloads_all_time": 66879,
@@ -1503,12 +1275,6 @@
       "downloads_30d": 16,
       "downloads_all_time": 2160,
       "parameters": 6739785728,
-      "parameters_source": "safetensors"
-    },
-    "Voicelab/vlt5-base-keywords": {
-      "downloads_30d": 219626,
-      "downloads_all_time": 1860898,
-      "parameters": 275102976,
       "parameters_source": "safetensors"
     },
     "cjvt/GaMS-1B": {
@@ -1577,22 +1343,10 @@
       "parameters": 9241705984,
       "parameters_source": "safetensors"
     },
-    "cjvt/GaMS-DPO-Translator": {
-      "downloads_30d": 20,
-      "downloads_all_time": 300,
-      "parameters": 9241705984,
-      "parameters_source": "safetensors"
-    },
     "cjvt/GaMS2-27B": {
       "downloads_30d": 280,
       "downloads_all_time": 1263,
       "parameters": 852480,
-      "parameters_source": "safetensors"
-    },
-    "cjvt/GaMS2-27B-GRPO-Translator": {
-      "downloads_30d": 103,
-      "downloads_all_time": 321,
-      "parameters": 27227128320,
       "parameters_source": "safetensors"
     },
     "cjvt/GaMS2-27B-Instruct": {
@@ -1604,12 +1358,6 @@
     "cjvt/GaMS3-12B": {
       "downloads_30d": 589,
       "downloads_all_time": 5541,
-      "parameters": 11766034176,
-      "parameters_source": "safetensors"
-    },
-    "cjvt/GaMS3-12B-GRPO-Translator": {
-      "downloads_30d": 50,
-      "downloads_all_time": 316,
       "parameters": 11766034176,
       "parameters_source": "safetensors"
     },
@@ -1646,18 +1394,6 @@
     "cjvt/gpt-sl-base": {
       "downloads_30d": 15,
       "downloads_all_time": 1761,
-      "parameters": null,
-      "parameters_source": null
-    },
-    "cjvt/t5-sl-large": {
-      "downloads_30d": 98,
-      "downloads_all_time": 1782,
-      "parameters": null,
-      "parameters_source": null
-    },
-    "cjvt/t5-sl-small": {
-      "downloads_30d": 181,
-      "downloads_all_time": 3941,
       "parameters": null,
       "parameters_source": null
     },
@@ -1751,36 +1487,6 @@
       "parameters": 3928787968,
       "parameters_source": "safetensors"
     },
-    "domyn/Domyn-Edge-Teacher-Agentic": {
-      "downloads_30d": 561,
-      "downloads_all_time": 561,
-      "parameters": 3928787968,
-      "parameters_source": "safetensors"
-    },
-    "domyn/Domyn-Edge-Teacher-Code": {
-      "downloads_30d": 562,
-      "downloads_all_time": 562,
-      "parameters": 3928787968,
-      "parameters_source": "safetensors"
-    },
-    "domyn/Domyn-Edge-Teacher-IF": {
-      "downloads_30d": 1491,
-      "downloads_all_time": 1491,
-      "parameters": 3928787968,
-      "parameters_source": "safetensors"
-    },
-    "domyn/Domyn-Edge-Teacher-Math": {
-      "downloads_30d": 563,
-      "downloads_all_time": 563,
-      "parameters": 3928787968,
-      "parameters_source": "safetensors"
-    },
-    "domyn/Domyn-Edge-Teacher-STEM": {
-      "downloads_30d": 563,
-      "downloads_all_time": 563,
-      "parameters": 3928787968,
-      "parameters_source": "safetensors"
-    },
     "domyn/Domyn-Small-v1.0": {
       "downloads_30d": 1637,
       "downloads_all_time": 10167,
@@ -1871,108 +1577,6 @@
       "parameters": 7482445824,
       "parameters_source": "safetensors"
     },
-    "ilsp/llama-krikri-8b-ag-mg-full-ft": {
-      "downloads_30d": 19,
-      "downloads_all_time": 124,
-      "parameters": null,
-      "parameters_source": null
-    },
-    "ilsp/m2m100-1.2B-ag-mg-full-ft": {
-      "downloads_30d": 31,
-      "downloads_all_time": 177,
-      "parameters": 1239586816,
-      "parameters_source": "safetensors"
-    },
-    "lightonai/LightOnOCR-0.9B-16k-1025": {
-      "downloads_30d": 1519,
-      "downloads_all_time": 5746,
-      "parameters": 883619840,
-      "parameters_source": "safetensors"
-    },
-    "lightonai/LightOnOCR-0.9B-32k-1025": {
-      "downloads_30d": 1521,
-      "downloads_all_time": 3436,
-      "parameters": 917174272,
-      "parameters_source": "safetensors"
-    },
-    "lightonai/LightOnOCR-1B-1025": {
-      "downloads_30d": 12979,
-      "downloads_all_time": 1348838,
-      "parameters": 1161230336,
-      "parameters_source": "safetensors"
-    },
-    "lightonai/LightOnOCR-2-1B": {
-      "downloads_30d": 803844,
-      "downloads_all_time": 4596190,
-      "parameters": 1005647872,
-      "parameters_source": "safetensors"
-    },
-    "lightonai/LightOnOCR-2-1B-base": {
-      "downloads_30d": 3602,
-      "downloads_all_time": 90788,
-      "parameters": 1005647872,
-      "parameters_source": "safetensors"
-    },
-    "lightonai/LightOnOCR-2-1B-bbox": {
-      "downloads_30d": 2481,
-      "downloads_all_time": 100976,
-      "parameters": 1005647872,
-      "parameters_source": "safetensors"
-    },
-    "lightonai/LightOnOCR-2-1B-bbox-base": {
-      "downloads_30d": 97,
-      "downloads_all_time": 5491,
-      "parameters": 1005647872,
-      "parameters_source": "safetensors"
-    },
-    "lightonai/LightOnOCR-2-1B-bbox-soup": {
-      "downloads_30d": 1549,
-      "downloads_all_time": 68065,
-      "parameters": 1005647872,
-      "parameters_source": "safetensors"
-    },
-    "lightonai/LightOnOCR-2-1B-ocr-soup": {
-      "downloads_30d": 449,
-      "downloads_all_time": 72020,
-      "parameters": 1005647872,
-      "parameters_source": "safetensors"
-    },
-    "lightonai/LightOnOCR-3-0.8B": {
-      "downloads_30d": 14168,
-      "downloads_all_time": 18886,
-      "parameters": 852985920,
-      "parameters_source": "safetensors"
-    },
-    "lightonai/LightOnOCR-3-1B": {
-      "downloads_30d": 4196,
-      "downloads_all_time": 7483,
-      "parameters": 1005647872,
-      "parameters_source": "safetensors"
-    },
-    "lightonai/LightOnOCR-3-4B": {
-      "downloads_30d": 14321,
-      "downloads_all_time": 25187,
-      "parameters": 4539265536,
-      "parameters_source": "safetensors"
-    },
-    "lightonai/OriOn-Mistral": {
-      "downloads_30d": 16,
-      "downloads_all_time": 284,
-      "parameters": 24011361280,
-      "parameters_source": "safetensors"
-    },
-    "lightonai/OriOn-Qwen": {
-      "downloads_30d": 29,
-      "downloads_all_time": 188,
-      "parameters": 33357390064,
-      "parameters_source": "safetensors"
-    },
-    "lightonai/OriOn-Qwen-SR1": {
-      "downloads_30d": 23,
-      "downloads_all_time": 423,
-      "parameters": 33357390064,
-      "parameters_source": "safetensors"
-    },
     "lightonai/alfred-40b-0723": {
       "downloads_30d": 99,
       "downloads_all_time": 5541,
@@ -1984,18 +1588,6 @@
       "downloads_all_time": 78640,
       "parameters": null,
       "parameters_source": null
-    },
-    "lightonai/colgrep-agent-2B": {
-      "downloads_30d": 1063,
-      "downloads_all_time": 1588,
-      "parameters": 2516756480,
-      "parameters_source": "safetensors"
-    },
-    "lightonai/colgrep-agent-2B-GGUF": {
-      "downloads_30d": 3678,
-      "downloads_all_time": 6224,
-      "parameters": 2516756480,
-      "parameters_source": "gguf"
     },
     "lightonai/mambaoutai": {
       "downloads_30d": 270,
@@ -2105,18 +1697,6 @@
       "parameters": 2894246400,
       "parameters_source": "safetensors"
     },
-    "mii-llm/nesso-0.4B-agentic": {
-      "downloads_30d": 348,
-      "downloads_all_time": 3030,
-      "parameters": 560898240,
-      "parameters_source": "safetensors"
-    },
-    "mii-llm/nesso-0.4B-agentic-GGUF": {
-      "downloads_30d": 41,
-      "downloads_all_time": 439,
-      "parameters": 560898240,
-      "parameters_source": "gguf"
-    },
     "mii-llm/nesso-0.4B-instruct": {
       "downloads_30d": 57,
       "downloads_all_time": 1326,
@@ -2133,24 +1713,6 @@
       "downloads_30d": 202,
       "downloads_all_time": 1285,
       "parameters": 4022468096,
-      "parameters_source": "gguf"
-    },
-    "mii-llm/nesso2-0.4B-agentic": {
-      "downloads_30d": 394,
-      "downloads_all_time": 1155,
-      "parameters": 437760960,
-      "parameters_source": "safetensors"
-    },
-    "mii-llm/nesso3-0.4B-agentic": {
-      "downloads_30d": 394,
-      "downloads_all_time": 436,
-      "parameters": 437760960,
-      "parameters_source": "safetensors"
-    },
-    "mii-llm/nesso3-0.4B-agentic-gguf": {
-      "downloads_30d": 231,
-      "downloads_all_time": 370,
-      "parameters": 437760960,
       "parameters_source": "gguf"
     },
     "mii-llm/open-zagreus-0.4B": {
@@ -2182,60 +1744,6 @@
       "downloads_all_time": 266,
       "parameters": 437760960,
       "parameters_source": "safetensors"
-    },
-    "mistralai/Codestral-22B-v0.1": {
-      "downloads_30d": 3907,
-      "downloads_all_time": 5166157,
-      "parameters": 22247282688,
-      "parameters_source": "safetensors"
-    },
-    "mistralai/Devstral-2-123B-Instruct-2512": {
-      "downloads_30d": 7061,
-      "downloads_all_time": 359498,
-      "parameters": 125025988608,
-      "parameters_source": "safetensors"
-    },
-    "mistralai/Devstral-Small-2-24B-Instruct-2512": {
-      "downloads_30d": 26373,
-      "downloads_all_time": 3012289,
-      "parameters": 24011361280,
-      "parameters_source": "safetensors"
-    },
-    "mistralai/Devstral-Small-2505": {
-      "downloads_30d": 2193,
-      "downloads_all_time": 837183,
-      "parameters": 23572403200,
-      "parameters_source": "safetensors"
-    },
-    "mistralai/Devstral-Small-2505_gguf": {
-      "downloads_30d": 2452,
-      "downloads_all_time": 73869,
-      "parameters": 23572403200,
-      "parameters_source": "gguf"
-    },
-    "mistralai/Devstral-Small-2507": {
-      "downloads_30d": 6670,
-      "downloads_all_time": 589681,
-      "parameters": 23572403200,
-      "parameters_source": "safetensors"
-    },
-    "mistralai/Devstral-Small-2507_gguf": {
-      "downloads_30d": 5304,
-      "downloads_all_time": 62491,
-      "parameters": 23572403200,
-      "parameters_source": "gguf"
-    },
-    "mistralai/Leanstral-1.5-119B-A6B": {
-      "downloads_30d": 428,
-      "downloads_all_time": 1762,
-      "parameters": null,
-      "parameters_source": null
-    },
-    "mistralai/Leanstral-2603": {
-      "downloads_30d": 167,
-      "downloads_all_time": 1223,
-      "parameters": null,
-      "parameters_source": null
     },
     "mistralai/Magistral-Small-2506": {
       "downloads_30d": 38015,
@@ -2272,18 +1780,6 @@
       "downloads_all_time": 64808,
       "parameters": 23572403200,
       "parameters_source": "gguf"
-    },
-    "mistralai/Mamba-Codestral-7B-v0.1": {
-      "downloads_30d": 15332,
-      "downloads_all_time": 699360,
-      "parameters": 7285403648,
-      "parameters_source": "safetensors"
-    },
-    "mistralai/Mathstral-7B-v0.1": {
-      "downloads_30d": 2779,
-      "downloads_all_time": 5304295,
-      "parameters": 7248023552,
-      "parameters_source": "safetensors"
     },
     "mistralai/Ministral-3-14B-Base-2512": {
       "downloads_30d": 14104,
@@ -3389,30 +2885,6 @@
       "parameters": 7477727232,
       "parameters_source": "safetensors"
     },
-    "speakleash/Bielik-One-11B-v3.0-r1": {
-      "downloads_30d": 83,
-      "downloads_all_time": 83,
-      "parameters": 11173081088,
-      "parameters_source": "safetensors"
-    },
-    "speakleash/Bielik-One-11B-v3.1-r1": {
-      "downloads_30d": 115,
-      "downloads_all_time": 115,
-      "parameters": 11173081088,
-      "parameters_source": "safetensors"
-    },
-    "speakleash/Bielik-One-4B-r1": {
-      "downloads_30d": 200,
-      "downloads_all_time": 200,
-      "parameters": 4661186048,
-      "parameters_source": "safetensors"
-    },
-    "speakleash/Bielik-One-7B-v3.0-r1": {
-      "downloads_30d": 95,
-      "downloads_all_time": 95,
-      "parameters": 7482011648,
-      "parameters_source": "safetensors"
-    },
     "speakleash/Bielik-PL-11B-v3.0-Instruct": {
       "downloads_30d": 437,
       "downloads_all_time": 10877,
@@ -3699,18 +3171,6 @@
       "downloads_30d": 875,
       "downloads_all_time": 8579,
       "parameters": 9571583520,
-      "parameters_source": "safetensors"
-    },
-    "utter-project/SpireBase": {
-      "downloads_30d": 56,
-      "downloads_all_time": 1094,
-      "parameters": 6779834368,
-      "parameters_source": "safetensors"
-    },
-    "utter-project/SpireFull": {
-      "downloads_30d": 29,
-      "downloads_all_time": 3927,
-      "parameters": 6779834368,
       "parameters_source": "safetensors"
     },
     "utter-project/TowerVideo-2B": {
@@ -4359,46 +3819,6 @@
       "parameters": 140630071296,
       "parameters_source_repo": "mistralai/Mixtral-8x22B-Instruct-v0.1"
     },
-    "devstral-small-2505": {
-      "total_downloads_30d": 4645,
-      "total_downloads_all_time": 911052,
-      "repo_count": 2,
-      "fetched_repo_count": 2,
-      "missing_repo_count": 0,
-      "complete": true,
-      "parameters": 23572403200,
-      "parameters_source_repo": "mistralai/Devstral-Small-2505"
-    },
-    "devstral-small-2507": {
-      "total_downloads_30d": 11974,
-      "total_downloads_all_time": 652172,
-      "repo_count": 2,
-      "fetched_repo_count": 2,
-      "missing_repo_count": 0,
-      "complete": true,
-      "parameters": 23572403200,
-      "parameters_source_repo": "mistralai/Devstral-Small-2507"
-    },
-    "devstral-small-2-2512": {
-      "total_downloads_30d": 26373,
-      "total_downloads_all_time": 3012289,
-      "repo_count": 1,
-      "fetched_repo_count": 1,
-      "missing_repo_count": 0,
-      "complete": true,
-      "parameters": 24011361280,
-      "parameters_source_repo": "mistralai/Devstral-Small-2-24B-Instruct-2512"
-    },
-    "devstral-2-2512": {
-      "total_downloads_30d": 7061,
-      "total_downloads_all_time": 359498,
-      "repo_count": 1,
-      "fetched_repo_count": 1,
-      "missing_repo_count": 0,
-      "complete": true,
-      "parameters": 125025988608,
-      "parameters_source_repo": "mistralai/Devstral-2-123B-Instruct-2512"
-    },
     "magistral-small-2506": {
       "total_downloads_30d": 38252,
       "total_downloads_all_time": 807720,
@@ -4428,26 +3848,6 @@
       "complete": true,
       "parameters": 24011361280,
       "parameters_source_repo": "mistralai/Magistral-Small-2509"
-    },
-    "mamba-codestral-7b-v0.1": {
-      "total_downloads_30d": 15332,
-      "total_downloads_all_time": 699360,
-      "repo_count": 1,
-      "fetched_repo_count": 1,
-      "missing_repo_count": 0,
-      "complete": true,
-      "parameters": 7285403648,
-      "parameters_source_repo": "mistralai/Mamba-Codestral-7B-v0.1"
-    },
-    "codestral-22b-v0.1": {
-      "total_downloads_30d": 3907,
-      "total_downloads_all_time": 5166157,
-      "repo_count": 1,
-      "fetched_repo_count": 1,
-      "missing_repo_count": 0,
-      "complete": true,
-      "parameters": 22247282688,
-      "parameters_source_repo": "mistralai/Codestral-22B-v0.1"
     },
     "ministral-3-14b-2512": {
       "total_downloads_30d": 667840,
@@ -4489,16 +3889,6 @@
       "parameters": 8019808256,
       "parameters_source_repo": "mistralai/Ministral-8B-Instruct-2410"
     },
-    "mathstral-7b-v0.1": {
-      "total_downloads_30d": 2779,
-      "total_downloads_all_time": 5304295,
-      "repo_count": 1,
-      "fetched_repo_count": 1,
-      "missing_repo_count": 0,
-      "complete": true,
-      "parameters": 7248023552,
-      "parameters_source_repo": "mistralai/Mathstral-7B-v0.1"
-    },
     "mistral-small-instruct-2409": {
       "total_downloads_30d": 9374,
       "total_downloads_all_time": 5392215,
@@ -4508,26 +3898,6 @@
       "complete": true,
       "parameters": 22247282688,
       "parameters_source_repo": "mistralai/Mistral-Small-Instruct-2409"
-    },
-    "leanstral-1.5": {
-      "total_downloads_30d": 428,
-      "total_downloads_all_time": 1762,
-      "repo_count": 1,
-      "fetched_repo_count": 1,
-      "missing_repo_count": 0,
-      "complete": true,
-      "parameters": null,
-      "parameters_source_repo": null
-    },
-    "leanstral-2603": {
-      "total_downloads_30d": 167,
-      "total_downloads_all_time": 1223,
-      "repo_count": 1,
-      "fetched_repo_count": 1,
-      "missing_repo_count": 0,
-      "complete": true,
-      "parameters": null,
-      "parameters_source_repo": null
     },
     "mistral-7b-v0.3": {
       "total_downloads_30d": 2021775,
@@ -4759,36 +4129,6 @@
       "parameters": 40433885248,
       "parameters_source_repo": "BSC-LT/ALIA-40b-instruct-2601-GGUF"
     },
-    "alia-40b-fc-2607": {
-      "total_downloads_30d": 39,
-      "total_downloads_all_time": 230,
-      "repo_count": 2,
-      "fetched_repo_count": 2,
-      "missing_repo_count": 0,
-      "complete": true,
-      "parameters": 40433885248,
-      "parameters_source_repo": "BSC-LT/ALIA-40b-fc-2607-GGUF"
-    },
-    "alia-40b-fc-2606": {
-      "total_downloads_30d": 885,
-      "total_downloads_all_time": 2925,
-      "repo_count": 2,
-      "fetched_repo_count": 2,
-      "missing_repo_count": 0,
-      "complete": true,
-      "parameters": 40433885248,
-      "parameters_source_repo": "BSC-LT/ALIA-40b-fc-2606-GGUF"
-    },
-    "alia-40b-fc-2605": {
-      "total_downloads_30d": 48,
-      "total_downloads_all_time": 973,
-      "repo_count": 2,
-      "fetched_repo_count": 2,
-      "missing_repo_count": 0,
-      "complete": true,
-      "parameters": 40433885248,
-      "parameters_source_repo": "BSC-LT/ALIA-40b-fc-2605-GGUF"
-    },
     "salamandra-7b-base": {
       "total_downloads_30d": 3585,
       "total_downloads_all_time": 55302,
@@ -4800,34 +4140,14 @@
       "parameters_source_repo": "BSC-LT/salamandra-7b-base-fp8"
     },
     "salamandra-7b-instruct": {
-      "total_downloads_30d": 38706,
-      "total_downloads_all_time": 740716,
-      "repo_count": 7,
-      "fetched_repo_count": 7,
+      "total_downloads_30d": 38658,
+      "total_downloads_all_time": 735582,
+      "repo_count": 5,
+      "fetched_repo_count": 5,
       "missing_repo_count": 0,
       "complete": true,
       "parameters": 7769280512,
       "parameters_source_repo": "BSC-LT/salamandra-7b-instruct-fp8"
-    },
-    "salamandra-7b-fc-2610-evo": {
-      "total_downloads_30d": 170,
-      "total_downloads_all_time": 170,
-      "repo_count": 1,
-      "fetched_repo_count": 1,
-      "missing_repo_count": 0,
-      "complete": true,
-      "parameters": 7768117248,
-      "parameters_source_repo": "BSC-LT/salamandra-7b-fc-2610-evo"
-    },
-    "salamandra-7b-fc-2607": {
-      "total_downloads_30d": 51,
-      "total_downloads_all_time": 390,
-      "repo_count": 2,
-      "fetched_repo_count": 2,
-      "missing_repo_count": 0,
-      "complete": true,
-      "parameters": 7768117312,
-      "parameters_source_repo": "BSC-LT/salamandra-7b-fc-2607-GGUF"
     },
     "salamandra-2b": {
       "total_downloads_30d": 5648,
@@ -5110,24 +4430,24 @@
       "parameters_source_repo": "croissantllm/CroissantLLMChat-v0.1"
     },
     "gams3-12b": {
-      "total_downloads_30d": 213120,
-      "total_downloads_all_time": 332031,
-      "repo_count": 5,
-      "fetched_repo_count": 5,
+      "total_downloads_30d": 213070,
+      "total_downloads_all_time": 331715,
+      "repo_count": 4,
+      "fetched_repo_count": 4,
       "missing_repo_count": 0,
       "complete": true,
       "parameters": 12772912896,
       "parameters_source_repo": "cjvt/GaMS3-12B-Instruct-Lex"
     },
     "gams2-27b": {
-      "total_downloads_30d": 640,
-      "total_downloads_all_time": 2117,
-      "repo_count": 3,
-      "fetched_repo_count": 3,
+      "total_downloads_30d": 537,
+      "total_downloads_all_time": 1796,
+      "repo_count": 2,
+      "fetched_repo_count": 2,
       "missing_repo_count": 0,
       "complete": true,
-      "parameters": 27227128320,
-      "parameters_source_repo": "cjvt/GaMS2-27B-GRPO-Translator"
+      "parameters": 852480,
+      "parameters_source_repo": "cjvt/GaMS2-27B"
     },
     "gams-27b": {
       "total_downloads_30d": 280,
@@ -5189,26 +4509,6 @@
       "parameters": 30677882880,
       "parameters_source_repo": "TildeAI/TildeOpen-30b-64k"
     },
-    "tildeopen-15b-wmt26-cs-de": {
-      "total_downloads_30d": 41,
-      "total_downloads_all_time": 277,
-      "repo_count": 3,
-      "fetched_repo_count": 3,
-      "missing_repo_count": 0,
-      "complete": true,
-      "parameters": 15169802240,
-      "parameters_source_repo": "TildeAI/TildeOpen15B-64k-wmt26-compression-task-cs-de-fp8-dyn"
-    },
-    "tildeopen-8b-wmt26-cs-de": {
-      "total_downloads_30d": 44,
-      "total_downloads_all_time": 221,
-      "repo_count": 3,
-      "fetched_repo_count": 3,
-      "missing_repo_count": 0,
-      "complete": true,
-      "parameters": 8158570240,
-      "parameters_source_repo": "TildeAI/TildeOpen8B-64k-wmt26-compression-task-cs-de-fp8-dyn"
-    },
     "soofi-s-instruct-preview": {
       "total_downloads_30d": 113,
       "total_downloads_all_time": 7511,
@@ -5258,56 +4558,6 @@
       "complete": true,
       "parameters": 3928787968,
       "parameters_source_repo": "domyn/Domyn-Edge-Base"
-    },
-    "domyn-edge-teacher-if": {
-      "total_downloads_30d": 1491,
-      "total_downloads_all_time": 1491,
-      "repo_count": 1,
-      "fetched_repo_count": 1,
-      "missing_repo_count": 0,
-      "complete": true,
-      "parameters": 3928787968,
-      "parameters_source_repo": "domyn/Domyn-Edge-Teacher-IF"
-    },
-    "domyn-edge-teacher-stem": {
-      "total_downloads_30d": 563,
-      "total_downloads_all_time": 563,
-      "repo_count": 1,
-      "fetched_repo_count": 1,
-      "missing_repo_count": 0,
-      "complete": true,
-      "parameters": 3928787968,
-      "parameters_source_repo": "domyn/Domyn-Edge-Teacher-STEM"
-    },
-    "domyn-edge-teacher-math": {
-      "total_downloads_30d": 563,
-      "total_downloads_all_time": 563,
-      "repo_count": 1,
-      "fetched_repo_count": 1,
-      "missing_repo_count": 0,
-      "complete": true,
-      "parameters": 3928787968,
-      "parameters_source_repo": "domyn/Domyn-Edge-Teacher-Math"
-    },
-    "domyn-edge-teacher-code": {
-      "total_downloads_30d": 562,
-      "total_downloads_all_time": 562,
-      "repo_count": 1,
-      "fetched_repo_count": 1,
-      "missing_repo_count": 0,
-      "complete": true,
-      "parameters": 3928787968,
-      "parameters_source_repo": "domyn/Domyn-Edge-Teacher-Code"
-    },
-    "domyn-edge-teacher-agentic": {
-      "total_downloads_30d": 561,
-      "total_downloads_all_time": 561,
-      "repo_count": 1,
-      "fetched_repo_count": 1,
-      "missing_repo_count": 0,
-      "complete": true,
-      "parameters": 3928787968,
-      "parameters_source_repo": "domyn/Domyn-Edge-Teacher-Agentic"
     },
     "domyn-small-v1.0": {
       "total_downloads_30d": 1637,
@@ -5419,26 +4669,6 @@
       "parameters": 437768640,
       "parameters_source_repo": "mii-llm/open-zagreus-0.4B"
     },
-    "nesso3-0.4b-agentic": {
-      "total_downloads_30d": 625,
-      "total_downloads_all_time": 806,
-      "repo_count": 2,
-      "fetched_repo_count": 2,
-      "missing_repo_count": 0,
-      "complete": true,
-      "parameters": 437760960,
-      "parameters_source_repo": "mii-llm/nesso3-0.4B-agentic"
-    },
-    "nesso2-0.4b-agentic": {
-      "total_downloads_30d": 394,
-      "total_downloads_all_time": 1155,
-      "repo_count": 1,
-      "fetched_repo_count": 1,
-      "missing_repo_count": 0,
-      "complete": true,
-      "parameters": 437760960,
-      "parameters_source_repo": "mii-llm/nesso2-0.4B-agentic"
-    },
     "nesso-4b": {
       "total_downloads_30d": 302,
       "total_downloads_all_time": 2883,
@@ -5448,16 +4678,6 @@
       "complete": true,
       "parameters": 4022468096,
       "parameters_source_repo": "mii-llm/nesso-4B"
-    },
-    "nesso-0.4b-agentic": {
-      "total_downloads_30d": 389,
-      "total_downloads_all_time": 3469,
-      "repo_count": 2,
-      "fetched_repo_count": 2,
-      "missing_repo_count": 0,
-      "complete": true,
-      "parameters": 560898240,
-      "parameters_source_repo": "mii-llm/nesso-0.4B-agentic"
     },
     "nesso-0.4b-instruct": {
       "total_downloads_30d": 57,
@@ -5539,66 +4759,6 @@
       "parameters": 56656128,
       "parameters_source_repo": "PleIAs/Monad"
     },
-    "pleias-pico": {
-      "total_downloads_30d": 142,
-      "total_downloads_all_time": 5562,
-      "repo_count": 2,
-      "fetched_repo_count": 2,
-      "missing_repo_count": 0,
-      "complete": true,
-      "parameters": 353424384,
-      "parameters_source_repo": "PleIAs/Pleias-Pico"
-    },
-    "pleias-nano": {
-      "total_downloads_30d": 65,
-      "total_downloads_all_time": 7290,
-      "repo_count": 2,
-      "fetched_repo_count": 2,
-      "missing_repo_count": 0,
-      "complete": true,
-      "parameters": 1195468800,
-      "parameters_source_repo": "PleIAs/Pleias-Nano"
-    },
-    "pleias-rag-1b": {
-      "total_downloads_30d": 1415,
-      "total_downloads_all_time": 20979,
-      "repo_count": 2,
-      "fetched_repo_count": 2,
-      "missing_repo_count": 0,
-      "complete": true,
-      "parameters": 1195468800,
-      "parameters_source_repo": "PleIAs/Pleias-RAG-1B"
-    },
-    "pleias-rag-350m": {
-      "total_downloads_30d": 1385,
-      "total_downloads_all_time": 16228,
-      "repo_count": 2,
-      "fetched_repo_count": 2,
-      "missing_repo_count": 0,
-      "complete": true,
-      "parameters": 353424384,
-      "parameters_source_repo": "PleIAs/Pleias-RAG-350M"
-    },
-    "pleias-slm-rag": {
-      "total_downloads_30d": 47,
-      "total_downloads_all_time": 457,
-      "repo_count": 1,
-      "fetched_repo_count": 1,
-      "missing_repo_count": 0,
-      "complete": true,
-      "parameters": 320956992,
-      "parameters_source_repo": "PleIAs/Pleias-SLM-RAG"
-    },
-    "ocronos": {
-      "total_downloads_30d": 760,
-      "total_downloads_all_time": 82455,
-      "repo_count": 3,
-      "fetched_repo_count": 3,
-      "missing_repo_count": 0,
-      "complete": true,
-      "parameters": 8030261248,
-      "parameters_source_repo": "PleIAs/OCRonos"
-    },
     "velvet2-3b": {
       "total_downloads_30d": 100,
       "total_downloads_all_time": 115,
@@ -5671,9 +4831,9 @@
     },
     "gpt-sw3-6.7b-v2": {
       "total_downloads_30d": 3,
-      "total_downloads_all_time": 276937,
-      "repo_count": 7,
-      "fetched_repo_count": 7,
+      "total_downloads_all_time": 262847,
+      "repo_count": 5,
+      "fetched_repo_count": 5,
       "missing_repo_count": 0,
       "complete": true,
       "parameters": 7111057408,
@@ -5748,36 +4908,6 @@
       "complete": true,
       "parameters": null,
       "parameters_source_repo": null
-    },
-    "bielik-one-11b-v3.1-r1": {
-      "total_downloads_30d": 115,
-      "total_downloads_all_time": 115,
-      "repo_count": 1,
-      "fetched_repo_count": 1,
-      "missing_repo_count": 0,
-      "complete": true,
-      "parameters": 11173081088,
-      "parameters_source_repo": "speakleash/Bielik-One-11B-v3.1-r1"
-    },
-    "bielik-one-11b-v3.0-r1": {
-      "total_downloads_30d": 83,
-      "total_downloads_all_time": 83,
-      "repo_count": 1,
-      "fetched_repo_count": 1,
-      "missing_repo_count": 0,
-      "complete": true,
-      "parameters": 11173081088,
-      "parameters_source_repo": "speakleash/Bielik-One-11B-v3.0-r1"
-    },
-    "bielik-one-7b-v3.0-r1": {
-      "total_downloads_30d": 95,
-      "total_downloads_all_time": 95,
-      "repo_count": 1,
-      "fetched_repo_count": 1,
-      "missing_repo_count": 0,
-      "complete": true,
-      "parameters": 7482011648,
-      "parameters_source_repo": "speakleash/Bielik-One-7B-v3.0-r1"
     },
     "openeurollm-prelude-long": {
       "total_downloads_30d": 90,
@@ -5859,16 +4989,6 @@
       "parameters": 4330374592,
       "parameters_source_repo": "AlmawaveLabs/Velvet2-3B-Vision"
     },
-    "bielik-one-4b-r1": {
-      "total_downloads_30d": 200,
-      "total_downloads_all_time": 200,
-      "repo_count": 1,
-      "fetched_repo_count": 1,
-      "missing_repo_count": 0,
-      "complete": true,
-      "parameters": 4661186048,
-      "parameters_source_repo": "speakleash/Bielik-One-4B-r1"
-    },
     "salamandra-7b-vision": {
       "total_downloads_30d": 44,
       "total_downloads_all_time": 3716,
@@ -5888,36 +5008,6 @@
       "complete": true,
       "parameters": 8898196480,
       "parameters_source_repo": "BSC-LT/Salamandra-VL-7B-2512"
-    },
-    "salamandrata-7b": {
-      "total_downloads_30d": 2817,
-      "total_downloads_all_time": 574709,
-      "repo_count": 2,
-      "fetched_repo_count": 2,
-      "missing_repo_count": 0,
-      "complete": true,
-      "parameters": 7768117248,
-      "parameters_source_repo": "BSC-LT/salamandraTA-7B-instruct-GGUF"
-    },
-    "salamandrata-2b": {
-      "total_downloads_30d": 1337,
-      "total_downloads_all_time": 30845,
-      "repo_count": 3,
-      "fetched_repo_count": 3,
-      "missing_repo_count": 0,
-      "complete": true,
-      "parameters": 2253490176,
-      "parameters_source_repo": "BSC-LT/salamandraTA-2B-academic"
-    },
-    "salamandra-tav-7b": {
-      "total_downloads_30d": 83,
-      "total_downloads_all_time": 759,
-      "repo_count": 1,
-      "fetched_repo_count": 1,
-      "missing_repo_count": 0,
-      "complete": true,
-      "parameters": 7776505856,
-      "parameters_source_repo": "BSC-LT/salamandra-TAV-7b"
     },
     "eurovlm-1.7b-preview": {
       "total_downloads_30d": 101,
@@ -5958,76 +5048,6 @@
       "complete": true,
       "parameters": 9656441888,
       "parameters_source_repo": "utter-project/TowerVision-9B"
-    },
-    "lightonocr-0.9b-16k-1025": {
-      "total_downloads_30d": 1519,
-      "total_downloads_all_time": 5746,
-      "repo_count": 1,
-      "fetched_repo_count": 1,
-      "missing_repo_count": 0,
-      "complete": true,
-      "parameters": 883619840,
-      "parameters_source_repo": "lightonai/LightOnOCR-0.9B-16k-1025"
-    },
-    "lightonocr-0.9b-32k-1025": {
-      "total_downloads_30d": 1521,
-      "total_downloads_all_time": 3436,
-      "repo_count": 1,
-      "fetched_repo_count": 1,
-      "missing_repo_count": 0,
-      "complete": true,
-      "parameters": 917174272,
-      "parameters_source_repo": "lightonai/LightOnOCR-0.9B-32k-1025"
-    },
-    "lightonocr-1b-1025": {
-      "total_downloads_30d": 12979,
-      "total_downloads_all_time": 1348838,
-      "repo_count": 1,
-      "fetched_repo_count": 1,
-      "missing_repo_count": 0,
-      "complete": true,
-      "parameters": 1161230336,
-      "parameters_source_repo": "lightonai/LightOnOCR-1B-1025"
-    },
-    "lightonocr-2-1b": {
-      "total_downloads_30d": 812022,
-      "total_downloads_all_time": 4933530,
-      "repo_count": 6,
-      "fetched_repo_count": 6,
-      "missing_repo_count": 0,
-      "complete": true,
-      "parameters": 1005647872,
-      "parameters_source_repo": "lightonai/LightOnOCR-2-1B"
-    },
-    "lightonocr-3-0.8b": {
-      "total_downloads_30d": 14168,
-      "total_downloads_all_time": 18886,
-      "repo_count": 1,
-      "fetched_repo_count": 1,
-      "missing_repo_count": 0,
-      "complete": true,
-      "parameters": 852985920,
-      "parameters_source_repo": "lightonai/LightOnOCR-3-0.8B"
-    },
-    "lightonocr-3-1b": {
-      "total_downloads_30d": 4196,
-      "total_downloads_all_time": 7483,
-      "repo_count": 1,
-      "fetched_repo_count": 1,
-      "missing_repo_count": 0,
-      "complete": true,
-      "parameters": 1005647872,
-      "parameters_source_repo": "lightonai/LightOnOCR-3-1B"
-    },
-    "lightonocr-3-4b": {
-      "total_downloads_30d": 14321,
-      "total_downloads_all_time": 25187,
-      "repo_count": 1,
-      "fetched_repo_count": 1,
-      "missing_repo_count": 0,
-      "complete": true,
-      "parameters": 4539265536,
-      "parameters_source_repo": "lightonai/LightOnOCR-3-4B"
     },
     "pagnol-small": {
       "total_downloads_30d": 62,
@@ -6079,46 +5099,6 @@
       "parameters": 1622361216,
       "parameters_source_repo": "lightonai/mambaoutai"
     },
-    "colgrep-agent-2b": {
-      "total_downloads_30d": 4741,
-      "total_downloads_all_time": 7812,
-      "repo_count": 2,
-      "fetched_repo_count": 2,
-      "missing_repo_count": 0,
-      "complete": true,
-      "parameters": 2516756480,
-      "parameters_source_repo": "lightonai/colgrep-agent-2B"
-    },
-    "orion-mistral-24b": {
-      "total_downloads_30d": 16,
-      "total_downloads_all_time": 284,
-      "repo_count": 1,
-      "fetched_repo_count": 1,
-      "missing_repo_count": 0,
-      "complete": true,
-      "parameters": 24011361280,
-      "parameters_source_repo": "lightonai/OriOn-Mistral"
-    },
-    "orion-qwen-32b": {
-      "total_downloads_30d": 29,
-      "total_downloads_all_time": 188,
-      "repo_count": 1,
-      "fetched_repo_count": 1,
-      "missing_repo_count": 0,
-      "complete": true,
-      "parameters": 33357390064,
-      "parameters_source_repo": "lightonai/OriOn-Qwen"
-    },
-    "orion-qwen-32b-sr1": {
-      "total_downloads_30d": 23,
-      "total_downloads_all_time": 423,
-      "repo_count": 1,
-      "fetched_repo_count": 1,
-      "missing_repo_count": 0,
-      "complete": true,
-      "parameters": 33357390064,
-      "parameters_source_repo": "lightonai/OriOn-Qwen-SR1"
-    },
     "tyr-7b": {
       "total_downloads_30d": 21,
       "total_downloads_all_time": 910,
@@ -6129,16 +5109,6 @@
       "parameters": 7241732096,
       "parameters_source_repo": "AI-Sweden-Models/tyr"
     },
-    "cassandre-rag-8b": {
-      "total_downloads_30d": 28,
-      "total_downloads_all_time": 1106,
-      "repo_count": 1,
-      "fetched_repo_count": 1,
-      "missing_repo_count": 0,
-      "complete": true,
-      "parameters": 8030261248,
-      "parameters_source_repo": "PleIAs/Cassandre-RAG"
-    },
     "gpt-sl-base": {
       "total_downloads_30d": 15,
       "total_downloads_all_time": 1761,
@@ -6148,36 +5118,6 @@
       "complete": true,
       "parameters": null,
       "parameters_source_repo": null
-    },
-    "t5-sl-small": {
-      "total_downloads_30d": 181,
-      "total_downloads_all_time": 3941,
-      "repo_count": 1,
-      "fetched_repo_count": 1,
-      "missing_repo_count": 0,
-      "complete": true,
-      "parameters": null,
-      "parameters_source_repo": null
-    },
-    "t5-sl-large": {
-      "total_downloads_30d": 98,
-      "total_downloads_all_time": 1782,
-      "repo_count": 1,
-      "fetched_repo_count": 1,
-      "missing_repo_count": 0,
-      "complete": true,
-      "parameters": null,
-      "parameters_source_repo": null
-    },
-    "gams-dpo-translator": {
-      "total_downloads_30d": 20,
-      "total_downloads_all_time": 300,
-      "repo_count": 1,
-      "fetched_repo_count": 1,
-      "missing_repo_count": 0,
-      "complete": true,
-      "parameters": 9241705984,
-      "parameters_source_repo": "cjvt/GaMS-DPO-Translator"
     },
     "towervideo-2b": {
       "total_downloads_30d": 61,
@@ -6219,46 +5159,6 @@
       "parameters": 1345423360,
       "parameters_source_repo": "croissantllm/CroissantCool-v0.2"
     },
-    "spire-7b": {
-      "total_downloads_30d": 85,
-      "total_downloads_all_time": 5021,
-      "repo_count": 2,
-      "fetched_repo_count": 2,
-      "missing_repo_count": 0,
-      "complete": true,
-      "parameters": 6779834368,
-      "parameters_source_repo": "utter-project/SpireBase"
-    },
-    "vlt5-base-keywords": {
-      "total_downloads_30d": 219626,
-      "total_downloads_all_time": 1860898,
-      "repo_count": 1,
-      "fetched_repo_count": 1,
-      "missing_repo_count": 0,
-      "complete": true,
-      "parameters": 275102976,
-      "parameters_source_repo": "Voicelab/vlt5-base-keywords"
-    },
-    "krikri-8b-ag-mg": {
-      "total_downloads_30d": 19,
-      "total_downloads_all_time": 124,
-      "repo_count": 1,
-      "fetched_repo_count": 1,
-      "missing_repo_count": 0,
-      "complete": true,
-      "parameters": null,
-      "parameters_source_repo": null
-    },
-    "m2m100-1.2b-ag-mg": {
-      "total_downloads_30d": 31,
-      "total_downloads_all_time": 177,
-      "repo_count": 1,
-      "fetched_repo_count": 1,
-      "missing_repo_count": 0,
-      "complete": true,
-      "parameters": 1239586816,
-      "parameters_source_repo": "ilsp/m2m100-1.2B-ag-mg-full-ft"
-    },
     "velvet2-3b-speech": {
       "total_downloads_30d": 175,
       "total_downloads_all_time": 204,
@@ -6274,7 +5174,13 @@
   "catalog_update": {
     "preserved_repo_stats_fetched_at": "2026-11-16T09:01:19Z",
     "added_repo_stats_fetched_at": "2026-11-16T11:52:15Z",
-    "preserved_repo_count": 565,
-    "added_repo_count": 57
+    "preserved_repo_count": 508,
+    "added_repo_count": 24
+  },
+  "scope_correction": {
+    "scope": "general-purpose generative LLMs only",
+    "removed_specialist_repo_count": 90,
+    "retained_repo_count": 532,
+    "counters": "retained unchanged; no new fetch"
   }
 }

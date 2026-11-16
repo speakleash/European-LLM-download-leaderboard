@@ -174,8 +174,9 @@ def render_markdown(
         f"- **Rows:** {len(rows)}"
         + (f" (of {len(leaderboard.get('rows') or [])})" if limit is not None else ""),
         "",
-        "Standalone generative LLMs, including multimodal models that generate text. "
-        "Auxiliary draft models and classification-only adapters are excluded.",
+        "General-purpose generative LLMs, including general-purpose multimodal models. "
+        "Task-specific OCR, translation, RAG, coding, math/proof, decision and "
+        "function-calling specialists are excluded, alongside auxiliary models.",
         "",
         "Historical snapshots retain their original scope; changes across the scope "
         "correction on 2026-11-16 also reflect the removed repositories.",

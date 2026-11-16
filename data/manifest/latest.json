@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-16T11:59:26Z",
+  "generated_at": "2026-11-16T12:20:35Z",
   "config_version": 2,
   "config_path": "european-llm-hf-download-leaderboard.json",
-  "config_content_hash": "sha256:cc804435b70aa2a2385880665057676ccca0b72c742be9d7149c04e6300b5080",
+  "config_content_hash": "sha256:f72d690eb8550e885356299af9035f4be55544c6fbced58f6451b7d68aa74cbf",
   "organizations_scanned": [
     "AI-Sweden-Models",
     "Aleph-Alpha",
@@ -33,7 +33,7 @@
     "swiss-ai",
     "utter-project"
   ],
-  "manifest_content_hash": "sha256:b55d5056375496641ef717de383ff648c84092bb0aa1de5f4f9b6514761cb3e6",
+  "manifest_content_hash": "sha256:0f31684483694cd1d2ad05aa566fc672ec0e0ddcd7c1fa94fe4af5b6fcd96ff4",
   "rows": {
     "bielik-11b-v3.1": {
       "display_name": "Bielik-11B v3.1",
@@ -812,48 +812,6 @@
         "mistralai/Mixtral-8x22B-v0.1"
       ]
     },
-    "devstral-small-2505": {
-      "display_name": "Devstral Small (2505)",
-      "version": "2505",
-      "country": "FR",
-      "developer": "Mistral AI",
-      "official_org": "mistralai",
-      "repos": [
-        "mistralai/Devstral-Small-2505",
-        "mistralai/Devstral-Small-2505_gguf"
-      ]
-    },
-    "devstral-small-2507": {
-      "display_name": "Devstral Small (2507)",
-      "version": "2507",
-      "country": "FR",
-      "developer": "Mistral AI",
-      "official_org": "mistralai",
-      "repos": [
-        "mistralai/Devstral-Small-2507",
-        "mistralai/Devstral-Small-2507_gguf"
-      ]
-    },
-    "devstral-small-2-2512": {
-      "display_name": "Devstral Small 2 (24B, 2512)",
-      "version": "2512",
-      "country": "FR",
-      "developer": "Mistral AI",
-      "official_org": "mistralai",
-      "repos": [
-        "mistralai/Devstral-Small-2-24B-Instruct-2512"
-      ]
-    },
-    "devstral-2-2512": {
-      "display_name": "Devstral 2 (123B, 2512)",
-      "version": "2512",
-      "country": "FR",
-      "developer": "Mistral AI",
-      "official_org": "mistralai",
-      "repos": [
-        "mistralai/Devstral-2-123B-Instruct-2512"
-      ]
-    },
     "magistral-small-2506": {
       "display_name": "Magistral Small (2506)",
       "version": "2506",
@@ -885,26 +843,6 @@
       "repos": [
         "mistralai/Magistral-Small-2509",
         "mistralai/Magistral-Small-2509-GGUF"
-      ]
-    },
-    "mamba-codestral-7b-v0.1": {
-      "display_name": "Mamba-Codestral 7B v0.1",
-      "version": "0.1",
-      "country": "FR",
-      "developer": "Mistral AI",
-      "official_org": "mistralai",
-      "repos": [
-        "mistralai/Mamba-Codestral-7B-v0.1"
-      ]
-    },
-    "codestral-22b-v0.1": {
-      "display_name": "Codestral 22B v0.1",
-      "version": "0.1",
-      "country": "FR",
-      "developer": "Mistral AI",
-      "official_org": "mistralai",
-      "repos": [
-        "mistralai/Codestral-22B-v0.1"
       ]
     },
     "ministral-3-14b-2512": {
@@ -963,16 +901,6 @@
         "mistralai/Ministral-8B-Instruct-2410"
       ]
     },
-    "mathstral-7b-v0.1": {
-      "display_name": "Mathstral 7B v0.1",
-      "version": "0.1",
-      "country": "FR",
-      "developer": "Mistral AI",
-      "official_org": "mistralai",
-      "repos": [
-        "mistralai/Mathstral-7B-v0.1"
-      ]
-    },
     "mistral-small-instruct-2409": {
       "display_name": "Mistral Small Instruct (2409)",
       "version": "2409",
@@ -981,26 +909,6 @@
       "official_org": "mistralai",
       "repos": [
         "mistralai/Mistral-Small-Instruct-2409"
-      ]
-    },
-    "leanstral-1.5": {
-      "display_name": "Leanstral 1.5 (119B-A6B)",
-      "version": "1.5",
-      "country": "FR",
-      "developer": "Mistral AI",
-      "official_org": "mistralai",
-      "repos": [
-        "mistralai/Leanstral-1.5-119B-A6B"
-      ]
-    },
-    "leanstral-2603": {
-      "display_name": "Leanstral (2603)",
-      "version": "2603",
-      "country": "FR",
-      "developer": "Mistral AI",
-      "official_org": "mistralai",
-      "repos": [
-        "mistralai/Leanstral-2603"
       ]
     },
     "mistral-7b-v0.3": {
@@ -1252,39 +1160,6 @@
         "BSC-LT/ALIA-40b-instruct-2601-GGUF"
       ]
     },
-    "alia-40b-fc-2607": {
-      "display_name": "ALIA 40B Function Calling (2607)",
-      "version": "2607",
-      "country": "ES",
-      "developer": "BSC-LT",
-      "official_org": "BSC-LT",
-      "repos": [
-        "BSC-LT/ALIA-40b-fc-2607",
-        "BSC-LT/ALIA-40b-fc-2607-GGUF"
-      ]
-    },
-    "alia-40b-fc-2606": {
-      "display_name": "ALIA 40B Function Calling (2606)",
-      "version": "2606",
-      "country": "ES",
-      "developer": "BSC-LT",
-      "official_org": "BSC-LT",
-      "repos": [
-        "BSC-LT/ALIA-40b-fc-2606",
-        "BSC-LT/ALIA-40b-fc-2606-GGUF"
-      ]
-    },
-    "alia-40b-fc-2605": {
-      "display_name": "ALIA 40B Function Calling (2605)",
-      "version": "2605",
-      "country": "ES",
-      "developer": "BSC-LT",
-      "official_org": "BSC-LT",
-      "repos": [
-        "BSC-LT/ALIA-40b-fc-2605",
-        "BSC-LT/ALIA-40b-fc-2605-GGUF"
-      ]
-    },
     "salamandra-7b-base": {
       "display_name": "Salamandra 7B (base)",
       "version": null,
@@ -1308,30 +1183,7 @@
         "BSC-LT/salamandra-7b-instruct-2606",
         "BSC-LT/salamandra-7b-instruct-aina-hack",
         "BSC-LT/salamandra-7b-instruct-fp8",
-        "BSC-LT/salamandra-7b-instruct-gptq",
-        "BSC-LT/salamandra-7b-instruct-tools",
-        "BSC-LT/salamandra-7b-instruct-tools-16k"
-      ]
-    },
-    "salamandra-7b-fc-2610-evo": {
-      "display_name": "Salamandra 7B Function Calling (2610 evo)",
-      "version": "2610",
-      "country": "ES",
-      "developer": "BSC-LT",
-      "official_org": "BSC-LT",
-      "repos": [
-        "BSC-LT/salamandra-7b-fc-2610-evo"
-      ]
-    },
-    "salamandra-7b-fc-2607": {
-      "display_name": "Salamandra 7B Function Calling (2607)",
-      "version": "2607",
-      "country": "ES",
-      "developer": "BSC-LT",
-      "official_org": "BSC-LT",
-      "repos": [
-        "BSC-LT/salamandra-7b-fc-2607",
-        "BSC-LT/salamandra-7b-fc-2607-GGUF"
+        "BSC-LT/salamandra-7b-instruct-gptq"
       ]
     },
     "salamandra-2b": {
@@ -1685,7 +1537,6 @@
       "official_org": "cjvt",
       "repos": [
         "cjvt/GaMS3-12B",
-        "cjvt/GaMS3-12B-GRPO-Translator",
         "cjvt/GaMS3-12B-Instruct",
         "cjvt/GaMS3-12B-Instruct-Lex",
         "cjvt/GaMS3-12B-Multimodal"
@@ -1699,7 +1550,6 @@
       "official_org": "cjvt",
       "repos": [
         "cjvt/GaMS2-27B",
-        "cjvt/GaMS2-27B-GRPO-Translator",
         "cjvt/GaMS2-27B-Instruct"
       ]
     },
@@ -1772,30 +1622,6 @@
         "TildeAI/TildeOpen-30b-64k"
       ]
     },
-    "tildeopen-15b-wmt26-cs-de": {
-      "display_name": "TildeOpen 15B WMT26 (cs-de)",
-      "version": null,
-      "country": "LV",
-      "developer": "Tilde",
-      "official_org": "TildeAI",
-      "repos": [
-        "TildeAI/TildeOpen15B-64k-wmt26-compression-task-cs-de",
-        "TildeAI/TildeOpen15B-64k-wmt26-compression-task-cs-de-fp4a16",
-        "TildeAI/TildeOpen15B-64k-wmt26-compression-task-cs-de-fp8-dyn"
-      ]
-    },
-    "tildeopen-8b-wmt26-cs-de": {
-      "display_name": "TildeOpen 8B WMT26 (cs-de)",
-      "version": null,
-      "country": "LV",
-      "developer": "Tilde",
-      "official_org": "TildeAI",
-      "repos": [
-        "TildeAI/TildeOpen8B-64k-wmt26-compression-task-cs-de",
-        "TildeAI/TildeOpen8B-64k-wmt26-compression-task-cs-de-fp4a16",
-        "TildeAI/TildeOpen8B-64k-wmt26-compression-task-cs-de-fp8-dyn"
-      ]
-    },
     "soofi-s-instruct-preview": {
       "display_name": "Soofi S Instruct Preview",
       "version": "preview",
@@ -1861,56 +1687,6 @@
       "repos": [
         "domyn/Domyn-Edge-Base",
         "domyn/Domyn-Edge-SFT"
-      ]
-    },
-    "domyn-edge-teacher-if": {
-      "display_name": "Domyn Edge Teacher IF",
-      "version": null,
-      "country": "IT",
-      "developer": "Domyn",
-      "official_org": "domyn",
-      "repos": [
-        "domyn/Domyn-Edge-Teacher-IF"
-      ]
-    },
-    "domyn-edge-teacher-stem": {
-      "display_name": "Domyn Edge Teacher STEM",
-      "version": null,
-      "country": "IT",
-      "developer": "Domyn",
-      "official_org": "domyn",
-      "repos": [
-        "domyn/Domyn-Edge-Teacher-STEM"
-      ]
-    },
-    "domyn-edge-teacher-math": {
-      "display_name": "Domyn Edge Teacher Math",
-      "version": null,
-      "country": "IT",
-      "developer": "Domyn",
-      "official_org": "domyn",
-      "repos": [
-        "domyn/Domyn-Edge-Teacher-Math"
-      ]
-    },
-    "domyn-edge-teacher-code": {
-      "display_name": "Domyn Edge Teacher Code",
-      "version": null,
-      "country": "IT",
-      "developer": "Domyn",
-      "official_org": "domyn",
-      "repos": [
-        "domyn/Domyn-Edge-Teacher-Code"
-      ]
-    },
-    "domyn-edge-teacher-agentic": {
-      "display_name": "Domyn Edge Teacher Agentic",
-      "version": null,
-      "country": "IT",
-      "developer": "Domyn",
-      "official_org": "domyn",
-      "repos": [
-        "domyn/Domyn-Edge-Teacher-Agentic"
       ]
     },
     "domyn-small-v1.0": {
@@ -2030,27 +1806,6 @@
         "mii-llm/open-zagreus-0.4B"
       ]
     },
-    "nesso3-0.4b-agentic": {
-      "display_name": "Nesso 3 0.4B Agentic",
-      "version": "0.4B",
-      "country": "IT",
-      "developer": "mii-llm",
-      "official_org": "mii-llm",
-      "repos": [
-        "mii-llm/nesso3-0.4B-agentic",
-        "mii-llm/nesso3-0.4B-agentic-gguf"
-      ]
-    },
-    "nesso2-0.4b-agentic": {
-      "display_name": "Nesso 2 0.4B Agentic",
-      "version": "0.4B",
-      "country": "IT",
-      "developer": "mii-llm",
-      "official_org": "mii-llm",
-      "repos": [
-        "mii-llm/nesso2-0.4B-agentic"
-      ]
-    },
     "nesso-4b": {
       "display_name": "Nesso 4B",
       "version": null,
@@ -2060,17 +1815,6 @@
       "repos": [
         "mii-llm/nesso-4B",
         "mii-llm/nesso-4B-GGUF"
-      ]
-    },
-    "nesso-0.4b-agentic": {
-      "display_name": "Nesso 0.4B Agentic",
-      "version": "0.4B",
-      "country": "IT",
-      "developer": "mii-llm",
-      "official_org": "mii-llm",
-      "repos": [
-        "mii-llm/nesso-0.4B-agentic",
-        "mii-llm/nesso-0.4B-agentic-GGUF"
       ]
     },
     "nesso-0.4b-instruct": {
@@ -2153,72 +1897,6 @@
       "official_org": "PleIAs",
       "repos": [
         "PleIAs/Monad"
-      ]
-    },
-    "pleias-pico": {
-      "display_name": "Pleias Pico",
-      "version": null,
-      "country": "FR",
-      "developer": "PleIAs",
-      "official_org": "PleIAs",
-      "repos": [
-        "PleIAs/Pleias-Pico",
-        "PleIAs/Pleias-Pico-GGUF"
-      ]
-    },
-    "pleias-nano": {
-      "display_name": "Pleias Nano",
-      "version": null,
-      "country": "FR",
-      "developer": "PleIAs",
-      "official_org": "PleIAs",
-      "repos": [
-        "PleIAs/Pleias-Nano",
-        "PleIAs/Pleias-Nano-GGUF"
-      ]
-    },
-    "pleias-rag-1b": {
-      "display_name": "Pleias RAG 1B",
-      "version": null,
-      "country": "FR",
-      "developer": "PleIAs",
-      "official_org": "PleIAs",
-      "repos": [
-        "PleIAs/Pleias-RAG-1B",
-        "PleIAs/Pleias-RAG-1B-gguf"
-      ]
-    },
-    "pleias-rag-350m": {
-      "display_name": "Pleias RAG 350M",
-      "version": null,
-      "country": "FR",
-      "developer": "PleIAs",
-      "official_org": "PleIAs",
-      "repos": [
-        "PleIAs/Pleias-RAG-350M",
-        "PleIAs/Pleias-RAG-350M-gguf"
-      ]
-    },
-    "pleias-slm-rag": {
-      "display_name": "Pleias SLM RAG",
-      "version": null,
-      "country": "FR",
-      "developer": "PleIAs",
-      "official_org": "PleIAs",
-      "repos": [
-        "PleIAs/Pleias-SLM-RAG"
-      ]
-    },
-    "ocronos": {
-      "display_name": "OCRonos",
-      "version": null,
-      "country": "FR",
-      "developer": "PleIAs",
-      "official_org": "PleIAs",
-      "repos": [
-        "PleIAs/OCRonos",
-        "PleIAs/OCRonos-Vintage",
-        "PleIAs/OCRonos-Vintage-CT2"
       ]
     },
     "velvet2-3b": {
@@ -2316,9 +1994,7 @@
         "AI-Sweden-Models/gpt-sw3-6.7b-v2-gguf",
         "AI-Sweden-Models/gpt-sw3-6.7b-v2-instruct",
         "AI-Sweden-Models/gpt-sw3-6.7b-v2-instruct-4bit-gptq",
-        "AI-Sweden-Models/gpt-sw3-6.7b-v2-instruct-gguf",
-        "AI-Sweden-Models/gpt-sw3-6.7b-v2-translator",
-        "AI-Sweden-Models/gpt-sw3-6.7b-v2-translator-gguf"
+        "AI-Sweden-Models/gpt-sw3-6.7b-v2-instruct-gguf"
       ]
     },
     "ai-sweden-llama3-8b": {
@@ -2403,36 +2079,6 @@
         "lightonai/alfred-40b-1023"
       ]
     },
-    "bielik-one-11b-v3.1-r1": {
-      "display_name": "Bielik-One 11B v3.1 r1",
-      "version": "3.1-r1",
-      "country": "PL",
-      "developer": "SpeakLeash",
-      "official_org": "speakleash",
-      "repos": [
-        "speakleash/Bielik-One-11B-v3.1-r1"
-      ]
-    },
-    "bielik-one-11b-v3.0-r1": {
-      "display_name": "Bielik-One 11B v3.0 r1",
-      "version": "3.0-r1",
-      "country": "PL",
-      "developer": "SpeakLeash",
-      "official_org": "speakleash",
-      "repos": [
-        "speakleash/Bielik-One-11B-v3.0-r1"
-      ]
-    },
-    "bielik-one-7b-v3.0-r1": {
-      "display_name": "Bielik-One 7B v3.0 r1",
-      "version": "3.0-r1",
-      "country": "PL",
-      "developer": "SpeakLeash",
-      "official_org": "speakleash",
-      "repos": [
-        "speakleash/Bielik-One-7B-v3.0-r1"
-      ]
-    },
     "openeurollm-prelude-long": {
       "display_name": "OpenEuroLLM Prelude-long 9B",
       "version": null,
@@ -2514,16 +2160,6 @@
         "AlmawaveLabs/Velvet2-3B-Vision"
       ]
     },
-    "bielik-one-4b-r1": {
-      "display_name": "Bielik-One 4B r1",
-      "version": "r1",
-      "country": "PL",
-      "developer": "SpeakLeash / ACK Cyfronet AGH",
-      "official_org": "speakleash",
-      "repos": [
-        "speakleash/Bielik-One-4B-r1"
-      ]
-    },
     "salamandra-7b-vision": {
       "display_name": "Salamandra 7B Vision",
       "version": null,
@@ -2542,39 +2178,6 @@
       "official_org": "BSC-LT",
       "repos": [
         "BSC-LT/Salamandra-VL-7B-2512"
-      ]
-    },
-    "salamandrata-7b": {
-      "display_name": "SalamandraTA 7B",
-      "version": null,
-      "country": "ES",
-      "developer": "Barcelona Supercomputing Center",
-      "official_org": "BSC-LT",
-      "repos": [
-        "BSC-LT/salamandraTA-7B-instruct-GGUF",
-        "BSC-LT/salamandraTA-7b-instruct"
-      ]
-    },
-    "salamandrata-2b": {
-      "display_name": "SalamandraTA 2B",
-      "version": null,
-      "country": "ES",
-      "developer": "Barcelona Supercomputing Center",
-      "official_org": "BSC-LT",
-      "repos": [
-        "BSC-LT/salamandraTA-2B-academic",
-        "BSC-LT/salamandraTA-2B-instruct-GGUF",
-        "BSC-LT/salamandraTA-2b-instruct"
-      ]
-    },
-    "salamandra-tav-7b": {
-      "display_name": "Salamandra TAV 7B",
-      "version": null,
-      "country": "ES",
-      "developer": "Barcelona Supercomputing Center",
-      "official_org": "BSC-LT",
-      "repos": [
-        "BSC-LT/salamandra-TAV-7b"
       ]
     },
     "eurovlm-1.7b-preview": {
@@ -2615,81 +2218,6 @@
       "official_org": "utter-project",
       "repos": [
         "utter-project/TowerVision-9B"
-      ]
-    },
-    "lightonocr-0.9b-16k-1025": {
-      "display_name": "LightOnOCR 0.9B 16k (1025)",
-      "version": "1025",
-      "country": "FR",
-      "developer": "LightOn",
-      "official_org": "lightonai",
-      "repos": [
-        "lightonai/LightOnOCR-0.9B-16k-1025"
-      ]
-    },
-    "lightonocr-0.9b-32k-1025": {
-      "display_name": "LightOnOCR 0.9B 32k (1025)",
-      "version": "1025",
-      "country": "FR",
-      "developer": "LightOn",
-      "official_org": "lightonai",
-      "repos": [
-        "lightonai/LightOnOCR-0.9B-32k-1025"
-      ]
-    },
-    "lightonocr-1b-1025": {
-      "display_name": "LightOnOCR 1B (1025)",
-      "version": "1025",
-      "country": "FR",
-      "developer": "LightOn",
-      "official_org": "lightonai",
-      "repos": [
-        "lightonai/LightOnOCR-1B-1025"
-      ]
-    },
-    "lightonocr-2-1b": {
-      "display_name": "LightOnOCR 2 1B",
-      "version": "2",
-      "country": "FR",
-      "developer": "LightOn",
-      "official_org": "lightonai",
-      "repos": [
-        "lightonai/LightOnOCR-2-1B",
-        "lightonai/LightOnOCR-2-1B-base",
-        "lightonai/LightOnOCR-2-1B-bbox",
-        "lightonai/LightOnOCR-2-1B-bbox-base",
-        "lightonai/LightOnOCR-2-1B-bbox-soup",
-        "lightonai/LightOnOCR-2-1B-ocr-soup"
-      ]
-    },
-    "lightonocr-3-0.8b": {
-      "display_name": "LightOnOCR 3 0.8B",
-      "version": "3",
-      "country": "FR",
-      "developer": "LightOn",
-      "official_org": "lightonai",
-      "repos": [
-        "lightonai/LightOnOCR-3-0.8B"
-      ]
-    },
-    "lightonocr-3-1b": {
-      "display_name": "LightOnOCR 3 1B",
-      "version": "3",
-      "country": "FR",
-      "developer": "LightOn",
-      "official_org": "lightonai",
-      "repos": [
-        "lightonai/LightOnOCR-3-1B"
-      ]
-    },
-    "lightonocr-3-4b": {
-      "display_name": "LightOnOCR 3 4B",
-      "version": "3",
-      "country": "FR",
-      "developer": "LightOn",
-      "official_org": "lightonai",
-      "repos": [
-        "lightonai/LightOnOCR-3-4B"
       ]
     },
     "pagnol-small": {
@@ -2742,47 +2270,6 @@
         "lightonai/mambaoutai"
       ]
     },
-    "colgrep-agent-2b": {
-      "display_name": "ColGrep Agent 2B",
-      "version": null,
-      "country": "FR",
-      "developer": "LightOn",
-      "official_org": "lightonai",
-      "repos": [
-        "lightonai/colgrep-agent-2B",
-        "lightonai/colgrep-agent-2B-GGUF"
-      ]
-    },
-    "orion-mistral-24b": {
-      "display_name": "OriOn Mistral 24B",
-      "version": null,
-      "country": "FR",
-      "developer": "LightOn",
-      "official_org": "lightonai",
-      "repos": [
-        "lightonai/OriOn-Mistral"
-      ]
-    },
-    "orion-qwen-32b": {
-      "display_name": "OriOn Qwen 32B",
-      "version": null,
-      "country": "FR",
-      "developer": "LightOn",
-      "official_org": "lightonai",
-      "repos": [
-        "lightonai/OriOn-Qwen"
-      ]
-    },
-    "orion-qwen-32b-sr1": {
-      "display_name": "OriOn Qwen 32B SR1",
-      "version": null,
-      "country": "FR",
-      "developer": "LightOn",
-      "official_org": "lightonai",
-      "repos": [
-        "lightonai/OriOn-Qwen-SR1"
-      ]
-    },
     "tyr-7b": {
       "display_name": "Tyr 7B",
       "version": null,
@@ -2793,16 +2280,6 @@
         "AI-Sweden-Models/tyr"
       ]
     },
-    "cassandre-rag-8b": {
-      "display_name": "Cassandre RAG 8B",
-      "version": null,
-      "country": "FR",
-      "developer": "Pleias",
-      "official_org": "PleIAs",
-      "repos": [
-        "PleIAs/Cassandre-RAG"
-      ]
-    },
     "gpt-sl-base": {
       "display_name": "GPT-sl Base",
       "version": null,
@@ -2811,36 +2288,6 @@
       "official_org": "cjvt",
       "repos": [
         "cjvt/gpt-sl-base"
-      ]
-    },
-    "t5-sl-small": {
-      "display_name": "T5-sl small",
-      "version": null,
-      "country": "SI",
-      "developer": "CJVT UL",
-      "official_org": "cjvt",
-      "repos": [
-        "cjvt/t5-sl-small"
-      ]
-    },
-    "t5-sl-large": {
-      "display_name": "T5-sl large",
-      "version": null,
-      "country": "SI",
-      "developer": "CJVT UL",
-      "official_org": "cjvt",
-      "repos": [
-        "cjvt/t5-sl-large"
-      ]
-    },
-    "gams-dpo-translator": {
-      "display_name": "GaMS DPO Translator",
-      "version": null,
-      "country": "SI",
-      "developer": "CJVT UL",
-      "official_org": "cjvt",
-      "repos": [
-        "cjvt/GaMS-DPO-Translator"
       ]
     },
     "towervideo-2b": {
@@ -2881,47 +2328,6 @@
       "official_org": "croissantllm",
       "repos": [
         "croissantllm/CroissantCool-v0.2"
-      ]
-    },
-    "spire-7b": {
-      "display_name": "Spire 7B",
-      "version": null,
-      "country": "EU",
-      "developer": "UTTER consortium",
-      "official_org": "utter-project",
-      "repos": [
-        "utter-project/SpireBase",
-        "utter-project/SpireFull"
-      ]
-    },
-    "vlt5-base-keywords": {
-      "display_name": "VLT5 Base Keywords",
-      "version": null,
-      "country": "PL",
-      "developer": "VoiceLab",
-      "official_org": "Voicelab",
-      "repos": [
-        "Voicelab/vlt5-base-keywords"
-      ]
-    },
-    "krikri-8b-ag-mg": {
-      "display_name": "Krikri 8B Ancient to Modern Greek",
-      "version": null,
-      "country": "GR",
-      "developer": "Athena Research Center / ILSP",
-      "official_org": "ilsp",
-      "repos": [
-        "ilsp/llama-krikri-8b-ag-mg-full-ft"
-      ]
-    },
-    "m2m100-1.2b-ag-mg": {
-      "display_name": "M2M100 1.2B Ancient to Modern Greek",
-      "version": null,
-      "country": "GR",
-      "developer": "Athena Research Center / ILSP",
-      "official_org": "ilsp",
-      "repos": [
-        "ilsp/m2m100-1.2B-ag-mg-full-ft"
       ]
     },
     "velvet2-3b-speech": {
@@ -2969,6 +2375,12 @@
       "Aleph-Alpha/umup-research-7b-fp8"
     ],
     "BSC-LT": [
+      "BSC-LT/ALIA-40b-fc-2605",
+      "BSC-LT/ALIA-40b-fc-2605-GGUF",
+      "BSC-LT/ALIA-40b-fc-2606",
+      "BSC-LT/ALIA-40b-fc-2606-GGUF",
+      "BSC-LT/ALIA-40b-fc-2607",
+      "BSC-LT/ALIA-40b-fc-2607-GGUF",
       "BSC-LT/Checkpoint_2b_instructed_beta",
       "BSC-LT/Checkpoint_4epoch_rag",
       "BSC-LT/ConMamba-small-ca",
@@ -3007,8 +2419,17 @@
       "BSC-LT/roberta-base-biomedical-es",
       "BSC-LT/roberta-base-ca",
       "BSC-LT/roberta_model_for_anonimization",
+      "BSC-LT/salamandra-7b-fc-2607",
+      "BSC-LT/salamandra-7b-fc-2607-GGUF",
+      "BSC-LT/salamandra-7b-fc-2610-evo",
       "BSC-LT/salamandra-7b-fc-private-test",
+      "BSC-LT/salamandra-TAV-7b",
       "BSC-LT/salamandra7b_rag_prompt_ca-en-es",
+      "BSC-LT/salamandraTA-2B-academic",
+      "BSC-LT/salamandraTA-2B-instruct-GGUF",
+      "BSC-LT/salamandraTA-2b-instruct",
+      "BSC-LT/salamandraTA-7B-instruct-GGUF",
+      "BSC-LT/salamandraTA-7b-instruct",
       "BSC-LT/sciroshot",
       "BSC-LT/spanish-verification-model-pkt-a",
       "BSC-LT/spanish-verification-model-pkt-b",
@@ -3162,10 +2583,23 @@
     "PleIAs": [
       "PleIAs/BibTexer",
       "PleIAs/Bibstyle-Detector",
+      "PleIAs/Cassandre-RAG",
       "PleIAs/CommonLingua",
       "PleIAs/Florence-PDF",
       "PleIAs/KaribuAI",
       "PleIAs/OCRerrcr",
+      "PleIAs/OCRonos",
+      "PleIAs/OCRonos-Vintage",
+      "PleIAs/OCRonos-Vintage-CT2",
+      "PleIAs/Pleias-Nano",
+      "PleIAs/Pleias-Nano-GGUF",
+      "PleIAs/Pleias-Pico",
+      "PleIAs/Pleias-Pico-GGUF",
+      "PleIAs/Pleias-RAG-1B",
+      "PleIAs/Pleias-RAG-1B-gguf",
+      "PleIAs/Pleias-RAG-350M",
+      "PleIAs/Pleias-RAG-350M-gguf",
+      "PleIAs/Pleias-SLM-RAG",
       "PleIAs/Segmentext",
       "PleIAs/Topical",
       "PleIAs/celadon",
@@ -3173,12 +2607,22 @@
       "PleIAs/journaux-lm-v1",
       "PleIAs/ksante-colbert-small"
     ],
+    "TildeAI": [
+      "TildeAI/TildeOpen15B-64k-wmt26-compression-task-cs-de",
+      "TildeAI/TildeOpen15B-64k-wmt26-compression-task-cs-de-fp4a16",
+      "TildeAI/TildeOpen15B-64k-wmt26-compression-task-cs-de-fp8-dyn",
+      "TildeAI/TildeOpen8B-64k-wmt26-compression-task-cs-de",
+      "TildeAI/TildeOpen8B-64k-wmt26-compression-task-cs-de-fp4a16",
+      "TildeAI/TildeOpen8B-64k-wmt26-compression-task-cs-de-fp8-dyn"
+    ],
     "Voicelab": [
       "Voicelab/WERdict-pl",
-      "Voicelab/herbert-base-cased-sentiment"
+      "Voicelab/herbert-base-cased-sentiment",
+      "Voicelab/vlt5-base-keywords"
     ],
     "cjvt": [
       "cjvt/BERTic-cro-word-spelling-annotator",
+      "cjvt/GaMS-DPO-Translator",
       "cjvt/SloBERTa-slo-word-spelling-annotator",
       "cjvt/crosloengual-bert-si-nli",
       "cjvt/gemma-3-27b-it-dassle-gec",
@@ -3191,6 +2635,8 @@
       "cjvt/sloberta-sleng",
       "cjvt/sloberta-trendi-topics",
       "cjvt/sloberta-word-case-classification-multilabel",
+      "cjvt/t5-sl-large",
+      "cjvt/t5-sl-small",
       "cjvt/t5-slo-word-form-corrector",
       "cjvt/t5-slo-word-order-corrector",
       "cjvt/t5-slo-word-spelling-corrector"
@@ -3240,7 +2686,12 @@
       "croissantllm/tinyllamaChat-v0.1"
     ],
     "domyn": [
-      "domyn/Domyn-Edge-Base-checkpoints"
+      "domyn/Domyn-Edge-Base-checkpoints",
+      "domyn/Domyn-Edge-Teacher-Agentic",
+      "domyn/Domyn-Edge-Teacher-Code",
+      "domyn/Domyn-Edge-Teacher-IF",
+      "domyn/Domyn-Edge-Teacher-Math",
+      "domyn/Domyn-Edge-Teacher-STEM"
     ],
     "ilsp": [
       "ilsp/CoRM",
@@ -3253,7 +2704,9 @@
       "ilsp/UD_Greek-Messenian",
       "ilsp/VoxKrikri-21-full",
       "ilsp/justice",
+      "ilsp/llama-krikri-8b-ag-mg-full-ft",
       "ilsp/llama-krikri-8b-ag-mg-qlora",
+      "ilsp/m2m100-1.2B-ag-mg-full-ft",
       "ilsp/m2m100-1.2B-ag-mg-qlora",
       "ilsp/nllb-200-1.3B-ag-mg-lora",
       "ilsp/nllb-200-600M-ag-mg-lora",
@@ -3313,12 +2766,27 @@
       "lightonai/LightOn-rerank-PW-0.8B",
       "lightonai/LightOn-rerank-PW-2B",
       "lightonai/LightOn-rerank-PW-4B",
+      "lightonai/LightOnOCR-0.9B-16k-1025",
+      "lightonai/LightOnOCR-0.9B-32k-1025",
+      "lightonai/LightOnOCR-1B-1025",
+      "lightonai/LightOnOCR-2-1B",
+      "lightonai/LightOnOCR-2-1B-base",
+      "lightonai/LightOnOCR-2-1B-bbox",
+      "lightonai/LightOnOCR-2-1B-bbox-base",
+      "lightonai/LightOnOCR-2-1B-bbox-soup",
+      "lightonai/LightOnOCR-2-1B-ocr-soup",
+      "lightonai/LightOnOCR-3-0.8B",
+      "lightonai/LightOnOCR-3-1B",
+      "lightonai/LightOnOCR-3-4B",
       "lightonai/Mistral-Small-3.1-24B-Instruct-2503-OCR-adapter",
       "lightonai/ModernColBERT-embed-base",
       "lightonai/ModernColBERT-embed-base-kd-only",
       "lightonai/ModernColBERT-embed-base-supervised",
       "lightonai/MonoQwen2-VL-v0.1",
       "lightonai/OriOn-Leaderboard",
+      "lightonai/OriOn-Mistral",
+      "lightonai/OriOn-Qwen",
+      "lightonai/OriOn-Qwen-SR1",
       "lightonai/Qwen3-8B-DE",
       "lightonai/Qwen3-8B-DE-Pivot-EN",
       "lightonai/Qwen3-8B-DE-Swap",
@@ -3354,6 +2822,8 @@
       "lightonai/answerai-colbert-small-v1",
       "lightonai/answerai-colbert-small-v1-onnx",
       "lightonai/colbertv2.0",
+      "lightonai/colgrep-agent-2B",
+      "lightonai/colgrep-agent-2B-GGUF",
       "lightonai/dd_alpha",
       "lightonai/gpt2-tokenizer-0923",
       "lightonai/lateon-fix-s",
@@ -3369,13 +2839,29 @@
     ],
     "mii-llm": [
       "mii-llm/Llama-3-chat-v0.2-alpha-sft",
+      "mii-llm/nesso-0.4B-agentic",
+      "mii-llm/nesso-0.4B-agentic-GGUF",
+      "mii-llm/nesso2-0.4B-agentic",
+      "mii-llm/nesso3-0.4B-agentic",
+      "mii-llm/nesso3-0.4B-agentic-gguf",
       "mii-llm/nev",
       "mii-llm/nev-gguf",
       "mii-llm/propaganda-dpo-dx-v0.1",
       "mii-llm/propaganda-dpo-sx-v0.1"
     ],
     "mistralai": [
+      "mistralai/Codestral-22B-v0.1",
+      "mistralai/Devstral-2-123B-Instruct-2512",
+      "mistralai/Devstral-Small-2-24B-Instruct-2512",
+      "mistralai/Devstral-Small-2505",
+      "mistralai/Devstral-Small-2505_gguf",
+      "mistralai/Devstral-Small-2507",
+      "mistralai/Devstral-Small-2507_gguf",
       "mistralai/LIDstral-Arabic",
+      "mistralai/Leanstral-1.5-119B-A6B",
+      "mistralai/Leanstral-2603",
+      "mistralai/Mamba-Codestral-7B-v0.1",
+      "mistralai/Mathstral-7B-v0.1",
       "mistralai/Shieldstral-1.0-3B",
       "mistralai/Timestral-123M",
       "mistralai/Timestral-209M",
@@ -3543,9 +3029,13 @@
       "speakleash/Bielik-Guard-0.1B-v1.1",
       "speakleash/Bielik-Guard-0.5B-v1.0",
       "speakleash/Bielik-Guard-0.5B-v1.1",
+      "speakleash/Bielik-One-11B-v3.0-r1",
       "speakleash/Bielik-One-11B-v3.0-r1-Adapter",
+      "speakleash/Bielik-One-11B-v3.1-r1",
       "speakleash/Bielik-One-11B-v3.1-r1-Adapter",
+      "speakleash/Bielik-One-4B-r1",
       "speakleash/Bielik-One-4B-r1-Adapter",
+      "speakleash/Bielik-One-7B-v3.0-r1",
       "speakleash/Bielik-One-7B-v3.0-r1-Adapter"
     ],
     "swiss-ai": [
@@ -3554,6 +3044,8 @@
     ],
     "utter-project": [
       "utter-project/EuroFilter-v1",
+      "utter-project/SpireBase",
+      "utter-project/SpireFull",
       "utter-project/SpireKMeans",
       "utter-project/SpireNoBlocks",
       "utter-project/SpireNoPseudo",
@@ -3611,8 +3103,6 @@
     "AI-Sweden-Models/gpt-sw3-6.7b-v2-instruct",
     "AI-Sweden-Models/gpt-sw3-6.7b-v2-instruct-4bit-gptq",
     "AI-Sweden-Models/gpt-sw3-6.7b-v2-instruct-gguf",
-    "AI-Sweden-Models/gpt-sw3-6.7b-v2-translator",
-    "AI-Sweden-Models/gpt-sw3-6.7b-v2-translator-gguf",
     "AI-Sweden-Models/tyr",
     "Aleph-Alpha/Kolibri-1",
     "Aleph-Alpha/Kolibri-1-BF16",
@@ -3626,12 +3116,6 @@
     "AlmawaveLabs/Velvet2-3B-Speech",
     "AlmawaveLabs/Velvet2-3B-Vision",
     "BSC-LT/ALIA-40b",
-    "BSC-LT/ALIA-40b-fc-2605",
-    "BSC-LT/ALIA-40b-fc-2605-GGUF",
-    "BSC-LT/ALIA-40b-fc-2606",
-    "BSC-LT/ALIA-40b-fc-2606-GGUF",
-    "BSC-LT/ALIA-40b-fc-2607",
-    "BSC-LT/ALIA-40b-fc-2607-GGUF",
     "BSC-LT/ALIA-40b-instruct-2601",
     "BSC-LT/ALIA-40b-instruct-2601-GGUF",
     "BSC-LT/ALIA-40b-instruct-2605",
@@ -3651,23 +3135,12 @@
     "BSC-LT/salamandra-7b",
     "BSC-LT/salamandra-7b-base-fp8",
     "BSC-LT/salamandra-7b-base-gptq",
-    "BSC-LT/salamandra-7b-fc-2607",
-    "BSC-LT/salamandra-7b-fc-2607-GGUF",
-    "BSC-LT/salamandra-7b-fc-2610-evo",
     "BSC-LT/salamandra-7b-instruct",
     "BSC-LT/salamandra-7b-instruct-2606",
     "BSC-LT/salamandra-7b-instruct-aina-hack",
     "BSC-LT/salamandra-7b-instruct-fp8",
     "BSC-LT/salamandra-7b-instruct-gptq",
-    "BSC-LT/salamandra-7b-instruct-tools",
-    "BSC-LT/salamandra-7b-instruct-tools-16k",
     "BSC-LT/salamandra-7b-vision",
-    "BSC-LT/salamandra-TAV-7b",
-    "BSC-LT/salamandraTA-2B-academic",
-    "BSC-LT/salamandraTA-2B-instruct-GGUF",
-    "BSC-LT/salamandraTA-2b-instruct",
-    "BSC-LT/salamandraTA-7B-instruct-GGUF",
-    "BSC-LT/salamandraTA-7b-instruct",
     "CYFRAGOVPL/Llama-PLLuM-70B-base-2412",
     "CYFRAGOVPL/Llama-PLLuM-70B-base-2508",
     "CYFRAGOVPL/Llama-PLLuM-70B-chat-2412",
@@ -3775,23 +3248,10 @@
     "PleIAs/Baguettotron",
     "PleIAs/Baguettotron-GGUF",
     "PleIAs/Baguettotron-MoE",
-    "PleIAs/Cassandre-RAG",
     "PleIAs/Monad",
-    "PleIAs/OCRonos",
-    "PleIAs/OCRonos-Vintage",
-    "PleIAs/OCRonos-Vintage-CT2",
     "PleIAs/Pleias-1.2b-Preview",
     "PleIAs/Pleias-350m-Preview",
     "PleIAs/Pleias-3b-Preview",
-    "PleIAs/Pleias-Nano",
-    "PleIAs/Pleias-Nano-GGUF",
-    "PleIAs/Pleias-Pico",
-    "PleIAs/Pleias-Pico-GGUF",
-    "PleIAs/Pleias-RAG-1B",
-    "PleIAs/Pleias-RAG-1B-gguf",
-    "PleIAs/Pleias-RAG-350M",
-    "PleIAs/Pleias-RAG-350M-gguf",
-    "PleIAs/Pleias-SLM-RAG",
     "PleIAs/baguettotron-600m",
     "Soofi-Project/Soofi-S-Base",
     "Soofi-Project/Soofi-S-Base-Megatron",
@@ -3815,18 +3275,11 @@
     "Soofi-Project/Soofi-S-Rhine-Preview-GGUF",
     "TildeAI/TildeOpen-30b",
     "TildeAI/TildeOpen-30b-64k",
-    "TildeAI/TildeOpen15B-64k-wmt26-compression-task-cs-de",
-    "TildeAI/TildeOpen15B-64k-wmt26-compression-task-cs-de-fp4a16",
-    "TildeAI/TildeOpen15B-64k-wmt26-compression-task-cs-de-fp8-dyn",
-    "TildeAI/TildeOpen8B-64k-wmt26-compression-task-cs-de",
-    "TildeAI/TildeOpen8B-64k-wmt26-compression-task-cs-de-fp4a16",
-    "TildeAI/TildeOpen8B-64k-wmt26-compression-task-cs-de-fp8-dyn",
     "Voicelab/trurl-2-13b",
     "Voicelab/trurl-2-13b-8bit",
     "Voicelab/trurl-2-13b-academic",
     "Voicelab/trurl-2-7b",
     "Voicelab/trurl-2-7b-8bit",
-    "Voicelab/vlt5-base-keywords",
     "cjvt/GaMS-1B",
     "cjvt/GaMS-1B-Chat",
     "cjvt/GaMS-27B",
@@ -3838,20 +3291,15 @@
     "cjvt/GaMS-9B-Instruct",
     "cjvt/GaMS-9B-Instruct-Lex",
     "cjvt/GaMS-9B-Instruct-Nemotron",
-    "cjvt/GaMS-DPO-Translator",
     "cjvt/GaMS2-27B",
-    "cjvt/GaMS2-27B-GRPO-Translator",
     "cjvt/GaMS2-27B-Instruct",
     "cjvt/GaMS3-12B",
-    "cjvt/GaMS3-12B-GRPO-Translator",
     "cjvt/GaMS3-12B-Instruct",
     "cjvt/GaMS3-12B-Instruct-Lex",
     "cjvt/GaMS3-12B-Multimodal",
     "cjvt/OPT_GaMS-1B",
     "cjvt/OPT_GaMS-1B-Chat",
     "cjvt/gpt-sl-base",
-    "cjvt/t5-sl-large",
-    "cjvt/t5-sl-small",
     "croissantllm/CroissantCool-v0.1",
     "croissantllm/CroissantCool-v0.2",
     "croissantllm/CroissantLLMBase",
@@ -3867,11 +3315,6 @@
     "croissantllm/CroissantLLMChat-v0.1-q4f32_1-MLC",
     "domyn/Domyn-Edge-Base",
     "domyn/Domyn-Edge-SFT",
-    "domyn/Domyn-Edge-Teacher-Agentic",
-    "domyn/Domyn-Edge-Teacher-Code",
-    "domyn/Domyn-Edge-Teacher-IF",
-    "domyn/Domyn-Edge-Teacher-Math",
-    "domyn/Domyn-Edge-Teacher-STEM",
     "domyn/Domyn-Small-v1.0",
     "ilsp/Llama-Krikri-8B-Base",
     "ilsp/Llama-Krikri-8B-Instruct",
@@ -3887,27 +3330,8 @@
     "ilsp/Meltemi-7B-Instruct-v1.5",
     "ilsp/Meltemi-7B-v1",
     "ilsp/Meltemi-7B-v1.5",
-    "ilsp/llama-krikri-8b-ag-mg-full-ft",
-    "ilsp/m2m100-1.2B-ag-mg-full-ft",
-    "lightonai/LightOnOCR-0.9B-16k-1025",
-    "lightonai/LightOnOCR-0.9B-32k-1025",
-    "lightonai/LightOnOCR-1B-1025",
-    "lightonai/LightOnOCR-2-1B",
-    "lightonai/LightOnOCR-2-1B-base",
-    "lightonai/LightOnOCR-2-1B-bbox",
-    "lightonai/LightOnOCR-2-1B-bbox-base",
-    "lightonai/LightOnOCR-2-1B-bbox-soup",
-    "lightonai/LightOnOCR-2-1B-ocr-soup",
-    "lightonai/LightOnOCR-3-0.8B",
-    "lightonai/LightOnOCR-3-1B",
-    "lightonai/LightOnOCR-3-4B",
-    "lightonai/OriOn-Mistral",
-    "lightonai/OriOn-Qwen",
-    "lightonai/OriOn-Qwen-SR1",
     "lightonai/alfred-40b-0723",
     "lightonai/alfred-40b-1023",
-    "lightonai/colgrep-agent-2B",
-    "lightonai/colgrep-agent-2B-GGUF",
     "lightonai/mambaoutai",
     "lightonai/pagnol-large",
     "lightonai/pagnol-medium",
@@ -3926,36 +3350,20 @@
     "mii-llm/maestrale-chat-v0.4-beta",
     "mii-llm/maestrale-chat-v0.4-beta-GGUF",
     "mii-llm/minerva-chat-v0.1-alpha-sft",
-    "mii-llm/nesso-0.4B-agentic",
-    "mii-llm/nesso-0.4B-agentic-GGUF",
     "mii-llm/nesso-0.4B-instruct",
     "mii-llm/nesso-4B",
     "mii-llm/nesso-4B-GGUF",
-    "mii-llm/nesso2-0.4B-agentic",
-    "mii-llm/nesso3-0.4B-agentic",
-    "mii-llm/nesso3-0.4B-agentic-gguf",
     "mii-llm/open-zagreus-0.4B",
     "mii-llm/zagreus-0.4B-fra",
     "mii-llm/zagreus-0.4B-ita",
     "mii-llm/zagreus-0.4B-por",
     "mii-llm/zagreus-0.4B-spa",
-    "mistralai/Codestral-22B-v0.1",
-    "mistralai/Devstral-2-123B-Instruct-2512",
-    "mistralai/Devstral-Small-2-24B-Instruct-2512",
-    "mistralai/Devstral-Small-2505",
-    "mistralai/Devstral-Small-2505_gguf",
-    "mistralai/Devstral-Small-2507",
-    "mistralai/Devstral-Small-2507_gguf",
-    "mistralai/Leanstral-1.5-119B-A6B",
-    "mistralai/Leanstral-2603",
     "mistralai/Magistral-Small-2506",
     "mistralai/Magistral-Small-2506_gguf",
     "mistralai/Magistral-Small-2507",
     "mistralai/Magistral-Small-2507-GGUF",
     "mistralai/Magistral-Small-2509",
     "mistralai/Magistral-Small-2509-GGUF",
-    "mistralai/Mamba-Codestral-7B-v0.1",
-    "mistralai/Mathstral-7B-v0.1",
     "mistralai/Ministral-3-14B-Base-2512",
     "mistralai/Ministral-3-14B-Instruct-2512",
     "mistralai/Ministral-3-14B-Instruct-2512-BF16",
@@ -4140,10 +3548,6 @@
     "speakleash/Bielik-Minitron-7B-v3.0-Instruct-MLX-8bit",
     "speakleash/Bielik-Minitron-7B-v3.0-Instruct-NVFP4",
     "speakleash/Bielik-Minitron-7B-v3.0-Instruct-NVFP4A16",
-    "speakleash/Bielik-One-11B-v3.0-r1",
-    "speakleash/Bielik-One-11B-v3.1-r1",
-    "speakleash/Bielik-One-4B-r1",
-    "speakleash/Bielik-One-7B-v3.0-r1",
     "speakleash/Bielik-PL-11B-v3.0-Instruct",
     "speakleash/Bielik-PL-Minitron-7B-v3.0-Instruct",
     "swiss-ai/Apertus-70B-2509",
@@ -4192,15 +3596,19 @@
     "utter-project/EuroMoE-2.6B-A0.6B-Instruct-Preview",
     "utter-project/EuroVLM-1.7B-Preview",
     "utter-project/EuroVLM-9B-Preview",
-    "utter-project/SpireBase",
-    "utter-project/SpireFull",
     "utter-project/TowerVideo-2B",
     "utter-project/TowerVideo-9B",
     "utter-project/TowerVision-2B",
     "utter-project/TowerVision-9B"
   ],
   "excluded_repos_by_scope": [
+    "AI-Sweden-Models/gpt-sw3-6.7b-v2-translator",
+    "AI-Sweden-Models/gpt-sw3-6.7b-v2-translator-gguf",
     "BSC-LT/salamandra-7b-instruct-guard",
+    "BSC-LT/salamandra-7b-instruct-tools",
+    "BSC-LT/salamandra-7b-instruct-tools-16k",
+    "cjvt/GaMS2-27B-GRPO-Translator",
+    "cjvt/GaMS3-12B-GRPO-Translator",
     "speakleash/Bielik-11B-v3.0-DFlash",
     "speakleash/Bielik-11B-v3.0-DFlash-FP8-Dynamic",
     "speakleash/Bielik-11B-v3.0-DFlash-GGUF",
