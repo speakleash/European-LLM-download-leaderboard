@@ -1,9 +1,10 @@
 import sys
+import json
 import unittest
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'scripts'))
-from render_timeseries_charts import model_daily_delta_series, org_daily_deltas, org_totals_per_day
+from render_timeseries_charts import model_series, model_daily_delta_series, org_daily_deltas, org_totals_per_day
 
 
 class OrganizationHistoryTests(unittest.TestCase):
@@ -87,6 +88,46 @@ class OrganizationHistoryTests(unittest.TestCase):
         _, _, lifetime = org_totals_per_day(records, {'a': {'official_org': 'org'}})
         self.assertEqual(org_daily_deltas(records, lifetime)['org'], [None, None, None, 10])
         self.assertEqual(model_daily_delta_series(records, 'a')[1], [None, None, None, 10])
+
+    def test_rolling_model_series_omits_partial_measurements_and_preserves_zero(self):
+        records = [
+            {'snapshot_date': '2026-09-14', 'rows': {'a': {'downloads_30d': 100, 'complete': True}}},
+            {'snapshot_date': '2026-09-15', 'rows': {'a': {'downloads_30d': 17, 'complete': False}}},
+            {'snapshot_date': '2026-09-16', 'rows': {'a': {'downloads_30d': 95, 'complete': True}}},
+            {'snapshot_date': '2026-09-17', 'rows': {'a': {'downloads_30d': 0, 'complete': True}}},
+        ]
+        self.assertEqual(model_series(records, 'a', value_key='downloads_30d')[1], [100, None, 95, 0])
+
+    def test_partial_member_invalidates_only_its_organization_total(self):
+        records = [{'snapshot_date': '2026-09-15', 'rows': {
+            'partial': {'downloads_30d': 17, 'downloads_all_time': 100, 'complete': False},
+            'good_member': {'downloads_30d': 30, 'downloads_all_time': 300, 'complete': True},
+            'other_org': {'downloads_30d': 40, 'downloads_all_time': 400, 'complete': True},
+        }}]
+        _, rolling, lifetime = org_totals_per_day(records, {
+            'partial': {'official_org': 'affected'}, 'good_member': {'official_org': 'affected'},
+            'other_org': {'official_org': 'unaffected'},
+        })
+        self.assertEqual(rolling['affected'], [None])
+        self.assertEqual(lifetime['affected'], [None])
+        self.assertEqual(rolling['unaffected'], [40])
+        self.assertEqual(lifetime['unaffected'], [400])
+
+    def test_september_15_incomplete_snapshot_is_a_gap_in_both_rolling_charts(self):
+        path = Path(__file__).resolve().parents[1] / 'data/metrics/timeseries.jsonl'
+        records = [json.loads(line) for line in path.read_text().splitlines() if line.strip()]
+        records = [r for r in records if '2026-09-14' <= r['snapshot_date'] <= '2026-09-16']
+        self.assertEqual([r['snapshot_date'] for r in records], ['2026-09-14', '2026-09-15', '2026-09-16'])
+        for row_id in ['bielik-11b-v3.0', 'apertus-8b-2509']:
+            values = model_series(records, row_id, value_key='downloads_30d')[1]
+            self.assertIsNone(values[1])
+            self.assertGreater(values[0], 0)
+            self.assertGreater(values[2], 0)
+        meta = {'bielik-11b-v3.0': {'official_org': 'speakleash'},
+                'apertus-8b-2509': {'official_org': 'swiss-ai'}}
+        _, rolling, _ = org_totals_per_day(records, meta)
+        self.assertIsNone(rolling['speakleash'][1])
+        self.assertIsNone(rolling['swiss-ai'][1])
 
 if __name__ == '__main__':
     unittest.main()
