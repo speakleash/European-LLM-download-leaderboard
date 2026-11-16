@@ -85,10 +85,15 @@ No counting or CSV writer changes were introduced. No browser/image visual
 review or public deployment was performed.
 
 
-### Time-series interpretation
+### Conflict resolution and time-series interpretation
 
-The latest snapshot follows a gap from 2026-11-11 to 2026-11-16. The existing
-"estimated daily" charts plot differences between snapshots, not a normalized
-one-day rate. The latest delta also reflects the changed model catalog, so it
-should not be interpreted as downloads from a single day. This update leaves
-the renderer and counting method unchanged.
+The PR now incorporates the current main branch, preserving all 107 existing
+history records byte-for-byte, including the snapshots from November 12–15.
+The new November 16 record is appended, bringing the history to 108 records.
+Output deltas are recalculated against November 15, rather than November 11,
+and README, CSV/JSON outputs and all seven charts are regenerated offline from
+the retained snapshot. Download counters and the model catalog are unchanged.
+
+The existing "estimated daily" charts still plot differences between snapshots,
+not unique users. Catalog membership changes can affect aggregate deltas; the
+renderer and counting method remain unchanged.
