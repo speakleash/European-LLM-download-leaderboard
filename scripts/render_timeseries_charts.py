@@ -119,7 +119,7 @@ def model_series(
     for rec in records:
         dates.append(parse_date(rec["snapshot_date"]))
         row = rec["rows"].get(row_id)
-        values.append(row[value_key] if row else None)
+        values.append(row[value_key] if row and row.get("complete", True) else None)
     return dates, values
 
 
@@ -166,15 +166,18 @@ def org_totals_per_day(
         dates.append(parse_date(rec["snapshot_date"]))
         day_30d: dict[str, int] = defaultdict(int)
         day_all: dict[str, int] = defaultdict(int)
+        incomplete_orgs: set[str] = set()
         for row_id, row in rec["rows"].items():
             org = meta.get(row_id, {}).get("official_org")
             if not org:
                 continue
+            if not row.get("complete", True):
+                incomplete_orgs.add(org)
             day_30d[org] += row["downloads_30d"]
             day_all[org] += row["downloads_all_time"]
         for org in known_orgs:
-            org_30d[org].append(day_30d.get(org))
-            org_all[org].append(day_all.get(org))
+            org_30d[org].append(None if org in incomplete_orgs else day_30d.get(org))
+            org_all[org].append(None if org in incomplete_orgs else day_all.get(org))
 
     return dates, org_30d, org_all
 

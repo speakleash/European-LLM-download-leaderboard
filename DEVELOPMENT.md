@@ -255,3 +255,9 @@ or repository replacement, as well as an explicitly incomplete fetch, makes that
 not zero or historical downloads counted as growth. Without per-repo historical
 counters, this deliberately omits all daily series at the catalog boundary.
 Rolling-30-day totals and stored history are not rewritten.
+
+Rolling-30-day charts also omit incomplete observations. A model with
+`complete: false` is a gap even when some downloads were fetched successfully.
+An organization total is a gap if any of its contributing models is incomplete;
+other organizations remain visible. Genuine complete zero observations stay
+zero. This fixes the September 15 dip/recovery artifact without editing history.

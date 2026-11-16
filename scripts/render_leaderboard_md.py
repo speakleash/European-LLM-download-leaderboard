@@ -199,7 +199,11 @@ def render_markdown(
                 "(top 15 models / top 10 orgs by latest-day volume). "
                 "Rolling-30d charts use a symlog y-axis (0 at zero, log compression above).",
                 "",
-                "Daily estimates omit intervals where the catalog changed, its identity is "
+                "Rolling-30-day charts omit incomplete model observations; organization "
+        "totals have a gap if any member model is incomplete. Complete zero "
+        "observations remain zero.",
+        "",
+        "Daily estimates omit intervals where the catalog changed, its identity is "
         "unknown, or a fetch was incomplete; they resume after two complete "
         "observations of the same catalog. This avoids "
         "counting newly added models’ lifetime downloads as daily growth.",
