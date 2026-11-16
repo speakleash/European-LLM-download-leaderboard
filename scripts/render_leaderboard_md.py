@@ -199,7 +199,12 @@ def render_markdown(
                 "(top 15 models / top 10 orgs by latest-day volume). "
                 "Rolling-30d charts use a symlog y-axis (0 at zero, log compression above).",
                 "",
-                "![Top models: rolling 30-day downloads over time (symlog scale)](docs/charts/timeseries-top-models-30d.png)",
+                "Daily estimates omit intervals where the catalog changed, its identity is "
+        "unknown, or a fetch was incomplete; they resume after two complete "
+        "observations of the same catalog. This avoids "
+        "counting newly added models’ lifetime downloads as daily growth.",
+        "",
+        "![Top models: rolling 30-day downloads over time (symlog scale)](docs/charts/timeseries-top-models-30d.png)",
                 "",
                 "![Top models: estimated daily downloads (Δ all-time)](docs/charts/timeseries-top-models-daily.png)",
                 "",

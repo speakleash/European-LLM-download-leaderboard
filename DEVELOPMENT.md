@@ -248,3 +248,10 @@ families; removed specialist families have no active row definitions. Historical
 snapshots preserve their original scope. Only the current-day record is
 recomputed after a scope correction; cross-scope differences are not demand
 changes. Source counters of retained repositories are preserved.
+
+Daily-download estimates compare lifetime totals only across consecutive
+complete observations with the same nonempty manifest hash. A catalog expansion, removal
+or repository replacement, as well as an explicitly incomplete fetch, makes that interval incomparable: plots show a gap,
+not zero or historical downloads counted as growth. Without per-repo historical
+counters, this deliberately omits all daily series at the catalog boundary.
+Rolling-30-day totals and stored history are not rewritten.

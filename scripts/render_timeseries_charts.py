@@ -123,26 +123,29 @@ def model_series(
     return dates, values
 
 
+def comparable_catalogs(previous: dict, current: dict) -> bool:
+    """Lifetime differences need the same catalog and complete observations."""
+    identity = previous.get("manifest_hash")
+    return (bool(identity) and identity == current.get("manifest_hash")
+            and all(row.get("complete", True) for record in (previous, current)
+                    for row in record["rows"].values()))
+
+
 def model_daily_delta_series(
     records: list[dict],
     row_id: str,
 ) -> tuple[list[datetime], list[int | None]]:
     dates: list[datetime] = []
     values: list[int | None] = []
-    prev_all: int | None = None
-    for rec in records:
+    for i, rec in enumerate(records):
         dates.append(parse_date(rec["snapshot_date"]))
         row = rec["rows"].get(row_id)
-        if row is None:
-            values.append(None)
-            prev_all = None
-            continue
-        all_time = row["downloads_all_time"]
-        if prev_all is None:
+        previous = records[i - 1] if i else None
+        previous_row = previous["rows"].get(row_id) if previous else None
+        if (not row or not previous_row or not comparable_catalogs(previous, rec)):
             values.append(None)
         else:
-            values.append(max(all_time - prev_all, 0))
-        prev_all = all_time
+            values.append(max(row["downloads_all_time"] - previous_row["downloads_all_time"], 0))
     return dates, values
 
 
@@ -176,12 +179,13 @@ def org_totals_per_day(
     return dates, org_30d, org_all
 
 
-def org_daily_deltas(dates: list[datetime], org_all: dict[str, list[int | None]]) -> dict[str, list[int | None]]:
+def org_daily_deltas(records: list[dict], org_all: dict[str, list[int | None]]) -> dict[str, list[int | None]]:
     out: dict[str, list[int | None]] = {}
     for org, totals in org_all.items():
         deltas: list[int | None] = []
         for i, total in enumerate(totals):
-            if i == 0 or total is None or totals[i - 1] is None:
+            if (i == 0 or total is None or totals[i - 1] is None
+                    or not comparable_catalogs(records[i - 1], records[i])):
                 deltas.append(None)
             else:
                 deltas.append(max(total - totals[i - 1], 0))
@@ -281,7 +285,7 @@ def chart_top_models_daily(
         dates=dates,
         series=series,
         title=f"Top {len(row_ids)} models: estimated daily downloads ({first} → {last})",
-        ylabel="Δ all-time downloads vs previous snapshot",
+        ylabel="Δ all-time downloads (catalog-change/incomplete intervals omitted)",
         skip_first=True,
     )
 
@@ -318,7 +322,7 @@ def chart_orgs_daily(
 ) -> None:
     dates, _, org_all = org_totals_per_day(records, meta)
     orgs = top_orgs_by_latest_30d(records, meta)[:top_n]
-    deltas = org_daily_deltas(dates, org_all)
+    deltas = org_daily_deltas(records, org_all)
     series = {org: deltas[org] for org in orgs if org in deltas}
 
     first = records[0]["snapshot_date"]
@@ -328,7 +332,7 @@ def chart_orgs_daily(
         dates=dates,
         series=series,
         title=f"Top {len(series)} organizations: estimated daily downloads ({first} → {last})",
-        ylabel="Δ summed all-time downloads vs previous snapshot",
+        ylabel="Δ summed all-time downloads (catalog-change/incomplete intervals omitted)",
         skip_first=True,
     )
 
