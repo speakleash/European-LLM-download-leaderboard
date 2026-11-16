@@ -2093,9 +2093,480 @@
       "regex": [
         "^openeurollm/Prelude-SFT-Excellent-v0\\.2$"
       ]
+    },
+    "pixtral-12b-2409": {
+      "display_name": "Pixtral 12B (2409)",
+      "version": "2409",
+      "country": "FR",
+      "developer": "Mistral AI",
+      "official_org": "mistralai",
+      "regex": [
+        "^mistralai/Pixtral\\-12B\\-2409$",
+        "^mistralai/Pixtral\\-12B\\-Base\\-2409$"
+      ]
+    },
+    "pixtral-large-2411": {
+      "display_name": "Pixtral Large (2411)",
+      "version": "2411",
+      "country": "FR",
+      "developer": "Mistral AI",
+      "official_org": "mistralai",
+      "regex": [
+        "^mistralai/Pixtral\\-Large\\-Instruct\\-2411$"
+      ]
+    },
+    "voxtral-3b-2507": {
+      "display_name": "Voxtral Mini 3B (2507)",
+      "version": "2507",
+      "country": "FR",
+      "developer": "Mistral AI",
+      "official_org": "mistralai",
+      "regex": [
+        "^mistralai/Voxtral\\-Mini\\-3B\\-2507$"
+      ]
+    },
+    "voxtral-24b-2507": {
+      "display_name": "Voxtral Small 24B (2507)",
+      "version": "2507",
+      "country": "FR",
+      "developer": "Mistral AI",
+      "official_org": "mistralai",
+      "regex": [
+        "^mistralai/Voxtral\\-Small\\-24B\\-2507$"
+      ]
+    },
+    "velvet2-3b-vision": {
+      "display_name": "Velvet2 3B Vision",
+      "version": "2",
+      "country": "IT",
+      "developer": "Almawave",
+      "official_org": "AlmawaveLabs",
+      "regex": [
+        "^AlmawaveLabs/Velvet2\\-3B\\-Vision$"
+      ]
+    },
+    "bielik-one-4b-r1": {
+      "display_name": "Bielik-One 4B r1",
+      "version": "r1",
+      "country": "PL",
+      "developer": "SpeakLeash / ACK Cyfronet AGH",
+      "official_org": "speakleash",
+      "regex": [
+        "^speakleash/Bielik\\-One\\-4B\\-r1$"
+      ]
+    },
+    "salamandra-7b-vision": {
+      "display_name": "Salamandra 7B Vision",
+      "version": null,
+      "country": "ES",
+      "developer": "Barcelona Supercomputing Center",
+      "official_org": "BSC-LT",
+      "regex": [
+        "^BSC\\-LT/salamandra\\-7b\\-vision$"
+      ]
+    },
+    "salamandra-vl-7b-2512": {
+      "display_name": "Salamandra VL 7B (2512)",
+      "version": null,
+      "country": "ES",
+      "developer": "Barcelona Supercomputing Center",
+      "official_org": "BSC-LT",
+      "regex": [
+        "^BSC\\-LT/Salamandra\\-VL\\-7B\\-2512$"
+      ]
+    },
+    "salamandrata-7b": {
+      "display_name": "SalamandraTA 7B",
+      "version": null,
+      "country": "ES",
+      "developer": "Barcelona Supercomputing Center",
+      "official_org": "BSC-LT",
+      "regex": [
+        "^BSC\\-LT/salamandraTA\\-7b\\-instruct$",
+        "^BSC\\-LT/salamandraTA\\-7B\\-instruct\\-GGUF$"
+      ]
+    },
+    "salamandrata-2b": {
+      "display_name": "SalamandraTA 2B",
+      "version": null,
+      "country": "ES",
+      "developer": "Barcelona Supercomputing Center",
+      "official_org": "BSC-LT",
+      "regex": [
+        "^BSC\\-LT/salamandraTA\\-2b\\-instruct$",
+        "^BSC\\-LT/salamandraTA\\-2B\\-instruct\\-GGUF$",
+        "^BSC\\-LT/salamandraTA\\-2B\\-academic$"
+      ]
+    },
+    "salamandra-tav-7b": {
+      "display_name": "Salamandra TAV 7B",
+      "version": null,
+      "country": "ES",
+      "developer": "Barcelona Supercomputing Center",
+      "official_org": "BSC-LT",
+      "regex": [
+        "^BSC\\-LT/salamandra\\-TAV\\-7b$"
+      ]
+    },
+    "eurovlm-1.7b-preview": {
+      "display_name": "EuroVLM 1.7B Preview",
+      "version": "preview",
+      "country": "EU",
+      "developer": "UTTER consortium",
+      "official_org": "utter-project",
+      "regex": [
+        "^utter\\-project/EuroVLM\\-1\\.7B\\-Preview$"
+      ]
+    },
+    "eurovlm-9b-preview": {
+      "display_name": "EuroVLM 9B Preview",
+      "version": "preview",
+      "country": "EU",
+      "developer": "UTTER consortium",
+      "official_org": "utter-project",
+      "regex": [
+        "^utter\\-project/EuroVLM\\-9B\\-Preview$"
+      ]
+    },
+    "towervision-2b": {
+      "display_name": "TowerVision 2B",
+      "version": null,
+      "country": "EU",
+      "developer": "UTTER consortium",
+      "official_org": "utter-project",
+      "regex": [
+        "^utter\\-project/TowerVision\\-2B$"
+      ]
+    },
+    "towervision-9b": {
+      "display_name": "TowerVision 9B",
+      "version": null,
+      "country": "EU",
+      "developer": "UTTER consortium",
+      "official_org": "utter-project",
+      "regex": [
+        "^utter\\-project/TowerVision\\-9B$"
+      ]
+    },
+    "lightonocr-0.9b-16k-1025": {
+      "display_name": "LightOnOCR 0.9B 16k (1025)",
+      "version": "1025",
+      "country": "FR",
+      "developer": "LightOn",
+      "official_org": "lightonai",
+      "regex": [
+        "^lightonai/LightOnOCR\\-0\\.9B\\-16k\\-1025$"
+      ]
+    },
+    "lightonocr-0.9b-32k-1025": {
+      "display_name": "LightOnOCR 0.9B 32k (1025)",
+      "version": "1025",
+      "country": "FR",
+      "developer": "LightOn",
+      "official_org": "lightonai",
+      "regex": [
+        "^lightonai/LightOnOCR\\-0\\.9B\\-32k\\-1025$"
+      ]
+    },
+    "lightonocr-1b-1025": {
+      "display_name": "LightOnOCR 1B (1025)",
+      "version": "1025",
+      "country": "FR",
+      "developer": "LightOn",
+      "official_org": "lightonai",
+      "regex": [
+        "^lightonai/LightOnOCR\\-1B\\-1025$"
+      ]
+    },
+    "lightonocr-2-1b": {
+      "display_name": "LightOnOCR 2 1B",
+      "version": "2",
+      "country": "FR",
+      "developer": "LightOn",
+      "official_org": "lightonai",
+      "regex": [
+        "^lightonai/LightOnOCR\\-2\\-1B$",
+        "^lightonai/LightOnOCR\\-2\\-1B\\-base$",
+        "^lightonai/LightOnOCR\\-2\\-1B\\-bbox$",
+        "^lightonai/LightOnOCR\\-2\\-1B\\-bbox\\-base$",
+        "^lightonai/LightOnOCR\\-2\\-1B\\-ocr\\-soup$",
+        "^lightonai/LightOnOCR\\-2\\-1B\\-bbox\\-soup$"
+      ]
+    },
+    "lightonocr-3-0.8b": {
+      "display_name": "LightOnOCR 3 0.8B",
+      "version": "3",
+      "country": "FR",
+      "developer": "LightOn",
+      "official_org": "lightonai",
+      "regex": [
+        "^lightonai/LightOnOCR\\-3\\-0\\.8B$"
+      ]
+    },
+    "lightonocr-3-1b": {
+      "display_name": "LightOnOCR 3 1B",
+      "version": "3",
+      "country": "FR",
+      "developer": "LightOn",
+      "official_org": "lightonai",
+      "regex": [
+        "^lightonai/LightOnOCR\\-3\\-1B$"
+      ]
+    },
+    "lightonocr-3-4b": {
+      "display_name": "LightOnOCR 3 4B",
+      "version": "3",
+      "country": "FR",
+      "developer": "LightOn",
+      "official_org": "lightonai",
+      "regex": [
+        "^lightonai/LightOnOCR\\-3\\-4B$"
+      ]
+    },
+    "pagnol-small": {
+      "display_name": "PAGnol small",
+      "version": null,
+      "country": "FR",
+      "developer": "LightOn / Inria",
+      "official_org": "lightonai",
+      "regex": [
+        "^lightonai/pagnol\\-small$"
+      ]
+    },
+    "pagnol-medium": {
+      "display_name": "PAGnol medium",
+      "version": null,
+      "country": "FR",
+      "developer": "LightOn / Inria",
+      "official_org": "lightonai",
+      "regex": [
+        "^lightonai/pagnol\\-medium$"
+      ]
+    },
+    "pagnol-large": {
+      "display_name": "PAGnol large",
+      "version": null,
+      "country": "FR",
+      "developer": "LightOn / Inria",
+      "official_org": "lightonai",
+      "regex": [
+        "^lightonai/pagnol\\-large$"
+      ]
+    },
+    "pagnol-xl": {
+      "display_name": "PAGnol xl",
+      "version": null,
+      "country": "FR",
+      "developer": "LightOn / Inria",
+      "official_org": "lightonai",
+      "regex": [
+        "^lightonai/pagnol\\-xl$"
+      ]
+    },
+    "mambaoutai-1.6b": {
+      "display_name": "Mambaoutai 1.6B",
+      "version": null,
+      "country": "FR",
+      "developer": "LightOn",
+      "official_org": "lightonai",
+      "regex": [
+        "^lightonai/mambaoutai$"
+      ]
+    },
+    "colgrep-agent-2b": {
+      "display_name": "ColGrep Agent 2B",
+      "version": null,
+      "country": "FR",
+      "developer": "LightOn",
+      "official_org": "lightonai",
+      "regex": [
+        "^lightonai/colgrep\\-agent\\-2B$",
+        "^lightonai/colgrep\\-agent\\-2B\\-GGUF$"
+      ]
+    },
+    "orion-mistral-24b": {
+      "display_name": "OriOn Mistral 24B",
+      "version": null,
+      "country": "FR",
+      "developer": "LightOn",
+      "official_org": "lightonai",
+      "regex": [
+        "^lightonai/OriOn\\-Mistral$"
+      ]
+    },
+    "orion-qwen-32b": {
+      "display_name": "OriOn Qwen 32B",
+      "version": null,
+      "country": "FR",
+      "developer": "LightOn",
+      "official_org": "lightonai",
+      "regex": [
+        "^lightonai/OriOn\\-Qwen$"
+      ]
+    },
+    "orion-qwen-32b-sr1": {
+      "display_name": "OriOn Qwen 32B SR1",
+      "version": null,
+      "country": "FR",
+      "developer": "LightOn",
+      "official_org": "lightonai",
+      "regex": [
+        "^lightonai/OriOn\\-Qwen\\-SR1$"
+      ]
+    },
+    "tyr-7b": {
+      "display_name": "Tyr 7B",
+      "version": null,
+      "country": "SE",
+      "developer": "AI Sweden",
+      "official_org": "AI-Sweden-Models",
+      "regex": [
+        "^AI\\-Sweden\\-Models/tyr$"
+      ]
+    },
+    "cassandre-rag-8b": {
+      "display_name": "Cassandre RAG 8B",
+      "version": null,
+      "country": "FR",
+      "developer": "Pleias",
+      "official_org": "PleIAs",
+      "regex": [
+        "^PleIAs/Cassandre\\-RAG$"
+      ]
+    },
+    "gpt-sl-base": {
+      "display_name": "GPT-sl Base",
+      "version": null,
+      "country": "SI",
+      "developer": "CJVT UL",
+      "official_org": "cjvt",
+      "regex": [
+        "^cjvt/gpt\\-sl\\-base$"
+      ]
+    },
+    "t5-sl-small": {
+      "display_name": "T5-sl small",
+      "version": null,
+      "country": "SI",
+      "developer": "CJVT UL",
+      "official_org": "cjvt",
+      "regex": [
+        "^cjvt/t5\\-sl\\-small$"
+      ]
+    },
+    "t5-sl-large": {
+      "display_name": "T5-sl large",
+      "version": null,
+      "country": "SI",
+      "developer": "CJVT UL",
+      "official_org": "cjvt",
+      "regex": [
+        "^cjvt/t5\\-sl\\-large$"
+      ]
+    },
+    "gams-dpo-translator": {
+      "display_name": "GaMS DPO Translator",
+      "version": null,
+      "country": "SI",
+      "developer": "CJVT UL",
+      "official_org": "cjvt",
+      "regex": [
+        "^cjvt/GaMS\\-DPO\\-Translator$"
+      ]
+    },
+    "towervideo-2b": {
+      "display_name": "TowerVideo 2B",
+      "version": null,
+      "country": "EU",
+      "developer": "UTTER consortium",
+      "official_org": "utter-project",
+      "regex": [
+        "^utter\\-project/TowerVideo\\-2B$"
+      ]
+    },
+    "towervideo-9b": {
+      "display_name": "TowerVideo 9B",
+      "version": null,
+      "country": "EU",
+      "developer": "UTTER consortium",
+      "official_org": "utter-project",
+      "regex": [
+        "^utter\\-project/TowerVideo\\-9B$"
+      ]
+    },
+    "croissantcool-v0.1": {
+      "display_name": "CroissantCool v0.1",
+      "version": "0.1",
+      "country": "FR",
+      "developer": "CroissantLLM consortium",
+      "official_org": "croissantllm",
+      "regex": [
+        "^croissantllm/CroissantCool\\-v0\\.1$"
+      ]
+    },
+    "croissantcool-v0.2": {
+      "display_name": "CroissantCool v0.2",
+      "version": "0.2",
+      "country": "FR",
+      "developer": "CroissantLLM consortium",
+      "official_org": "croissantllm",
+      "regex": [
+        "^croissantllm/CroissantCool\\-v0\\.2$"
+      ]
+    },
+    "spire-7b": {
+      "display_name": "Spire 7B",
+      "version": null,
+      "country": "EU",
+      "developer": "UTTER consortium",
+      "official_org": "utter-project",
+      "regex": [
+        "^utter\\-project/SpireBase$",
+        "^utter\\-project/SpireFull$"
+      ]
+    },
+    "vlt5-base-keywords": {
+      "display_name": "VLT5 Base Keywords",
+      "version": null,
+      "country": "PL",
+      "developer": "VoiceLab",
+      "official_org": "Voicelab",
+      "regex": [
+        "^Voicelab/vlt5\\-base\\-keywords$"
+      ]
+    },
+    "krikri-8b-ag-mg": {
+      "display_name": "Krikri 8B Ancient to Modern Greek",
+      "version": null,
+      "country": "GR",
+      "developer": "Athena Research Center / ILSP",
+      "official_org": "ilsp",
+      "regex": [
+        "^ilsp/llama\\-krikri\\-8b\\-ag\\-mg\\-full\\-ft$"
+      ]
+    },
+    "m2m100-1.2b-ag-mg": {
+      "display_name": "M2M100 1.2B Ancient to Modern Greek",
+      "version": null,
+      "country": "GR",
+      "developer": "Athena Research Center / ILSP",
+      "official_org": "ilsp",
+      "regex": [
+        "^ilsp/m2m100\\-1\\.2B\\-ag\\-mg\\-full\\-ft$"
+      ]
+    },
+    "velvet2-3b-speech": {
+      "display_name": "Velvet2 3B Speech",
+      "version": null,
+      "country": "IT",
+      "developer": "Almawave",
+      "official_org": "AlmawaveLabs",
+      "regex": [
+        "^AlmawaveLabs/Velvet2\\-3B\\-Speech$"
+      ]
     }
   },
-  "model_scope": "Standalone generative language models, including multimodal LLMs that generate text. Auxiliary draft models and classification-only adapters are excluded. New model families require model-card review; pipeline tags alone are insufficient.",
+  "model_scope": "User-facing standalone generative language models, including specialist natural-language/code models and multimodal LLMs generating text from image, audio or video inputs. Encoder-decoder and small generative models remain eligible; no new parameter floor. Exclude embedding/reranking/classification models, protein-only models, speech-only ASR/TTS, auxiliary draft models, adapter-only packages, intermediate checkpoints and comparison-only research series. A research paper does not exclude a usable final release. Review model cards, not pipeline tags alone.",
   "exclude_repo_regex": [
     "(?i)(?:^|[/_-])dflash[0-9]*(?:$|[/_-])",
     "^BSC-LT/salamandra-7b-instruct-guard$"

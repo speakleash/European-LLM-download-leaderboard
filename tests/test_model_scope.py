@@ -22,9 +22,9 @@ class ModelScopeTests(unittest.TestCase):
         for repo in ids:
             orgs.setdefault(repo.split('/')[0], []).append(repo)
         result = build_manifest(self.config, self.path, orgs)
-        self.assertEqual(len(result['all_repo_ids']), 565)
+        self.assertEqual(result['all_repo_ids'], old['all_repo_ids'])
         self.assertEqual(len(result['excluded_repos_by_scope']), 13)
-        self.assertEqual(len(result['rows']), 207)
+        self.assertEqual(set(result['rows']), {key for key, row in self.config['models'].items() if row.get('active', True)})
         self.assertTrue(any('Mistral' in repo for repo in result['all_repo_ids']))
         self.assertFalse(any('dflash' in repo.lower() for repo in result['all_repo_ids']))
         self.assertNotIn('BSC-LT/salamandra-7b-instruct-guard', result['all_repo_ids'])
@@ -37,6 +37,24 @@ class ModelScopeTests(unittest.TestCase):
         result = build_manifest(config, self.path, {'test': keep + drop})
         self.assertEqual(result['all_repo_ids'], sorted(keep))
         self.assertEqual(result['excluded_repos_by_scope'], sorted(drop))
+
+    def test_reviewed_catalog_admission_and_negative_controls(self):
+        cases = json.loads((ROOT / 'tests/fixtures/model_scope_cases.json').read_text())
+        orgs = {}
+        for repo in list(cases['include']) + cases['exclude']:
+            orgs.setdefault(repo.split('/')[0], []).append(repo)
+        result = build_manifest(self.config, self.path, orgs)
+        self.assertEqual(set(result['all_repo_ids']), set(cases['include']))
+        for repo, row_id in cases['include'].items():
+            self.assertIn(repo, result['rows'][row_id]['repos'])
+
+    def test_reviewed_repositories_have_one_matching_family(self):
+        import re
+        cases = json.loads((ROOT / 'tests/fixtures/model_scope_cases.json').read_text())
+        for repo, expected in cases['include'].items():
+            matches = [key for key, row in self.config['models'].items()
+                       if any(re.match(pattern, repo) for pattern in row['regex'])]
+            self.assertEqual(matches, [expected], repo)
 
     def test_invalid_exclusions_fail_validation(self):
         for value in ['x', [None], [''], ['[']]:

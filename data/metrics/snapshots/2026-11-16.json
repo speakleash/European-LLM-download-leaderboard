@@ -1,7 +1,7 @@
 {
   "snapshot_date": "2026-11-16",
-  "fetched_at": "2026-11-16T09:01:19Z",
-  "manifest_content_hash": "sha256:d27e582e22daa382b29ed01df0eb72df9ff56ead61e31ad1ed799f8689183c5e",
+  "fetched_at": "2026-11-16T11:52:15Z",
+  "manifest_content_hash": "sha256:b55d5056375496641ef717de383ff648c84092bb0aa1de5f4f9b6514761cb3e6",
   "config_version": 2,
   "fetch_concurrency": 8,
   "repos": {
@@ -227,6 +227,12 @@
       "parameters": 6976839680,
       "parameters_source": "gguf"
     },
+    "AI-Sweden-Models/tyr": {
+      "downloads_30d": 21,
+      "downloads_all_time": 910,
+      "parameters": 7241732096,
+      "parameters_source": "safetensors"
+    },
     "Aleph-Alpha/Kolibri-1": {
       "downloads_30d": 10980,
       "downloads_all_time": 30154,
@@ -279,6 +285,18 @@
       "downloads_30d": 100,
       "downloads_all_time": 115,
       "parameters": 3887792640,
+      "parameters_source": "safetensors"
+    },
+    "AlmawaveLabs/Velvet2-3B-Speech": {
+      "downloads_30d": 175,
+      "downloads_all_time": 204,
+      "parameters": 4553887744,
+      "parameters_source": "safetensors"
+    },
+    "AlmawaveLabs/Velvet2-3B-Vision": {
+      "downloads_30d": 59,
+      "downloads_all_time": 74,
+      "parameters": 4330374592,
       "parameters_source": "safetensors"
     },
     "BSC-LT/ALIA-40b": {
@@ -369,6 +387,12 @@
       "downloads_30d": 17,
       "downloads_all_time": 301,
       "parameters": 6247272448,
+      "parameters_source": "safetensors"
+    },
+    "BSC-LT/Salamandra-VL-7B-2512": {
+      "downloads_30d": 127,
+      "downloads_all_time": 2097,
+      "parameters": 8898196480,
       "parameters_source": "safetensors"
     },
     "BSC-LT/salamandra-2b": {
@@ -489,6 +513,48 @@
       "downloads_30d": 48,
       "downloads_all_time": 2742,
       "parameters": 7768166400,
+      "parameters_source": "safetensors"
+    },
+    "BSC-LT/salamandra-7b-vision": {
+      "downloads_30d": 44,
+      "downloads_all_time": 3716,
+      "parameters": 8187373088,
+      "parameters_source": "safetensors"
+    },
+    "BSC-LT/salamandra-TAV-7b": {
+      "downloads_30d": 83,
+      "downloads_all_time": 759,
+      "parameters": 7776505856,
+      "parameters_source": "safetensors"
+    },
+    "BSC-LT/salamandraTA-2B-academic": {
+      "downloads_30d": 33,
+      "downloads_all_time": 438,
+      "parameters": 2253490176,
+      "parameters_source": "safetensors"
+    },
+    "BSC-LT/salamandraTA-2B-instruct-GGUF": {
+      "downloads_30d": 717,
+      "downloads_all_time": 4241,
+      "parameters": 2253490176,
+      "parameters_source": "gguf"
+    },
+    "BSC-LT/salamandraTA-2b-instruct": {
+      "downloads_30d": 587,
+      "downloads_all_time": 26166,
+      "parameters": 2253490176,
+      "parameters_source": "safetensors"
+    },
+    "BSC-LT/salamandraTA-7B-instruct-GGUF": {
+      "downloads_30d": 1894,
+      "downloads_all_time": 28772,
+      "parameters": 7768117248,
+      "parameters_source": "gguf"
+    },
+    "BSC-LT/salamandraTA-7b-instruct": {
+      "downloads_30d": 923,
+      "downloads_all_time": 545937,
+      "parameters": 7768117248,
       "parameters_source": "safetensors"
     },
     "CYFRAGOVPL/Llama-PLLuM-70B-base-2412": {
@@ -1133,6 +1199,12 @@
       "parameters": 13290474240,
       "parameters_source": "safetensors"
     },
+    "PleIAs/Cassandre-RAG": {
+      "downloads_30d": 28,
+      "downloads_all_time": 1106,
+      "parameters": 8030261248,
+      "parameters_source": "safetensors"
+    },
     "PleIAs/Monad": {
       "downloads_30d": 4695,
       "downloads_all_time": 39255,
@@ -1433,6 +1505,12 @@
       "parameters": 6739785728,
       "parameters_source": "safetensors"
     },
+    "Voicelab/vlt5-base-keywords": {
+      "downloads_30d": 219626,
+      "downloads_all_time": 1860898,
+      "parameters": 275102976,
+      "parameters_source": "safetensors"
+    },
     "cjvt/GaMS-1B": {
       "downloads_30d": 618,
       "downloads_all_time": 7857,
@@ -1499,6 +1577,12 @@
       "parameters": 9241705984,
       "parameters_source": "safetensors"
     },
+    "cjvt/GaMS-DPO-Translator": {
+      "downloads_30d": 20,
+      "downloads_all_time": 300,
+      "parameters": 9241705984,
+      "parameters_source": "safetensors"
+    },
     "cjvt/GaMS2-27B": {
       "downloads_30d": 280,
       "downloads_all_time": 1263,
@@ -1557,6 +1641,36 @@
       "downloads_30d": 20,
       "downloads_all_time": 1496,
       "parameters": 1418715136,
+      "parameters_source": "safetensors"
+    },
+    "cjvt/gpt-sl-base": {
+      "downloads_30d": 15,
+      "downloads_all_time": 1761,
+      "parameters": null,
+      "parameters_source": null
+    },
+    "cjvt/t5-sl-large": {
+      "downloads_30d": 98,
+      "downloads_all_time": 1782,
+      "parameters": null,
+      "parameters_source": null
+    },
+    "cjvt/t5-sl-small": {
+      "downloads_30d": 181,
+      "downloads_all_time": 3941,
+      "parameters": null,
+      "parameters_source": null
+    },
+    "croissantllm/CroissantCool-v0.1": {
+      "downloads_30d": 27,
+      "downloads_all_time": 605,
+      "parameters": 1345423360,
+      "parameters_source": "safetensors"
+    },
+    "croissantllm/CroissantCool-v0.2": {
+      "downloads_30d": 85,
+      "downloads_all_time": 14808,
+      "parameters": 1345423360,
       "parameters_source": "safetensors"
     },
     "croissantllm/CroissantLLMBase": {
@@ -1757,6 +1871,108 @@
       "parameters": 7482445824,
       "parameters_source": "safetensors"
     },
+    "ilsp/llama-krikri-8b-ag-mg-full-ft": {
+      "downloads_30d": 19,
+      "downloads_all_time": 124,
+      "parameters": null,
+      "parameters_source": null
+    },
+    "ilsp/m2m100-1.2B-ag-mg-full-ft": {
+      "downloads_30d": 31,
+      "downloads_all_time": 177,
+      "parameters": 1239586816,
+      "parameters_source": "safetensors"
+    },
+    "lightonai/LightOnOCR-0.9B-16k-1025": {
+      "downloads_30d": 1519,
+      "downloads_all_time": 5746,
+      "parameters": 883619840,
+      "parameters_source": "safetensors"
+    },
+    "lightonai/LightOnOCR-0.9B-32k-1025": {
+      "downloads_30d": 1521,
+      "downloads_all_time": 3436,
+      "parameters": 917174272,
+      "parameters_source": "safetensors"
+    },
+    "lightonai/LightOnOCR-1B-1025": {
+      "downloads_30d": 12979,
+      "downloads_all_time": 1348838,
+      "parameters": 1161230336,
+      "parameters_source": "safetensors"
+    },
+    "lightonai/LightOnOCR-2-1B": {
+      "downloads_30d": 803844,
+      "downloads_all_time": 4596190,
+      "parameters": 1005647872,
+      "parameters_source": "safetensors"
+    },
+    "lightonai/LightOnOCR-2-1B-base": {
+      "downloads_30d": 3602,
+      "downloads_all_time": 90788,
+      "parameters": 1005647872,
+      "parameters_source": "safetensors"
+    },
+    "lightonai/LightOnOCR-2-1B-bbox": {
+      "downloads_30d": 2481,
+      "downloads_all_time": 100976,
+      "parameters": 1005647872,
+      "parameters_source": "safetensors"
+    },
+    "lightonai/LightOnOCR-2-1B-bbox-base": {
+      "downloads_30d": 97,
+      "downloads_all_time": 5491,
+      "parameters": 1005647872,
+      "parameters_source": "safetensors"
+    },
+    "lightonai/LightOnOCR-2-1B-bbox-soup": {
+      "downloads_30d": 1549,
+      "downloads_all_time": 68065,
+      "parameters": 1005647872,
+      "parameters_source": "safetensors"
+    },
+    "lightonai/LightOnOCR-2-1B-ocr-soup": {
+      "downloads_30d": 449,
+      "downloads_all_time": 72020,
+      "parameters": 1005647872,
+      "parameters_source": "safetensors"
+    },
+    "lightonai/LightOnOCR-3-0.8B": {
+      "downloads_30d": 14168,
+      "downloads_all_time": 18886,
+      "parameters": 852985920,
+      "parameters_source": "safetensors"
+    },
+    "lightonai/LightOnOCR-3-1B": {
+      "downloads_30d": 4196,
+      "downloads_all_time": 7483,
+      "parameters": 1005647872,
+      "parameters_source": "safetensors"
+    },
+    "lightonai/LightOnOCR-3-4B": {
+      "downloads_30d": 14321,
+      "downloads_all_time": 25187,
+      "parameters": 4539265536,
+      "parameters_source": "safetensors"
+    },
+    "lightonai/OriOn-Mistral": {
+      "downloads_30d": 16,
+      "downloads_all_time": 284,
+      "parameters": 24011361280,
+      "parameters_source": "safetensors"
+    },
+    "lightonai/OriOn-Qwen": {
+      "downloads_30d": 29,
+      "downloads_all_time": 188,
+      "parameters": 33357390064,
+      "parameters_source": "safetensors"
+    },
+    "lightonai/OriOn-Qwen-SR1": {
+      "downloads_30d": 23,
+      "downloads_all_time": 423,
+      "parameters": 33357390064,
+      "parameters_source": "safetensors"
+    },
     "lightonai/alfred-40b-0723": {
       "downloads_30d": 99,
       "downloads_all_time": 5541,
@@ -1768,6 +1984,48 @@
       "downloads_all_time": 78640,
       "parameters": null,
       "parameters_source": null
+    },
+    "lightonai/colgrep-agent-2B": {
+      "downloads_30d": 1063,
+      "downloads_all_time": 1588,
+      "parameters": 2516756480,
+      "parameters_source": "safetensors"
+    },
+    "lightonai/colgrep-agent-2B-GGUF": {
+      "downloads_30d": 3678,
+      "downloads_all_time": 6224,
+      "parameters": 2516756480,
+      "parameters_source": "gguf"
+    },
+    "lightonai/mambaoutai": {
+      "downloads_30d": 270,
+      "downloads_all_time": 1386,
+      "parameters": 1622361216,
+      "parameters_source": "safetensors"
+    },
+    "lightonai/pagnol-large": {
+      "downloads_30d": 61,
+      "downloads_all_time": 883,
+      "parameters": null,
+      "parameters_source": null
+    },
+    "lightonai/pagnol-medium": {
+      "downloads_30d": 97,
+      "downloads_all_time": 1153,
+      "parameters": 379994112,
+      "parameters_source": "safetensors"
+    },
+    "lightonai/pagnol-small": {
+      "downloads_30d": 62,
+      "downloads_all_time": 4653,
+      "parameters": null,
+      "parameters_source": null
+    },
+    "lightonai/pagnol-xl": {
+      "downloads_30d": 170,
+      "downloads_all_time": 1624,
+      "parameters": 1636401536,
+      "parameters_source": "safetensors"
     },
     "mii-llm/emma-5-boost": {
       "downloads_30d": 0,
@@ -2337,6 +2595,36 @@
       "downloads_30d": 34393,
       "downloads_all_time": 8572854,
       "parameters": 46702792704,
+      "parameters_source": "safetensors"
+    },
+    "mistralai/Pixtral-12B-2409": {
+      "downloads_30d": 6988,
+      "downloads_all_time": 142806,
+      "parameters": null,
+      "parameters_source": null
+    },
+    "mistralai/Pixtral-12B-Base-2409": {
+      "downloads_30d": 75,
+      "downloads_all_time": 485,
+      "parameters": null,
+      "parameters_source": null
+    },
+    "mistralai/Pixtral-Large-Instruct-2411": {
+      "downloads_30d": 185,
+      "downloads_all_time": 4485,
+      "parameters": null,
+      "parameters_source": null
+    },
+    "mistralai/Voxtral-Mini-3B-2507": {
+      "downloads_30d": 86069,
+      "downloads_all_time": 6580241,
+      "parameters": 4676271104,
+      "parameters_source": "safetensors"
+    },
+    "mistralai/Voxtral-Small-24B-2507": {
+      "downloads_30d": 6691,
+      "downloads_all_time": 998363,
+      "parameters": 24261800960,
       "parameters_source": "safetensors"
     },
     "occiglot/occiglot-7b-de-en": {
@@ -3113,6 +3401,12 @@
       "parameters": 11173081088,
       "parameters_source": "safetensors"
     },
+    "speakleash/Bielik-One-4B-r1": {
+      "downloads_30d": 200,
+      "downloads_all_time": 200,
+      "parameters": 4661186048,
+      "parameters_source": "safetensors"
+    },
     "speakleash/Bielik-One-7B-v3.0-r1": {
       "downloads_30d": 95,
       "downloads_all_time": 95,
@@ -3393,6 +3687,54 @@
       "downloads_30d": 2154,
       "downloads_all_time": 30301,
       "parameters": 2611528704,
+      "parameters_source": "safetensors"
+    },
+    "utter-project/EuroVLM-1.7B-Preview": {
+      "downloads_30d": 101,
+      "downloads_all_time": 3039,
+      "parameters": 2061162016,
+      "parameters_source": "safetensors"
+    },
+    "utter-project/EuroVLM-9B-Preview": {
+      "downloads_30d": 875,
+      "downloads_all_time": 8579,
+      "parameters": 9571583520,
+      "parameters_source": "safetensors"
+    },
+    "utter-project/SpireBase": {
+      "downloads_30d": 56,
+      "downloads_all_time": 1094,
+      "parameters": 6779834368,
+      "parameters_source": "safetensors"
+    },
+    "utter-project/SpireFull": {
+      "downloads_30d": 29,
+      "downloads_all_time": 3927,
+      "parameters": 6779834368,
+      "parameters_source": "safetensors"
+    },
+    "utter-project/TowerVideo-2B": {
+      "downloads_30d": 61,
+      "downloads_all_time": 1127,
+      "parameters": 3020206624,
+      "parameters_source": "safetensors"
+    },
+    "utter-project/TowerVideo-9B": {
+      "downloads_30d": 55,
+      "downloads_all_time": 481,
+      "parameters": 9656667680,
+      "parameters_source": "safetensors"
+    },
+    "utter-project/TowerVision-2B": {
+      "downloads_30d": 170,
+      "downloads_all_time": 2755,
+      "parameters": 3020061472,
+      "parameters_source": "safetensors"
+    },
+    "utter-project/TowerVision-9B": {
+      "downloads_30d": 111,
+      "downloads_all_time": 1377,
+      "parameters": 9656441888,
       "parameters_source": "safetensors"
     }
   },
@@ -5466,7 +5808,473 @@
       "complete": true,
       "parameters": 9093567488,
       "parameters_source_repo": "openeurollm/Prelude-SFT-Excellent-v0.2"
+    },
+    "pixtral-12b-2409": {
+      "total_downloads_30d": 7063,
+      "total_downloads_all_time": 143291,
+      "repo_count": 2,
+      "fetched_repo_count": 2,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": null,
+      "parameters_source_repo": null
+    },
+    "pixtral-large-2411": {
+      "total_downloads_30d": 185,
+      "total_downloads_all_time": 4485,
+      "repo_count": 1,
+      "fetched_repo_count": 1,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": null,
+      "parameters_source_repo": null
+    },
+    "voxtral-3b-2507": {
+      "total_downloads_30d": 86069,
+      "total_downloads_all_time": 6580241,
+      "repo_count": 1,
+      "fetched_repo_count": 1,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 4676271104,
+      "parameters_source_repo": "mistralai/Voxtral-Mini-3B-2507"
+    },
+    "voxtral-24b-2507": {
+      "total_downloads_30d": 6691,
+      "total_downloads_all_time": 998363,
+      "repo_count": 1,
+      "fetched_repo_count": 1,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 24261800960,
+      "parameters_source_repo": "mistralai/Voxtral-Small-24B-2507"
+    },
+    "velvet2-3b-vision": {
+      "total_downloads_30d": 59,
+      "total_downloads_all_time": 74,
+      "repo_count": 1,
+      "fetched_repo_count": 1,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 4330374592,
+      "parameters_source_repo": "AlmawaveLabs/Velvet2-3B-Vision"
+    },
+    "bielik-one-4b-r1": {
+      "total_downloads_30d": 200,
+      "total_downloads_all_time": 200,
+      "repo_count": 1,
+      "fetched_repo_count": 1,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 4661186048,
+      "parameters_source_repo": "speakleash/Bielik-One-4B-r1"
+    },
+    "salamandra-7b-vision": {
+      "total_downloads_30d": 44,
+      "total_downloads_all_time": 3716,
+      "repo_count": 1,
+      "fetched_repo_count": 1,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 8187373088,
+      "parameters_source_repo": "BSC-LT/salamandra-7b-vision"
+    },
+    "salamandra-vl-7b-2512": {
+      "total_downloads_30d": 127,
+      "total_downloads_all_time": 2097,
+      "repo_count": 1,
+      "fetched_repo_count": 1,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 8898196480,
+      "parameters_source_repo": "BSC-LT/Salamandra-VL-7B-2512"
+    },
+    "salamandrata-7b": {
+      "total_downloads_30d": 2817,
+      "total_downloads_all_time": 574709,
+      "repo_count": 2,
+      "fetched_repo_count": 2,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 7768117248,
+      "parameters_source_repo": "BSC-LT/salamandraTA-7B-instruct-GGUF"
+    },
+    "salamandrata-2b": {
+      "total_downloads_30d": 1337,
+      "total_downloads_all_time": 30845,
+      "repo_count": 3,
+      "fetched_repo_count": 3,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 2253490176,
+      "parameters_source_repo": "BSC-LT/salamandraTA-2B-academic"
+    },
+    "salamandra-tav-7b": {
+      "total_downloads_30d": 83,
+      "total_downloads_all_time": 759,
+      "repo_count": 1,
+      "fetched_repo_count": 1,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 7776505856,
+      "parameters_source_repo": "BSC-LT/salamandra-TAV-7b"
+    },
+    "eurovlm-1.7b-preview": {
+      "total_downloads_30d": 101,
+      "total_downloads_all_time": 3039,
+      "repo_count": 1,
+      "fetched_repo_count": 1,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 2061162016,
+      "parameters_source_repo": "utter-project/EuroVLM-1.7B-Preview"
+    },
+    "eurovlm-9b-preview": {
+      "total_downloads_30d": 875,
+      "total_downloads_all_time": 8579,
+      "repo_count": 1,
+      "fetched_repo_count": 1,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 9571583520,
+      "parameters_source_repo": "utter-project/EuroVLM-9B-Preview"
+    },
+    "towervision-2b": {
+      "total_downloads_30d": 170,
+      "total_downloads_all_time": 2755,
+      "repo_count": 1,
+      "fetched_repo_count": 1,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 3020061472,
+      "parameters_source_repo": "utter-project/TowerVision-2B"
+    },
+    "towervision-9b": {
+      "total_downloads_30d": 111,
+      "total_downloads_all_time": 1377,
+      "repo_count": 1,
+      "fetched_repo_count": 1,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 9656441888,
+      "parameters_source_repo": "utter-project/TowerVision-9B"
+    },
+    "lightonocr-0.9b-16k-1025": {
+      "total_downloads_30d": 1519,
+      "total_downloads_all_time": 5746,
+      "repo_count": 1,
+      "fetched_repo_count": 1,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 883619840,
+      "parameters_source_repo": "lightonai/LightOnOCR-0.9B-16k-1025"
+    },
+    "lightonocr-0.9b-32k-1025": {
+      "total_downloads_30d": 1521,
+      "total_downloads_all_time": 3436,
+      "repo_count": 1,
+      "fetched_repo_count": 1,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 917174272,
+      "parameters_source_repo": "lightonai/LightOnOCR-0.9B-32k-1025"
+    },
+    "lightonocr-1b-1025": {
+      "total_downloads_30d": 12979,
+      "total_downloads_all_time": 1348838,
+      "repo_count": 1,
+      "fetched_repo_count": 1,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 1161230336,
+      "parameters_source_repo": "lightonai/LightOnOCR-1B-1025"
+    },
+    "lightonocr-2-1b": {
+      "total_downloads_30d": 812022,
+      "total_downloads_all_time": 4933530,
+      "repo_count": 6,
+      "fetched_repo_count": 6,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 1005647872,
+      "parameters_source_repo": "lightonai/LightOnOCR-2-1B"
+    },
+    "lightonocr-3-0.8b": {
+      "total_downloads_30d": 14168,
+      "total_downloads_all_time": 18886,
+      "repo_count": 1,
+      "fetched_repo_count": 1,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 852985920,
+      "parameters_source_repo": "lightonai/LightOnOCR-3-0.8B"
+    },
+    "lightonocr-3-1b": {
+      "total_downloads_30d": 4196,
+      "total_downloads_all_time": 7483,
+      "repo_count": 1,
+      "fetched_repo_count": 1,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 1005647872,
+      "parameters_source_repo": "lightonai/LightOnOCR-3-1B"
+    },
+    "lightonocr-3-4b": {
+      "total_downloads_30d": 14321,
+      "total_downloads_all_time": 25187,
+      "repo_count": 1,
+      "fetched_repo_count": 1,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 4539265536,
+      "parameters_source_repo": "lightonai/LightOnOCR-3-4B"
+    },
+    "pagnol-small": {
+      "total_downloads_30d": 62,
+      "total_downloads_all_time": 4653,
+      "repo_count": 1,
+      "fetched_repo_count": 1,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": null,
+      "parameters_source_repo": null
+    },
+    "pagnol-medium": {
+      "total_downloads_30d": 97,
+      "total_downloads_all_time": 1153,
+      "repo_count": 1,
+      "fetched_repo_count": 1,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 379994112,
+      "parameters_source_repo": "lightonai/pagnol-medium"
+    },
+    "pagnol-large": {
+      "total_downloads_30d": 61,
+      "total_downloads_all_time": 883,
+      "repo_count": 1,
+      "fetched_repo_count": 1,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": null,
+      "parameters_source_repo": null
+    },
+    "pagnol-xl": {
+      "total_downloads_30d": 170,
+      "total_downloads_all_time": 1624,
+      "repo_count": 1,
+      "fetched_repo_count": 1,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 1636401536,
+      "parameters_source_repo": "lightonai/pagnol-xl"
+    },
+    "mambaoutai-1.6b": {
+      "total_downloads_30d": 270,
+      "total_downloads_all_time": 1386,
+      "repo_count": 1,
+      "fetched_repo_count": 1,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 1622361216,
+      "parameters_source_repo": "lightonai/mambaoutai"
+    },
+    "colgrep-agent-2b": {
+      "total_downloads_30d": 4741,
+      "total_downloads_all_time": 7812,
+      "repo_count": 2,
+      "fetched_repo_count": 2,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 2516756480,
+      "parameters_source_repo": "lightonai/colgrep-agent-2B"
+    },
+    "orion-mistral-24b": {
+      "total_downloads_30d": 16,
+      "total_downloads_all_time": 284,
+      "repo_count": 1,
+      "fetched_repo_count": 1,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 24011361280,
+      "parameters_source_repo": "lightonai/OriOn-Mistral"
+    },
+    "orion-qwen-32b": {
+      "total_downloads_30d": 29,
+      "total_downloads_all_time": 188,
+      "repo_count": 1,
+      "fetched_repo_count": 1,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 33357390064,
+      "parameters_source_repo": "lightonai/OriOn-Qwen"
+    },
+    "orion-qwen-32b-sr1": {
+      "total_downloads_30d": 23,
+      "total_downloads_all_time": 423,
+      "repo_count": 1,
+      "fetched_repo_count": 1,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 33357390064,
+      "parameters_source_repo": "lightonai/OriOn-Qwen-SR1"
+    },
+    "tyr-7b": {
+      "total_downloads_30d": 21,
+      "total_downloads_all_time": 910,
+      "repo_count": 1,
+      "fetched_repo_count": 1,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 7241732096,
+      "parameters_source_repo": "AI-Sweden-Models/tyr"
+    },
+    "cassandre-rag-8b": {
+      "total_downloads_30d": 28,
+      "total_downloads_all_time": 1106,
+      "repo_count": 1,
+      "fetched_repo_count": 1,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 8030261248,
+      "parameters_source_repo": "PleIAs/Cassandre-RAG"
+    },
+    "gpt-sl-base": {
+      "total_downloads_30d": 15,
+      "total_downloads_all_time": 1761,
+      "repo_count": 1,
+      "fetched_repo_count": 1,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": null,
+      "parameters_source_repo": null
+    },
+    "t5-sl-small": {
+      "total_downloads_30d": 181,
+      "total_downloads_all_time": 3941,
+      "repo_count": 1,
+      "fetched_repo_count": 1,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": null,
+      "parameters_source_repo": null
+    },
+    "t5-sl-large": {
+      "total_downloads_30d": 98,
+      "total_downloads_all_time": 1782,
+      "repo_count": 1,
+      "fetched_repo_count": 1,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": null,
+      "parameters_source_repo": null
+    },
+    "gams-dpo-translator": {
+      "total_downloads_30d": 20,
+      "total_downloads_all_time": 300,
+      "repo_count": 1,
+      "fetched_repo_count": 1,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 9241705984,
+      "parameters_source_repo": "cjvt/GaMS-DPO-Translator"
+    },
+    "towervideo-2b": {
+      "total_downloads_30d": 61,
+      "total_downloads_all_time": 1127,
+      "repo_count": 1,
+      "fetched_repo_count": 1,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 3020206624,
+      "parameters_source_repo": "utter-project/TowerVideo-2B"
+    },
+    "towervideo-9b": {
+      "total_downloads_30d": 55,
+      "total_downloads_all_time": 481,
+      "repo_count": 1,
+      "fetched_repo_count": 1,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 9656667680,
+      "parameters_source_repo": "utter-project/TowerVideo-9B"
+    },
+    "croissantcool-v0.1": {
+      "total_downloads_30d": 27,
+      "total_downloads_all_time": 605,
+      "repo_count": 1,
+      "fetched_repo_count": 1,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 1345423360,
+      "parameters_source_repo": "croissantllm/CroissantCool-v0.1"
+    },
+    "croissantcool-v0.2": {
+      "total_downloads_30d": 85,
+      "total_downloads_all_time": 14808,
+      "repo_count": 1,
+      "fetched_repo_count": 1,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 1345423360,
+      "parameters_source_repo": "croissantllm/CroissantCool-v0.2"
+    },
+    "spire-7b": {
+      "total_downloads_30d": 85,
+      "total_downloads_all_time": 5021,
+      "repo_count": 2,
+      "fetched_repo_count": 2,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 6779834368,
+      "parameters_source_repo": "utter-project/SpireBase"
+    },
+    "vlt5-base-keywords": {
+      "total_downloads_30d": 219626,
+      "total_downloads_all_time": 1860898,
+      "repo_count": 1,
+      "fetched_repo_count": 1,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 275102976,
+      "parameters_source_repo": "Voicelab/vlt5-base-keywords"
+    },
+    "krikri-8b-ag-mg": {
+      "total_downloads_30d": 19,
+      "total_downloads_all_time": 124,
+      "repo_count": 1,
+      "fetched_repo_count": 1,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": null,
+      "parameters_source_repo": null
+    },
+    "m2m100-1.2b-ag-mg": {
+      "total_downloads_30d": 31,
+      "total_downloads_all_time": 177,
+      "repo_count": 1,
+      "fetched_repo_count": 1,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 1239586816,
+      "parameters_source_repo": "ilsp/m2m100-1.2B-ag-mg-full-ft"
+    },
+    "velvet2-3b-speech": {
+      "total_downloads_30d": 175,
+      "total_downloads_all_time": 204,
+      "repo_count": 1,
+      "fetched_repo_count": 1,
+      "missing_repo_count": 0,
+      "complete": true,
+      "parameters": 4553887744,
+      "parameters_source_repo": "AlmawaveLabs/Velvet2-3B-Speech"
     }
   },
-  "fetch_errors": []
+  "fetch_errors": [],
+  "catalog_update": {
+    "preserved_repo_stats_fetched_at": "2026-11-16T09:01:19Z",
+    "added_repo_stats_fetched_at": "2026-11-16T11:52:15Z",
+    "preserved_repo_count": 565,
+    "added_repo_count": 57
+  }
 }

@@ -106,3 +106,108 @@ manifest has 565 repo IDs and still 207 rows. Multimodal generative LLMs remain.
 Current counters were recomputed using the same downloaded statistics; older
 history records were preserved byte for byte. The exclusions are enforced by
 the resolver and audited in the manifest.
+
+## Completeness recheck: user-facing generative models
+
+Rechecked all 1,233 public model IDs from the 28 configured publishers via the
+Hugging Face organization API with pagination, metadata, architecture and file
+lists. Retrieved 473 candidate model cards (including repos with absent or
+misleading pipeline tags); inspected candidate releases and exclusion categories,
+plus public gated-card pages where raw READMEs were unavailable. This is not
+a claim of a line-by-line manual review of every retrieved card.
+This is coverage of these publishers, not a claim of all European publishers.
+The owner confirmed inclusion of usable specialist models and exclusion of
+comparison-only research series. Final paper-associated releases remain eligible.
+
+The correction adds 46 rows / 57 repositories: 207 → 253 rows and
+565 → 622 repositories. The existing 207 row definitions remain unchanged.
+New families use exact matching to avoid admitting a new adapter or auxiliary
+model merely because its name shares a prefix. The fixture records all 57
+newly reviewed repo-to-row assignments and representative excluded examples.
+
+Existing 565 repo counters are preserved from the earlier same-day fetch.
+Counters for all 57 added repos were retrieved from the public API without
+a token; the current snapshot records both collection timestamps in
+`catalog_update`. Only the current timeseries record is replaced; all earlier
+records and snapshots are preserved. Generated model/org tables and charts
+are rebuilt with the same aggregation and ranking formulas.
+
+### Newly admitted families and primary cards
+
+- [Pixtral 12B (2409)](https://huggingface.co/mistralai/Pixtral-12B-2409)
+- [Pixtral Large (2411)](https://huggingface.co/mistralai/Pixtral-Large-Instruct-2411)
+- [Voxtral Mini 3B (2507)](https://huggingface.co/mistralai/Voxtral-Mini-3B-2507)
+- [Voxtral Small 24B (2507)](https://huggingface.co/mistralai/Voxtral-Small-24B-2507)
+- [Velvet2 3B Vision](https://huggingface.co/AlmawaveLabs/Velvet2-3B-Vision)
+- [Bielik-One 4B r1](https://huggingface.co/speakleash/Bielik-One-4B-r1)
+- [Salamandra 7B Vision](https://huggingface.co/BSC-LT/salamandra-7b-vision)
+- [Salamandra VL 7B (2512)](https://huggingface.co/BSC-LT/Salamandra-VL-7B-2512)
+- [SalamandraTA 7B](https://huggingface.co/BSC-LT/salamandraTA-7b-instruct)
+- [SalamandraTA 2B](https://huggingface.co/BSC-LT/salamandraTA-2b-instruct)
+- [Salamandra TAV 7B](https://huggingface.co/BSC-LT/salamandra-TAV-7b)
+- [EuroVLM 1.7B Preview](https://huggingface.co/utter-project/EuroVLM-1.7B-Preview)
+- [EuroVLM 9B Preview](https://huggingface.co/utter-project/EuroVLM-9B-Preview)
+- [TowerVision 2B](https://huggingface.co/utter-project/TowerVision-2B)
+- [TowerVision 9B](https://huggingface.co/utter-project/TowerVision-9B)
+- [LightOnOCR 0.9B 16k (1025)](https://huggingface.co/lightonai/LightOnOCR-0.9B-16k-1025)
+- [LightOnOCR 0.9B 32k (1025)](https://huggingface.co/lightonai/LightOnOCR-0.9B-32k-1025)
+- [LightOnOCR 1B (1025)](https://huggingface.co/lightonai/LightOnOCR-1B-1025)
+- [LightOnOCR 2 1B](https://huggingface.co/lightonai/LightOnOCR-2-1B)
+- [LightOnOCR 3 0.8B](https://huggingface.co/lightonai/LightOnOCR-3-0.8B)
+- [LightOnOCR 3 1B](https://huggingface.co/lightonai/LightOnOCR-3-1B)
+- [LightOnOCR 3 4B](https://huggingface.co/lightonai/LightOnOCR-3-4B)
+- [PAGnol small](https://huggingface.co/lightonai/pagnol-small)
+- [PAGnol medium](https://huggingface.co/lightonai/pagnol-medium)
+- [PAGnol large](https://huggingface.co/lightonai/pagnol-large)
+- [PAGnol xl](https://huggingface.co/lightonai/pagnol-xl)
+- [Mambaoutai 1.6B](https://huggingface.co/lightonai/mambaoutai)
+- [ColGrep Agent 2B](https://huggingface.co/lightonai/colgrep-agent-2B)
+- [OriOn Mistral 24B](https://huggingface.co/lightonai/OriOn-Mistral)
+- [OriOn Qwen 32B](https://huggingface.co/lightonai/OriOn-Qwen)
+- [OriOn Qwen 32B SR1](https://huggingface.co/lightonai/OriOn-Qwen-SR1)
+- [Tyr 7B](https://huggingface.co/AI-Sweden-Models/tyr)
+- [Cassandre RAG 8B](https://huggingface.co/PleIAs/Cassandre-RAG)
+- [GPT-sl Base](https://huggingface.co/cjvt/gpt-sl-base)
+- [T5-sl small](https://huggingface.co/cjvt/t5-sl-small)
+- [T5-sl large](https://huggingface.co/cjvt/t5-sl-large)
+- [GaMS DPO Translator](https://huggingface.co/cjvt/GaMS-DPO-Translator)
+- [TowerVideo 2B](https://huggingface.co/utter-project/TowerVideo-2B)
+- [TowerVideo 9B](https://huggingface.co/utter-project/TowerVideo-9B)
+- [CroissantCool v0.1](https://huggingface.co/croissantllm/CroissantCool-v0.1)
+- [CroissantCool v0.2](https://huggingface.co/croissantllm/CroissantCool-v0.2)
+- [Spire 7B](https://huggingface.co/utter-project/SpireBase)
+- [VLT5 Base Keywords](https://huggingface.co/Voicelab/vlt5-base-keywords)
+- [Krikri 8B Ancient to Modern Greek](https://huggingface.co/ilsp/llama-krikri-8b-ag-mg-full-ft)
+- [M2M100 1.2B Ancient to Modern Greek](https://huggingface.co/ilsp/m2m100-1.2B-ag-mg-full-ft)
+- [Velvet2 3B Speech](https://huggingface.co/AlmawaveLabs/Velvet2-3B-Speech)
+
+### Deliberately excluded examples
+
+- ModernColBERT / ColBERT / DenseOn / LateOn: embedding/retrieval representations.
+- LightOn-rerank, despite image-text-to-text tags: relevance scoring, not text generation.
+- RITA: protein sequence models, not natural-language/code LLMs.
+- Shieldstral, Bielik Guard and Salamandra Guard: classification/guardrails.
+- Voxtral Realtime / Whisper and Voxtral TTS: speech-only ASR/TTS releases.
+- DFlash and adapter-only Bielik-One/MixAT packages: not standalone models.
+- Qwen3-8B language/Pivot/Swap series, data-mixture/scaling-law studies and
+  Spire NoBlocks/NoPseudo: comparison-only experiments.
+- Croissant base_5k…185k: intermediate checkpoints. CroissantCool final
+  cooldown releases are included, as are the published Spire Base/Full models.
+
+Borderline specialist cases are qualified by their outputs: VLT5 generates
+keywords rather than embeddings; SalamandraTA, Krikri AG→MG and M2M100 AG→MG
+generate translations; ColGrep generates tool calls; Velvet Speech supports
+spoken QA and summarization as well as ASR. They are usable final generators.
+
+### Validation of the completeness correction
+
+Eight offline unit tests pass, including all 57 admitted IDs, negative controls
+and unique row matching. Config hash, unique repository IDs, per-row aggregates
+and unchanged old counters were checked independently. The first 107 historical
+timeseries records remain byte-identical. Seven charts and the README regenerate.
+
+The expanded catalog exposed a pre-existing chart bug: a publisher first present
+in a later snapshot had a shorter value series than the date axis. Organization
+series now retain missing earlier observations as gaps, and daily deltas are
+unknown across a gap instead of inventing first-day growth. Two regression
+tests cover late entry, missing days and a genuine zero observation.

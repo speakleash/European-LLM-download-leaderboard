@@ -236,3 +236,16 @@ https://huggingface.co/speakleash/Bielik-11B-v3.1-DFlash
 https://huggingface.co/BSC-LT/salamandra-7b-instruct-guard
 Historical snapshots retain their original scope; current totals exclude these
 repositories, so comparisons across the scope change reflect both effects.
+
+### User-facing catalog qualification
+
+Include usable final natural-language/code generators, including specialist
+translation, document/OCR, keyword generation, code agents and multimodal
+image/audio/video models. Encoder-decoder generators and small generative
+models remain eligible; no new parameter cutoff is imposed. A research paper
+does not exclude a usable final release. Comparison-only ablation series and
+intermediate training checkpoints are outside the curated catalog. Exclude
+embeddings, rerankers, classifiers, protein-only models, speech-only ASR/TTS,
+draft helpers and adapter-only packages. A LoRA-trained model with full merged
+weights is eligible. See the dated catalog verification report for sources,
+coverage and negative controls.

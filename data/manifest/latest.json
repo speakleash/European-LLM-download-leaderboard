@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-16T11:38:00Z",
+  "generated_at": "2026-11-16T11:53:26Z",
   "config_version": 2,
   "config_path": "european-llm-hf-download-leaderboard.json",
-  "config_content_hash": "sha256:31d921ab912d22ec3d739cd2b11bec2af23aae086fea4eb3e0a48015bb895621",
+  "config_content_hash": "sha256:cc804435b70aa2a2385880665057676ccca0b72c742be9d7149c04e6300b5080",
   "organizations_scanned": [
     "AI-Sweden-Models",
     "Aleph-Alpha",
@@ -33,7 +33,7 @@
     "swiss-ai",
     "utter-project"
   ],
-  "manifest_content_hash": "sha256:d27e582e22daa382b29ed01df0eb72df9ff56ead61e31ad1ed799f8689183c5e",
+  "manifest_content_hash": "sha256:b55d5056375496641ef717de383ff648c84092bb0aa1de5f4f9b6514761cb3e6",
   "rows": {
     "bielik-11b-v3.1": {
       "display_name": "Bielik-11B v3.1",
@@ -2462,6 +2462,477 @@
       "repos": [
         "openeurollm/Prelude-SFT-Excellent-v0.2"
       ]
+    },
+    "pixtral-12b-2409": {
+      "display_name": "Pixtral 12B (2409)",
+      "version": "2409",
+      "country": "FR",
+      "developer": "Mistral AI",
+      "official_org": "mistralai",
+      "repos": [
+        "mistralai/Pixtral-12B-2409",
+        "mistralai/Pixtral-12B-Base-2409"
+      ]
+    },
+    "pixtral-large-2411": {
+      "display_name": "Pixtral Large (2411)",
+      "version": "2411",
+      "country": "FR",
+      "developer": "Mistral AI",
+      "official_org": "mistralai",
+      "repos": [
+        "mistralai/Pixtral-Large-Instruct-2411"
+      ]
+    },
+    "voxtral-3b-2507": {
+      "display_name": "Voxtral Mini 3B (2507)",
+      "version": "2507",
+      "country": "FR",
+      "developer": "Mistral AI",
+      "official_org": "mistralai",
+      "repos": [
+        "mistralai/Voxtral-Mini-3B-2507"
+      ]
+    },
+    "voxtral-24b-2507": {
+      "display_name": "Voxtral Small 24B (2507)",
+      "version": "2507",
+      "country": "FR",
+      "developer": "Mistral AI",
+      "official_org": "mistralai",
+      "repos": [
+        "mistralai/Voxtral-Small-24B-2507"
+      ]
+    },
+    "velvet2-3b-vision": {
+      "display_name": "Velvet2 3B Vision",
+      "version": "2",
+      "country": "IT",
+      "developer": "Almawave",
+      "official_org": "AlmawaveLabs",
+      "repos": [
+        "AlmawaveLabs/Velvet2-3B-Vision"
+      ]
+    },
+    "bielik-one-4b-r1": {
+      "display_name": "Bielik-One 4B r1",
+      "version": "r1",
+      "country": "PL",
+      "developer": "SpeakLeash / ACK Cyfronet AGH",
+      "official_org": "speakleash",
+      "repos": [
+        "speakleash/Bielik-One-4B-r1"
+      ]
+    },
+    "salamandra-7b-vision": {
+      "display_name": "Salamandra 7B Vision",
+      "version": null,
+      "country": "ES",
+      "developer": "Barcelona Supercomputing Center",
+      "official_org": "BSC-LT",
+      "repos": [
+        "BSC-LT/salamandra-7b-vision"
+      ]
+    },
+    "salamandra-vl-7b-2512": {
+      "display_name": "Salamandra VL 7B (2512)",
+      "version": null,
+      "country": "ES",
+      "developer": "Barcelona Supercomputing Center",
+      "official_org": "BSC-LT",
+      "repos": [
+        "BSC-LT/Salamandra-VL-7B-2512"
+      ]
+    },
+    "salamandrata-7b": {
+      "display_name": "SalamandraTA 7B",
+      "version": null,
+      "country": "ES",
+      "developer": "Barcelona Supercomputing Center",
+      "official_org": "BSC-LT",
+      "repos": [
+        "BSC-LT/salamandraTA-7B-instruct-GGUF",
+        "BSC-LT/salamandraTA-7b-instruct"
+      ]
+    },
+    "salamandrata-2b": {
+      "display_name": "SalamandraTA 2B",
+      "version": null,
+      "country": "ES",
+      "developer": "Barcelona Supercomputing Center",
+      "official_org": "BSC-LT",
+      "repos": [
+        "BSC-LT/salamandraTA-2B-academic",
+        "BSC-LT/salamandraTA-2B-instruct-GGUF",
+        "BSC-LT/salamandraTA-2b-instruct"
+      ]
+    },
+    "salamandra-tav-7b": {
+      "display_name": "Salamandra TAV 7B",
+      "version": null,
+      "country": "ES",
+      "developer": "Barcelona Supercomputing Center",
+      "official_org": "BSC-LT",
+      "repos": [
+        "BSC-LT/salamandra-TAV-7b"
+      ]
+    },
+    "eurovlm-1.7b-preview": {
+      "display_name": "EuroVLM 1.7B Preview",
+      "version": "preview",
+      "country": "EU",
+      "developer": "UTTER consortium",
+      "official_org": "utter-project",
+      "repos": [
+        "utter-project/EuroVLM-1.7B-Preview"
+      ]
+    },
+    "eurovlm-9b-preview": {
+      "display_name": "EuroVLM 9B Preview",
+      "version": "preview",
+      "country": "EU",
+      "developer": "UTTER consortium",
+      "official_org": "utter-project",
+      "repos": [
+        "utter-project/EuroVLM-9B-Preview"
+      ]
+    },
+    "towervision-2b": {
+      "display_name": "TowerVision 2B",
+      "version": null,
+      "country": "EU",
+      "developer": "UTTER consortium",
+      "official_org": "utter-project",
+      "repos": [
+        "utter-project/TowerVision-2B"
+      ]
+    },
+    "towervision-9b": {
+      "display_name": "TowerVision 9B",
+      "version": null,
+      "country": "EU",
+      "developer": "UTTER consortium",
+      "official_org": "utter-project",
+      "repos": [
+        "utter-project/TowerVision-9B"
+      ]
+    },
+    "lightonocr-0.9b-16k-1025": {
+      "display_name": "LightOnOCR 0.9B 16k (1025)",
+      "version": "1025",
+      "country": "FR",
+      "developer": "LightOn",
+      "official_org": "lightonai",
+      "repos": [
+        "lightonai/LightOnOCR-0.9B-16k-1025"
+      ]
+    },
+    "lightonocr-0.9b-32k-1025": {
+      "display_name": "LightOnOCR 0.9B 32k (1025)",
+      "version": "1025",
+      "country": "FR",
+      "developer": "LightOn",
+      "official_org": "lightonai",
+      "repos": [
+        "lightonai/LightOnOCR-0.9B-32k-1025"
+      ]
+    },
+    "lightonocr-1b-1025": {
+      "display_name": "LightOnOCR 1B (1025)",
+      "version": "1025",
+      "country": "FR",
+      "developer": "LightOn",
+      "official_org": "lightonai",
+      "repos": [
+        "lightonai/LightOnOCR-1B-1025"
+      ]
+    },
+    "lightonocr-2-1b": {
+      "display_name": "LightOnOCR 2 1B",
+      "version": "2",
+      "country": "FR",
+      "developer": "LightOn",
+      "official_org": "lightonai",
+      "repos": [
+        "lightonai/LightOnOCR-2-1B",
+        "lightonai/LightOnOCR-2-1B-base",
+        "lightonai/LightOnOCR-2-1B-bbox",
+        "lightonai/LightOnOCR-2-1B-bbox-base",
+        "lightonai/LightOnOCR-2-1B-bbox-soup",
+        "lightonai/LightOnOCR-2-1B-ocr-soup"
+      ]
+    },
+    "lightonocr-3-0.8b": {
+      "display_name": "LightOnOCR 3 0.8B",
+      "version": "3",
+      "country": "FR",
+      "developer": "LightOn",
+      "official_org": "lightonai",
+      "repos": [
+        "lightonai/LightOnOCR-3-0.8B"
+      ]
+    },
+    "lightonocr-3-1b": {
+      "display_name": "LightOnOCR 3 1B",
+      "version": "3",
+      "country": "FR",
+      "developer": "LightOn",
+      "official_org": "lightonai",
+      "repos": [
+        "lightonai/LightOnOCR-3-1B"
+      ]
+    },
+    "lightonocr-3-4b": {
+      "display_name": "LightOnOCR 3 4B",
+      "version": "3",
+      "country": "FR",
+      "developer": "LightOn",
+      "official_org": "lightonai",
+      "repos": [
+        "lightonai/LightOnOCR-3-4B"
+      ]
+    },
+    "pagnol-small": {
+      "display_name": "PAGnol small",
+      "version": null,
+      "country": "FR",
+      "developer": "LightOn / Inria",
+      "official_org": "lightonai",
+      "repos": [
+        "lightonai/pagnol-small"
+      ]
+    },
+    "pagnol-medium": {
+      "display_name": "PAGnol medium",
+      "version": null,
+      "country": "FR",
+      "developer": "LightOn / Inria",
+      "official_org": "lightonai",
+      "repos": [
+        "lightonai/pagnol-medium"
+      ]
+    },
+    "pagnol-large": {
+      "display_name": "PAGnol large",
+      "version": null,
+      "country": "FR",
+      "developer": "LightOn / Inria",
+      "official_org": "lightonai",
+      "repos": [
+        "lightonai/pagnol-large"
+      ]
+    },
+    "pagnol-xl": {
+      "display_name": "PAGnol xl",
+      "version": null,
+      "country": "FR",
+      "developer": "LightOn / Inria",
+      "official_org": "lightonai",
+      "repos": [
+        "lightonai/pagnol-xl"
+      ]
+    },
+    "mambaoutai-1.6b": {
+      "display_name": "Mambaoutai 1.6B",
+      "version": null,
+      "country": "FR",
+      "developer": "LightOn",
+      "official_org": "lightonai",
+      "repos": [
+        "lightonai/mambaoutai"
+      ]
+    },
+    "colgrep-agent-2b": {
+      "display_name": "ColGrep Agent 2B",
+      "version": null,
+      "country": "FR",
+      "developer": "LightOn",
+      "official_org": "lightonai",
+      "repos": [
+        "lightonai/colgrep-agent-2B",
+        "lightonai/colgrep-agent-2B-GGUF"
+      ]
+    },
+    "orion-mistral-24b": {
+      "display_name": "OriOn Mistral 24B",
+      "version": null,
+      "country": "FR",
+      "developer": "LightOn",
+      "official_org": "lightonai",
+      "repos": [
+        "lightonai/OriOn-Mistral"
+      ]
+    },
+    "orion-qwen-32b": {
+      "display_name": "OriOn Qwen 32B",
+      "version": null,
+      "country": "FR",
+      "developer": "LightOn",
+      "official_org": "lightonai",
+      "repos": [
+        "lightonai/OriOn-Qwen"
+      ]
+    },
+    "orion-qwen-32b-sr1": {
+      "display_name": "OriOn Qwen 32B SR1",
+      "version": null,
+      "country": "FR",
+      "developer": "LightOn",
+      "official_org": "lightonai",
+      "repos": [
+        "lightonai/OriOn-Qwen-SR1"
+      ]
+    },
+    "tyr-7b": {
+      "display_name": "Tyr 7B",
+      "version": null,
+      "country": "SE",
+      "developer": "AI Sweden",
+      "official_org": "AI-Sweden-Models",
+      "repos": [
+        "AI-Sweden-Models/tyr"
+      ]
+    },
+    "cassandre-rag-8b": {
+      "display_name": "Cassandre RAG 8B",
+      "version": null,
+      "country": "FR",
+      "developer": "Pleias",
+      "official_org": "PleIAs",
+      "repos": [
+        "PleIAs/Cassandre-RAG"
+      ]
+    },
+    "gpt-sl-base": {
+      "display_name": "GPT-sl Base",
+      "version": null,
+      "country": "SI",
+      "developer": "CJVT UL",
+      "official_org": "cjvt",
+      "repos": [
+        "cjvt/gpt-sl-base"
+      ]
+    },
+    "t5-sl-small": {
+      "display_name": "T5-sl small",
+      "version": null,
+      "country": "SI",
+      "developer": "CJVT UL",
+      "official_org": "cjvt",
+      "repos": [
+        "cjvt/t5-sl-small"
+      ]
+    },
+    "t5-sl-large": {
+      "display_name": "T5-sl large",
+      "version": null,
+      "country": "SI",
+      "developer": "CJVT UL",
+      "official_org": "cjvt",
+      "repos": [
+        "cjvt/t5-sl-large"
+      ]
+    },
+    "gams-dpo-translator": {
+      "display_name": "GaMS DPO Translator",
+      "version": null,
+      "country": "SI",
+      "developer": "CJVT UL",
+      "official_org": "cjvt",
+      "repos": [
+        "cjvt/GaMS-DPO-Translator"
+      ]
+    },
+    "towervideo-2b": {
+      "display_name": "TowerVideo 2B",
+      "version": null,
+      "country": "EU",
+      "developer": "UTTER consortium",
+      "official_org": "utter-project",
+      "repos": [
+        "utter-project/TowerVideo-2B"
+      ]
+    },
+    "towervideo-9b": {
+      "display_name": "TowerVideo 9B",
+      "version": null,
+      "country": "EU",
+      "developer": "UTTER consortium",
+      "official_org": "utter-project",
+      "repos": [
+        "utter-project/TowerVideo-9B"
+      ]
+    },
+    "croissantcool-v0.1": {
+      "display_name": "CroissantCool v0.1",
+      "version": "0.1",
+      "country": "FR",
+      "developer": "CroissantLLM consortium",
+      "official_org": "croissantllm",
+      "repos": [
+        "croissantllm/CroissantCool-v0.1"
+      ]
+    },
+    "croissantcool-v0.2": {
+      "display_name": "CroissantCool v0.2",
+      "version": "0.2",
+      "country": "FR",
+      "developer": "CroissantLLM consortium",
+      "official_org": "croissantllm",
+      "repos": [
+        "croissantllm/CroissantCool-v0.2"
+      ]
+    },
+    "spire-7b": {
+      "display_name": "Spire 7B",
+      "version": null,
+      "country": "EU",
+      "developer": "UTTER consortium",
+      "official_org": "utter-project",
+      "repos": [
+        "utter-project/SpireBase",
+        "utter-project/SpireFull"
+      ]
+    },
+    "vlt5-base-keywords": {
+      "display_name": "VLT5 Base Keywords",
+      "version": null,
+      "country": "PL",
+      "developer": "VoiceLab",
+      "official_org": "Voicelab",
+      "repos": [
+        "Voicelab/vlt5-base-keywords"
+      ]
+    },
+    "krikri-8b-ag-mg": {
+      "display_name": "Krikri 8B Ancient to Modern Greek",
+      "version": null,
+      "country": "GR",
+      "developer": "Athena Research Center / ILSP",
+      "official_org": "ilsp",
+      "repos": [
+        "ilsp/llama-krikri-8b-ag-mg-full-ft"
+      ]
+    },
+    "m2m100-1.2b-ag-mg": {
+      "display_name": "M2M100 1.2B Ancient to Modern Greek",
+      "version": null,
+      "country": "GR",
+      "developer": "Athena Research Center / ILSP",
+      "official_org": "ilsp",
+      "repos": [
+        "ilsp/m2m100-1.2B-ag-mg-full-ft"
+      ]
+    },
+    "velvet2-3b-speech": {
+      "display_name": "Velvet2 3B Speech",
+      "version": null,
+      "country": "IT",
+      "developer": "Almawave",
+      "official_org": "AlmawaveLabs",
+      "repos": [
+        "AlmawaveLabs/Velvet2-3B-Speech"
+      ]
     }
   },
   "unmatched_repos_by_org": {
@@ -2469,8 +2940,7 @@
       "AI-Sweden-Models/ModernBERT-base",
       "AI-Sweden-Models/ModernBERT-large",
       "AI-Sweden-Models/bert-large-nordic-pile-1M-steps",
-      "AI-Sweden-Models/roberta-large-1160k",
-      "AI-Sweden-Models/tyr"
+      "AI-Sweden-Models/roberta-large-1160k"
     ],
     "Aleph-Alpha": [
       "Aleph-Alpha/Aleph-Alpha-GermanWeb-Grammar-Classifier-BERT",
@@ -2498,10 +2968,6 @@
       "Aleph-Alpha/umup-research-7b-bf16",
       "Aleph-Alpha/umup-research-7b-fp8"
     ],
-    "AlmawaveLabs": [
-      "AlmawaveLabs/Velvet2-3B-Speech",
-      "AlmawaveLabs/Velvet2-3B-Vision"
-    ],
     "BSC-LT": [
       "BSC-LT/Checkpoint_2b_instructed_beta",
       "BSC-LT/Checkpoint_4epoch_rag",
@@ -2523,7 +2989,6 @@
       "BSC-LT/PL-ModernBERT-wp-es",
       "BSC-LT/RoBERTa-ca",
       "BSC-LT/RoBERTalex",
-      "BSC-LT/Salamandra-VL-7B-2512",
       "BSC-LT/catalan-verification-model-pkt-a",
       "BSC-LT/catalan-verification-model-pkt-b",
       "BSC-LT/experimental7b-rag",
@@ -2543,14 +3008,7 @@
       "BSC-LT/roberta-base-ca",
       "BSC-LT/roberta_model_for_anonimization",
       "BSC-LT/salamandra-7b-fc-private-test",
-      "BSC-LT/salamandra-7b-vision",
-      "BSC-LT/salamandra-TAV-7b",
       "BSC-LT/salamandra7b_rag_prompt_ca-en-es",
-      "BSC-LT/salamandraTA-2B-academic",
-      "BSC-LT/salamandraTA-2B-instruct-GGUF",
-      "BSC-LT/salamandraTA-2b-instruct",
-      "BSC-LT/salamandraTA-7B-instruct-GGUF",
-      "BSC-LT/salamandraTA-7b-instruct",
       "BSC-LT/sciroshot",
       "BSC-LT/spanish-verification-model-pkt-a",
       "BSC-LT/spanish-verification-model-pkt-b",
@@ -2704,7 +3162,6 @@
     "PleIAs": [
       "PleIAs/BibTexer",
       "PleIAs/Bibstyle-Detector",
-      "PleIAs/Cassandre-RAG",
       "PleIAs/CommonLingua",
       "PleIAs/Florence-PDF",
       "PleIAs/KaribuAI",
@@ -2718,16 +3175,13 @@
     ],
     "Voicelab": [
       "Voicelab/WERdict-pl",
-      "Voicelab/herbert-base-cased-sentiment",
-      "Voicelab/vlt5-base-keywords"
+      "Voicelab/herbert-base-cased-sentiment"
     ],
     "cjvt": [
       "cjvt/BERTic-cro-word-spelling-annotator",
-      "cjvt/GaMS-DPO-Translator",
       "cjvt/SloBERTa-slo-word-spelling-annotator",
       "cjvt/crosloengual-bert-si-nli",
       "cjvt/gemma-3-27b-it-dassle-gec",
-      "cjvt/gpt-sl-base",
       "cjvt/legacy-t5-sl-small",
       "cjvt/muril-en-hi-codemixed",
       "cjvt/roberta-en-hi-codemixed",
@@ -2737,15 +3191,11 @@
       "cjvt/sloberta-sleng",
       "cjvt/sloberta-trendi-topics",
       "cjvt/sloberta-word-case-classification-multilabel",
-      "cjvt/t5-sl-large",
-      "cjvt/t5-sl-small",
       "cjvt/t5-slo-word-form-corrector",
       "cjvt/t5-slo-word-order-corrector",
       "cjvt/t5-slo-word-spelling-corrector"
     ],
     "croissantllm": [
-      "croissantllm/CroissantCool-v0.1",
-      "croissantllm/CroissantCool-v0.2",
       "croissantllm/CroissantLLM_ft_translation_correction-q0f16-MLC",
       "croissantllm/CroissantLLM_training_logs",
       "croissantllm/base_100k",
@@ -2803,9 +3253,7 @@
       "ilsp/UD_Greek-Messenian",
       "ilsp/VoxKrikri-21-full",
       "ilsp/justice",
-      "ilsp/llama-krikri-8b-ag-mg-full-ft",
       "ilsp/llama-krikri-8b-ag-mg-qlora",
-      "ilsp/m2m100-1.2B-ag-mg-full-ft",
       "ilsp/m2m100-1.2B-ag-mg-qlora",
       "ilsp/nllb-200-1.3B-ag-mg-lora",
       "ilsp/nllb-200-600M-ag-mg-lora",
@@ -2865,27 +3313,12 @@
       "lightonai/LightOn-rerank-PW-0.8B",
       "lightonai/LightOn-rerank-PW-2B",
       "lightonai/LightOn-rerank-PW-4B",
-      "lightonai/LightOnOCR-0.9B-16k-1025",
-      "lightonai/LightOnOCR-0.9B-32k-1025",
-      "lightonai/LightOnOCR-1B-1025",
-      "lightonai/LightOnOCR-2-1B",
-      "lightonai/LightOnOCR-2-1B-base",
-      "lightonai/LightOnOCR-2-1B-bbox",
-      "lightonai/LightOnOCR-2-1B-bbox-base",
-      "lightonai/LightOnOCR-2-1B-bbox-soup",
-      "lightonai/LightOnOCR-2-1B-ocr-soup",
-      "lightonai/LightOnOCR-3-0.8B",
-      "lightonai/LightOnOCR-3-1B",
-      "lightonai/LightOnOCR-3-4B",
       "lightonai/Mistral-Small-3.1-24B-Instruct-2503-OCR-adapter",
       "lightonai/ModernColBERT-embed-base",
       "lightonai/ModernColBERT-embed-base-kd-only",
       "lightonai/ModernColBERT-embed-base-supervised",
       "lightonai/MonoQwen2-VL-v0.1",
       "lightonai/OriOn-Leaderboard",
-      "lightonai/OriOn-Mistral",
-      "lightonai/OriOn-Qwen",
-      "lightonai/OriOn-Qwen-SR1",
       "lightonai/Qwen3-8B-DE",
       "lightonai/Qwen3-8B-DE-Pivot-EN",
       "lightonai/Qwen3-8B-DE-Swap",
@@ -2921,8 +3354,6 @@
       "lightonai/answerai-colbert-small-v1",
       "lightonai/answerai-colbert-small-v1-onnx",
       "lightonai/colbertv2.0",
-      "lightonai/colgrep-agent-2B",
-      "lightonai/colgrep-agent-2B-GGUF",
       "lightonai/dd_alpha",
       "lightonai/gpt2-tokenizer-0923",
       "lightonai/lateon-fix-s",
@@ -2932,14 +3363,9 @@
       "lightonai/mLateOn-unsupervised",
       "lightonai/mSlideOn",
       "lightonai/mSlideOn-SAE",
-      "lightonai/mambaoutai",
       "lightonai/modernbert-embed-large",
       "lightonai/modernbert-embed-large-unsupervised",
-      "lightonai/mxbai-edge-colbert-v0-32m-onnx",
-      "lightonai/pagnol-large",
-      "lightonai/pagnol-medium",
-      "lightonai/pagnol-small",
-      "lightonai/pagnol-xl"
+      "lightonai/mxbai-edge-colbert-v0-32m-onnx"
     ],
     "mii-llm": [
       "mii-llm/Llama-3-chat-v0.2-alpha-sft",
@@ -2950,19 +3376,14 @@
     ],
     "mistralai": [
       "mistralai/LIDstral-Arabic",
-      "mistralai/Pixtral-12B-2409",
-      "mistralai/Pixtral-12B-Base-2409",
-      "mistralai/Pixtral-Large-Instruct-2411",
       "mistralai/Shieldstral-1.0-3B",
       "mistralai/Timestral-123M",
       "mistralai/Timestral-209M",
       "mistralai/Timestral-28M",
       "mistralai/Timestral-5M",
       "mistralai/Voxtral-4B-TTS-2603",
-      "mistralai/Voxtral-Mini-3B-2507",
       "mistralai/Voxtral-Mini-4B-Realtime-2602",
-      "mistralai/Voxtral-Mini-4B-Realtime-Arabic",
-      "mistralai/Voxtral-Small-24B-2507"
+      "mistralai/Voxtral-Mini-4B-Realtime-Arabic"
     ],
     "openeurollm": [
       "openeurollm/OLMo-3-7B-Dolci-Translated-A-25EN",
@@ -3124,7 +3545,6 @@
       "speakleash/Bielik-Guard-0.5B-v1.1",
       "speakleash/Bielik-One-11B-v3.0-r1-Adapter",
       "speakleash/Bielik-One-11B-v3.1-r1-Adapter",
-      "speakleash/Bielik-One-4B-r1",
       "speakleash/Bielik-One-4B-r1-Adapter",
       "speakleash/Bielik-One-7B-v3.0-r1-Adapter"
     ],
@@ -3134,19 +3554,11 @@
     ],
     "utter-project": [
       "utter-project/EuroFilter-v1",
-      "utter-project/EuroVLM-1.7B-Preview",
-      "utter-project/EuroVLM-9B-Preview",
-      "utter-project/SpireBase",
-      "utter-project/SpireFull",
       "utter-project/SpireKMeans",
       "utter-project/SpireNoBlocks",
       "utter-project/SpireNoPseudo",
       "utter-project/TowerFull",
       "utter-project/TowerSpeech",
-      "utter-project/TowerVideo-2B",
-      "utter-project/TowerVideo-9B",
-      "utter-project/TowerVision-2B",
-      "utter-project/TowerVision-9B",
       "utter-project/eurollm-1.7b-mcore-phase1",
       "utter-project/eurollm-1.7b-mcore-phase2",
       "utter-project/eurollm-1.7b-mcore-phase2-long-context",
@@ -3201,6 +3613,7 @@
     "AI-Sweden-Models/gpt-sw3-6.7b-v2-instruct-gguf",
     "AI-Sweden-Models/gpt-sw3-6.7b-v2-translator",
     "AI-Sweden-Models/gpt-sw3-6.7b-v2-translator-gguf",
+    "AI-Sweden-Models/tyr",
     "Aleph-Alpha/Kolibri-1",
     "Aleph-Alpha/Kolibri-1-BF16",
     "Aleph-Alpha/Pharia-1-LLM-7B-control",
@@ -3210,6 +3623,8 @@
     "AlmawaveLabs/Velvet-14B",
     "AlmawaveLabs/Velvet-2B",
     "AlmawaveLabs/Velvet2-3B",
+    "AlmawaveLabs/Velvet2-3B-Speech",
+    "AlmawaveLabs/Velvet2-3B-Vision",
     "BSC-LT/ALIA-40b",
     "BSC-LT/ALIA-40b-fc-2605",
     "BSC-LT/ALIA-40b-fc-2605-GGUF",
@@ -3225,6 +3640,7 @@
     "BSC-LT/ALIA-40b-instruct-2606-GGUF",
     "BSC-LT/Flor-6.3B-Instruct",
     "BSC-LT/Flor-6.3B-Instruct-4096",
+    "BSC-LT/Salamandra-VL-7B-2512",
     "BSC-LT/salamandra-2b",
     "BSC-LT/salamandra-2b-base-fp8",
     "BSC-LT/salamandra-2b-base-gptq",
@@ -3245,6 +3661,13 @@
     "BSC-LT/salamandra-7b-instruct-gptq",
     "BSC-LT/salamandra-7b-instruct-tools",
     "BSC-LT/salamandra-7b-instruct-tools-16k",
+    "BSC-LT/salamandra-7b-vision",
+    "BSC-LT/salamandra-TAV-7b",
+    "BSC-LT/salamandraTA-2B-academic",
+    "BSC-LT/salamandraTA-2B-instruct-GGUF",
+    "BSC-LT/salamandraTA-2b-instruct",
+    "BSC-LT/salamandraTA-7B-instruct-GGUF",
+    "BSC-LT/salamandraTA-7b-instruct",
     "CYFRAGOVPL/Llama-PLLuM-70B-base-2412",
     "CYFRAGOVPL/Llama-PLLuM-70B-base-2508",
     "CYFRAGOVPL/Llama-PLLuM-70B-chat-2412",
@@ -3352,6 +3775,7 @@
     "PleIAs/Baguettotron",
     "PleIAs/Baguettotron-GGUF",
     "PleIAs/Baguettotron-MoE",
+    "PleIAs/Cassandre-RAG",
     "PleIAs/Monad",
     "PleIAs/OCRonos",
     "PleIAs/OCRonos-Vintage",
@@ -3402,6 +3826,7 @@
     "Voicelab/trurl-2-13b-academic",
     "Voicelab/trurl-2-7b",
     "Voicelab/trurl-2-7b-8bit",
+    "Voicelab/vlt5-base-keywords",
     "cjvt/GaMS-1B",
     "cjvt/GaMS-1B-Chat",
     "cjvt/GaMS-27B",
@@ -3413,6 +3838,7 @@
     "cjvt/GaMS-9B-Instruct",
     "cjvt/GaMS-9B-Instruct-Lex",
     "cjvt/GaMS-9B-Instruct-Nemotron",
+    "cjvt/GaMS-DPO-Translator",
     "cjvt/GaMS2-27B",
     "cjvt/GaMS2-27B-GRPO-Translator",
     "cjvt/GaMS2-27B-Instruct",
@@ -3423,6 +3849,11 @@
     "cjvt/GaMS3-12B-Multimodal",
     "cjvt/OPT_GaMS-1B",
     "cjvt/OPT_GaMS-1B-Chat",
+    "cjvt/gpt-sl-base",
+    "cjvt/t5-sl-large",
+    "cjvt/t5-sl-small",
+    "croissantllm/CroissantCool-v0.1",
+    "croissantllm/CroissantCool-v0.2",
     "croissantllm/CroissantLLMBase",
     "croissantllm/CroissantLLMBase-GGML",
     "croissantllm/CroissantLLMBase-GGUF",
@@ -3456,8 +3887,32 @@
     "ilsp/Meltemi-7B-Instruct-v1.5",
     "ilsp/Meltemi-7B-v1",
     "ilsp/Meltemi-7B-v1.5",
+    "ilsp/llama-krikri-8b-ag-mg-full-ft",
+    "ilsp/m2m100-1.2B-ag-mg-full-ft",
+    "lightonai/LightOnOCR-0.9B-16k-1025",
+    "lightonai/LightOnOCR-0.9B-32k-1025",
+    "lightonai/LightOnOCR-1B-1025",
+    "lightonai/LightOnOCR-2-1B",
+    "lightonai/LightOnOCR-2-1B-base",
+    "lightonai/LightOnOCR-2-1B-bbox",
+    "lightonai/LightOnOCR-2-1B-bbox-base",
+    "lightonai/LightOnOCR-2-1B-bbox-soup",
+    "lightonai/LightOnOCR-2-1B-ocr-soup",
+    "lightonai/LightOnOCR-3-0.8B",
+    "lightonai/LightOnOCR-3-1B",
+    "lightonai/LightOnOCR-3-4B",
+    "lightonai/OriOn-Mistral",
+    "lightonai/OriOn-Qwen",
+    "lightonai/OriOn-Qwen-SR1",
     "lightonai/alfred-40b-0723",
     "lightonai/alfred-40b-1023",
+    "lightonai/colgrep-agent-2B",
+    "lightonai/colgrep-agent-2B-GGUF",
+    "lightonai/mambaoutai",
+    "lightonai/pagnol-large",
+    "lightonai/pagnol-medium",
+    "lightonai/pagnol-small",
+    "lightonai/pagnol-xl",
     "mii-llm/emma-5-boost",
     "mii-llm/maestrale-chat-v0.1-alpha-sft",
     "mii-llm/maestrale-chat-v0.2-alpha-sft",
@@ -3553,6 +4008,11 @@
     "mistralai/Mixtral-8x22B-v0.1",
     "mistralai/Mixtral-8x7B-Instruct-v0.1",
     "mistralai/Mixtral-8x7B-v0.1",
+    "mistralai/Pixtral-12B-2409",
+    "mistralai/Pixtral-12B-Base-2409",
+    "mistralai/Pixtral-Large-Instruct-2411",
+    "mistralai/Voxtral-Mini-3B-2507",
+    "mistralai/Voxtral-Small-24B-2507",
     "occiglot/occiglot-7b-de-en",
     "occiglot/occiglot-7b-de-en-instruct",
     "occiglot/occiglot-7b-es-en",
@@ -3682,6 +4142,7 @@
     "speakleash/Bielik-Minitron-7B-v3.0-Instruct-NVFP4A16",
     "speakleash/Bielik-One-11B-v3.0-r1",
     "speakleash/Bielik-One-11B-v3.1-r1",
+    "speakleash/Bielik-One-4B-r1",
     "speakleash/Bielik-One-7B-v3.0-r1",
     "speakleash/Bielik-PL-11B-v3.0-Instruct",
     "speakleash/Bielik-PL-Minitron-7B-v3.0-Instruct",
@@ -3728,7 +4189,15 @@
     "utter-project/EuroLLM1.5-9B-SFT",
     "utter-project/EuroMoE-2.6B-A0.6B-2512",
     "utter-project/EuroMoE-2.6B-A0.6B-Instruct-2512",
-    "utter-project/EuroMoE-2.6B-A0.6B-Instruct-Preview"
+    "utter-project/EuroMoE-2.6B-A0.6B-Instruct-Preview",
+    "utter-project/EuroVLM-1.7B-Preview",
+    "utter-project/EuroVLM-9B-Preview",
+    "utter-project/SpireBase",
+    "utter-project/SpireFull",
+    "utter-project/TowerVideo-2B",
+    "utter-project/TowerVideo-9B",
+    "utter-project/TowerVision-2B",
+    "utter-project/TowerVision-9B"
   ],
   "excluded_repos_by_scope": [
     "BSC-LT/salamandra-7b-instruct-guard",

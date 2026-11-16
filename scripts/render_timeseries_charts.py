@@ -149,11 +149,15 @@ def model_daily_delta_series(
 def org_totals_per_day(
     records: list[dict],
     meta: dict[str, dict],
-) -> tuple[list[datetime], dict[str, list[int]], dict[str, list[int]]]:
+) -> tuple[list[datetime], dict[str, list[int | None]], dict[str, list[int | None]]]:
     dates: list[datetime] = []
-    org_30d: dict[str, list[int]] = defaultdict(list)
-    org_all: dict[str, list[int]] = defaultdict(list)
-    known_orgs: set[str] = set()
+    known_orgs = {
+        meta[row_id]["official_org"]
+        for rec in records for row_id in rec["rows"]
+        if meta.get(row_id, {}).get("official_org")
+    }
+    org_30d: dict[str, list[int | None]] = {org: [] for org in sorted(known_orgs)}
+    org_all: dict[str, list[int | None]] = {org: [] for org in sorted(known_orgs)}
 
     for rec in records:
         dates.append(parse_date(rec["snapshot_date"]))
@@ -163,22 +167,21 @@ def org_totals_per_day(
             org = meta.get(row_id, {}).get("official_org")
             if not org:
                 continue
-            known_orgs.add(org)
             day_30d[org] += row["downloads_30d"]
             day_all[org] += row["downloads_all_time"]
         for org in known_orgs:
-            org_30d[org].append(day_30d.get(org, 0))
-            org_all[org].append(day_all.get(org, 0))
+            org_30d[org].append(day_30d.get(org))
+            org_all[org].append(day_all.get(org))
 
     return dates, org_30d, org_all
 
 
-def org_daily_deltas(dates: list[datetime], org_all: dict[str, list[int]]) -> dict[str, list[int | None]]:
+def org_daily_deltas(dates: list[datetime], org_all: dict[str, list[int | None]]) -> dict[str, list[int | None]]:
     out: dict[str, list[int | None]] = {}
     for org, totals in org_all.items():
         deltas: list[int | None] = []
         for i, total in enumerate(totals):
-            if i == 0:
+            if i == 0 or total is None or totals[i - 1] is None:
                 deltas.append(None)
             else:
                 deltas.append(max(total - totals[i - 1], 0))
