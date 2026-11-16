@@ -23,6 +23,8 @@ KNOWN_CONFIG_KEYS = {
     "deduplication",
     "organizations",
     "models",
+    "model_scope",
+    "exclude_repo_regex",
 }
 
 REQUIRED_ROW_KEYS = {"display_name", "official_org", "regex"}
@@ -79,6 +81,19 @@ def validate_config(config: dict[str, Any], *, warn: bool = True) -> list[str]:
         errors.append("missing required field: version")
     elif not isinstance(config["version"], int):
         errors.append("version must be an integer")
+
+    exclusions = config.get("exclude_repo_regex", [])
+    if not isinstance(exclusions, list):
+        errors.append("exclude_repo_regex must be a list")
+    else:
+        for i, pattern in enumerate(exclusions):
+            if not isinstance(pattern, str) or not pattern:
+                errors.append(f"exclude_repo_regex[{i}] must be a non-empty string")
+                continue
+            try:
+                re.compile(pattern)
+            except re.error as exc:
+                errors.append(f"exclude_repo_regex[{i}] invalid: {exc}")
 
     models = config.get("models")
     if not isinstance(models, dict) or not models:

@@ -222,3 +222,29 @@ python scripts/render_leaderboard_md.py   # writes README.md
 
 Inspect `README.md`, `output/leaderboard.json`/`.csv`, or
 `output/leaderboard_orgs.json`/`.csv`.
+
+## Model scope
+
+Only general-purpose generative language models qualify: open-ended generation
+and broad instruction/chat/reasoning across domains. General-purpose pretrained
+base models and multimodal LLMs generating text from images, audio or video
+remain eligible. There is no parameter-count floor.
+
+Exclude task/domain-specialist releases, even when the inherited architecture
+can still produce chat: OCR, translation-only, RAG/document-QA-only, keyword
+generation, code-only models, math/proof-only models, structured decisions,
+domain teachers and function-calling-only releases. This includes older catalog
+entries, not just recent additions. General reasoning models remain eligible.
+
+Embeddings, rerankers, classifiers, protein models, speech-only ASR/TTS, draft
+helpers, adapter-only packages, intermediate checkpoints and comparison-only
+research series remain excluded. Architecture and pipeline tags alone do not
+establish general-purpose capabilities; inspect the official model card and
+intended use. Reviewed positive and negative cases live in
+`tests/fixtures/model_scope_cases.json`.
+
+`exclude_repo_regex` prevents matching auxiliary variants within retained
+families; removed specialist families have no active row definitions. Historical
+snapshots preserve their original scope. Only the current-day record is
+recomputed after a scope correction; cross-scope differences are not demand
+changes. Source counters of retained repositories are preserved.

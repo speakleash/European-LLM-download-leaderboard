@@ -1,16 +1,18 @@
 {
-  "generated_at": "2026-11-12T01:00:28Z",
+  "generated_at": "2026-11-16T12:23:18Z",
   "config_version": 2,
   "config_path": "european-llm-hf-download-leaderboard.json",
-  "config_content_hash": "sha256:fe43429a919f279b87abc0eea9211f14e3c287bcac906b0c50365b0f1da1a08e",
+  "config_content_hash": "sha256:f72d690eb8550e885356299af9035f4be55544c6fbced58f6451b7d68aa74cbf",
   "organizations_scanned": [
+    "AI-Sweden-Models",
     "Aleph-Alpha",
-    "Almawave",
+    "AlmawaveLabs",
     "BSC-LT",
     "CYFRAGOVPL",
     "INSAIT-Institute",
     "LeoLM",
     "LumiOpen",
+    "NorwAI",
     "OPI-PG",
     "PleIAs",
     "Soofi-Project",
@@ -20,6 +22,7 @@
     "croissantllm",
     "domyn",
     "ilsp",
+    "lightonai",
     "mii-llm",
     "mistralai",
     "occiglot",
@@ -30,7 +33,7 @@
     "swiss-ai",
     "utter-project"
   ],
-  "manifest_content_hash": "sha256:d20f02d5a930982926506f1016ebf508427bda40cd8c0408737114369d5014f6",
+  "manifest_content_hash": "sha256:0f31684483694cd1d2ad05aa566fc672ec0e0ddcd7c1fa94fe4af5b6fcd96ff4",
   "rows": {
     "bielik-11b-v3.1": {
       "display_name": "Bielik-11B v3.1",
@@ -39,12 +42,6 @@
       "developer": "SpeakLeash / ACK Cyfronet AGH",
       "official_org": "speakleash",
       "repos": [
-        "speakleash/Bielik-11B-v3.1-DFlash",
-        "speakleash/Bielik-11B-v3.1-DFlash-FP8-Dynamic",
-        "speakleash/Bielik-11B-v3.1-DFlash-GGUF",
-        "speakleash/Bielik-11B-v3.1-DFlash2",
-        "speakleash/Bielik-11B-v3.1-DFlash2-FP8-Dynamic",
-        "speakleash/Bielik-11B-v3.1-DFlash2-GGUF",
         "speakleash/Bielik-11B-v3.1-Instruct",
         "speakleash/Bielik-11B-v3.1-Instruct-AWQ",
         "speakleash/Bielik-11B-v3.1-Instruct-FP8-Dynamic",
@@ -63,12 +60,13 @@
       "official_org": "speakleash",
       "repos": [
         "speakleash/Bielik-11B-v3-Base-20250730",
-        "speakleash/Bielik-11B-v3.0-DFlash",
         "speakleash/Bielik-11B-v3.0-Instruct",
         "speakleash/Bielik-11B-v3.0-Instruct-FP8-Dynamic",
         "speakleash/Bielik-11B-v3.0-Instruct-GGUF",
         "speakleash/Bielik-11B-v3.0-Instruct-MLX-4bit",
         "speakleash/Bielik-11B-v3.0-Instruct-MLX-8bit",
+        "speakleash/Bielik-11B-v3.0-Instruct-NVFP4",
+        "speakleash/Bielik-11B-v3.0-Instruct-NVFP4A16",
         "speakleash/Bielik-11B-v3.0-Instruct-awq",
         "speakleash/Bielik-PL-11B-v3.0-Instruct"
       ]
@@ -80,10 +78,14 @@
       "developer": "SpeakLeash / ACK Cyfronet AGH",
       "official_org": "speakleash",
       "repos": [
-        "speakleash/Bielik-Minitron-7B-v3.0-DFlash",
         "speakleash/Bielik-Minitron-7B-v3.0-Instruct",
+        "speakleash/Bielik-Minitron-7B-v3.0-Instruct-AWQ",
         "speakleash/Bielik-Minitron-7B-v3.0-Instruct-FP8-Dynamic",
         "speakleash/Bielik-Minitron-7B-v3.0-Instruct-GGUF",
+        "speakleash/Bielik-Minitron-7B-v3.0-Instruct-MLX-4bit",
+        "speakleash/Bielik-Minitron-7B-v3.0-Instruct-MLX-8bit",
+        "speakleash/Bielik-Minitron-7B-v3.0-Instruct-NVFP4",
+        "speakleash/Bielik-Minitron-7B-v3.0-Instruct-NVFP4A16",
         "speakleash/Bielik-PL-Minitron-7B-v3.0-Instruct"
       ]
     },
@@ -100,6 +102,8 @@
         "speakleash/Bielik-11B-v2.6-Instruct-GGUF",
         "speakleash/Bielik-11B-v2.6-Instruct-MLX-4bit",
         "speakleash/Bielik-11B-v2.6-Instruct-MLX-8bit",
+        "speakleash/Bielik-11B-v2.6-Instruct-NVFP4",
+        "speakleash/Bielik-11B-v2.6-Instruct-NVFP4A16",
         "speakleash/Bielik-11B-v2.6-Instruct-bnb-4bit"
       ]
     },
@@ -208,9 +212,12 @@
       "repos": [
         "speakleash/Bielik-4.5B-v3",
         "speakleash/Bielik-4.5B-v3.0-Instruct",
+        "speakleash/Bielik-4.5B-v3.0-Instruct-AWQ",
         "speakleash/Bielik-4.5B-v3.0-Instruct-FP8-Dynamic",
         "speakleash/Bielik-4.5B-v3.0-Instruct-GGUF",
-        "speakleash/Bielik-4.5B-v3.0-Instruct-MLX-8bit"
+        "speakleash/Bielik-4.5B-v3.0-Instruct-MLX-4bit",
+        "speakleash/Bielik-4.5B-v3.0-Instruct-MLX-8bit",
+        "speakleash/Bielik-4.5B-v3.0-Instruct-NVFP4A16"
       ]
     },
     "bielik-1.5b-v3.0": {
@@ -222,9 +229,13 @@
       "repos": [
         "speakleash/Bielik-1.5B-v3",
         "speakleash/Bielik-1.5B-v3.0-Instruct",
+        "speakleash/Bielik-1.5B-v3.0-Instruct-AWQ",
         "speakleash/Bielik-1.5B-v3.0-Instruct-FP8-Dynamic",
         "speakleash/Bielik-1.5B-v3.0-Instruct-GGUF",
-        "speakleash/Bielik-1.5B-v3.0-Instruct-MLX-8bit"
+        "speakleash/Bielik-1.5B-v3.0-Instruct-MLX-4bit",
+        "speakleash/Bielik-1.5B-v3.0-Instruct-MLX-8bit",
+        "speakleash/Bielik-1.5B-v3.0-Instruct-NVFP4",
+        "speakleash/Bielik-1.5B-v3.0-Instruct-NVFP4A16"
       ]
     },
     "bielik-7b-v0.1": {
@@ -489,6 +500,7 @@
       "developer": "utter-project",
       "official_org": "utter-project",
       "repos": [
+        "utter-project/EuroLLM1.5-9B-Base",
         "utter-project/EuroLLM1.5-9B-SFT"
       ]
     },
@@ -565,12 +577,14 @@
       ]
     },
     "openeurollm-prelude": {
-      "display_name": "OpenEuroLLM Prelude",
+      "display_name": "OpenEuroLLM Prelude-base 9B",
       "version": null,
       "country": "EU",
       "developer": "openeurollm",
       "official_org": "openeurollm",
-      "repos": []
+      "repos": [
+        "openeurollm/prelude-base"
+      ]
     },
     "apertus-70b-2509": {
       "display_name": "Apertus 70B (2509)",
@@ -798,48 +812,6 @@
         "mistralai/Mixtral-8x22B-v0.1"
       ]
     },
-    "devstral-small-2505": {
-      "display_name": "Devstral Small (2505)",
-      "version": "2505",
-      "country": "FR",
-      "developer": "Mistral AI",
-      "official_org": "mistralai",
-      "repos": [
-        "mistralai/Devstral-Small-2505",
-        "mistralai/Devstral-Small-2505_gguf"
-      ]
-    },
-    "devstral-small-2507": {
-      "display_name": "Devstral Small (2507)",
-      "version": "2507",
-      "country": "FR",
-      "developer": "Mistral AI",
-      "official_org": "mistralai",
-      "repos": [
-        "mistralai/Devstral-Small-2507",
-        "mistralai/Devstral-Small-2507_gguf"
-      ]
-    },
-    "devstral-small-2-2512": {
-      "display_name": "Devstral Small 2 (24B, 2512)",
-      "version": "2512",
-      "country": "FR",
-      "developer": "Mistral AI",
-      "official_org": "mistralai",
-      "repos": [
-        "mistralai/Devstral-Small-2-24B-Instruct-2512"
-      ]
-    },
-    "devstral-2-2512": {
-      "display_name": "Devstral 2 (123B, 2512)",
-      "version": "2512",
-      "country": "FR",
-      "developer": "Mistral AI",
-      "official_org": "mistralai",
-      "repos": [
-        "mistralai/Devstral-2-123B-Instruct-2512"
-      ]
-    },
     "magistral-small-2506": {
       "display_name": "Magistral Small (2506)",
       "version": "2506",
@@ -871,26 +843,6 @@
       "repos": [
         "mistralai/Magistral-Small-2509",
         "mistralai/Magistral-Small-2509-GGUF"
-      ]
-    },
-    "mamba-codestral-7b-v0.1": {
-      "display_name": "Mamba-Codestral 7B v0.1",
-      "version": "0.1",
-      "country": "FR",
-      "developer": "Mistral AI",
-      "official_org": "mistralai",
-      "repos": [
-        "mistralai/Mamba-Codestral-7B-v0.1"
-      ]
-    },
-    "codestral-22b-v0.1": {
-      "display_name": "Codestral 22B v0.1",
-      "version": "0.1",
-      "country": "FR",
-      "developer": "Mistral AI",
-      "official_org": "mistralai",
-      "repos": [
-        "mistralai/Codestral-22B-v0.1"
       ]
     },
     "ministral-3-14b-2512": {
@@ -949,16 +901,6 @@
         "mistralai/Ministral-8B-Instruct-2410"
       ]
     },
-    "mathstral-7b-v0.1": {
-      "display_name": "Mathstral 7B v0.1",
-      "version": "0.1",
-      "country": "FR",
-      "developer": "Mistral AI",
-      "official_org": "mistralai",
-      "repos": [
-        "mistralai/Mathstral-7B-v0.1"
-      ]
-    },
     "mistral-small-instruct-2409": {
       "display_name": "Mistral Small Instruct (2409)",
       "version": "2409",
@@ -967,26 +909,6 @@
       "official_org": "mistralai",
       "repos": [
         "mistralai/Mistral-Small-Instruct-2409"
-      ]
-    },
-    "leanstral-1.5": {
-      "display_name": "Leanstral 1.5 (119B-A6B)",
-      "version": "1.5",
-      "country": "FR",
-      "developer": "Mistral AI",
-      "official_org": "mistralai",
-      "repos": [
-        "mistralai/Leanstral-1.5-119B-A6B"
-      ]
-    },
-    "leanstral-2603": {
-      "display_name": "Leanstral (2603)",
-      "version": "2603",
-      "country": "FR",
-      "developer": "Mistral AI",
-      "official_org": "mistralai",
-      "repos": [
-        "mistralai/Leanstral-2603"
       ]
     },
     "mistral-7b-v0.3": {
@@ -1127,16 +1049,20 @@
       "version": null,
       "country": "IT",
       "developer": "Almawave",
-      "official_org": "Almawave",
-      "repos": []
+      "official_org": "AlmawaveLabs",
+      "repos": [
+        "AlmawaveLabs/Velvet-14B"
+      ]
     },
     "velvet-2b": {
       "display_name": "Velvet 2B",
       "version": null,
       "country": "IT",
       "developer": "Almawave",
-      "official_org": "Almawave",
-      "repos": []
+      "official_org": "AlmawaveLabs",
+      "repos": [
+        "AlmawaveLabs/Velvet-2B"
+      ]
     },
     "minerva-7b-v1.0": {
       "display_name": "Minerva 7B v1.0",
@@ -1234,39 +1160,6 @@
         "BSC-LT/ALIA-40b-instruct-2601-GGUF"
       ]
     },
-    "alia-40b-fc-2607": {
-      "display_name": "ALIA 40B Function Calling (2607)",
-      "version": "2607",
-      "country": "ES",
-      "developer": "BSC-LT",
-      "official_org": "BSC-LT",
-      "repos": [
-        "BSC-LT/ALIA-40b-fc-2607",
-        "BSC-LT/ALIA-40b-fc-2607-GGUF"
-      ]
-    },
-    "alia-40b-fc-2606": {
-      "display_name": "ALIA 40B Function Calling (2606)",
-      "version": "2606",
-      "country": "ES",
-      "developer": "BSC-LT",
-      "official_org": "BSC-LT",
-      "repos": [
-        "BSC-LT/ALIA-40b-fc-2606",
-        "BSC-LT/ALIA-40b-fc-2606-GGUF"
-      ]
-    },
-    "alia-40b-fc-2605": {
-      "display_name": "ALIA 40B Function Calling (2605)",
-      "version": "2605",
-      "country": "ES",
-      "developer": "BSC-LT",
-      "official_org": "BSC-LT",
-      "repos": [
-        "BSC-LT/ALIA-40b-fc-2605",
-        "BSC-LT/ALIA-40b-fc-2605-GGUF"
-      ]
-    },
     "salamandra-7b-base": {
       "display_name": "Salamandra 7B (base)",
       "version": null,
@@ -1290,31 +1183,7 @@
         "BSC-LT/salamandra-7b-instruct-2606",
         "BSC-LT/salamandra-7b-instruct-aina-hack",
         "BSC-LT/salamandra-7b-instruct-fp8",
-        "BSC-LT/salamandra-7b-instruct-gptq",
-        "BSC-LT/salamandra-7b-instruct-guard",
-        "BSC-LT/salamandra-7b-instruct-tools",
-        "BSC-LT/salamandra-7b-instruct-tools-16k"
-      ]
-    },
-    "salamandra-7b-fc-2610-evo": {
-      "display_name": "Salamandra 7B Function Calling (2610 evo)",
-      "version": "2610",
-      "country": "ES",
-      "developer": "BSC-LT",
-      "official_org": "BSC-LT",
-      "repos": [
-        "BSC-LT/salamandra-7b-fc-2610-evo"
-      ]
-    },
-    "salamandra-7b-fc-2607": {
-      "display_name": "Salamandra 7B Function Calling (2607)",
-      "version": "2607",
-      "country": "ES",
-      "developer": "BSC-LT",
-      "official_org": "BSC-LT",
-      "repos": [
-        "BSC-LT/salamandra-7b-fc-2607",
-        "BSC-LT/salamandra-7b-fc-2607-GGUF"
+        "BSC-LT/salamandra-7b-instruct-gptq"
       ]
     },
     "salamandra-2b": {
@@ -1668,7 +1537,6 @@
       "official_org": "cjvt",
       "repos": [
         "cjvt/GaMS3-12B",
-        "cjvt/GaMS3-12B-GRPO-Translator",
         "cjvt/GaMS3-12B-Instruct",
         "cjvt/GaMS3-12B-Instruct-Lex",
         "cjvt/GaMS3-12B-Multimodal"
@@ -1682,7 +1550,6 @@
       "official_org": "cjvt",
       "repos": [
         "cjvt/GaMS2-27B",
-        "cjvt/GaMS2-27B-GRPO-Translator",
         "cjvt/GaMS2-27B-Instruct"
       ]
     },
@@ -1755,30 +1622,6 @@
         "TildeAI/TildeOpen-30b-64k"
       ]
     },
-    "tildeopen-15b-wmt26-cs-de": {
-      "display_name": "TildeOpen 15B WMT26 (cs-de)",
-      "version": null,
-      "country": "LV",
-      "developer": "Tilde",
-      "official_org": "TildeAI",
-      "repos": [
-        "TildeAI/TildeOpen15B-64k-wmt26-compression-task-cs-de",
-        "TildeAI/TildeOpen15B-64k-wmt26-compression-task-cs-de-fp4a16",
-        "TildeAI/TildeOpen15B-64k-wmt26-compression-task-cs-de-fp8-dyn"
-      ]
-    },
-    "tildeopen-8b-wmt26-cs-de": {
-      "display_name": "TildeOpen 8B WMT26 (cs-de)",
-      "version": null,
-      "country": "LV",
-      "developer": "Tilde",
-      "official_org": "TildeAI",
-      "repos": [
-        "TildeAI/TildeOpen8B-64k-wmt26-compression-task-cs-de",
-        "TildeAI/TildeOpen8B-64k-wmt26-compression-task-cs-de-fp4a16",
-        "TildeAI/TildeOpen8B-64k-wmt26-compression-task-cs-de-fp8-dyn"
-      ]
-    },
     "soofi-s-instruct-preview": {
       "display_name": "Soofi S Instruct Preview",
       "version": "preview",
@@ -1844,56 +1687,6 @@
       "repos": [
         "domyn/Domyn-Edge-Base",
         "domyn/Domyn-Edge-SFT"
-      ]
-    },
-    "domyn-edge-teacher-if": {
-      "display_name": "Domyn Edge Teacher IF",
-      "version": null,
-      "country": "IT",
-      "developer": "Domyn",
-      "official_org": "domyn",
-      "repos": [
-        "domyn/Domyn-Edge-Teacher-IF"
-      ]
-    },
-    "domyn-edge-teacher-stem": {
-      "display_name": "Domyn Edge Teacher STEM",
-      "version": null,
-      "country": "IT",
-      "developer": "Domyn",
-      "official_org": "domyn",
-      "repos": [
-        "domyn/Domyn-Edge-Teacher-STEM"
-      ]
-    },
-    "domyn-edge-teacher-math": {
-      "display_name": "Domyn Edge Teacher Math",
-      "version": null,
-      "country": "IT",
-      "developer": "Domyn",
-      "official_org": "domyn",
-      "repos": [
-        "domyn/Domyn-Edge-Teacher-Math"
-      ]
-    },
-    "domyn-edge-teacher-code": {
-      "display_name": "Domyn Edge Teacher Code",
-      "version": null,
-      "country": "IT",
-      "developer": "Domyn",
-      "official_org": "domyn",
-      "repos": [
-        "domyn/Domyn-Edge-Teacher-Code"
-      ]
-    },
-    "domyn-edge-teacher-agentic": {
-      "display_name": "Domyn Edge Teacher Agentic",
-      "version": null,
-      "country": "IT",
-      "developer": "Domyn",
-      "official_org": "domyn",
-      "repos": [
-        "domyn/Domyn-Edge-Teacher-Agentic"
       ]
     },
     "domyn-small-v1.0": {
@@ -2013,27 +1806,6 @@
         "mii-llm/open-zagreus-0.4B"
       ]
     },
-    "nesso3-0.4b-agentic": {
-      "display_name": "Nesso 3 0.4B Agentic",
-      "version": "0.4B",
-      "country": "IT",
-      "developer": "mii-llm",
-      "official_org": "mii-llm",
-      "repos": [
-        "mii-llm/nesso3-0.4B-agentic",
-        "mii-llm/nesso3-0.4B-agentic-gguf"
-      ]
-    },
-    "nesso2-0.4b-agentic": {
-      "display_name": "Nesso 2 0.4B Agentic",
-      "version": "0.4B",
-      "country": "IT",
-      "developer": "mii-llm",
-      "official_org": "mii-llm",
-      "repos": [
-        "mii-llm/nesso2-0.4B-agentic"
-      ]
-    },
     "nesso-4b": {
       "display_name": "Nesso 4B",
       "version": null,
@@ -2043,17 +1815,6 @@
       "repos": [
         "mii-llm/nesso-4B",
         "mii-llm/nesso-4B-GGUF"
-      ]
-    },
-    "nesso-0.4b-agentic": {
-      "display_name": "Nesso 0.4B Agentic",
-      "version": "0.4B",
-      "country": "IT",
-      "developer": "mii-llm",
-      "official_org": "mii-llm",
-      "repos": [
-        "mii-llm/nesso-0.4B-agentic",
-        "mii-llm/nesso-0.4B-agentic-GGUF"
       ]
     },
     "nesso-0.4b-instruct": {
@@ -2138,74 +1899,455 @@
         "PleIAs/Monad"
       ]
     },
-    "pleias-pico": {
-      "display_name": "Pleias Pico",
-      "version": null,
-      "country": "FR",
-      "developer": "PleIAs",
-      "official_org": "PleIAs",
+    "velvet2-3b": {
+      "display_name": "Velvet2 3B",
+      "version": "2",
+      "country": "IT",
+      "developer": "Almawave",
+      "official_org": "AlmawaveLabs",
       "repos": [
-        "PleIAs/Pleias-Pico",
-        "PleIAs/Pleias-Pico-GGUF"
+        "AlmawaveLabs/Velvet2-3B"
       ]
     },
-    "pleias-nano": {
-      "display_name": "Pleias Nano",
+    "gpt-sw3-126m": {
+      "display_name": "GPT-SW3 126M",
       "version": null,
-      "country": "FR",
-      "developer": "PleIAs",
-      "official_org": "PleIAs",
+      "country": "SE",
+      "developer": "AI Sweden",
+      "official_org": "AI-Sweden-Models",
       "repos": [
-        "PleIAs/Pleias-Nano",
-        "PleIAs/Pleias-Nano-GGUF"
+        "AI-Sweden-Models/gpt-sw3-126m",
+        "AI-Sweden-Models/gpt-sw3-126m-gguf",
+        "AI-Sweden-Models/gpt-sw3-126m-instruct",
+        "AI-Sweden-Models/gpt-sw3-126m-instruct-gguf"
       ]
     },
-    "pleias-rag-1b": {
-      "display_name": "Pleias RAG 1B",
+    "gpt-sw3-356m": {
+      "display_name": "GPT-SW3 356M",
       "version": null,
-      "country": "FR",
-      "developer": "PleIAs",
-      "official_org": "PleIAs",
+      "country": "SE",
+      "developer": "AI Sweden",
+      "official_org": "AI-Sweden-Models",
       "repos": [
-        "PleIAs/Pleias-RAG-1B",
-        "PleIAs/Pleias-RAG-1B-gguf"
+        "AI-Sweden-Models/gpt-sw3-356m",
+        "AI-Sweden-Models/gpt-sw3-356m-gguf",
+        "AI-Sweden-Models/gpt-sw3-356m-instruct",
+        "AI-Sweden-Models/gpt-sw3-356m-instruct-gguf"
       ]
     },
-    "pleias-rag-350m": {
-      "display_name": "Pleias RAG 350M",
+    "gpt-sw3-1.3b": {
+      "display_name": "GPT-SW3 1.3B",
       "version": null,
-      "country": "FR",
-      "developer": "PleIAs",
-      "official_org": "PleIAs",
+      "country": "SE",
+      "developer": "AI Sweden",
+      "official_org": "AI-Sweden-Models",
       "repos": [
-        "PleIAs/Pleias-RAG-350M",
-        "PleIAs/Pleias-RAG-350M-gguf"
+        "AI-Sweden-Models/gpt-sw3-1.3b",
+        "AI-Sweden-Models/gpt-sw3-1.3b-gguf",
+        "AI-Sweden-Models/gpt-sw3-1.3b-instruct",
+        "AI-Sweden-Models/gpt-sw3-1.3b-instruct-gguf"
       ]
     },
-    "pleias-slm-rag": {
-      "display_name": "Pleias SLM RAG",
+    "gpt-sw3-6.7b": {
+      "display_name": "GPT-SW3 6.7B",
       "version": null,
-      "country": "FR",
-      "developer": "PleIAs",
-      "official_org": "PleIAs",
+      "country": "SE",
+      "developer": "AI Sweden",
+      "official_org": "AI-Sweden-Models",
       "repos": [
-        "PleIAs/Pleias-SLM-RAG"
+        "AI-Sweden-Models/gpt-sw3-6.7b"
       ]
     },
-    "ocronos": {
-      "display_name": "OCRonos",
+    "gpt-sw3-20b": {
+      "display_name": "GPT-SW3 20B",
+      "version": null,
+      "country": "SE",
+      "developer": "AI Sweden",
+      "official_org": "AI-Sweden-Models",
+      "repos": [
+        "AI-Sweden-Models/gpt-sw3-20b",
+        "AI-Sweden-Models/gpt-sw3-20b-gguf",
+        "AI-Sweden-Models/gpt-sw3-20b-instruct",
+        "AI-Sweden-Models/gpt-sw3-20b-instruct-4bit-gptq",
+        "AI-Sweden-Models/gpt-sw3-20b-instruct-gguf"
+      ]
+    },
+    "gpt-sw3-40b": {
+      "display_name": "GPT-SW3 40B",
+      "version": null,
+      "country": "SE",
+      "developer": "AI Sweden",
+      "official_org": "AI-Sweden-Models",
+      "repos": [
+        "AI-Sweden-Models/gpt-sw3-40b",
+        "AI-Sweden-Models/gpt-sw3-40b-gguf"
+      ]
+    },
+    "gpt-sw3-6.7b-v2": {
+      "display_name": "GPT-SW3 6.7B v2",
+      "version": "2",
+      "country": "SE",
+      "developer": "AI Sweden",
+      "official_org": "AI-Sweden-Models",
+      "repos": [
+        "AI-Sweden-Models/gpt-sw3-6.7b-v2",
+        "AI-Sweden-Models/gpt-sw3-6.7b-v2-gguf",
+        "AI-Sweden-Models/gpt-sw3-6.7b-v2-instruct",
+        "AI-Sweden-Models/gpt-sw3-6.7b-v2-instruct-4bit-gptq",
+        "AI-Sweden-Models/gpt-sw3-6.7b-v2-instruct-gguf"
+      ]
+    },
+    "ai-sweden-llama3-8b": {
+      "display_name": "AI Sweden Llama 3 8B",
+      "version": "3",
+      "country": "SE",
+      "developer": "AI Sweden",
+      "official_org": "AI-Sweden-Models",
+      "repos": [
+        "AI-Sweden-Models/Llama-3-8B",
+        "AI-Sweden-Models/Llama-3-8B-Q3_K_M-gguf",
+        "AI-Sweden-Models/Llama-3-8B-Q4_K_M-gguf",
+        "AI-Sweden-Models/Llama-3-8B-bf16-gguf",
+        "AI-Sweden-Models/Llama-3-8B-instruct",
+        "AI-Sweden-Models/Llama-3-8B-instruct-Q3_K_M-gguf",
+        "AI-Sweden-Models/Llama-3-8B-instruct-Q4_K_M-gguf",
+        "AI-Sweden-Models/Llama-3-8B-instruct-bf16-gguf",
+        "AI-Sweden-Models/Llama-3-8B-instruct-q8-gguf",
+        "AI-Sweden-Models/Llama-3-8B-q8-gguf"
+      ]
+    },
+    "norwai-llama2-7b": {
+      "display_name": "NorwAI Llama2-7B",
+      "version": null,
+      "country": "NO",
+      "developer": "NorwAI / NTNU",
+      "official_org": "NorwAI",
+      "repos": [
+        "NorwAI/NorwAI-Llama2-7B"
+      ]
+    },
+    "norwai-mistral-7b": {
+      "display_name": "NorwAI Mistral-7B",
+      "version": null,
+      "country": "NO",
+      "developer": "NorwAI / NTNU",
+      "official_org": "NorwAI",
+      "repos": [
+        "NorwAI/NorwAI-Mistral-7B",
+        "NorwAI/NorwAI-Mistral-7B-instruct",
+        "NorwAI/NorwAI-Mistral-7B-pretrain"
+      ]
+    },
+    "norwai-mixtral-8x7b": {
+      "display_name": "NorwAI Mixtral-8x7B",
+      "version": null,
+      "country": "NO",
+      "developer": "NorwAI / NTNU",
+      "official_org": "NorwAI",
+      "repos": [
+        "NorwAI/NorwAI-Mixtral-8x7B",
+        "NorwAI/NorwAI-Mixtral-8x7B-instruct"
+      ]
+    },
+    "norwai-magistral-24b-reasoning": {
+      "display_name": "NorwAI Magistral 24B reasoning",
+      "version": null,
+      "country": "NO",
+      "developer": "NorwAI / NTNU",
+      "official_org": "NorwAI",
+      "repos": [
+        "NorwAI/NorwAI-Magistral-24B-reasoning"
+      ]
+    },
+    "alfred-40b-0723": {
+      "display_name": "Alfred 40B (0723)",
+      "version": "0723",
+      "country": "FR",
+      "developer": "LightOn",
+      "official_org": "lightonai",
+      "repos": [
+        "lightonai/alfred-40b-0723"
+      ]
+    },
+    "alfred-40b-1023": {
+      "display_name": "Alfred 40B (1023)",
+      "version": "1023",
+      "country": "FR",
+      "developer": "LightOn",
+      "official_org": "lightonai",
+      "repos": [
+        "lightonai/alfred-40b-1023"
+      ]
+    },
+    "openeurollm-prelude-long": {
+      "display_name": "OpenEuroLLM Prelude-long 9B",
+      "version": null,
+      "country": "EU",
+      "developer": "OpenEuroLLM",
+      "official_org": "openeurollm",
+      "repos": [
+        "openeurollm/prelude-long"
+      ]
+    },
+    "openeurollm-prelude-sft-excellent-v0.1": {
+      "display_name": "OpenEuroLLM Prelude SFT Excellent v0.1",
+      "version": "0.1",
+      "country": "EU",
+      "developer": "OpenEuroLLM",
+      "official_org": "openeurollm",
+      "repos": [
+        "openeurollm/Prelude-SFT-Excellent-v0.1"
+      ]
+    },
+    "openeurollm-prelude-sft-excellent-v0.2": {
+      "display_name": "OpenEuroLLM Prelude SFT Excellent v0.2",
+      "version": "0.2",
+      "country": "EU",
+      "developer": "OpenEuroLLM",
+      "official_org": "openeurollm",
+      "repos": [
+        "openeurollm/Prelude-SFT-Excellent-v0.2"
+      ]
+    },
+    "pixtral-12b-2409": {
+      "display_name": "Pixtral 12B (2409)",
+      "version": "2409",
+      "country": "FR",
+      "developer": "Mistral AI",
+      "official_org": "mistralai",
+      "repos": [
+        "mistralai/Pixtral-12B-2409",
+        "mistralai/Pixtral-12B-Base-2409"
+      ]
+    },
+    "pixtral-large-2411": {
+      "display_name": "Pixtral Large (2411)",
+      "version": "2411",
+      "country": "FR",
+      "developer": "Mistral AI",
+      "official_org": "mistralai",
+      "repos": [
+        "mistralai/Pixtral-Large-Instruct-2411"
+      ]
+    },
+    "voxtral-3b-2507": {
+      "display_name": "Voxtral Mini 3B (2507)",
+      "version": "2507",
+      "country": "FR",
+      "developer": "Mistral AI",
+      "official_org": "mistralai",
+      "repos": [
+        "mistralai/Voxtral-Mini-3B-2507"
+      ]
+    },
+    "voxtral-24b-2507": {
+      "display_name": "Voxtral Small 24B (2507)",
+      "version": "2507",
+      "country": "FR",
+      "developer": "Mistral AI",
+      "official_org": "mistralai",
+      "repos": [
+        "mistralai/Voxtral-Small-24B-2507"
+      ]
+    },
+    "velvet2-3b-vision": {
+      "display_name": "Velvet2 3B Vision",
+      "version": "2",
+      "country": "IT",
+      "developer": "Almawave",
+      "official_org": "AlmawaveLabs",
+      "repos": [
+        "AlmawaveLabs/Velvet2-3B-Vision"
+      ]
+    },
+    "salamandra-7b-vision": {
+      "display_name": "Salamandra 7B Vision",
+      "version": null,
+      "country": "ES",
+      "developer": "Barcelona Supercomputing Center",
+      "official_org": "BSC-LT",
+      "repos": [
+        "BSC-LT/salamandra-7b-vision"
+      ]
+    },
+    "salamandra-vl-7b-2512": {
+      "display_name": "Salamandra VL 7B (2512)",
+      "version": null,
+      "country": "ES",
+      "developer": "Barcelona Supercomputing Center",
+      "official_org": "BSC-LT",
+      "repos": [
+        "BSC-LT/Salamandra-VL-7B-2512"
+      ]
+    },
+    "eurovlm-1.7b-preview": {
+      "display_name": "EuroVLM 1.7B Preview",
+      "version": "preview",
+      "country": "EU",
+      "developer": "UTTER consortium",
+      "official_org": "utter-project",
+      "repos": [
+        "utter-project/EuroVLM-1.7B-Preview"
+      ]
+    },
+    "eurovlm-9b-preview": {
+      "display_name": "EuroVLM 9B Preview",
+      "version": "preview",
+      "country": "EU",
+      "developer": "UTTER consortium",
+      "official_org": "utter-project",
+      "repos": [
+        "utter-project/EuroVLM-9B-Preview"
+      ]
+    },
+    "towervision-2b": {
+      "display_name": "TowerVision 2B",
+      "version": null,
+      "country": "EU",
+      "developer": "UTTER consortium",
+      "official_org": "utter-project",
+      "repos": [
+        "utter-project/TowerVision-2B"
+      ]
+    },
+    "towervision-9b": {
+      "display_name": "TowerVision 9B",
+      "version": null,
+      "country": "EU",
+      "developer": "UTTER consortium",
+      "official_org": "utter-project",
+      "repos": [
+        "utter-project/TowerVision-9B"
+      ]
+    },
+    "pagnol-small": {
+      "display_name": "PAGnol small",
       "version": null,
       "country": "FR",
-      "developer": "PleIAs",
-      "official_org": "PleIAs",
+      "developer": "LightOn / Inria",
+      "official_org": "lightonai",
       "repos": [
-        "PleIAs/OCRonos",
-        "PleIAs/OCRonos-Vintage",
-        "PleIAs/OCRonos-Vintage-CT2"
+        "lightonai/pagnol-small"
+      ]
+    },
+    "pagnol-medium": {
+      "display_name": "PAGnol medium",
+      "version": null,
+      "country": "FR",
+      "developer": "LightOn / Inria",
+      "official_org": "lightonai",
+      "repos": [
+        "lightonai/pagnol-medium"
+      ]
+    },
+    "pagnol-large": {
+      "display_name": "PAGnol large",
+      "version": null,
+      "country": "FR",
+      "developer": "LightOn / Inria",
+      "official_org": "lightonai",
+      "repos": [
+        "lightonai/pagnol-large"
+      ]
+    },
+    "pagnol-xl": {
+      "display_name": "PAGnol xl",
+      "version": null,
+      "country": "FR",
+      "developer": "LightOn / Inria",
+      "official_org": "lightonai",
+      "repos": [
+        "lightonai/pagnol-xl"
+      ]
+    },
+    "mambaoutai-1.6b": {
+      "display_name": "Mambaoutai 1.6B",
+      "version": null,
+      "country": "FR",
+      "developer": "LightOn",
+      "official_org": "lightonai",
+      "repos": [
+        "lightonai/mambaoutai"
+      ]
+    },
+    "tyr-7b": {
+      "display_name": "Tyr 7B",
+      "version": null,
+      "country": "SE",
+      "developer": "AI Sweden",
+      "official_org": "AI-Sweden-Models",
+      "repos": [
+        "AI-Sweden-Models/tyr"
+      ]
+    },
+    "gpt-sl-base": {
+      "display_name": "GPT-sl Base",
+      "version": null,
+      "country": "SI",
+      "developer": "CJVT UL",
+      "official_org": "cjvt",
+      "repos": [
+        "cjvt/gpt-sl-base"
+      ]
+    },
+    "towervideo-2b": {
+      "display_name": "TowerVideo 2B",
+      "version": null,
+      "country": "EU",
+      "developer": "UTTER consortium",
+      "official_org": "utter-project",
+      "repos": [
+        "utter-project/TowerVideo-2B"
+      ]
+    },
+    "towervideo-9b": {
+      "display_name": "TowerVideo 9B",
+      "version": null,
+      "country": "EU",
+      "developer": "UTTER consortium",
+      "official_org": "utter-project",
+      "repos": [
+        "utter-project/TowerVideo-9B"
+      ]
+    },
+    "croissantcool-v0.1": {
+      "display_name": "CroissantCool v0.1",
+      "version": "0.1",
+      "country": "FR",
+      "developer": "CroissantLLM consortium",
+      "official_org": "croissantllm",
+      "repos": [
+        "croissantllm/CroissantCool-v0.1"
+      ]
+    },
+    "croissantcool-v0.2": {
+      "display_name": "CroissantCool v0.2",
+      "version": "0.2",
+      "country": "FR",
+      "developer": "CroissantLLM consortium",
+      "official_org": "croissantllm",
+      "repos": [
+        "croissantllm/CroissantCool-v0.2"
+      ]
+    },
+    "velvet2-3b-speech": {
+      "display_name": "Velvet2 3B Speech",
+      "version": null,
+      "country": "IT",
+      "developer": "Almawave",
+      "official_org": "AlmawaveLabs",
+      "repos": [
+        "AlmawaveLabs/Velvet2-3B-Speech"
       ]
     }
   },
   "unmatched_repos_by_org": {
+    "AI-Sweden-Models": [
+      "AI-Sweden-Models/ModernBERT-base",
+      "AI-Sweden-Models/ModernBERT-large",
+      "AI-Sweden-Models/bert-large-nordic-pile-1M-steps",
+      "AI-Sweden-Models/roberta-large-1160k"
+    ],
     "Aleph-Alpha": [
       "Aleph-Alpha/Aleph-Alpha-GermanWeb-Grammar-Classifier-BERT",
       "Aleph-Alpha/Aleph-Alpha-GermanWeb-Grammar-Classifier-fastText",
@@ -2233,6 +2375,12 @@
       "Aleph-Alpha/umup-research-7b-fp8"
     ],
     "BSC-LT": [
+      "BSC-LT/ALIA-40b-fc-2605",
+      "BSC-LT/ALIA-40b-fc-2605-GGUF",
+      "BSC-LT/ALIA-40b-fc-2606",
+      "BSC-LT/ALIA-40b-fc-2606-GGUF",
+      "BSC-LT/ALIA-40b-fc-2607",
+      "BSC-LT/ALIA-40b-fc-2607-GGUF",
       "BSC-LT/Checkpoint_2b_instructed_beta",
       "BSC-LT/Checkpoint_4epoch_rag",
       "BSC-LT/ConMamba-small-ca",
@@ -2253,7 +2401,6 @@
       "BSC-LT/PL-ModernBERT-wp-es",
       "BSC-LT/RoBERTa-ca",
       "BSC-LT/RoBERTalex",
-      "BSC-LT/Salamandra-VL-7B-2512",
       "BSC-LT/catalan-verification-model-pkt-a",
       "BSC-LT/catalan-verification-model-pkt-b",
       "BSC-LT/experimental7b-rag",
@@ -2272,8 +2419,10 @@
       "BSC-LT/roberta-base-biomedical-es",
       "BSC-LT/roberta-base-ca",
       "BSC-LT/roberta_model_for_anonimization",
+      "BSC-LT/salamandra-7b-fc-2607",
+      "BSC-LT/salamandra-7b-fc-2607-GGUF",
+      "BSC-LT/salamandra-7b-fc-2610-evo",
       "BSC-LT/salamandra-7b-fc-private-test",
-      "BSC-LT/salamandra-7b-vision",
       "BSC-LT/salamandra-TAV-7b",
       "BSC-LT/salamandra7b_rag_prompt_ca-en-es",
       "BSC-LT/salamandraTA-2B-academic",
@@ -2428,6 +2577,9 @@
       "LumiOpen/llama-hpltv2-edu-classifier-xlm-roberta-large-zsm-Latn",
       "LumiOpen/mdlm-en-1.7b-sft"
     ],
+    "NorwAI": [
+      "NorwAI/NorwAI-Mixtral-8x7B-one-third-epoch"
+    ],
     "PleIAs": [
       "PleIAs/BibTexer",
       "PleIAs/Bibstyle-Detector",
@@ -2436,6 +2588,18 @@
       "PleIAs/Florence-PDF",
       "PleIAs/KaribuAI",
       "PleIAs/OCRerrcr",
+      "PleIAs/OCRonos",
+      "PleIAs/OCRonos-Vintage",
+      "PleIAs/OCRonos-Vintage-CT2",
+      "PleIAs/Pleias-Nano",
+      "PleIAs/Pleias-Nano-GGUF",
+      "PleIAs/Pleias-Pico",
+      "PleIAs/Pleias-Pico-GGUF",
+      "PleIAs/Pleias-RAG-1B",
+      "PleIAs/Pleias-RAG-1B-gguf",
+      "PleIAs/Pleias-RAG-350M",
+      "PleIAs/Pleias-RAG-350M-gguf",
+      "PleIAs/Pleias-SLM-RAG",
       "PleIAs/Segmentext",
       "PleIAs/Topical",
       "PleIAs/celadon",
@@ -2443,7 +2607,16 @@
       "PleIAs/journaux-lm-v1",
       "PleIAs/ksante-colbert-small"
     ],
+    "TildeAI": [
+      "TildeAI/TildeOpen15B-64k-wmt26-compression-task-cs-de",
+      "TildeAI/TildeOpen15B-64k-wmt26-compression-task-cs-de-fp4a16",
+      "TildeAI/TildeOpen15B-64k-wmt26-compression-task-cs-de-fp8-dyn",
+      "TildeAI/TildeOpen8B-64k-wmt26-compression-task-cs-de",
+      "TildeAI/TildeOpen8B-64k-wmt26-compression-task-cs-de-fp4a16",
+      "TildeAI/TildeOpen8B-64k-wmt26-compression-task-cs-de-fp8-dyn"
+    ],
     "Voicelab": [
+      "Voicelab/WERdict-pl",
       "Voicelab/herbert-base-cased-sentiment",
       "Voicelab/vlt5-base-keywords"
     ],
@@ -2453,7 +2626,6 @@
       "cjvt/SloBERTa-slo-word-spelling-annotator",
       "cjvt/crosloengual-bert-si-nli",
       "cjvt/gemma-3-27b-it-dassle-gec",
-      "cjvt/gpt-sl-base",
       "cjvt/legacy-t5-sl-small",
       "cjvt/muril-en-hi-codemixed",
       "cjvt/roberta-en-hi-codemixed",
@@ -2470,8 +2642,6 @@
       "cjvt/t5-slo-word-spelling-corrector"
     ],
     "croissantllm": [
-      "croissantllm/CroissantCool-v0.1",
-      "croissantllm/CroissantCool-v0.2",
       "croissantllm/CroissantLLM_ft_translation_correction-q0f16-MLC",
       "croissantllm/CroissantLLM_training_logs",
       "croissantllm/base_100k",
@@ -2516,7 +2686,12 @@
       "croissantllm/tinyllamaChat-v0.1"
     ],
     "domyn": [
-      "domyn/Domyn-Edge-Base-checkpoints"
+      "domyn/Domyn-Edge-Base-checkpoints",
+      "domyn/Domyn-Edge-Teacher-Agentic",
+      "domyn/Domyn-Edge-Teacher-Code",
+      "domyn/Domyn-Edge-Teacher-IF",
+      "domyn/Domyn-Edge-Teacher-Math",
+      "domyn/Domyn-Edge-Teacher-STEM"
     ],
     "ilsp": [
       "ilsp/CoRM",
@@ -2561,28 +2736,140 @@
       "ilsp/xls-r-greek-aivaliot",
       "ilsp/xls-r-greek-cretan"
     ],
+    "lightonai": [
+      "lightonai/Agent-ModernColBERT",
+      "lightonai/Agent-ModernColBERT-no-prefix",
+      "lightonai/ArabicWeb24-ablation-model-v1",
+      "lightonai/ArabicWeb24-ablation-model-v5",
+      "lightonai/ColBERT-Zero",
+      "lightonai/ColBERT-Zero-noprompts",
+      "lightonai/ColBERT-Zero-supervised",
+      "lightonai/ColBERT-Zero-supervised-noprompts",
+      "lightonai/ColBERT-Zero-unsupervised",
+      "lightonai/ColBERT-Zero-unsupervised-noprompts",
+      "lightonai/DSE_Qwen_2.5_SOTA",
+      "lightonai/DenseOn",
+      "lightonai/DenseOn-unsupervised",
+      "lightonai/FlexBert",
+      "lightonai/GTE-ModernColBERT-v1",
+      "lightonai/LateOn",
+      "lightonai/LateOn-Code",
+      "lightonai/LateOn-Code-edge",
+      "lightonai/LateOn-Code-edge-pretrain",
+      "lightonai/LateOn-Code-pretrain",
+      "lightonai/LateOn-hpool-regularized",
+      "lightonai/LateOn-regularized",
+      "lightonai/LateOn-unsupervised",
+      "lightonai/LightOn-rerank-LW-0.8B",
+      "lightonai/LightOn-rerank-LW-2B",
+      "lightonai/LightOn-rerank-LW-4B",
+      "lightonai/LightOn-rerank-PW-0.8B",
+      "lightonai/LightOn-rerank-PW-2B",
+      "lightonai/LightOn-rerank-PW-4B",
+      "lightonai/LightOnOCR-0.9B-16k-1025",
+      "lightonai/LightOnOCR-0.9B-32k-1025",
+      "lightonai/LightOnOCR-1B-1025",
+      "lightonai/LightOnOCR-2-1B",
+      "lightonai/LightOnOCR-2-1B-base",
+      "lightonai/LightOnOCR-2-1B-bbox",
+      "lightonai/LightOnOCR-2-1B-bbox-base",
+      "lightonai/LightOnOCR-2-1B-bbox-soup",
+      "lightonai/LightOnOCR-2-1B-ocr-soup",
+      "lightonai/LightOnOCR-3-0.8B",
+      "lightonai/LightOnOCR-3-1B",
+      "lightonai/LightOnOCR-3-4B",
+      "lightonai/Mistral-Small-3.1-24B-Instruct-2503-OCR-adapter",
+      "lightonai/ModernColBERT-embed-base",
+      "lightonai/ModernColBERT-embed-base-kd-only",
+      "lightonai/ModernColBERT-embed-base-supervised",
+      "lightonai/MonoQwen2-VL-v0.1",
+      "lightonai/OriOn-Leaderboard",
+      "lightonai/OriOn-Mistral",
+      "lightonai/OriOn-Qwen",
+      "lightonai/OriOn-Qwen-SR1",
+      "lightonai/Qwen3-8B-DE",
+      "lightonai/Qwen3-8B-DE-Pivot-EN",
+      "lightonai/Qwen3-8B-DE-Swap",
+      "lightonai/Qwen3-8B-EN",
+      "lightonai/Qwen3-8B-ES",
+      "lightonai/Qwen3-8B-ES-Pivot-EN",
+      "lightonai/Qwen3-8B-ES-Swap",
+      "lightonai/Qwen3-8B-FR",
+      "lightonai/Qwen3-8B-FR-Pivot-EN",
+      "lightonai/Qwen3-8B-FR-Swap",
+      "lightonai/Qwen3-8B-SW",
+      "lightonai/Qwen3-8B-SW-Pivot-EN",
+      "lightonai/Qwen3-8B-SW-Swap",
+      "lightonai/Qwen3-8B-ZH",
+      "lightonai/Qwen3-8B-ZH-Pivot-EN",
+      "lightonai/Qwen3-8B-ZH-Swap",
+      "lightonai/RITA_l",
+      "lightonai/RITA_m",
+      "lightonai/RITA_s",
+      "lightonai/RITA_xl",
+      "lightonai/Reason-ModernColBERT",
+      "lightonai/SASS-LFM2.5-1.2B-Weighted-SFT-ColGREP",
+      "lightonai/SASS-LFM2.5-1.2B-Weighted-SFT-GREP",
+      "lightonai/SASS-MiniCPM5-1B-Weighted-SFT-ColGREP",
+      "lightonai/SASS-MiniCPM5-1B-Weighted-SFT-GREP",
+      "lightonai/SASS-Qwen3-1.7B-RL-FileF1-TurnPenalty-ColGREP",
+      "lightonai/SASS-Qwen3-1.7B-RL-FileF1-TurnPenalty-GREP",
+      "lightonai/SASS-Qwen3-1.7B-Weighted-SFT-ColGREP",
+      "lightonai/SASS-Qwen3-1.7B-Weighted-SFT-GREP",
+      "lightonai/SlideOn",
+      "lightonai/SlideOn-SAE",
+      "lightonai/alfred-0923-tokenizer",
+      "lightonai/answerai-colbert-small-v1",
+      "lightonai/answerai-colbert-small-v1-onnx",
+      "lightonai/colbertv2.0",
+      "lightonai/colgrep-agent-2B",
+      "lightonai/colgrep-agent-2B-GGUF",
+      "lightonai/dd_alpha",
+      "lightonai/gpt2-tokenizer-0923",
+      "lightonai/lateon-fix-s",
+      "lightonai/mDenseOn",
+      "lightonai/mDenseOn-unsupervised",
+      "lightonai/mLateOn",
+      "lightonai/mLateOn-unsupervised",
+      "lightonai/mSlideOn",
+      "lightonai/mSlideOn-SAE",
+      "lightonai/modernbert-embed-large",
+      "lightonai/modernbert-embed-large-unsupervised",
+      "lightonai/mxbai-edge-colbert-v0-32m-onnx"
+    ],
     "mii-llm": [
       "mii-llm/Llama-3-chat-v0.2-alpha-sft",
+      "mii-llm/nesso-0.4B-agentic",
+      "mii-llm/nesso-0.4B-agentic-GGUF",
+      "mii-llm/nesso2-0.4B-agentic",
+      "mii-llm/nesso3-0.4B-agentic",
+      "mii-llm/nesso3-0.4B-agentic-gguf",
       "mii-llm/nev",
       "mii-llm/nev-gguf",
       "mii-llm/propaganda-dpo-dx-v0.1",
       "mii-llm/propaganda-dpo-sx-v0.1"
     ],
     "mistralai": [
+      "mistralai/Codestral-22B-v0.1",
+      "mistralai/Devstral-2-123B-Instruct-2512",
+      "mistralai/Devstral-Small-2-24B-Instruct-2512",
+      "mistralai/Devstral-Small-2505",
+      "mistralai/Devstral-Small-2505_gguf",
+      "mistralai/Devstral-Small-2507",
+      "mistralai/Devstral-Small-2507_gguf",
       "mistralai/LIDstral-Arabic",
-      "mistralai/Pixtral-12B-2409",
-      "mistralai/Pixtral-12B-Base-2409",
-      "mistralai/Pixtral-Large-Instruct-2411",
+      "mistralai/Leanstral-1.5-119B-A6B",
+      "mistralai/Leanstral-2603",
+      "mistralai/Mamba-Codestral-7B-v0.1",
+      "mistralai/Mathstral-7B-v0.1",
       "mistralai/Shieldstral-1.0-3B",
       "mistralai/Timestral-123M",
       "mistralai/Timestral-209M",
       "mistralai/Timestral-28M",
       "mistralai/Timestral-5M",
       "mistralai/Voxtral-4B-TTS-2603",
-      "mistralai/Voxtral-Mini-3B-2507",
       "mistralai/Voxtral-Mini-4B-Realtime-2602",
-      "mistralai/Voxtral-Mini-4B-Realtime-Arabic",
-      "mistralai/Voxtral-Small-24B-2507"
+      "mistralai/Voxtral-Mini-4B-Realtime-Arabic"
     ],
     "openeurollm": [
       "openeurollm/OLMo-3-7B-Dolci-Translated-A-25EN",
@@ -2590,8 +2877,6 @@
       "openeurollm/OLMo-3-7B-Instruct-SFT",
       "openeurollm/OLMo-3-7B-Think-SFT",
       "openeurollm/Prelude-Marianna-midtrain-SFT-Excellent-v0.2",
-      "openeurollm/Prelude-SFT-Excellent-v0.1",
-      "openeurollm/Prelude-SFT-Excellent-v0.2",
       "openeurollm/bsc-edu-annotator",
       "openeurollm/complex-kda-1.3B-100B",
       "openeurollm/complex-kda-hybrid-1.3B-100B",
@@ -2615,6 +2900,7 @@
       "openeurollm/datamix-0.7b-Code-Reasoning-code-thinking-v1-100bt",
       "openeurollm/datamix-0.7b-Code-Reasoning-code-thinking-v1-1516-100bt",
       "openeurollm/datamix-0.7b-Code-Reasoning-codeio-100bt",
+      "openeurollm/datamix-0.7b-InfiMM-WebMath-40B-100bt",
       "openeurollm/datamix-0.7b-Llama-Nemotron-Post-Training-Dataset_wo_Llama-100bt",
       "openeurollm/datamix-0.7b-Math-Reasoning-math-rewrite-100bt",
       "openeurollm/datamix-0.7b-Math-Reasoning-math-thinking-oss-100bt",
@@ -2681,7 +2967,6 @@
       "openeurollm/oellm-9b-256k-theta64m-prelude-anneal300b",
       "openeurollm/oellm-9b-yarn-multilingual-v2-32k",
       "openeurollm/prelude-anneal300b-256k-rope20m-cont",
-      "openeurollm/prelude-base",
       "openeurollm/prelude-experiments",
       "openeurollm/prelude-wsm-merges",
       "openeurollm/tokenizer-128k",
@@ -2743,7 +3028,15 @@
       "speakleash/Bielik-Guard-0.1B-v1.0",
       "speakleash/Bielik-Guard-0.1B-v1.1",
       "speakleash/Bielik-Guard-0.5B-v1.0",
-      "speakleash/Bielik-Guard-0.5B-v1.1"
+      "speakleash/Bielik-Guard-0.5B-v1.1",
+      "speakleash/Bielik-One-11B-v3.0-r1",
+      "speakleash/Bielik-One-11B-v3.0-r1-Adapter",
+      "speakleash/Bielik-One-11B-v3.1-r1",
+      "speakleash/Bielik-One-11B-v3.1-r1-Adapter",
+      "speakleash/Bielik-One-4B-r1",
+      "speakleash/Bielik-One-4B-r1-Adapter",
+      "speakleash/Bielik-One-7B-v3.0-r1",
+      "speakleash/Bielik-One-7B-v3.0-r1-Adapter"
     ],
     "swiss-ai": [
       "swiss-ai/apertus-pretrain-toxicity",
@@ -2751,8 +3044,6 @@
     ],
     "utter-project": [
       "utter-project/EuroFilter-v1",
-      "utter-project/EuroVLM-1.7B-Preview",
-      "utter-project/EuroVLM-9B-Preview",
       "utter-project/SpireBase",
       "utter-project/SpireFull",
       "utter-project/SpireKMeans",
@@ -2760,10 +3051,6 @@
       "utter-project/SpireNoPseudo",
       "utter-project/TowerFull",
       "utter-project/TowerSpeech",
-      "utter-project/TowerVideo-2B",
-      "utter-project/TowerVideo-9B",
-      "utter-project/TowerVision-2B",
-      "utter-project/TowerVision-9B",
       "utter-project/eurollm-1.7b-mcore-phase1",
       "utter-project/eurollm-1.7b-mcore-phase2",
       "utter-project/eurollm-1.7b-mcore-phase2-long-context",
@@ -2781,19 +3068,54 @@
     ]
   },
   "all_repo_ids": [
+    "AI-Sweden-Models/Llama-3-8B",
+    "AI-Sweden-Models/Llama-3-8B-Q3_K_M-gguf",
+    "AI-Sweden-Models/Llama-3-8B-Q4_K_M-gguf",
+    "AI-Sweden-Models/Llama-3-8B-bf16-gguf",
+    "AI-Sweden-Models/Llama-3-8B-instruct",
+    "AI-Sweden-Models/Llama-3-8B-instruct-Q3_K_M-gguf",
+    "AI-Sweden-Models/Llama-3-8B-instruct-Q4_K_M-gguf",
+    "AI-Sweden-Models/Llama-3-8B-instruct-bf16-gguf",
+    "AI-Sweden-Models/Llama-3-8B-instruct-q8-gguf",
+    "AI-Sweden-Models/Llama-3-8B-q8-gguf",
+    "AI-Sweden-Models/gpt-sw3-1.3b",
+    "AI-Sweden-Models/gpt-sw3-1.3b-gguf",
+    "AI-Sweden-Models/gpt-sw3-1.3b-instruct",
+    "AI-Sweden-Models/gpt-sw3-1.3b-instruct-gguf",
+    "AI-Sweden-Models/gpt-sw3-126m",
+    "AI-Sweden-Models/gpt-sw3-126m-gguf",
+    "AI-Sweden-Models/gpt-sw3-126m-instruct",
+    "AI-Sweden-Models/gpt-sw3-126m-instruct-gguf",
+    "AI-Sweden-Models/gpt-sw3-20b",
+    "AI-Sweden-Models/gpt-sw3-20b-gguf",
+    "AI-Sweden-Models/gpt-sw3-20b-instruct",
+    "AI-Sweden-Models/gpt-sw3-20b-instruct-4bit-gptq",
+    "AI-Sweden-Models/gpt-sw3-20b-instruct-gguf",
+    "AI-Sweden-Models/gpt-sw3-356m",
+    "AI-Sweden-Models/gpt-sw3-356m-gguf",
+    "AI-Sweden-Models/gpt-sw3-356m-instruct",
+    "AI-Sweden-Models/gpt-sw3-356m-instruct-gguf",
+    "AI-Sweden-Models/gpt-sw3-40b",
+    "AI-Sweden-Models/gpt-sw3-40b-gguf",
+    "AI-Sweden-Models/gpt-sw3-6.7b",
+    "AI-Sweden-Models/gpt-sw3-6.7b-v2",
+    "AI-Sweden-Models/gpt-sw3-6.7b-v2-gguf",
+    "AI-Sweden-Models/gpt-sw3-6.7b-v2-instruct",
+    "AI-Sweden-Models/gpt-sw3-6.7b-v2-instruct-4bit-gptq",
+    "AI-Sweden-Models/gpt-sw3-6.7b-v2-instruct-gguf",
+    "AI-Sweden-Models/tyr",
     "Aleph-Alpha/Kolibri-1",
     "Aleph-Alpha/Kolibri-1-BF16",
     "Aleph-Alpha/Pharia-1-LLM-7B-control",
     "Aleph-Alpha/Pharia-1-LLM-7B-control-aligned",
     "Aleph-Alpha/Pharia-1-LLM-7B-control-aligned-hf",
     "Aleph-Alpha/Pharia-1-LLM-7B-control-hf",
+    "AlmawaveLabs/Velvet-14B",
+    "AlmawaveLabs/Velvet-2B",
+    "AlmawaveLabs/Velvet2-3B",
+    "AlmawaveLabs/Velvet2-3B-Speech",
+    "AlmawaveLabs/Velvet2-3B-Vision",
     "BSC-LT/ALIA-40b",
-    "BSC-LT/ALIA-40b-fc-2605",
-    "BSC-LT/ALIA-40b-fc-2605-GGUF",
-    "BSC-LT/ALIA-40b-fc-2606",
-    "BSC-LT/ALIA-40b-fc-2606-GGUF",
-    "BSC-LT/ALIA-40b-fc-2607",
-    "BSC-LT/ALIA-40b-fc-2607-GGUF",
     "BSC-LT/ALIA-40b-instruct-2601",
     "BSC-LT/ALIA-40b-instruct-2601-GGUF",
     "BSC-LT/ALIA-40b-instruct-2605",
@@ -2802,6 +3124,7 @@
     "BSC-LT/ALIA-40b-instruct-2606-GGUF",
     "BSC-LT/Flor-6.3B-Instruct",
     "BSC-LT/Flor-6.3B-Instruct-4096",
+    "BSC-LT/Salamandra-VL-7B-2512",
     "BSC-LT/salamandra-2b",
     "BSC-LT/salamandra-2b-base-fp8",
     "BSC-LT/salamandra-2b-base-gptq",
@@ -2812,17 +3135,12 @@
     "BSC-LT/salamandra-7b",
     "BSC-LT/salamandra-7b-base-fp8",
     "BSC-LT/salamandra-7b-base-gptq",
-    "BSC-LT/salamandra-7b-fc-2607",
-    "BSC-LT/salamandra-7b-fc-2607-GGUF",
-    "BSC-LT/salamandra-7b-fc-2610-evo",
     "BSC-LT/salamandra-7b-instruct",
     "BSC-LT/salamandra-7b-instruct-2606",
     "BSC-LT/salamandra-7b-instruct-aina-hack",
     "BSC-LT/salamandra-7b-instruct-fp8",
     "BSC-LT/salamandra-7b-instruct-gptq",
-    "BSC-LT/salamandra-7b-instruct-guard",
-    "BSC-LT/salamandra-7b-instruct-tools",
-    "BSC-LT/salamandra-7b-instruct-tools-16k",
+    "BSC-LT/salamandra-7b-vision",
     "CYFRAGOVPL/Llama-PLLuM-70B-base-2412",
     "CYFRAGOVPL/Llama-PLLuM-70B-base-2508",
     "CYFRAGOVPL/Llama-PLLuM-70B-chat-2412",
@@ -2917,6 +3235,13 @@
     "LumiOpen/Viking-13B",
     "LumiOpen/Viking-33B",
     "LumiOpen/Viking-7B",
+    "NorwAI/NorwAI-Llama2-7B",
+    "NorwAI/NorwAI-Magistral-24B-reasoning",
+    "NorwAI/NorwAI-Mistral-7B",
+    "NorwAI/NorwAI-Mistral-7B-instruct",
+    "NorwAI/NorwAI-Mistral-7B-pretrain",
+    "NorwAI/NorwAI-Mixtral-8x7B",
+    "NorwAI/NorwAI-Mixtral-8x7B-instruct",
     "OPI-PG/Qra-13b",
     "OPI-PG/Qra-1b",
     "OPI-PG/Qra-7b",
@@ -2924,21 +3249,9 @@
     "PleIAs/Baguettotron-GGUF",
     "PleIAs/Baguettotron-MoE",
     "PleIAs/Monad",
-    "PleIAs/OCRonos",
-    "PleIAs/OCRonos-Vintage",
-    "PleIAs/OCRonos-Vintage-CT2",
     "PleIAs/Pleias-1.2b-Preview",
     "PleIAs/Pleias-350m-Preview",
     "PleIAs/Pleias-3b-Preview",
-    "PleIAs/Pleias-Nano",
-    "PleIAs/Pleias-Nano-GGUF",
-    "PleIAs/Pleias-Pico",
-    "PleIAs/Pleias-Pico-GGUF",
-    "PleIAs/Pleias-RAG-1B",
-    "PleIAs/Pleias-RAG-1B-gguf",
-    "PleIAs/Pleias-RAG-350M",
-    "PleIAs/Pleias-RAG-350M-gguf",
-    "PleIAs/Pleias-SLM-RAG",
     "PleIAs/baguettotron-600m",
     "Soofi-Project/Soofi-S-Base",
     "Soofi-Project/Soofi-S-Base-Megatron",
@@ -2962,12 +3275,6 @@
     "Soofi-Project/Soofi-S-Rhine-Preview-GGUF",
     "TildeAI/TildeOpen-30b",
     "TildeAI/TildeOpen-30b-64k",
-    "TildeAI/TildeOpen15B-64k-wmt26-compression-task-cs-de",
-    "TildeAI/TildeOpen15B-64k-wmt26-compression-task-cs-de-fp4a16",
-    "TildeAI/TildeOpen15B-64k-wmt26-compression-task-cs-de-fp8-dyn",
-    "TildeAI/TildeOpen8B-64k-wmt26-compression-task-cs-de",
-    "TildeAI/TildeOpen8B-64k-wmt26-compression-task-cs-de-fp4a16",
-    "TildeAI/TildeOpen8B-64k-wmt26-compression-task-cs-de-fp8-dyn",
     "Voicelab/trurl-2-13b",
     "Voicelab/trurl-2-13b-8bit",
     "Voicelab/trurl-2-13b-academic",
@@ -2985,15 +3292,16 @@
     "cjvt/GaMS-9B-Instruct-Lex",
     "cjvt/GaMS-9B-Instruct-Nemotron",
     "cjvt/GaMS2-27B",
-    "cjvt/GaMS2-27B-GRPO-Translator",
     "cjvt/GaMS2-27B-Instruct",
     "cjvt/GaMS3-12B",
-    "cjvt/GaMS3-12B-GRPO-Translator",
     "cjvt/GaMS3-12B-Instruct",
     "cjvt/GaMS3-12B-Instruct-Lex",
     "cjvt/GaMS3-12B-Multimodal",
     "cjvt/OPT_GaMS-1B",
     "cjvt/OPT_GaMS-1B-Chat",
+    "cjvt/gpt-sl-base",
+    "croissantllm/CroissantCool-v0.1",
+    "croissantllm/CroissantCool-v0.2",
     "croissantllm/CroissantLLMBase",
     "croissantllm/CroissantLLMBase-GGML",
     "croissantllm/CroissantLLMBase-GGUF",
@@ -3007,11 +3315,6 @@
     "croissantllm/CroissantLLMChat-v0.1-q4f32_1-MLC",
     "domyn/Domyn-Edge-Base",
     "domyn/Domyn-Edge-SFT",
-    "domyn/Domyn-Edge-Teacher-Agentic",
-    "domyn/Domyn-Edge-Teacher-Code",
-    "domyn/Domyn-Edge-Teacher-IF",
-    "domyn/Domyn-Edge-Teacher-Math",
-    "domyn/Domyn-Edge-Teacher-STEM",
     "domyn/Domyn-Small-v1.0",
     "ilsp/Llama-Krikri-8B-Base",
     "ilsp/Llama-Krikri-8B-Instruct",
@@ -3027,6 +3330,13 @@
     "ilsp/Meltemi-7B-Instruct-v1.5",
     "ilsp/Meltemi-7B-v1",
     "ilsp/Meltemi-7B-v1.5",
+    "lightonai/alfred-40b-0723",
+    "lightonai/alfred-40b-1023",
+    "lightonai/mambaoutai",
+    "lightonai/pagnol-large",
+    "lightonai/pagnol-medium",
+    "lightonai/pagnol-small",
+    "lightonai/pagnol-xl",
     "mii-llm/emma-5-boost",
     "mii-llm/maestrale-chat-v0.1-alpha-sft",
     "mii-llm/maestrale-chat-v0.2-alpha-sft",
@@ -3040,36 +3350,20 @@
     "mii-llm/maestrale-chat-v0.4-beta",
     "mii-llm/maestrale-chat-v0.4-beta-GGUF",
     "mii-llm/minerva-chat-v0.1-alpha-sft",
-    "mii-llm/nesso-0.4B-agentic",
-    "mii-llm/nesso-0.4B-agentic-GGUF",
     "mii-llm/nesso-0.4B-instruct",
     "mii-llm/nesso-4B",
     "mii-llm/nesso-4B-GGUF",
-    "mii-llm/nesso2-0.4B-agentic",
-    "mii-llm/nesso3-0.4B-agentic",
-    "mii-llm/nesso3-0.4B-agentic-gguf",
     "mii-llm/open-zagreus-0.4B",
     "mii-llm/zagreus-0.4B-fra",
     "mii-llm/zagreus-0.4B-ita",
     "mii-llm/zagreus-0.4B-por",
     "mii-llm/zagreus-0.4B-spa",
-    "mistralai/Codestral-22B-v0.1",
-    "mistralai/Devstral-2-123B-Instruct-2512",
-    "mistralai/Devstral-Small-2-24B-Instruct-2512",
-    "mistralai/Devstral-Small-2505",
-    "mistralai/Devstral-Small-2505_gguf",
-    "mistralai/Devstral-Small-2507",
-    "mistralai/Devstral-Small-2507_gguf",
-    "mistralai/Leanstral-1.5-119B-A6B",
-    "mistralai/Leanstral-2603",
     "mistralai/Magistral-Small-2506",
     "mistralai/Magistral-Small-2506_gguf",
     "mistralai/Magistral-Small-2507",
     "mistralai/Magistral-Small-2507-GGUF",
     "mistralai/Magistral-Small-2509",
     "mistralai/Magistral-Small-2509-GGUF",
-    "mistralai/Mamba-Codestral-7B-v0.1",
-    "mistralai/Mathstral-7B-v0.1",
     "mistralai/Ministral-3-14B-Base-2512",
     "mistralai/Ministral-3-14B-Instruct-2512",
     "mistralai/Ministral-3-14B-Instruct-2512-BF16",
@@ -3122,6 +3416,11 @@
     "mistralai/Mixtral-8x22B-v0.1",
     "mistralai/Mixtral-8x7B-Instruct-v0.1",
     "mistralai/Mixtral-8x7B-v0.1",
+    "mistralai/Pixtral-12B-2409",
+    "mistralai/Pixtral-12B-Base-2409",
+    "mistralai/Pixtral-Large-Instruct-2411",
+    "mistralai/Voxtral-Mini-3B-2507",
+    "mistralai/Voxtral-Small-24B-2507",
     "occiglot/occiglot-7b-de-en",
     "occiglot/occiglot-7b-de-en-instruct",
     "occiglot/occiglot-7b-es-en",
@@ -3136,6 +3435,10 @@
     "openGPT-X/Teuken-7B-instruct-commercial-v0.4",
     "openGPT-X/Teuken-7B-instruct-research-v0.4",
     "openGPT-X/Teuken-7B-instruct-v0.6",
+    "openeurollm/Prelude-SFT-Excellent-v0.1",
+    "openeurollm/Prelude-SFT-Excellent-v0.2",
+    "openeurollm/prelude-base",
+    "openeurollm/prelude-long",
     "sapienzanlp/Minerva-1B-base-v1.0",
     "sapienzanlp/Minerva-350M-base-v1.0",
     "sapienzanlp/Minerva-3B-base-v1.0",
@@ -3146,9 +3449,13 @@
     "sapienzanlp/modello-italia-9b-bf16",
     "speakleash/Bielik-1.5B-v3",
     "speakleash/Bielik-1.5B-v3.0-Instruct",
+    "speakleash/Bielik-1.5B-v3.0-Instruct-AWQ",
     "speakleash/Bielik-1.5B-v3.0-Instruct-FP8-Dynamic",
     "speakleash/Bielik-1.5B-v3.0-Instruct-GGUF",
+    "speakleash/Bielik-1.5B-v3.0-Instruct-MLX-4bit",
     "speakleash/Bielik-1.5B-v3.0-Instruct-MLX-8bit",
+    "speakleash/Bielik-1.5B-v3.0-Instruct-NVFP4",
+    "speakleash/Bielik-1.5B-v3.0-Instruct-NVFP4A16",
     "speakleash/Bielik-11B-v2",
     "speakleash/Bielik-11B-v2.0-Instruct",
     "speakleash/Bielik-11B-v2.0-Instruct-FP8",
@@ -3197,21 +3504,18 @@
     "speakleash/Bielik-11B-v2.6-Instruct-GGUF",
     "speakleash/Bielik-11B-v2.6-Instruct-MLX-4bit",
     "speakleash/Bielik-11B-v2.6-Instruct-MLX-8bit",
+    "speakleash/Bielik-11B-v2.6-Instruct-NVFP4",
+    "speakleash/Bielik-11B-v2.6-Instruct-NVFP4A16",
     "speakleash/Bielik-11B-v2.6-Instruct-bnb-4bit",
     "speakleash/Bielik-11B-v3-Base-20250730",
-    "speakleash/Bielik-11B-v3.0-DFlash",
     "speakleash/Bielik-11B-v3.0-Instruct",
     "speakleash/Bielik-11B-v3.0-Instruct-FP8-Dynamic",
     "speakleash/Bielik-11B-v3.0-Instruct-GGUF",
     "speakleash/Bielik-11B-v3.0-Instruct-MLX-4bit",
     "speakleash/Bielik-11B-v3.0-Instruct-MLX-8bit",
+    "speakleash/Bielik-11B-v3.0-Instruct-NVFP4",
+    "speakleash/Bielik-11B-v3.0-Instruct-NVFP4A16",
     "speakleash/Bielik-11B-v3.0-Instruct-awq",
-    "speakleash/Bielik-11B-v3.1-DFlash",
-    "speakleash/Bielik-11B-v3.1-DFlash-FP8-Dynamic",
-    "speakleash/Bielik-11B-v3.1-DFlash-GGUF",
-    "speakleash/Bielik-11B-v3.1-DFlash2",
-    "speakleash/Bielik-11B-v3.1-DFlash2-FP8-Dynamic",
-    "speakleash/Bielik-11B-v3.1-DFlash2-GGUF",
     "speakleash/Bielik-11B-v3.1-Instruct",
     "speakleash/Bielik-11B-v3.1-Instruct-AWQ",
     "speakleash/Bielik-11B-v3.1-Instruct-FP8-Dynamic",
@@ -3222,9 +3526,12 @@
     "speakleash/Bielik-11B-v3.1-Instruct-NVFP4A16",
     "speakleash/Bielik-4.5B-v3",
     "speakleash/Bielik-4.5B-v3.0-Instruct",
+    "speakleash/Bielik-4.5B-v3.0-Instruct-AWQ",
     "speakleash/Bielik-4.5B-v3.0-Instruct-FP8-Dynamic",
     "speakleash/Bielik-4.5B-v3.0-Instruct-GGUF",
+    "speakleash/Bielik-4.5B-v3.0-Instruct-MLX-4bit",
     "speakleash/Bielik-4.5B-v3.0-Instruct-MLX-8bit",
+    "speakleash/Bielik-4.5B-v3.0-Instruct-NVFP4A16",
     "speakleash/Bielik-7B-Instruct-v0.1",
     "speakleash/Bielik-7B-Instruct-v0.1-3bit-HQQ",
     "speakleash/Bielik-7B-Instruct-v0.1-AWQ",
@@ -3233,10 +3540,14 @@
     "speakleash/Bielik-7B-Instruct-v0.1-GPTQ",
     "speakleash/Bielik-7B-Instruct-v0.1-MLX",
     "speakleash/Bielik-7B-v0.1",
-    "speakleash/Bielik-Minitron-7B-v3.0-DFlash",
     "speakleash/Bielik-Minitron-7B-v3.0-Instruct",
+    "speakleash/Bielik-Minitron-7B-v3.0-Instruct-AWQ",
     "speakleash/Bielik-Minitron-7B-v3.0-Instruct-FP8-Dynamic",
     "speakleash/Bielik-Minitron-7B-v3.0-Instruct-GGUF",
+    "speakleash/Bielik-Minitron-7B-v3.0-Instruct-MLX-4bit",
+    "speakleash/Bielik-Minitron-7B-v3.0-Instruct-MLX-8bit",
+    "speakleash/Bielik-Minitron-7B-v3.0-Instruct-NVFP4",
+    "speakleash/Bielik-Minitron-7B-v3.0-Instruct-NVFP4A16",
     "speakleash/Bielik-PL-11B-v3.0-Instruct",
     "speakleash/Bielik-PL-Minitron-7B-v3.0-Instruct",
     "swiss-ai/Apertus-70B-2509",
@@ -3278,9 +3589,37 @@
     "utter-project/EuroLLM-9B-2512",
     "utter-project/EuroLLM-9B-Instruct",
     "utter-project/EuroLLM-9B-Instruct-2512",
+    "utter-project/EuroLLM1.5-9B-Base",
     "utter-project/EuroLLM1.5-9B-SFT",
     "utter-project/EuroMoE-2.6B-A0.6B-2512",
     "utter-project/EuroMoE-2.6B-A0.6B-Instruct-2512",
-    "utter-project/EuroMoE-2.6B-A0.6B-Instruct-Preview"
+    "utter-project/EuroMoE-2.6B-A0.6B-Instruct-Preview",
+    "utter-project/EuroVLM-1.7B-Preview",
+    "utter-project/EuroVLM-9B-Preview",
+    "utter-project/TowerVideo-2B",
+    "utter-project/TowerVideo-9B",
+    "utter-project/TowerVision-2B",
+    "utter-project/TowerVision-9B"
+  ],
+  "excluded_repos_by_scope": [
+    "AI-Sweden-Models/gpt-sw3-6.7b-v2-translator",
+    "AI-Sweden-Models/gpt-sw3-6.7b-v2-translator-gguf",
+    "BSC-LT/salamandra-7b-instruct-guard",
+    "BSC-LT/salamandra-7b-instruct-tools",
+    "BSC-LT/salamandra-7b-instruct-tools-16k",
+    "cjvt/GaMS2-27B-GRPO-Translator",
+    "cjvt/GaMS3-12B-GRPO-Translator",
+    "speakleash/Bielik-11B-v3.0-DFlash",
+    "speakleash/Bielik-11B-v3.0-DFlash-FP8-Dynamic",
+    "speakleash/Bielik-11B-v3.0-DFlash-GGUF",
+    "speakleash/Bielik-11B-v3.1-DFlash",
+    "speakleash/Bielik-11B-v3.1-DFlash-FP8-Dynamic",
+    "speakleash/Bielik-11B-v3.1-DFlash-GGUF",
+    "speakleash/Bielik-11B-v3.1-DFlash2",
+    "speakleash/Bielik-11B-v3.1-DFlash2-FP8-Dynamic",
+    "speakleash/Bielik-11B-v3.1-DFlash2-GGUF",
+    "speakleash/Bielik-Minitron-7B-v3.0-DFlash",
+    "speakleash/Bielik-Minitron-7B-v3.0-DFlash-FP8-Dynamic",
+    "speakleash/Bielik-Minitron-7B-v3.0-DFlash-GGUF"
   ]
 }

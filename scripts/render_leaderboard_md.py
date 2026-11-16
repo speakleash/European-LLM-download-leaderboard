@@ -174,6 +174,13 @@ def render_markdown(
         f"- **Rows:** {len(rows)}"
         + (f" (of {len(leaderboard.get('rows') or [])})" if limit is not None else ""),
         "",
+        "General-purpose generative LLMs, including general-purpose multimodal models. "
+        "Task-specific OCR, translation, RAG, coding, math/proof, decision and "
+        "function-calling specialists are excluded, alongside auxiliary models.",
+        "",
+        "Historical snapshots retain their original scope; changes across the scope "
+        "correction on 2026-11-16 also reflect the removed repositories.",
+        "",
         "## Charts",
         "",
         "![Top models by 30-day downloads](docs/charts/top-models-30d.png)",
