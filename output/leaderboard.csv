@@ -10,12 +10,12 @@ rank,row_id,display_name,version,country,developer,official_org,total_downloads_
 9,apertus-8b-2509,Apertus 8B (2509),2509,CH,swiss-ai,swiss-ai,201288,4696239,0.041968,14,8053338176,swiss-ai/Apertus-8B-2509,2,True,-13785
 10,mistral-nemo-2407,Mistral NeMo (2407),2407,FR,Mistral AI,mistralai,145331,16687585,0.008657,85,12247782400,mistralai/Mistral-Nemo-Base-2407,3,True,-1224
 11,mistral-small-3.1-2503,"Mistral Small 3.1 (24B, 2503)",3.1,FR,Mistral AI,mistralai,140087,5041492,0.027246,30,24011361280,mistralai/Mistral-Small-3.1-24B-Base-2503,2,True,-4001
-12,bielik-11b-v3.0,Bielik-11B v3.0,3.0,PL,SpeakLeash / ACK Cyfronet AGH,speakleash,122675,4290187,0.027943,27,11339190972,speakleash/Bielik-11B-v3.0-Instruct-awq,13,True,0
+12,bielik-11b-v3.0,Bielik-11B v3.0,3.0,PL,SpeakLeash / ACK Cyfronet AGH,speakleash,122460,4288054,0.027908,27,11339190972,speakleash/Bielik-11B-v3.0-Instruct-awq,10,True,-215
 13,mistral-small-3.2-2506,"Mistral Small 3.2 (24B, 2506)",3.2,FR,Mistral AI,mistralai,105616,5656809,0.018346,44,24011361280,mistralai/Mistral-Small-3.2-24B-Instruct-2506,1,True,4598
 14,mistral-small-24b-2501,Mistral Small 24B (2501),2501,FR,Mistral AI,mistralai,101326,7732991,0.012936,63,23572403200,mistralai/Mistral-Small-24B-Base-2501,2,True,-780
 15,ministral-8b-2410,Ministral 8B Instruct (2410),2410,FR,Mistral AI,mistralai,62418,8612489,0.007164,96,8019808256,mistralai/Ministral-8B-Instruct-2410,1,True,202
 16,mixtral-8x22b-v0.1,Mixtral 8x22B v0.1,0.1,FR,Mistral AI,mistralai,43827,11297423,0.003845,126,140630071296,mistralai/Mixtral-8x22B-Instruct-v0.1,2,True,41
-17,salamandra-7b-instruct,Salamandra 7B Instruct,,ES,BSC-LT,BSC-LT,38770,741157,0.046091,11,7769280512,BSC-LT/salamandra-7b-instruct-fp8,8,True,97
+17,salamandra-7b-instruct,Salamandra 7B Instruct,,ES,BSC-LT,BSC-LT,38706,740716,0.046039,11,7769280512,BSC-LT/salamandra-7b-instruct-fp8,7,True,33
 18,magistral-small-2506,Magistral Small (2506),2506,FR,Mistral AI,mistralai,38252,807720,0.042141,13,23572403200,mistralai/Magistral-Small-2506,2,True,-2243
 19,mistral-small-4-2603,"Mistral Small 4 (119B, 2603)",2603,FR,Mistral AI,mistralai,35162,751343,0.041302,16,119401317376,mistralai/Mistral-Small-4-119B-2603,3,True,0
 20,devstral-small-2-2512,"Devstral Small 2 (24B, 2512)",2512,FR,Mistral AI,mistralai,26373,3012289,0.008474,88,24011361280,mistralai/Devstral-Small-2-24B-Instruct-2512,1,True,0
@@ -45,11 +45,11 @@ rank,row_id,display_name,version,country,developer,official_org,total_downloads_
 44,eurollm-22b-instruct-2512,EuroLLM-22B-Instruct (2512),2512,EU,utter-project,utter-project,6704,605427,0.009503,83,22637328384,utter-project/EuroLLM-22B-Instruct-2512,1,True,0
 45,eurollm-9b-instruct-2512,EuroLLM-9B-Instruct (2512),2512,EU,utter-project,utter-project,6398,161604,0.024457,33,9152319488,utter-project/EuroLLM-9B-Instruct-2512,1,True,0
 46,apertus-v1.1-0.5b,Apertus v1.1 0.5B,1.1,CH,swiss-ai,swiss-ai,6277,24143,0.050563,10,572567080,swiss-ai/Apertus-v1.1-0.5B-Instruct,5,True,0
-47,bielik-11b-v3.1,Bielik-11B v3.1,3.1,PL,SpeakLeash / ACK Cyfronet AGH,speakleash,6146,6146,0.057901,9,11168796672,speakleash/Bielik-11B-v3.1-Instruct,14,True,0
-48,llama-poro-2-8b,Llama-Poro 2 8B,2,FI,LumiOpen,LumiOpen,5948,57152,0.037849,17,8031309824,LumiOpen/Llama-Poro-2-8B-Long-Math-Reasoning-RL-Preview,7,True,-39
-49,minerva-3b-v1.0,Minerva 3B v1.0,1.0,IT,SapienzaNLP,sapienzanlp,5847,138604,0.024505,32,2894236160,sapienzanlp/Minerva-3B-base-v1.0,1,True,-1
-50,salamandra-2b,Salamandra 2B,,ES,BSC-LT,BSC-LT,5648,153627,0.022269,37,2253997056,BSC-LT/salamandra-2b-base-fp8,7,True,-40
-51,minerva-350m-v1.0,Minerva 350M v1.0,1.0,IT,SapienzaNLP,sapienzanlp,5601,159558,0.021579,38,351573120,sapienzanlp/Minerva-350M-base-v1.0,1,True,2
+47,llama-poro-2-8b,Llama-Poro 2 8B,2,FI,LumiOpen,LumiOpen,5948,57152,0.037849,17,8031309824,LumiOpen/Llama-Poro-2-8B-Long-Math-Reasoning-RL-Preview,7,True,-39
+48,minerva-3b-v1.0,Minerva 3B v1.0,1.0,IT,SapienzaNLP,sapienzanlp,5847,138604,0.024505,32,2894236160,sapienzanlp/Minerva-3B-base-v1.0,1,True,-1
+49,salamandra-2b,Salamandra 2B,,ES,BSC-LT,BSC-LT,5648,153627,0.022269,37,2253997056,BSC-LT/salamandra-2b-base-fp8,7,True,-40
+50,minerva-350m-v1.0,Minerva 350M v1.0,1.0,IT,SapienzaNLP,sapienzanlp,5601,159558,0.021579,38,351573120,sapienzanlp/Minerva-350M-base-v1.0,1,True,2
+51,bielik-11b-v3.1,Bielik-11B v3.1,3.1,PL,SpeakLeash / ACK Cyfronet AGH,speakleash,5442,5442,0.051611,9,11168796672,speakleash/Bielik-11B-v3.1-Instruct,8,True,-704
 52,bielik-1.5b-v3.0,Bielik-1.5B v3.0,3.0,PL,SpeakLeash,speakleash,5360,65382,0.03241,23,1597244928,speakleash/Bielik-1.5B-v3.0-Instruct-FP8-Dynamic,9,True,173
 53,openeurollm-prelude,OpenEuroLLM Prelude-base 9B,,EU,openeurollm,openeurollm,4773,78823,0.026691,31,9094607872,openeurollm/prelude-base,1,True,4773
 54,monad,Monad,,FR,PleIAs,PleIAs,4695,39255,0.033715,20,56656128,PleIAs/Monad,1,True,0
@@ -60,8 +60,8 @@ rank,row_id,display_name,version,country,developer,official_org,total_downloads_
 59,occiglot-7b-bilingual,Occiglot 7B (bilingual),,EU,occiglot,occiglot,4088,378866,0.008537,87,7241748480,occiglot/occiglot-7b-de-en-instruct,8,True,-47
 60,eurollm-22b-2512,EuroLLM-22B (2512 base),2512,EU,utter-project,utter-project,4082,29128,0.031612,24,22637328384,utter-project/EuroLLM-22B-2512,1,True,0
 61,euromoe-2.6b-2512,EuroMoE 2.6B-A0.6B (2512),2512,EU,utter-project,utter-project,3979,41640,0.028092,26,2611528704,utter-project/EuroMoE-2.6B-A0.6B-2512,3,True,-10
-62,bielik-minitron-7b-v3.0,Bielik-Minitron 7B v3.0,3.0,PL,SpeakLeash / ACK Cyfronet AGH,speakleash,3909,141496,0.016187,54,7479201792,speakleash/Bielik-Minitron-7B-v3.0-Instruct-FP8-Dynamic,12,True,0
-63,codestral-22b-v0.1,Codestral 22B v0.1,0.1,FR,Mistral AI,mistralai,3907,5166157,0.000742,173,22247282688,mistralai/Codestral-22B-v0.1,1,True,19
+62,codestral-22b-v0.1,Codestral 22B v0.1,0.1,FR,Mistral AI,mistralai,3907,5166157,0.000742,173,22247282688,mistralai/Codestral-22B-v0.1,1,True,19
+63,bielik-minitron-7b-v3.0,Bielik-Minitron 7B v3.0,3.0,PL,SpeakLeash / ACK Cyfronet AGH,speakleash,3688,131370,0.01594,54,7479201792,speakleash/Bielik-Minitron-7B-v3.0-Instruct-FP8-Dynamic,9,True,-221
 64,salamandra-7b-base,Salamandra 7B (base),,ES,BSC-LT,BSC-LT,3585,55302,0.023084,35,7769280512,BSC-LT/salamandra-7b-base-fp8,3,True,10
 65,baguettotron,Baguettotron,,FR,PleIAs,PleIAs,3541,44956,0.024428,34,13290474240,PleIAs/Baguettotron-MoE,3,True,0
 66,bggpt-gemma3-27b,BgGPT Gemma 3 27B,,BG,INSAIT,INSAIT-Institute,3378,22921,0.027481,29,27432406640,INSAIT-Institute/BgGPT-Gemma-3-27B-IT,3,True,0

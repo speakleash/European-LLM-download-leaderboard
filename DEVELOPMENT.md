@@ -222,3 +222,17 @@ python scripts/render_leaderboard_md.py   # writes README.md
 
 Inspect `README.md`, `output/leaderboard.json`/`.csv`, or
 `output/leaderboard_orgs.json`/`.csv`.
+
+## Model scope
+
+Only standalone generative language models qualify, including multimodal LLMs
+that generate text. Official quantizations and formats remain eligible. Model
+cards must be reviewed when adding families: a missing pipeline tag does not
+exclude a model, and `text-generation` alone does not establish eligibility.
+`exclude_repo_regex` is applied after family matching and records excluded IDs
+in `excluded_repos_by_scope`. Current exclusions cover DFlash draft helpers
+(which require a target model) and the Salamandra Guard classification adapters:
+https://huggingface.co/speakleash/Bielik-11B-v3.1-DFlash
+https://huggingface.co/BSC-LT/salamandra-7b-instruct-guard
+Historical snapshots retain their original scope; current totals exclude these
+repositories, so comparisons across the scope change reflect both effects.

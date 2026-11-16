@@ -6,6 +6,7 @@ from __future__ import annotations
 import argparse
 import json
 import os
+import re
 import sys
 from collections import defaultdict
 from pathlib import Path
@@ -79,6 +80,8 @@ def build_manifest(
     config_path: Path,
     org_repos: dict[str, list[str]],
 ) -> dict:
+    exclusions = [re.compile(pattern) for pattern in config.get("exclude_repo_regex", [])]
+    excluded: set[str] = set()
     models = active_models(config)
     compiled = compile_row_patterns(models)
     orgs = organizations_to_scan(config, models)
@@ -103,6 +106,9 @@ def build_manifest(
             if row_id is None:
                 unmatched_by_org[org].append(repo_id)
                 continue
+            if any(pattern.search(repo_id) for pattern in exclusions):
+                excluded.add(repo_id)
+                continue
             if repo_id in assigned:
                 continue
             assigned.add(repo_id)
@@ -125,10 +131,15 @@ def build_manifest(
         "rows": rows,
         "unmatched_repos_by_org": unmatched_sorted,
         "all_repo_ids": all_repo_ids,
+        "excluded_repos_by_scope": sorted(excluded),
     }
 
 
 def print_audit(manifest: dict) -> None:
+    excluded = manifest.get("excluded_repos_by_scope", [])
+    print(f"Excluded by model scope ({len(excluded)}):", file=sys.stderr)
+    for repo_id in excluded:
+        print(f"  - {repo_id}", file=sys.stderr)
     empty = [rid for rid, row in manifest["rows"].items() if not row["repos"]]
     if empty:
         print(f"Rows with zero matched repos ({len(empty)}):", file=sys.stderr)

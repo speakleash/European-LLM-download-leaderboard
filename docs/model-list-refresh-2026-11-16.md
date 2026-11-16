@@ -97,3 +97,12 @@ the retained snapshot. Download counters and the model catalog are unchanged.
 The existing "estimated daily" charts still plot differences between snapshots,
 not unique users. Catalog membership changes can affect aggregate deltas; the
 renderer and counting method remain unchanged.
+
+## Standalone LLM scope correction
+
+After catalog expansion, model-card review removed 12 DFlash draft helpers
+and the Salamandra Guard classification-adapter repository. The corrected
+manifest has 565 repo IDs and still 207 rows. Multimodal generative LLMs remain.
+Current counters were recomputed using the same downloaded statistics; older
+history records were preserved byte for byte. The exclusions are enforced by
+the resolver and audited in the manifest.

@@ -1,7 +1,7 @@
 {
   "snapshot_date": "2026-11-16",
   "fetched_at": "2026-11-16T09:01:19Z",
-  "manifest_content_hash": "sha256:fa30c964dc7424741a393f5e36774384acb637d3ef2e127ca678b35936be962b",
+  "manifest_content_hash": "sha256:d27e582e22daa382b29ed01df0eb72df9ff56ead61e31ad1ed799f8689183c5e",
   "config_version": 2,
   "fetch_concurrency": 8,
   "repos": {
@@ -476,12 +476,6 @@
     "BSC-LT/salamandra-7b-instruct-gptq": {
       "downloads_30d": 24,
       "downloads_all_time": 1428,
-      "parameters": 7768117248,
-      "parameters_source": "safetensors"
-    },
-    "BSC-LT/salamandra-7b-instruct-guard": {
-      "downloads_30d": 64,
-      "downloads_all_time": 441,
       "parameters": 7768117248,
       "parameters_source": "safetensors"
     },
@@ -2867,24 +2861,6 @@
       "parameters": 11168796672,
       "parameters_source": "safetensors"
     },
-    "speakleash/Bielik-11B-v3.0-DFlash": {
-      "downloads_30d": 215,
-      "downloads_all_time": 2133,
-      "parameters": 1174455552,
-      "parameters_source": "safetensors"
-    },
-    "speakleash/Bielik-11B-v3.0-DFlash-FP8-Dynamic": {
-      "downloads_30d": 0,
-      "downloads_all_time": 0,
-      "parameters": 1174455552,
-      "parameters_source": "safetensors"
-    },
-    "speakleash/Bielik-11B-v3.0-DFlash-GGUF": {
-      "downloads_30d": 0,
-      "downloads_all_time": 0,
-      "parameters": 1174455552,
-      "parameters_source": "gguf"
-    },
     "speakleash/Bielik-11B-v3.0-Instruct": {
       "downloads_30d": 99574,
       "downloads_all_time": 2579142,
@@ -2932,42 +2908,6 @@
       "downloads_all_time": 1548722,
       "parameters": 11339190972,
       "parameters_source": "safetensors"
-    },
-    "speakleash/Bielik-11B-v3.1-DFlash": {
-      "downloads_30d": 134,
-      "downloads_all_time": 134,
-      "parameters": 1174455552,
-      "parameters_source": "safetensors"
-    },
-    "speakleash/Bielik-11B-v3.1-DFlash-FP8-Dynamic": {
-      "downloads_30d": 25,
-      "downloads_all_time": 25,
-      "parameters": 1174455552,
-      "parameters_source": "safetensors"
-    },
-    "speakleash/Bielik-11B-v3.1-DFlash-GGUF": {
-      "downloads_30d": 207,
-      "downloads_all_time": 207,
-      "parameters": 1174455552,
-      "parameters_source": "gguf"
-    },
-    "speakleash/Bielik-11B-v3.1-DFlash2": {
-      "downloads_30d": 133,
-      "downloads_all_time": 133,
-      "parameters": 1234060544,
-      "parameters_source": "safetensors"
-    },
-    "speakleash/Bielik-11B-v3.1-DFlash2-FP8-Dynamic": {
-      "downloads_30d": 28,
-      "downloads_all_time": 28,
-      "parameters": 1234060544,
-      "parameters_source": "safetensors"
-    },
-    "speakleash/Bielik-11B-v3.1-DFlash2-GGUF": {
-      "downloads_30d": 177,
-      "downloads_all_time": 177,
-      "parameters": 1234060544,
-      "parameters_source": "gguf"
     },
     "speakleash/Bielik-11B-v3.1-Instruct": {
       "downloads_30d": 377,
@@ -3112,24 +3052,6 @@
       "downloads_all_time": 145511,
       "parameters": 7241732096,
       "parameters_source": "safetensors"
-    },
-    "speakleash/Bielik-Minitron-7B-v3.0-DFlash": {
-      "downloads_30d": 221,
-      "downloads_all_time": 10126,
-      "parameters": 985711872,
-      "parameters_source": "safetensors"
-    },
-    "speakleash/Bielik-Minitron-7B-v3.0-DFlash-FP8-Dynamic": {
-      "downloads_30d": 0,
-      "downloads_all_time": 0,
-      "parameters": 985711872,
-      "parameters_source": "safetensors"
-    },
-    "speakleash/Bielik-Minitron-7B-v3.0-DFlash-GGUF": {
-      "downloads_30d": 0,
-      "downloads_all_time": 0,
-      "parameters": 985711872,
-      "parameters_source": "gguf"
     },
     "speakleash/Bielik-Minitron-7B-v3.0-Instruct": {
       "downloads_30d": 905,
@@ -3476,30 +3398,30 @@
   },
   "rows": {
     "bielik-11b-v3.1": {
-      "total_downloads_30d": 6146,
-      "total_downloads_all_time": 6146,
-      "repo_count": 14,
-      "fetched_repo_count": 14,
+      "total_downloads_30d": 5442,
+      "total_downloads_all_time": 5442,
+      "repo_count": 8,
+      "fetched_repo_count": 8,
       "missing_repo_count": 0,
       "complete": true,
       "parameters": 11168796672,
       "parameters_source_repo": "speakleash/Bielik-11B-v3.1-Instruct"
     },
     "bielik-11b-v3.0": {
-      "total_downloads_30d": 122675,
-      "total_downloads_all_time": 4290187,
-      "repo_count": 13,
-      "fetched_repo_count": 13,
+      "total_downloads_30d": 122460,
+      "total_downloads_all_time": 4288054,
+      "repo_count": 10,
+      "fetched_repo_count": 10,
       "missing_repo_count": 0,
       "complete": true,
       "parameters": 11339190972,
       "parameters_source_repo": "speakleash/Bielik-11B-v3.0-Instruct-awq"
     },
     "bielik-minitron-7b-v3.0": {
-      "total_downloads_30d": 3909,
-      "total_downloads_all_time": 141496,
-      "repo_count": 12,
-      "fetched_repo_count": 12,
+      "total_downloads_30d": 3688,
+      "total_downloads_all_time": 131370,
+      "repo_count": 9,
+      "fetched_repo_count": 9,
       "missing_repo_count": 0,
       "complete": true,
       "parameters": 7479201792,
@@ -4536,10 +4458,10 @@
       "parameters_source_repo": "BSC-LT/salamandra-7b-base-fp8"
     },
     "salamandra-7b-instruct": {
-      "total_downloads_30d": 38770,
-      "total_downloads_all_time": 741157,
-      "repo_count": 8,
-      "fetched_repo_count": 8,
+      "total_downloads_30d": 38706,
+      "total_downloads_all_time": 740716,
+      "repo_count": 7,
+      "fetched_repo_count": 7,
       "missing_repo_count": 0,
       "complete": true,
       "parameters": 7769280512,

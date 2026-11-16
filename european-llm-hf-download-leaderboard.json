@@ -2094,5 +2094,10 @@
         "^openeurollm/Prelude-SFT-Excellent-v0\\.2$"
       ]
     }
-  }
+  },
+  "model_scope": "Standalone generative language models, including multimodal LLMs that generate text. Auxiliary draft models and classification-only adapters are excluded. New model families require model-card review; pipeline tags alone are insufficient.",
+  "exclude_repo_regex": [
+    "(?i)(?:^|[/_-])dflash[0-9]*(?:$|[/_-])",
+    "^BSC-LT/salamandra-7b-instruct-guard$"
+  ]
 }

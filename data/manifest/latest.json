@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-16T10:31:38Z",
+  "generated_at": "2026-11-16T11:17:04Z",
   "config_version": 2,
   "config_path": "european-llm-hf-download-leaderboard.json",
-  "config_content_hash": "sha256:8958b6a059bedc8c2ca7c5721005cda7c526ba8fdcd70ce46766165b74c94078",
+  "config_content_hash": "sha256:31d921ab912d22ec3d739cd2b11bec2af23aae086fea4eb3e0a48015bb895621",
   "organizations_scanned": [
     "AI-Sweden-Models",
     "Aleph-Alpha",
@@ -33,7 +33,7 @@
     "swiss-ai",
     "utter-project"
   ],
-  "manifest_content_hash": "sha256:fa30c964dc7424741a393f5e36774384acb637d3ef2e127ca678b35936be962b",
+  "manifest_content_hash": "sha256:d27e582e22daa382b29ed01df0eb72df9ff56ead61e31ad1ed799f8689183c5e",
   "rows": {
     "bielik-11b-v3.1": {
       "display_name": "Bielik-11B v3.1",
@@ -42,12 +42,6 @@
       "developer": "SpeakLeash / ACK Cyfronet AGH",
       "official_org": "speakleash",
       "repos": [
-        "speakleash/Bielik-11B-v3.1-DFlash",
-        "speakleash/Bielik-11B-v3.1-DFlash-FP8-Dynamic",
-        "speakleash/Bielik-11B-v3.1-DFlash-GGUF",
-        "speakleash/Bielik-11B-v3.1-DFlash2",
-        "speakleash/Bielik-11B-v3.1-DFlash2-FP8-Dynamic",
-        "speakleash/Bielik-11B-v3.1-DFlash2-GGUF",
         "speakleash/Bielik-11B-v3.1-Instruct",
         "speakleash/Bielik-11B-v3.1-Instruct-AWQ",
         "speakleash/Bielik-11B-v3.1-Instruct-FP8-Dynamic",
@@ -66,9 +60,6 @@
       "official_org": "speakleash",
       "repos": [
         "speakleash/Bielik-11B-v3-Base-20250730",
-        "speakleash/Bielik-11B-v3.0-DFlash",
-        "speakleash/Bielik-11B-v3.0-DFlash-FP8-Dynamic",
-        "speakleash/Bielik-11B-v3.0-DFlash-GGUF",
         "speakleash/Bielik-11B-v3.0-Instruct",
         "speakleash/Bielik-11B-v3.0-Instruct-FP8-Dynamic",
         "speakleash/Bielik-11B-v3.0-Instruct-GGUF",
@@ -87,9 +78,6 @@
       "developer": "SpeakLeash / ACK Cyfronet AGH",
       "official_org": "speakleash",
       "repos": [
-        "speakleash/Bielik-Minitron-7B-v3.0-DFlash",
-        "speakleash/Bielik-Minitron-7B-v3.0-DFlash-FP8-Dynamic",
-        "speakleash/Bielik-Minitron-7B-v3.0-DFlash-GGUF",
         "speakleash/Bielik-Minitron-7B-v3.0-Instruct",
         "speakleash/Bielik-Minitron-7B-v3.0-Instruct-AWQ",
         "speakleash/Bielik-Minitron-7B-v3.0-Instruct-FP8-Dynamic",
@@ -1321,7 +1309,6 @@
         "BSC-LT/salamandra-7b-instruct-aina-hack",
         "BSC-LT/salamandra-7b-instruct-fp8",
         "BSC-LT/salamandra-7b-instruct-gptq",
-        "BSC-LT/salamandra-7b-instruct-guard",
         "BSC-LT/salamandra-7b-instruct-tools",
         "BSC-LT/salamandra-7b-instruct-tools-16k"
       ]
@@ -3256,7 +3243,6 @@
     "BSC-LT/salamandra-7b-instruct-aina-hack",
     "BSC-LT/salamandra-7b-instruct-fp8",
     "BSC-LT/salamandra-7b-instruct-gptq",
-    "BSC-LT/salamandra-7b-instruct-guard",
     "BSC-LT/salamandra-7b-instruct-tools",
     "BSC-LT/salamandra-7b-instruct-tools-16k",
     "CYFRAGOVPL/Llama-PLLuM-70B-base-2412",
@@ -3654,9 +3640,6 @@
     "speakleash/Bielik-11B-v2.6-Instruct-NVFP4A16",
     "speakleash/Bielik-11B-v2.6-Instruct-bnb-4bit",
     "speakleash/Bielik-11B-v3-Base-20250730",
-    "speakleash/Bielik-11B-v3.0-DFlash",
-    "speakleash/Bielik-11B-v3.0-DFlash-FP8-Dynamic",
-    "speakleash/Bielik-11B-v3.0-DFlash-GGUF",
     "speakleash/Bielik-11B-v3.0-Instruct",
     "speakleash/Bielik-11B-v3.0-Instruct-FP8-Dynamic",
     "speakleash/Bielik-11B-v3.0-Instruct-GGUF",
@@ -3665,12 +3648,6 @@
     "speakleash/Bielik-11B-v3.0-Instruct-NVFP4",
     "speakleash/Bielik-11B-v3.0-Instruct-NVFP4A16",
     "speakleash/Bielik-11B-v3.0-Instruct-awq",
-    "speakleash/Bielik-11B-v3.1-DFlash",
-    "speakleash/Bielik-11B-v3.1-DFlash-FP8-Dynamic",
-    "speakleash/Bielik-11B-v3.1-DFlash-GGUF",
-    "speakleash/Bielik-11B-v3.1-DFlash2",
-    "speakleash/Bielik-11B-v3.1-DFlash2-FP8-Dynamic",
-    "speakleash/Bielik-11B-v3.1-DFlash2-GGUF",
     "speakleash/Bielik-11B-v3.1-Instruct",
     "speakleash/Bielik-11B-v3.1-Instruct-AWQ",
     "speakleash/Bielik-11B-v3.1-Instruct-FP8-Dynamic",
@@ -3695,9 +3672,6 @@
     "speakleash/Bielik-7B-Instruct-v0.1-GPTQ",
     "speakleash/Bielik-7B-Instruct-v0.1-MLX",
     "speakleash/Bielik-7B-v0.1",
-    "speakleash/Bielik-Minitron-7B-v3.0-DFlash",
-    "speakleash/Bielik-Minitron-7B-v3.0-DFlash-FP8-Dynamic",
-    "speakleash/Bielik-Minitron-7B-v3.0-DFlash-GGUF",
     "speakleash/Bielik-Minitron-7B-v3.0-Instruct",
     "speakleash/Bielik-Minitron-7B-v3.0-Instruct-AWQ",
     "speakleash/Bielik-Minitron-7B-v3.0-Instruct-FP8-Dynamic",
@@ -3755,5 +3729,20 @@
     "utter-project/EuroMoE-2.6B-A0.6B-2512",
     "utter-project/EuroMoE-2.6B-A0.6B-Instruct-2512",
     "utter-project/EuroMoE-2.6B-A0.6B-Instruct-Preview"
+  ],
+  "excluded_repos_by_scope": [
+    "BSC-LT/salamandra-7b-instruct-guard",
+    "speakleash/Bielik-11B-v3.0-DFlash",
+    "speakleash/Bielik-11B-v3.0-DFlash-FP8-Dynamic",
+    "speakleash/Bielik-11B-v3.0-DFlash-GGUF",
+    "speakleash/Bielik-11B-v3.1-DFlash",
+    "speakleash/Bielik-11B-v3.1-DFlash-FP8-Dynamic",
+    "speakleash/Bielik-11B-v3.1-DFlash-GGUF",
+    "speakleash/Bielik-11B-v3.1-DFlash2",
+    "speakleash/Bielik-11B-v3.1-DFlash2-FP8-Dynamic",
+    "speakleash/Bielik-11B-v3.1-DFlash2-GGUF",
+    "speakleash/Bielik-Minitron-7B-v3.0-DFlash",
+    "speakleash/Bielik-Minitron-7B-v3.0-DFlash-FP8-Dynamic",
+    "speakleash/Bielik-Minitron-7B-v3.0-DFlash-GGUF"
   ]
 }

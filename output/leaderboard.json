@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-11-16T09:01:19Z",
   "snapshot_date": "2026-11-16",
-  "manifest_content_hash": "sha256:fa30c964dc7424741a393f5e36774384acb637d3ef2e127ca678b35936be962b",
+  "manifest_content_hash": "sha256:d27e582e22daa382b29ed01df0eb72df9ff56ead61e31ad1ed799f8689183c5e",
   "ranking_metric": "total_downloads_30d",
   "momentum_smoothing": 100000.0,
   "rows": [
@@ -270,19 +270,16 @@
       "country": "PL",
       "developer": "SpeakLeash / ACK Cyfronet AGH",
       "official_org": "speakleash",
-      "total_downloads_30d": 122675,
-      "total_downloads_all_time": 4290187,
-      "momentum_score": 0.027943,
+      "total_downloads_30d": 122460,
+      "total_downloads_all_time": 4288054,
+      "momentum_score": 0.027908,
       "parameters": 11339190972,
       "parameters_source_repo": "speakleash/Bielik-11B-v3.0-Instruct-awq",
-      "repo_count": 13,
+      "repo_count": 10,
       "complete": true,
-      "delta_downloads_30d": 0,
+      "delta_downloads_30d": -215,
       "repos": [
         "speakleash/Bielik-11B-v3-Base-20250730",
-        "speakleash/Bielik-11B-v3.0-DFlash",
-        "speakleash/Bielik-11B-v3.0-DFlash-FP8-Dynamic",
-        "speakleash/Bielik-11B-v3.0-DFlash-GGUF",
         "speakleash/Bielik-11B-v3.0-Instruct",
         "speakleash/Bielik-11B-v3.0-Instruct-FP8-Dynamic",
         "speakleash/Bielik-11B-v3.0-Instruct-GGUF",
@@ -389,21 +386,20 @@
       "country": "ES",
       "developer": "BSC-LT",
       "official_org": "BSC-LT",
-      "total_downloads_30d": 38770,
-      "total_downloads_all_time": 741157,
-      "momentum_score": 0.046091,
+      "total_downloads_30d": 38706,
+      "total_downloads_all_time": 740716,
+      "momentum_score": 0.046039,
       "parameters": 7769280512,
       "parameters_source_repo": "BSC-LT/salamandra-7b-instruct-fp8",
-      "repo_count": 8,
+      "repo_count": 7,
       "complete": true,
-      "delta_downloads_30d": 97,
+      "delta_downloads_30d": 33,
       "repos": [
         "BSC-LT/salamandra-7b-instruct",
         "BSC-LT/salamandra-7b-instruct-2606",
         "BSC-LT/salamandra-7b-instruct-aina-hack",
         "BSC-LT/salamandra-7b-instruct-fp8",
         "BSC-LT/salamandra-7b-instruct-gptq",
-        "BSC-LT/salamandra-7b-instruct-guard",
         "BSC-LT/salamandra-7b-instruct-tools",
         "BSC-LT/salamandra-7b-instruct-tools-16k"
       ],
@@ -1082,40 +1078,6 @@
       "momentum_rank": 10
     },
     {
-      "row_id": "bielik-11b-v3.1",
-      "display_name": "Bielik-11B v3.1",
-      "version": "3.1",
-      "country": "PL",
-      "developer": "SpeakLeash / ACK Cyfronet AGH",
-      "official_org": "speakleash",
-      "total_downloads_30d": 6146,
-      "total_downloads_all_time": 6146,
-      "momentum_score": 0.057901,
-      "parameters": 11168796672,
-      "parameters_source_repo": "speakleash/Bielik-11B-v3.1-Instruct",
-      "repo_count": 14,
-      "complete": true,
-      "delta_downloads_30d": 0,
-      "repos": [
-        "speakleash/Bielik-11B-v3.1-DFlash",
-        "speakleash/Bielik-11B-v3.1-DFlash-FP8-Dynamic",
-        "speakleash/Bielik-11B-v3.1-DFlash-GGUF",
-        "speakleash/Bielik-11B-v3.1-DFlash2",
-        "speakleash/Bielik-11B-v3.1-DFlash2-FP8-Dynamic",
-        "speakleash/Bielik-11B-v3.1-DFlash2-GGUF",
-        "speakleash/Bielik-11B-v3.1-Instruct",
-        "speakleash/Bielik-11B-v3.1-Instruct-AWQ",
-        "speakleash/Bielik-11B-v3.1-Instruct-FP8-Dynamic",
-        "speakleash/Bielik-11B-v3.1-Instruct-GGUF",
-        "speakleash/Bielik-11B-v3.1-Instruct-MLX-4bit",
-        "speakleash/Bielik-11B-v3.1-Instruct-MLX-8bit",
-        "speakleash/Bielik-11B-v3.1-Instruct-NVFP4",
-        "speakleash/Bielik-11B-v3.1-Instruct-NVFP4A16"
-      ],
-      "rank": 47,
-      "momentum_rank": 9
-    },
-    {
       "row_id": "llama-poro-2-8b",
       "display_name": "Llama-Poro 2 8B",
       "version": "2",
@@ -1139,7 +1101,7 @@
         "LumiOpen/Llama-Poro-2-8B-SFT",
         "LumiOpen/Llama-Poro-2-8B-base"
       ],
-      "rank": 48,
+      "rank": 47,
       "momentum_rank": 17
     },
     {
@@ -1160,7 +1122,7 @@
       "repos": [
         "sapienzanlp/Minerva-3B-base-v1.0"
       ],
-      "rank": 49,
+      "rank": 48,
       "momentum_rank": 32
     },
     {
@@ -1187,7 +1149,7 @@
         "BSC-LT/salamandra-2b-instruct-fp8",
         "BSC-LT/salamandra-2b-instruct-gptq"
       ],
-      "rank": 50,
+      "rank": 49,
       "momentum_rank": 37
     },
     {
@@ -1208,8 +1170,36 @@
       "repos": [
         "sapienzanlp/Minerva-350M-base-v1.0"
       ],
-      "rank": 51,
+      "rank": 50,
       "momentum_rank": 38
+    },
+    {
+      "row_id": "bielik-11b-v3.1",
+      "display_name": "Bielik-11B v3.1",
+      "version": "3.1",
+      "country": "PL",
+      "developer": "SpeakLeash / ACK Cyfronet AGH",
+      "official_org": "speakleash",
+      "total_downloads_30d": 5442,
+      "total_downloads_all_time": 5442,
+      "momentum_score": 0.051611,
+      "parameters": 11168796672,
+      "parameters_source_repo": "speakleash/Bielik-11B-v3.1-Instruct",
+      "repo_count": 8,
+      "complete": true,
+      "delta_downloads_30d": -704,
+      "repos": [
+        "speakleash/Bielik-11B-v3.1-Instruct",
+        "speakleash/Bielik-11B-v3.1-Instruct-AWQ",
+        "speakleash/Bielik-11B-v3.1-Instruct-FP8-Dynamic",
+        "speakleash/Bielik-11B-v3.1-Instruct-GGUF",
+        "speakleash/Bielik-11B-v3.1-Instruct-MLX-4bit",
+        "speakleash/Bielik-11B-v3.1-Instruct-MLX-8bit",
+        "speakleash/Bielik-11B-v3.1-Instruct-NVFP4",
+        "speakleash/Bielik-11B-v3.1-Instruct-NVFP4A16"
+      ],
+      "rank": 51,
+      "momentum_rank": 9
     },
     {
       "row_id": "bielik-1.5b-v3.0",
@@ -1446,38 +1436,6 @@
       "momentum_rank": 26
     },
     {
-      "row_id": "bielik-minitron-7b-v3.0",
-      "display_name": "Bielik-Minitron 7B v3.0",
-      "version": "3.0",
-      "country": "PL",
-      "developer": "SpeakLeash / ACK Cyfronet AGH",
-      "official_org": "speakleash",
-      "total_downloads_30d": 3909,
-      "total_downloads_all_time": 141496,
-      "momentum_score": 0.016187,
-      "parameters": 7479201792,
-      "parameters_source_repo": "speakleash/Bielik-Minitron-7B-v3.0-Instruct-FP8-Dynamic",
-      "repo_count": 12,
-      "complete": true,
-      "delta_downloads_30d": 0,
-      "repos": [
-        "speakleash/Bielik-Minitron-7B-v3.0-DFlash",
-        "speakleash/Bielik-Minitron-7B-v3.0-DFlash-FP8-Dynamic",
-        "speakleash/Bielik-Minitron-7B-v3.0-DFlash-GGUF",
-        "speakleash/Bielik-Minitron-7B-v3.0-Instruct",
-        "speakleash/Bielik-Minitron-7B-v3.0-Instruct-AWQ",
-        "speakleash/Bielik-Minitron-7B-v3.0-Instruct-FP8-Dynamic",
-        "speakleash/Bielik-Minitron-7B-v3.0-Instruct-GGUF",
-        "speakleash/Bielik-Minitron-7B-v3.0-Instruct-MLX-4bit",
-        "speakleash/Bielik-Minitron-7B-v3.0-Instruct-MLX-8bit",
-        "speakleash/Bielik-Minitron-7B-v3.0-Instruct-NVFP4",
-        "speakleash/Bielik-Minitron-7B-v3.0-Instruct-NVFP4A16",
-        "speakleash/Bielik-PL-Minitron-7B-v3.0-Instruct"
-      ],
-      "rank": 62,
-      "momentum_rank": 54
-    },
-    {
       "row_id": "codestral-22b-v0.1",
       "display_name": "Codestral 22B v0.1",
       "version": "0.1",
@@ -1495,8 +1453,37 @@
       "repos": [
         "mistralai/Codestral-22B-v0.1"
       ],
-      "rank": 63,
+      "rank": 62,
       "momentum_rank": 173
+    },
+    {
+      "row_id": "bielik-minitron-7b-v3.0",
+      "display_name": "Bielik-Minitron 7B v3.0",
+      "version": "3.0",
+      "country": "PL",
+      "developer": "SpeakLeash / ACK Cyfronet AGH",
+      "official_org": "speakleash",
+      "total_downloads_30d": 3688,
+      "total_downloads_all_time": 131370,
+      "momentum_score": 0.01594,
+      "parameters": 7479201792,
+      "parameters_source_repo": "speakleash/Bielik-Minitron-7B-v3.0-Instruct-FP8-Dynamic",
+      "repo_count": 9,
+      "complete": true,
+      "delta_downloads_30d": -221,
+      "repos": [
+        "speakleash/Bielik-Minitron-7B-v3.0-Instruct",
+        "speakleash/Bielik-Minitron-7B-v3.0-Instruct-AWQ",
+        "speakleash/Bielik-Minitron-7B-v3.0-Instruct-FP8-Dynamic",
+        "speakleash/Bielik-Minitron-7B-v3.0-Instruct-GGUF",
+        "speakleash/Bielik-Minitron-7B-v3.0-Instruct-MLX-4bit",
+        "speakleash/Bielik-Minitron-7B-v3.0-Instruct-MLX-8bit",
+        "speakleash/Bielik-Minitron-7B-v3.0-Instruct-NVFP4",
+        "speakleash/Bielik-Minitron-7B-v3.0-Instruct-NVFP4A16",
+        "speakleash/Bielik-PL-Minitron-7B-v3.0-Instruct"
+      ],
+      "rank": 63,
+      "momentum_rank": 54
     },
     {
       "row_id": "salamandra-7b-base",
