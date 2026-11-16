@@ -437,13 +437,13 @@
       ]
     },
     "openeurollm-prelude": {
-      "display_name": "OpenEuroLLM Prelude",
+      "display_name": "OpenEuroLLM Prelude-base 9B",
       "version": null,
       "country": "EU",
       "developer": "openeurollm",
       "official_org": "openeurollm",
       "regex": [
-        "^openeurollm/prelude$"
+        "^openeurollm/prelude-base$"
       ]
     },
     "apertus-70b-2509": {
@@ -936,9 +936,9 @@
       "version": null,
       "country": "IT",
       "developer": "Almawave",
-      "official_org": "Almawave",
+      "official_org": "AlmawaveLabs",
       "regex": [
-        "^Almawave/Velvet-14B$"
+        "^AlmawaveLabs/Velvet-14B$"
       ]
     },
     "velvet-2b": {
@@ -946,9 +946,9 @@
       "version": null,
       "country": "IT",
       "developer": "Almawave",
-      "official_org": "Almawave",
+      "official_org": "AlmawaveLabs",
       "regex": [
-        "^Almawave/Velvet-2B$"
+        "^AlmawaveLabs/Velvet-2B$"
       ]
     },
     "minerva-7b-v1.0": {
@@ -1882,6 +1882,216 @@
       "official_org": "PleIAs",
       "regex": [
         "^PleIAs/OCRonos(?:$|-)"
+      ]
+    },
+    "velvet2-3b": {
+      "display_name": "Velvet2 3B",
+      "version": "2",
+      "country": "IT",
+      "developer": "Almawave",
+      "official_org": "AlmawaveLabs",
+      "regex": [
+        "^AlmawaveLabs/Velvet2-3B$"
+      ]
+    },
+    "gpt-sw3-126m": {
+      "display_name": "GPT-SW3 126M",
+      "version": null,
+      "country": "SE",
+      "developer": "AI Sweden",
+      "official_org": "AI-Sweden-Models",
+      "regex": [
+        "^AI-Sweden-Models/gpt-sw3-126m(?:-(?:instruct|gguf|instruct-gguf|instruct-4bit-gptq))?$"
+      ]
+    },
+    "gpt-sw3-356m": {
+      "display_name": "GPT-SW3 356M",
+      "version": null,
+      "country": "SE",
+      "developer": "AI Sweden",
+      "official_org": "AI-Sweden-Models",
+      "regex": [
+        "^AI-Sweden-Models/gpt-sw3-356m(?:-(?:instruct|gguf|instruct-gguf|instruct-4bit-gptq))?$"
+      ]
+    },
+    "gpt-sw3-1.3b": {
+      "display_name": "GPT-SW3 1.3B",
+      "version": null,
+      "country": "SE",
+      "developer": "AI Sweden",
+      "official_org": "AI-Sweden-Models",
+      "regex": [
+        "^AI-Sweden-Models/gpt-sw3-1\\.3b(?:-(?:instruct|gguf|instruct-gguf|instruct-4bit-gptq))?$"
+      ]
+    },
+    "gpt-sw3-6.7b": {
+      "display_name": "GPT-SW3 6.7B",
+      "version": null,
+      "country": "SE",
+      "developer": "AI Sweden",
+      "official_org": "AI-Sweden-Models",
+      "regex": [
+        "^AI-Sweden-Models/gpt-sw3-6\\.7b(?:-(?:instruct|gguf|instruct-gguf|instruct-4bit-gptq))?$"
+      ]
+    },
+    "gpt-sw3-20b": {
+      "display_name": "GPT-SW3 20B",
+      "version": null,
+      "country": "SE",
+      "developer": "AI Sweden",
+      "official_org": "AI-Sweden-Models",
+      "regex": [
+        "^AI-Sweden-Models/gpt-sw3-20b(?:-(?:instruct|gguf|instruct-gguf|instruct-4bit-gptq))?$"
+      ]
+    },
+    "gpt-sw3-40b": {
+      "display_name": "GPT-SW3 40B",
+      "version": null,
+      "country": "SE",
+      "developer": "AI Sweden",
+      "official_org": "AI-Sweden-Models",
+      "regex": [
+        "^AI-Sweden-Models/gpt-sw3-40b(?:-(?:instruct|gguf|instruct-gguf|instruct-4bit-gptq))?$"
+      ]
+    },
+    "gpt-sw3-6.7b-v2": {
+      "display_name": "GPT-SW3 6.7B v2",
+      "version": "2",
+      "country": "SE",
+      "developer": "AI Sweden",
+      "official_org": "AI-Sweden-Models",
+      "regex": [
+        "^AI-Sweden-Models/gpt-sw3-6\\.7b-v2(?:-(?:instruct|translator))?(?:-(?:gguf|4bit-gptq))?$"
+      ]
+    },
+    "ai-sweden-llama3-8b": {
+      "display_name": "AI Sweden Llama 3 8B",
+      "version": "3",
+      "country": "SE",
+      "developer": "AI Sweden",
+      "official_org": "AI-Sweden-Models",
+      "regex": [
+        "^AI-Sweden-Models/Llama-3-8B(?:-instruct)?(?:-(?:bf16|q8|Q4_K_M|Q3_K_M)-gguf)?$"
+      ]
+    },
+    "norwai-llama2-7b": {
+      "display_name": "NorwAI Llama2-7B",
+      "version": null,
+      "country": "NO",
+      "developer": "NorwAI / NTNU",
+      "official_org": "NorwAI",
+      "regex": [
+        "^NorwAI/NorwAI-Llama2\\-7B(?:-instruct|-pretrain)?$"
+      ]
+    },
+    "norwai-mistral-7b": {
+      "display_name": "NorwAI Mistral-7B",
+      "version": null,
+      "country": "NO",
+      "developer": "NorwAI / NTNU",
+      "official_org": "NorwAI",
+      "regex": [
+        "^NorwAI/NorwAI-Mistral\\-7B(?:-instruct|-pretrain)?$"
+      ]
+    },
+    "norwai-mixtral-8x7b": {
+      "display_name": "NorwAI Mixtral-8x7B",
+      "version": null,
+      "country": "NO",
+      "developer": "NorwAI / NTNU",
+      "official_org": "NorwAI",
+      "regex": [
+        "^NorwAI/NorwAI-Mixtral\\-8x7B(?:-instruct|-pretrain)?$"
+      ]
+    },
+    "norwai-magistral-24b-reasoning": {
+      "display_name": "NorwAI Magistral 24B reasoning",
+      "version": null,
+      "country": "NO",
+      "developer": "NorwAI / NTNU",
+      "official_org": "NorwAI",
+      "regex": [
+        "^NorwAI/NorwAI-Magistral-24B-reasoning$"
+      ]
+    },
+    "alfred-40b-0723": {
+      "display_name": "Alfred 40B (0723)",
+      "version": "0723",
+      "country": "FR",
+      "developer": "LightOn",
+      "official_org": "lightonai",
+      "regex": [
+        "^lightonai/alfred-40b-0723$"
+      ]
+    },
+    "alfred-40b-1023": {
+      "display_name": "Alfred 40B (1023)",
+      "version": "1023",
+      "country": "FR",
+      "developer": "LightOn",
+      "official_org": "lightonai",
+      "regex": [
+        "^lightonai/alfred-40b-1023$"
+      ]
+    },
+    "bielik-one-11b-v3.1-r1": {
+      "display_name": "Bielik-One 11B v3.1 r1",
+      "version": "3.1-r1",
+      "country": "PL",
+      "developer": "SpeakLeash",
+      "official_org": "speakleash",
+      "regex": [
+        "^speakleash/Bielik-One-11B-v3\\.1-r1$"
+      ]
+    },
+    "bielik-one-11b-v3.0-r1": {
+      "display_name": "Bielik-One 11B v3.0 r1",
+      "version": "3.0-r1",
+      "country": "PL",
+      "developer": "SpeakLeash",
+      "official_org": "speakleash",
+      "regex": [
+        "^speakleash/Bielik-One-11B-v3\\.0-r1$"
+      ]
+    },
+    "bielik-one-7b-v3.0-r1": {
+      "display_name": "Bielik-One 7B v3.0 r1",
+      "version": "3.0-r1",
+      "country": "PL",
+      "developer": "SpeakLeash",
+      "official_org": "speakleash",
+      "regex": [
+        "^speakleash/Bielik-One-7B-v3\\.0-r1$"
+      ]
+    },
+    "openeurollm-prelude-long": {
+      "display_name": "OpenEuroLLM Prelude-long 9B",
+      "version": null,
+      "country": "EU",
+      "developer": "OpenEuroLLM",
+      "official_org": "openeurollm",
+      "regex": [
+        "^openeurollm/prelude-long$"
+      ]
+    },
+    "openeurollm-prelude-sft-excellent-v0.1": {
+      "display_name": "OpenEuroLLM Prelude SFT Excellent v0.1",
+      "version": "0.1",
+      "country": "EU",
+      "developer": "OpenEuroLLM",
+      "official_org": "openeurollm",
+      "regex": [
+        "^openeurollm/Prelude-SFT-Excellent-v0\\.1$"
+      ]
+    },
+    "openeurollm-prelude-sft-excellent-v0.2": {
+      "display_name": "OpenEuroLLM Prelude SFT Excellent v0.2",
+      "version": "0.2",
+      "country": "EU",
+      "developer": "OpenEuroLLM",
+      "official_org": "openeurollm",
+      "regex": [
+        "^openeurollm/Prelude-SFT-Excellent-v0\\.2$"
       ]
     }
   }
